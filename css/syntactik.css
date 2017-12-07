@@ -1,0 +1,57 @@
+.navbar-brand{
+  padding: 5px;
+}
+.container{
+  min-width: 300px;
+}
+#mainNav.affix {
+    box-shadow: 0 0 25px rgba(0,0,0,.25);
+}
+
+
+.jumbotron-content {
+    text-align: center;
+}
+
+
+.carousel-caption {
+    color: #000;
+    font-size: 18px;
+    text-shadow: none;
+}
+.carousel-indicators li {
+    border: 1px solid #000;
+}
+.carousel-indicators .active {
+    background-color: #000;
+}
+.carousel-code {
+    font-family: Consolas, Inconsolata, Monaco, "Courier New" !important;
+    font-size: 12px !important;
+    line-height: 15px !important;
+    border: 0;
+    border-radius: 0;
+    overflow-x: auto;
+}
+
+.code_table tbody tr td{
+  border-top-style: none;
+}
+.code_table thead{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+.code_table{
+  width: auto;
+}
+.code_table .td_code{
+    vertical-align: top;
+
+    width: 50%;
+    line-height: 15px;
+}
+.td_left{
+  border-right: 1px;
+  border-right-color: silver;
+  border-right-style: solid;
+}

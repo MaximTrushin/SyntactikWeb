@@ -2,143 +2,256 @@
 <html lang="en">
 
 <head>
-
-    <meta charset="utf-8">
+    <meta charset="utf-8"/>
     <meta name="google-site-verification" content="fCx-RraUm0aTwbyNAG-Qftpq9gfv-czFQmxjbQ8G6Jo" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Productivity tool for XML and JSON processing featuring first people-friendly data format.">
-    <meta name="author" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="Preprocessor for XML and JSON with code reuse."/>
+    <meta name="author" content="Maxim Trushin"/>
 
-    <title>Malina - Productivity Tool for XML/JSON Data Processing</title>
-    <link href="img/mal-fav.png" rel="shortcut icon" type="image/x-icon" />
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    <title>Syntactik - preprocessor for XML and JSON</title>
+    <link href="img/bike-fav.png" rel="shortcut icon" type="image/x-icon" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Theme CSS -->
-    <link href="css/malina.css" rel="stylesheet">
-
+    <link href="css/syntactik.css" rel="stylesheet"/>
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- Before after CSS & scripts -->
-    <link type="text/css" href="css/before-after.css" rel="stylesheet">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
-    <script type="text/javascript" src="js/before-after.js"></script>
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 </head>
-
 <body id="page-top" class="index">
-
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top" id="main_home_link"><img class="img-responsive" src="img/mal-white1.png"></a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#product">product</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#problem">problem</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#use_cases">use cases</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#features">features</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#early_access">Early Access</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div id="header_container" class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/mal-white-big.png">
-                    <div class="intro-text">
-                        <span class="name">Productivity Tool for XML and JSON Processing</span>
-                        <hr class="star-light">
-                        <span class="skills">Featuring first people-friendly data format with code reuse</span>
-                    </div>
-                    <br>
-
-                </div>
-            </div>
-        </div>
-    </header>
-    <section id="video">
+<!-- Navigation -->
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
     <div class="container">
-        <div class="video-item">
-                <div class="caption-content">
-                    <a href="#modal_video" class="features-link" data-toggle="modal">
-                      <i class="fa fa-play-circle fa-3x"></i>
-                    </a>
-                </div>
-                <div class="img-box">
-                  <img id="in_use" class="img-responsive" src="img/in-use.png">
-                </div>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="#page-top" id="main_home_link"><img class="img-responsive" src="img/logo-grey-sm.png"></a>
         </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="page-scroll">
+                    <a href="#page-top">Language</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="dotnet.html">Syntactik.NET</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="editor.html">Syntactik Editor</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
     </div>
-    </section>
-    <!-- Users Grid Section -->
-    <section id="product">
-        <div class="container">
-          <div class="row">
-              <div class="col-lg-12 text-center">
-                  <h2>Tool for the whole IT-Department</h2>
-                  <hr class="star-primary">
-              </div>
-          </div>
-          <div class="features">
-              <div class="feature">
-                <img class="img-responsive" src="img/supportmale.png">
-                <h4>For Administrators</h4>
-                <p>Edit configuration files more effectively, make them more readable, reduce the number of mistakes by using people-friendly syntax and rich IDE features.</p>
-              </div>
-              <div class="feature">
-                <img class="img-responsive" src="img/female.png">
-                <h4>For Developers & QA</h4>
-                <p>Create test requests for the web-services in seconds by using Malina’s code reuse features.</p>
-              </div>
-              <div class="feature">
-                <img class="img-responsive" src="img/matureman.png">
-                <h4>For Business & Data Analysts</h4>
-                <p>Work with data requires skills. You can start working with XML and JSON data without training using this simple, intuitive and easy to learn tool.</p>
-              </div>
-          </div>
+    <!-- /.container-fluid -->
+</nav>
+<!-- Users Grid Section -->
+<section id="language">
+<div>
+
+<div class="jumbotron">
+  <div class="jumbotron-content">
+      <br>
+        <h1>Syntactik</h1>
+        <p>Preprocessor for XML and JSON</p>
+  </div>
+</div>
+<div>
+
+    <div>
+        <div class="carousel slide" id="code-carousel" data-interval="12000">
+            <ol class="carousel-indicators">
+                <li data-slide-to="0" data-target="#code-carousel" class="active"></li>
+                <li data-slide-to="1" data-target="#code-carousel" class=""></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                  <div class="carousel-code">
+                    <table class="table code_table" style="margin: 0px auto;">
+                    <thead>
+                      <tr>
+                        <td>XML</td>
+                        <td>Syntactik</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td class="td_code td_left">
+                      <span>
+                        <span style="color:#222222">&lt;</span><span><span style="color:#3364A4">ipo:purchaseOrder</span></span><span style="color:#3364A4">&nbsp;</span><br>
+                        <span style="color:#3364A4">&nbsp;&nbsp;&nbsp;&nbsp;</span><span><span style="color:#222222">xmlns:xsi</span></span><span style="color:#222222">=</span><span
+                         style="color:#DB7100"><nobr>"http://www.w3.org/2001/XMLSchema-instance"</nobr></span><span style="color:#3364A4">&nbsp;</span><br>
+                        <span style="color:#3364A4">&nbsp;&nbsp;&nbsp;&nbsp;</span><span><span style="color:#222222">xmlns:ipo</span></span><span style="color:#222222">=</span><span style="color:#DB7100">"http://www.example.com/myipo"</span><br>
+                        <span style="color:#3364A4">&nbsp;&nbsp;&nbsp;&nbsp;</span><span><span style="color:#222222">orderDate</span></span><span style="color:#222222">=</span><span style="color:#DB7100">"1999-12-01"</span><span style="color:#222222">&gt;</span><br>
+                        <span style="color:#222222">&nbsp;&nbsp;&nbsp;&nbsp;&lt;</span><span><span style="color:#3364A4">shipTo</span></span><span style="color:#3364A4">&nbsp;</span><span><span style="color:#222222">xsi:type</span></span><span style="color:#222222">=</span><span
+                        style="color:#DB7100">"<span>ipo:EU-Address</span>"</span><span style="color:#222222">&nbsp;export-code</span><span style="color:#222222">=</span><span style="color:#DB7100">"1"</span><span style="color:#222222">&gt;</span><br>
+                        <span style="color:#222222">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;</span><span><span style="color:#3364A4">ipo:name</span></span><span style="color:#222222">&gt;Helen&nbsp;Zoe&lt;/</span><span><span style="color:#3364A4">ipo:name</span></span><span style="color:#222222">&gt;</span><br>
+                        <span style="color:#222222">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;</span><span><span style="color:#3364A4">ipo:street</span></span><span style="color:#222222">&gt;47&nbsp;Eden&nbsp;Street&lt;/</span><span><span style="color:#3364A4">ipo:street</span></span><span style="color:#222222">&gt;</span><br>
+                        <span style="color:#222222">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;</span><span><span style="color:#3364A4">ipo:city</span></span><span style="color:#222222">&gt;Cambridge&lt;/</span><span><span style="color:#3364A4">ipo:city</span></span><span style="color:#222222">&gt;</span><br>
+                        <span style="color:#222222">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;</span><span><span style="color:#3364A4">ipo:postcode</span></span><span style="color:#222222">&gt;126&lt;/</span><span><span style="color:#3364A4">ipo:postcode</span></span><span style="color:#222222">&gt;</span><br>
+                        <span style="color:#222222">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/</span><span><span style="color:#3364A4">shipTo</span></span><span style="color:#222222">&gt;</span><br>
+                        <span style="color:#222222">&lt;/</span><span><span style="color:#3364A4">ipo:purchaseOrder</span></span><span style="color:#222222">&gt;</span>
+                      </span>
+                    </td>
+
+                    <td  class="td_code">
+                      <span class="carousel-code">
+                        <span style='color:#00C800'>!#<span>ipo</span></span><span style='color:black'>&nbsp;=</span><span
+                        style='color:#F57C00'>&nbsp;http://www.example.com/myipo</span>
+                        <br>
+                        <span style='color:#00C800'>!#<span class=SpellE>xsi</span></span><span
+                        style='color:black'>&nbsp;=</span><span style='color:#F57C00'>&nbsp;<nobr>http://www.w3.org/2001/XMLSchema-instance</nobr></span><br>
+                        <span class=SpellE><span style='color:#AB3338'>ipo.purchaseOrder</span></span><span
+                        style='color:black'>:</span><br>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                        style='color:red'>@<span class=SpellE>orderDate</span></span><span
+                        style='color:black'>&nbsp;=</span><span style='color:#F57C00'>&nbsp;1999-12-01</span><br>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class=SpellE><span
+                        style='color:#AB3338'>shipTo</span></span><span style='color:black'>:</span><br>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                        style='color:red'>@<span class=SpellE>xsi.type</span></span><span
+                        style='color:black'>&nbsp;=</span><span style='color:#F57C00'>&nbsp;<span
+                        class=SpellE>ipo:EU-Address</span></span><br>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                        style='color:red'>@export-code</span><span style='color:black'>&nbsp;=</span><span
+                        style='color:#F57C00'>&nbsp;1</span><br>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                        style='color:#AB3338'>ipo.name&nbsp;</span><span style='color:black'>=</span><span
+                        style='color:#5D0095'>&nbsp;Helen&nbsp;Zoe</span><br>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                        class=SpellE><span style='color:#AB3338'>ipo.street</span></span><span
+                        style='color:#AB3338'>&nbsp;</span><span style='color:black'>=</span><span
+                        style='color:#5D0095'>&nbsp;47&nbsp;Eden&nbsp;Street</span><br>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                        class=SpellE><span style='color:#AB3338'>ipo.city</span></span><span
+                        style='color:#AB3338'>&nbsp;</span><span style='color:black'>=</span><span
+                        style='color:#5D0095'>&nbsp;Cambridge</span><br>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                        class=SpellE><span style='color:#AB3338'>ipo.postcode</span></span><span
+                        style='color:#AB3338'>&nbsp;</span><span style='color:black'>=</span><span
+                        style='color:#5D0095'>&nbsp;126</span><br>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                      </span>
+                    </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <br/><br/><br/><br/><br/>
+                  </div>
+                  <div class="carousel-caption">XML vs Syntactik</div>
+                </div>
+                <div class="item">
+                  <div class="carousel-code">
+                    <table class="table code_table" style="margin: 0px auto;">
+                    <thead>
+                      <tr>
+                        <td>JSON</td>
+                        <td>Syntactik</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td class="td_code td_left">
+
+                        <span style='color:black'>{</span><span
+                        style='color:#2E75B6'>&quot;menu&quot;</span><span style='color:black'>: {</span><br/>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style='color:#2E75B6'>&quot;id&quot;</span>
+                        <span style='color:black'>: </span><span style='color:#A31515'>&quot;file&quot;</span><span style='color:black'>,</span><br/>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style='color:#2E75B6'>&quot;value&quot;</span><span style='color:black'>: </span><span
+                        style='color:#A31515'>&quot;File&quot;</span><span style='color:black'>,</span><br/>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style='color:#2E75B6'>&quot;popup&quot;</span>
+                        <span style='color:black'>: {</span><br/>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style='color:#2E75B6'>&quot;<span
+                        class=SpellE><span class=GramE>menuitem</span></span>&quot;</span><span
+                        style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
+                        color:black'>: [<o:p></o:p></span><br/>
+
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+                        <span style='color:#2E75B6'>&quot;value&quot;</span><span style='color:black'>: </span><span style='color:#A31515'>&quot;New&quot;</span><span
+                        style='color:black'>, </span><span style='color:#2E75B6'>&quot;onclick&quot;</span><span
+                        style='color:black'>: </span><span style='color:#A31515'>&quot;CreateNewDoc()&quot;</span><span
+                        style='color:black'>},</span><br/>
+
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+                        <span style='color:#2E75B6'>&quot;value&quot;</span><span style='color:black'>: </span><span style='color:#A31515'>&quot;Open&quot;</span><span
+                        style='color:black'>, </span><span style='color:#2E75B6'>&quot;onclick&quot;</span><span
+                        style='color:black'>: </span><span style='color:#A31515'>&quot;OpenDoc()&quot;</span><span
+                        style='color:black'>},</span><br/>
+
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+                        <span style='color:#2E75B6'>&quot;value&quot;</span><span style='color:black'>: </span><span style='color:#A31515'>&quot;Close&quot;</span><span
+                        style='color:black'>, </span><span style='color:#2E75B6'>&quot;onclick&quot;</span><span
+                        style='color:black'>: </span><span style='color:#A31515'>&quot;CloseDoc()&quot;</span><span
+                        style='color:black'>},</span><br/>
+                        <span style='color:black'><span
+                        style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>]</span><br/>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;}</span><br/>
+                        <span style='color:black'>}}</span>
+                      </td>
+
+                      <td  class="td_code">
+                        <span style='color:#AB3338'>menu</span><span style='color:black'>:</span><span><br>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                        style='color:#AB3338'>id&nbsp;</span><span style='color:black'>=</span><span
+                        style='color:#5D0095'>&nbsp;file</span><br>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                        style='color:#AB3338'>value&nbsp;</span><span style='color:black'>=</span><span
+                        style='color:#5D0095'>&nbsp;File</span><br>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                        style='color:#AB3338'>popup</span><span style='color:black'>:</span><br>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                        class=SpellE><span style='color:#AB3338'>menuitem</span></span><span
+                        style='color:black'>:</span><br>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</span><br>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                        style='color:#AB3338'>value&nbsp;</span><span style='color:black'>=</span><span
+                        style='color:#5D0095'>&nbsp;New</span><br>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                        class=SpellE><span style='color:#AB3338'>onclick</span></span><span
+                        style='color:#AB3338'>&nbsp;</span><span style='color:black'>=</span><span
+                        style='color:#5D0095'>&nbsp;<span class=SpellE>CreateNewDoc</span>()</span><br>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</span>
+                        <span style='color:black'>&nbsp;&nbsp;</span><span
+                        style='color:#AB3338'>value&nbsp;</span><span style='color:black'>=</span><span
+                        style='color:#5D0095'>&nbsp;Open</span><br>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+                        class=SpellE><span style='color:#AB3338'>onclick</span></span><span
+                        style='color:#AB3338'>&nbsp;</span><span style='color:black'>=</span><span
+                        style='color:#5D0095'>&nbsp;OpenDoc()</span><br>
+                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</span>&nbsp;&nbsp;&nbsp;</span><span
+                        style='color:#AB3338'>value&nbsp;</span><span style='color:black'>==</span><span
+                        style='color:#5D0095'>&nbsp;Close</span><span style='color:black'>,</span>
+                        <span class=SpellE><span style='color:#AB3338'>onclick</span></span><span
+                        style='color:#AB3338'>&nbsp;</span><span style='color:black'>=</span><span
+                        style='color:#5D0095'>&nbsp;"CloseDoc()"</span></span><br/><br/>
+                      </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <br/><br/><br/><br/><br/>
+                  </div>
+                  <div class="carousel-caption">JSON vs Syntactik</div>
+                </div>
+            </div>
         </div>
-      </section>
+      </div>
+
+  </div>
+
+
+
+
+
+</div>
+</section>
 
       <!-- Problem Section -->
-      <section class="success" id="problem">
+      <section id="dotnet">
           <div class="container">
               <div class="row">
                   <div class="col-lg-12 text-center">
@@ -146,17 +259,6 @@
                       <hr class="star-light">
                   </div>
               </div>
-<!--            <div class="row">
-                  <div class="col-lg-12 text-center">
-                      <h2>How we solve the problem</h2>
-                      <hr class="star-light">
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-lg-8  col-lg-offset-2">
-                      <p>We created people-friendly data format having all features of XML and JSON plus unique code reuse features. </p>
-                  </div>
-              </div>-->
               <div class="features">
                   <div class="feature">
                     <i class="fa fa-eye-slash"></i>
@@ -174,7 +276,7 @@
       </section>
 
       <!-- Use Cases Grid Section -->
-      <section id="use_cases">
+      <section id="editor">
           <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -219,108 +321,7 @@
 
 
       <!-- features Grid Section -->
-      <section class="features" id="features">
-          <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>FEATURES</h2>
-                    <hr class="star-light">
-                    <h3>Click on the feature images below to expand the details:</h3>
-                </div>
-            </div>
-            <div class="features">
-                <div class="col-sm-4 feature features-item">
 
-                    <a href="#features_Syntax" class="features-link" data-toggle="modal">
-
-                        <div class="caption">
-
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-
-                        <div class="img-box feature-img-box">
-                          <img src="img/syntax01.png" class="img-responsive feature-img-box" alt="">
-                        </div>
-                    </a>
-                    <h4>Intuitive, clean, concise syntax</h4>
-                </div>
-                <div class="col-sm-4 feature features-item">
-
-                    <a href="#features_xmljson" class="features-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <div class="img-box feature-img-box">
-                          <img src="img/xml_json.png" class="img-responsive feature-img-box" alt="">
-                        </div>
-                    </a>
-                    <h4>Compatibility with XML and JSON</h4>
-
-                </div>
-                <div class="col-sm-4 feature features-item">
-
-                    <a href="#features_CodeReuse" class="features-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <div class="img-box feature-img-box">
-                          <img src="img/codereuse.png" class="img-responsive feature-img-box" alt="">
-                        </div>
-                      </a>
-                      <h4>Code Reuse</h4>
-
-                </div>
-                <div class="col-sm-4 feature features-item">
-
-                    <a href="#features_MD" class="features-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <div class="img-box feature-img-box">
-                          <img src="img/md.png" class="img-responsive feature-img-box" alt="">
-                        </div>
-                    </a>
-                    <h4>Cross-platform IDE</h4>
-
-                </div>
-                <div class="col-sm-4 feature features-item">
-                    <a href="#features_generation" class="features-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <div class="img-box feature-img-box">
-                          <img src="img/generating.png" class="img-responsive feature-img-box" alt="">
-                        </div>
-                    </a>
-                    <h4>Generation of XML and JSON files</h4>
-                </div>
-                <div class="col-sm-4 feature  features-item">
-
-                    <a href="#features_pattern" class="features-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <div class="img-box feature-img-box">
-                          <img src="img/pattern.png" class="img-responsive feature-img-box" alt="">
-                        </div>
-                    </a>
-                    <h4>Pattern Matching for Data Analysis</h4>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Contact Section -->
     <section id="early_access">
@@ -425,612 +426,10 @@
     </div>
 
     <!-- features Modals -->
-    <div class="features-modal modal" id="features_Syntax" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10">
-                        <div class="modal-body">
-                            <h2>Intuitive, clean, concise syntax</h2>
-                            <hr class="star-primary">
-                            <center>
-                              <div class="ba-slider" id="slider1">
-                                  <img src="img/xml1.png">
 
-                                 <div class="resize">
-                                     <img src="img/ml1.png">
-                                 </div>
-                                 <span class="handle"></span>
-                              </div>
-                            </center>
-                            <script type="text/javascript">
-                              $('#slider1').beforeAfter();
-                            </script>
-                            <hr>
-                            <div class="features">
-                              <div class="col-xs-12 col-sm-6">
-                                <img src="img/syntax02.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-xs-12 col-sm-6">
-                                <p class="p1">Malina uses equality sign to assign value to element. No quotes needed to define a value.</p>
-                                <p class="p2">Just type your data and forget about closing tags and string brackets. It saves your time and also improves readability. </p>
-                              </div>
-                            </div>
-                            <hr>
-                            <div class="features">
-                              <div class="col-xs-12 col-sm-6">
-                                <img src="img/syntax01.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-xs-12 col-sm-6">
-                                <p class="p1">Malina uses indents to specify blocks of nested elements like in popular programming language Python.</p>
-                                <p class="p2">Colon is required in the end of the parent element to prevent accidental typos in the document structure.</p>
-                              </div>
-                            </div>
-                            <hr>
-                            <br>
-
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="features-modal modal fade" id="features_xmljson" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10">
-                        <div class="modal-body">
-                            <h2>Compatibility with XML and JSON</h2>
-                            <hr class="star-primary">
-                            <div class="features">
-                                <p class="p0">Malina supports XML-specific entities like <b>Attributes</b> and <b>Namespaces</b> as well as JSON-specific entities like <b>Arrays</b>.</p>
-                            </div>
-                            <hr>
-                            <div class="features">
-                              <div class="col-xs-12 col-sm-6">
-                                <img src="img/syntax_attr.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-xs-12 col-sm-6">
-                                <p class="p1">In Malina, attributes are defined in the same way as elements with one difference, that the name of the attribute starts with @.</p>
-                                <p class="p2">All child attributes of the element have to be defined before the first child element. Code highlighting helps to distinguish between attributes and elements.</p>
-                              </div>
-                            </div>
-                            <hr>
-                            <div class="features">
-                              <div class="col-xs-12 col-sm-6">
-                                <img src="img/syntax_namesp_dec.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-xs-12 col-sm-6">
-                                <p class="p1">Declare a namespace after #. Namespace can be declared for the whole file or just for the particular document. Put the namespace prefix before the element name separating them with dot.</p>
-                                <p class="p2">Namespaces are defined in the beginning of the file or document which make it easier to find namespace declaration in the file. Namespace prefix is separated with element by dot like  in many programming languages.</p>
-                              </div>
-                            </div>
-                            <hr>
-
-                            <div class="features">
-                              <div class="col-xs-12 col-sm-6">
-                                <img src="img/syntax_arr1.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-xs-12 col-sm-6">
-                                <p class="p1">In Malina, an array is defined as a block having only array items or values. Name/value pairs are not allowed.</p>
-                                <p class="p2">All types of JSON values are supported including string, number, and literals true, false and null.</p>
-                              </div>
-                            </div>
-                            <hr>
-
-                            <div class="features">
-                              <div class="col-xs-12 col-sm-6">
-                                <img src="img/syntax_arr2.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-xs-12 col-sm-6">
-                                <p class="p1">Array item is an element with an empty name.</p>
-                                <p class="p2">This is an example of the array with 3 objects.</p>
-                              </div>
-                            </div>
-                            <hr>
-                            <br>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="features-modal modal fade" id="features_CodeReuse" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10">
-                        <div class="modal-body">
-                            <h2>Code reuse</h2>
-                            <hr class="star-primary">
-
-                            <div class="features">
-                              <div class="col-xs-12 col-sm-6">
-                                <img src="img/syntax_reuse1.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-xs-12 col-sm-6">
-                                <p class="p1">Malina has powerful code reuse features. You can create <b>Alias</b> for any fragment of your data and then use it in multiple documents. The alias definition starts with !$ . Reference alias in the document by typing $ followed by alias name.</p>
-                                <p class="p2">The name of the alias could be compound. The compound alias name can be used to create a hierarchy of aliases grouped by type.</p>
-                              </div>
-                            </div>
-                            <hr>
-                            <div class="features">
-                              <div class="col-xs-12 col-sm-6">
-                                <img src="img/syntax_reuse2.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-xs-12 col-sm-6">
-                                <p class="p1">You will find aliases even more useful if you will use parameterized aliases. Put parameter anywhere in the alias definition by typing % followed by parameter name. You can also assign a default value.</p>
-                                <p class="p2">A parameter can represent either value of the element or element or even block of elements. The parameter representing a value called "value parameter".<br>
-                                  The parameter representing element or block of elements called block parameter.Both types of parameters can have a default value. You can define as many parameters as you want.<br>
-                                  Parameter with the same name can be defined several times. In this case parameter should have same type (value or block) in all places there it was defined.</p>
-                              </div>
-                            </div>
-                            <hr>
-
-                            <div class="features">
-                              <div class="col-xs-12 col-sm-6">
-                                <img src="img/syntax_reuse3.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-xs-12 col-sm-6">
-                                <p class="p1">Reference parameterized alias in the document and pass real values in arguments defined in the alias body.</p>
-                                <p class="p2">You must specify the value for the argument if the corresponding parameter doesn't have the default value.</p>
-                              </div>
-                            </div>
-                            <hr>
-
-                            <div class="features">
-                              <div class="col-xs-12 col-sm-6">
-                                <img src="img/syntax_reuse4.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-xs-12 col-sm-6">
-                                <p class="p1">Aliases can be nested inside each other so you can even create a template for a whole document.</p>
-                                <p class="p2">Using compound alias names you can group templates by categories so it will be easier to find them in future by name.</p>
-                              </div>
-                            </div>
-                            <hr>
-
-                            <div class="features">
-                              <div class="col-xs-12 col-sm-6">
-                                <img src="img/syntax_reuse5.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-xs-12 col-sm-6">
-                                <p class="p1">Then you can use the template along with other already created aliases for lighting fast composing of your XML or JSON document.</p>
-                                <p class="p2">The created Malina document will be also significantly more readable comparing to the XML document it's representing.</p>
-                              </div>
-                            </div>
-                            <hr>
-                            <br>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="features-modal modal fade" id="features_MD" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Cross-platform IDE</h2>
-                            <hr class="star-primary">
-                            <div class="features">
-                              <div>
-                                <center><img src="img/MD.png" class="img-responsive img-centered" alt=""></center>
-                                <p class="p1">We integrated Malina with MonoDevelop (developed by Xamarin, a subsidiary of Microsoft), an open source integrated development environment for Linux, OS X, and Windows.</p>
-                                <p class="p2">MonoDevelop is free, so there will be no extra costs for customers purchased Malina license.</p>
-                              </div>
-                            </div>
-                            <hr>
-                            <div class="features">
-                              <div class="col-sm-12 col-md-6">
-                                <img src="img/md1.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-sm-12 col-md-6">
-                                <p class="p1">Organize your Malina files in solutions and projects.</p>
-                                <p class="p1">Create address related aliases in one file and product related aliases in another so it will be easier to find them in the future. Use aliases when creating a new or editing existing XML document. All defined aliases are visible for all files in the project.</p>
-                                <p class="p2">Malina project can also reference another Malina project so it is possible to share aliases between projects efficiently.</p>
-                              </div>
-                            </div>
-                            <hr>
-                            <div class="features">
-                              <div class="col-sm-12 col-md-6">
-                                <img src="img/md2.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-sm-12 col-md-6">
-                                <p class="p1">Work like with mainstream programming language.</p>
-                                <p class="p1">Add schema files and references, navigate and manage your project files using Solution windows in MonoDevelop IDE.</p>
-                                <p class="p2">MonoDevelop is also integrated with established source control systems.</p>
-                              </div>
-                            </div>
-                            <hr>
-                            <div class="features">
-                              <div class="col-sm-12 col-md-6">
-                                <img src="img/md3.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-sm-12 col-md-6">
-                                <p class="p1">Syntax highlighting and code folding improve readability of code.</p>
-                                <p class="p2">Fold blocks of code to navigate through the code faster.</p>
-                              </div>
-                            </div>
-                            <hr>
-                            <div class="features">
-                              <div class="col-sm-12 col-md-6">
-                                <img src="img/md4.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-sm-12 col-md-6">
-                                <p class="p1">Autocomplete accelerates document creation and editing.</p>
-                                <p class="p1">Declare namespaces using autocomplete.</p>
-                                <p class="p2">Reference schema file in the project to see a list of available namespaces in the autocomplete list.</p>
-                              </div>
-                            </div>
-                            <div class="features">
-                              <div class="col-sm-12 col-md-6">
-                                <img src="img/md5.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-sm-12 col-md-6">
-                                <p class="p1">Add elements and attributes using autocomplete.</p>
-                                <p class="p2">Reference schema file in the project to see the list of available elements and attributes in the autocomplete list.</p>
-                              </div>
-                            </div>
-                            <div class="features">
-                              <div class="col-sm-12 col-md-6">
-                                <img src="img/md6.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-sm-12 col-md-6">
-                                <p class="p1">Add aliases using autocomplete.</p>
-                                <p class="p2">Aliases have to be declared in the same file, project or referenced project.</p>
-                              </div>
-                            </div>
-                            <div class="features">
-                              <div class="col-sm-12 col-md-6">
-                                <img src="img/md7.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-sm-12 col-md-6">
-                                <p class="p1">Add arguments using autocomplete.</p>
-                                <p class="p2">You will see the list of available arguments in the autocomplete list if the cursor is inside of an alias.</p>
-                              </div>
-                            </div>
-                            <hr>
-                            <div class="features">
-                              <div>
-                                <img src="img/md8.png" class="img-responsive img-centered" alt="">
-                                <p class="p1">Interactive errors are displayed during document editing. Compilation errors are shown after compilation.</p>
-                                <p class="p2">An interactive error is displayed as a red underline. Put mouse cursor above the interactive error to see the error message.</p>
-                              </div>
-                            </div>
-                            <hr>
-
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="features-modal modal" id="features_generation" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10 ">
-                        <div class="modal-body">
-                            <h2>Generation of XML and JSON files</h2>
-                            <hr class="star-primary">
-                            <hr>
-                            <div class="features">
-                              <h4>Easy conversion from XML to Malina.</h4>
-                              <p class="p1">We made it easy to convert XML to Malina and vice versa. Just copy XML to buffer and paste it in Malina format. It will be automatically converted.</p>
-                              <p class="p2">You can also convert the whole XML file to Malina and add it to the project. In this case use command "Add Malina file from XML".</p>
-
-                              <div>
-                                <video id="pastexml" loop muted class="responsive-video"><source src="img/pastexml.mp4"></video>
-                              </div>
-
-                            </div>
-                            <div class="features">
-                              <h4>Easy conversion from Malina to XML.</h4>
-                              <p class="p1">We made it easy to convert Malina to XML also. Just use "Copy Document as XML" to copy document to buffer and paste it in XML format in another text editor.</p>
-                              <p class="p2">If Malina solution is built successfully then all Malina documents are getting compiled into XML files. The XML files could be found in the project output folder.</p>
-                              <p class="p2">You can convert the whole document as well as just document fragment. To convert a fragment of the document to XML, select the fragment and use menu "Copy Selection as XML".</p>
-                              <br>
-                              <div>
-                                <video id="pastemalina" loop muted class="responsive-video"><source src="img/pasteMalina.mp4"></video>
-                              </div>
-                              <br>
-
-                            </div>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="features-modal modal" id="features_pattern" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10">
-                        <div class="modal-body">
-                            <h2>Pattern Matching for Data Analysis</h2>
-                            <hr class="star-primary">
-                            <center>
-                            <div class="ba-slider" id="slider2">
-                               <img src="img/xml2.png">
-
-                               <div class="resize">
-                                   <img src="img/ml2.png">
-                               </div>
-                               <span class="handle"></span>
-                            </div>
-                            </center>
-                            <script type="text/javascript">
-                              $('#slider2').beforeAfter();
-                            </script>
-                            <hr>
-                            <div >
-                              <p class="p1">When converting from XML or JSON to Malina, the conversion logic can automatically apply all known aliases and add them to the result document.</p>
-                              <p class="p2">It can be used to highlight certain data patterns in the document and make it easier to find or edit.</p>
-                              <br>
-                            </div>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="sub_modal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                          <h2>Thank You!</h2>
-                          <p class="p1">Thank you for the participating in the Early Access!<br>
-                            You will receive an email with the installation instructions.<br>
-                            As a security measure, we sent you the confirmation letter. <br>
-                            Please confirm your email address by pressing the button or clicking the link in the email.<br>
-                          </p>
-                            <hr>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="sub_modal_err" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                          <h2>Something went wrong.</h2>
-                          <p class="p1">We wanted to add you to the Early Access program but our subscription system returned the following error:"<span id="sub_error"></span>".<br>
-                            We are very sorry about that. Please report the issue to this email <a href="mailto:info@syntactik.com?Subject=Subscription%20Error" target="_top">info@syntactik.com</a>
-                          </p>
-                            <hr>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="features-modal modal" id="modal_video" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div>
-                        <div class="modal-body">
-                          <div class="embed-responsive embed-responsive-16by9">
-                              <div id="player"></div>
-                          </div>
-                          <hr>
-                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-  <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
     <!-- Theme JavaScript -->
     <script src="js/malina.js"></script>
-
-    <script type="text/javascript">
-      $(document).ready(function(){
-
-          $("#features_Syntax").on('shown.bs.modal', function () {
-              $('#slider1').each(function(){
-                var cur = $(this);
-                var width = cur.width()+'px';
-                cur.find('.resize img').css('width', width);
-              });
-            });
-
-        $("#features_pattern").on('shown.bs.modal', function () {
-              $('#slider2').each(function(){
-                var cur = $(this);
-                var width = cur.width()+'px';
-                cur.find('.resize img').css('width', width);
-              });
-        });
-
-        $("#features_generation").on('shown.bs.modal', function () {
-            document.getElementById('pastexml').play();
-            document.getElementById('pastemalina').play();
-
-              //alert("!!!");
-              /*$('#pastexml').each(function(){
-                  $(this).play();
-              });
-              $('#pastemalina').each(function(){
-                  $(this).play();
-              });*/
-        });
-        $("#modal_video").on('hide.bs.modal', function () {
-            player.pauseVideo();
-        });
-        $("#modal_video").on('shown.bs.modal', function () {
-            player.playVideo();
-        });
-
-        $(function () {
-             $('#subForm').submit(function (e) {
-               e.preventDefault();
-               $.getJSON(
-               this.action + "?callback=?",
-               $(this).serialize()
-               ).fail(function( jqxhr, textStatus, error ) {
-                  var err = textStatus + ", " + error;
-                  $("#sub_error").text(err.message);
-                  $('#sub_modal_err').modal();
-             }).done(function (data) {
-                 if (data.Status === 400) {
-                    $("#sub_error").text(data.Message);
-                    $('#sub_modal_err').modal();
-                 } else { // 200
-                    $('#sub_modal').modal();
-                 }});
-               });
-        });
-      });
-    </script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-83602990-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-
-    <script>
-          // 2. This code loads the IFrame Player API code asynchronously.
-          var tag = document.createElement('script');
-
-          tag.src = "https://www.youtube.com/iframe_api";
-          var firstScriptTag = document.getElementsByTagName('script')[0];
-          firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-          // 3. This function creates an <iframe> (and YouTube player)
-          //    after the API code downloads.
-          var player;
-          function onYouTubeIframeAPIReady() {
-            player = new YT.Player('player', {
-
-              videoId: 'CeViqvtigoM',
-              events: {
-                'onReady': onPlayerReady,
-                'onStateChange': onPlayerStateChange
-              }
-            });
-          }
-
-          var pauseFlag = false;
-          function onPlayerReady(event) {
-             // do nothing, no tracking needed
-          }
-          function onPlayerStateChange(event) {
-              // track when user clicks to Play
-              if (event.data == YT.PlayerState.PLAYING) {
-                  //ga.push(['_trackEvent', 'Videos', 'Play', 'Test Video']);
-                  pauseFlag = true;
-              }
-              // track when user clicks to Pause
-              if (event.data == YT.PlayerState.PAUSED && pauseFlag) {
-                  //ga.push(['_trackEvent', 'Videos', 'Pause', 'Test Video']);
-                  pauseFlag = false;
-              }
-              // track when video ends
-              if (event.data == YT.PlayerState.ENDED) {
-                  //ga.push(['_trackEvent', 'Videos', 'Finished', 'Test Video']);
-              }
-          }
-
-        </script>
-
-
 
 </body>
 
