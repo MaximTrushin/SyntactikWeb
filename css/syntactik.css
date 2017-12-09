@@ -41,6 +41,7 @@ section{
     color: #000;
     font-size: 18px;
     text-shadow: none;
+    white-space: nowrap;
 }
 #intuitiveCarousel .carousel-caption {
     color: #000;
@@ -50,14 +51,25 @@ section{
 #intuitiveCarousel {
     border: 1px solid #ccc;
     padding: 15px 15px 0px 15px;
+    max-width: 350px;
+    min-width: 300px;
 }
-@media screen and (min-width: 768px) {
 
-    .carousel-caption {
+.carousel-caption {
+    padding-bottom: 5px;
+}
+
+.carousel-indicators {
+    margin-bottom: 5px;
+    bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+    #language .carousel-caption {
         padding-bottom: 5px;
     }
 
-    .carousel-indicators {
+    #language .carousel-indicators {
         margin-bottom: 5px;
         bottom: 0;
     }
@@ -110,7 +122,7 @@ section{
   text-align: center;
 }
 .content-section h3{
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .content-section .fa{

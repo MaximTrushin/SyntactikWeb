@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="description" content="Preprocessor for XML and JSON with code reuse."/>
     <meta name="author" content="Maxim Trushin"/>
-
     <title>Syntactik - preprocessor for XML and JSON</title>
     <link href="img/bike-fav.png" rel="shortcut icon" type="image/x-icon" />
     <!-- Bootstrap -->
@@ -19,17 +18,36 @@
     <link href="css/syntactik.css" rel="stylesheet"/>
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-
     <!-- JavaScript includes -->
     <script>
       $(function(){
         $("#literal-assignment-include").load("examples\\literal-assignment.html");
       });
       $(function(){
+        $("#object-assignment-include").load("examples\\object-assignment.html");
+      });
+      $(function(){
         $("#xml1-include").load("examples\\xml1.html");
       });
+      $(function(){
+        $("#syntactik1-include").load("examples\\syntactik1.html");
+      });
+      $(function(){
+        $("#json1-include").load("examples\\json1.html");
+      });
+      $(function(){
+        $("#syntactik2-include").load("examples\\syntactik2.html");
+      });
+      $(function(){
+        $("#quotes-include").load("examples\\quotes.html");
+      });
+      $(function(){
+        $("#comma-include").load("examples\\comma.html");
+      });
+      $(function(){
+        $("#parentheses-include").load("examples\\parentheses.html");
+      });
     </script>
-
 </head>
 <body id="page-top" class="index">
 <!-- Navigation -->
@@ -95,47 +113,9 @@
                     <tr>
                       <td class="td_code td_left">
                       <div id="xml1-include"></div>
-
                     </td>
-
                     <td  class="td_code">
-                      <span class="carousel-code">
-                        <span style='color:#00C800'>!#<span>ipo</span></span><span style='color:black'>&nbsp;=</span><span
-                        style='color:#F57C00'>&nbsp;http://www.example.com/myipo</span>
-                        <br>
-                        <span style='color:#00C800'>!#<span class=SpellE>xsi</span></span><span
-                        style='color:black'>&nbsp;=</span><span style='color:#F57C00'>&nbsp;<nobr>http://www.w3.org/2001/XMLSchema-instance</nobr></span><br>
-                        <span class=SpellE><span style='color:#AB3338'>ipo.purchaseOrder</span></span><span
-                        style='color:black'>:</span><br>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                        style='color:red'>@<span class=SpellE>orderDate</span></span><span
-                        style='color:black'>&nbsp;=</span><span style='color:#F57C00'>&nbsp;1999-12-01</span><br>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class=SpellE><span
-                        style='color:#AB3338'>shipTo</span></span><span style='color:black'>:</span><br>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                        style='color:red'>@<span class=SpellE>xsi.type</span></span><span
-                        style='color:black'>&nbsp;=</span><span style='color:#F57C00'>&nbsp;<span
-                        class=SpellE>ipo:EU-Address</span></span><br>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                        style='color:red'>@export-code</span><span style='color:black'>&nbsp;=</span><span
-                        style='color:#F57C00'>&nbsp;1</span><br>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                        style='color:#AB3338'>ipo.name&nbsp;</span><span style='color:black'>=</span><span
-                        style='color:#5D0095'>&nbsp;Helen&nbsp;Zoe</span><br>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                        class=SpellE><span style='color:#AB3338'>ipo.street</span></span><span
-                        style='color:#AB3338'>&nbsp;</span><span style='color:black'>=</span><span
-                        style='color:#5D0095'>&nbsp;47&nbsp;Eden&nbsp;Street</span><br>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                        class=SpellE><span style='color:#AB3338'>ipo.city</span></span><span
-                        style='color:#AB3338'>&nbsp;</span><span style='color:black'>=</span><span
-                        style='color:#5D0095'>&nbsp;Cambridge</span><br>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                        class=SpellE><span style='color:#AB3338'>ipo.postcode</span></span><span
-                        style='color:#AB3338'>&nbsp;</span><span style='color:black'>=</span><span
-                        style='color:#5D0095'>&nbsp;126</span><br>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                      </span>
+                      <div id="syntactik1-include"></div>
                     </td>
                   </tr>
                   </tbody>
@@ -156,79 +136,10 @@
                     <tbody>
                     <tr>
                       <td class="td_code td_left">
-
-                        <span style='color:black'>{</span><span
-                        style='color:#2E75B6'>&quot;menu&quot;</span><span style='color:black'>: {</span><br/>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style='color:#2E75B6'>&quot;id&quot;</span>
-                        <span style='color:black'>: </span><span style='color:#A31515'>&quot;file&quot;</span><span style='color:black'>,</span><br/>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style='color:#2E75B6'>&quot;value&quot;</span><span style='color:black'>: </span><span
-                        style='color:#A31515'>&quot;File&quot;</span><span style='color:black'>,</span><br/>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style='color:#2E75B6'>&quot;popup&quot;</span>
-                        <span style='color:black'>: {</span><br/>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style='color:#2E75B6'>&quot;<span
-                        class=SpellE><span class=GramE>menuitem</span></span>&quot;</span><span
-                        style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
-                        color:black'>: [<o:p></o:p></span><br/>
-
-                        <nobr><span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
-                        <span style='color:#2E75B6'>&quot;value&quot;</span><span style='color:black'>: </span><span style='color:#A31515'>&quot;New&quot;</span><span
-                        style='color:black'>, </span><span style='color:#2E75B6'>&quot;onclick&quot;</span><span
-                        style='color:black'>: </span><span style='color:#A31515'>&quot;CreateNewDoc()&quot;</span><span
-                        style='color:black'>},</span></nobr><br/>
-
-                        <nobr><span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
-                        <span style='color:#2E75B6'>&quot;value&quot;</span><span style='color:black'>: </span><span style='color:#A31515'>&quot;Open&quot;</span><span
-                        style='color:black'>, </span><span style='color:#2E75B6'>&quot;onclick&quot;</span><span
-                        style='color:black'>: </span><span style='color:#A31515'>&quot;OpenDoc()&quot;</span><span
-                        style='color:black'>},</span></nobr><br/>
-
-                        <nobr><span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
-                        <span style='color:#2E75B6'>&quot;value&quot;</span><span style='color:black'>: </span><span style='color:#A31515'>&quot;Close&quot;</span><span
-                        style='color:black'>, </span><span style='color:#2E75B6'>&quot;onclick&quot;</span><span
-                        style='color:black'>: </span><span style='color:#A31515'>&quot;CloseDoc()&quot;</span><span
-                        style='color:black'>},</span></nobr><br/>
-
-                        <span style='color:black'><span
-                        style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>]</span><br/>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;}</span><br/>
-                        <span style='color:black'>}}</span>
+                          <div id="json1-include"></div>
                       </td>
-
                       <td  class="td_code">
-                        <span style='color:#AB3338'>menu</span><span style='color:black'>:</span><span><br>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                        style='color:#AB3338'>id&nbsp;</span><span style='color:black'>=</span><span
-                        style='color:#5D0095'>&nbsp;file</span><br>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                        style='color:#AB3338'>value&nbsp;</span><span style='color:black'>=</span><span
-                        style='color:#5D0095'>&nbsp;File</span><br>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                        style='color:#AB3338'>popup</span><span style='color:black'>:</span><br>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                        class=SpellE><span style='color:#AB3338'>menuitem</span></span><span
-                        style='color:black'>:</span><br>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</span><br>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                        style='color:#AB3338'>value&nbsp;</span><span style='color:black'>=</span><span
-                        style='color:#5D0095'>&nbsp;New</span><br>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                        class=SpellE><span style='color:#AB3338'>onclick</span></span><span
-                        style='color:#AB3338'>&nbsp;</span><span style='color:black'>=</span><span
-                        style='color:#5D0095'>&nbsp;<span class=SpellE>CreateNewDoc</span>()</span><br>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</span>
-                        <span style='color:black'>&nbsp;&nbsp;</span><span
-                        style='color:#AB3338'>value&nbsp;</span><span style='color:black'>=</span><span
-                        style='color:#5D0095'>&nbsp;Open</span><br>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                        class=SpellE><span style='color:#AB3338'>onclick</span></span><span
-                        style='color:#AB3338'>&nbsp;</span><span style='color:black'>=</span><span
-                        style='color:#5D0095'>&nbsp;OpenDoc()</span><br>
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</span>&nbsp;&nbsp;&nbsp;</span><span
-                        style='color:#AB3338'>value&nbsp;</span><span style='color:black'>==</span><span
-                        style='color:#5D0095'>&nbsp;Close</span><span style='color:black'>,</span>
-                        <span class=SpellE><span style='color:#AB3338'>onclick</span></span><span
-                        style='color:#AB3338'>&nbsp;</span><span style='color:black'>=</span><span
-                        style='color:#5D0095'>&nbsp;"CloseDoc()"</span></span><br/><br/>
+                        <div id="syntactik2-include"></div>
                       </td>
                   </tr>
                   </tbody>
@@ -257,7 +168,7 @@
               <h3>Clarity and conciseness</h3>
               <p>
                   XML and JSON documents are verbose. Closing tags, brackets, and quotes slow down editing and make documents harder to read.
-                  Syntactik has indent based syntax and minimal set of intuitive rules. Syntactik is easy to read, edit and has a low learning curve.
+                  Syntactik has indent based syntax and a minimal set of intuitive rules. Syntactik is easy to read, edit and has a low learning curve.
               </p>
               <p>
               </p>
@@ -270,7 +181,8 @@
           <div class="col-sm-8">
               <h3>Code reuse</h3>
               <p>
-                  Both formats are also missing even basic code reuse features which could improve both readability and editing of the documents.
+                  Code reuse is a unique feature of Syntactik. It accelerates editing of documents and improves readability. Most data formats don't have code reuse at all.
+                  Some formats have basic code reuse features, but Syntactik takes it to another level.
               </p>
           </div>
         </div>
@@ -283,65 +195,69 @@
               <p> Syntactik can define both XML and JSON documents. Use the same language to supply data for apps with XML and JSON APIs.</p>
           </div>
         </div>
-
-
     </div>
 </section>
 
       <!-- Use Cases Grid Section -->
 <section class="content-section" id="editor">
     <div class="container">
-      <h2>Intuitive clean concise syntax</h2>
+      <h2>Intuitive, clean and concise syntax</h2>
       <div class="row right-image">
         <div class="col-sm-4">
-          <div id="intuitiveCarousel" class="carousel slide" data-ride="">
+          <div id="intuitiveCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
               <li data-target="#intuitiveCarousel" data-slide-to="0" class="active"></li>
               <li data-target="#intuitiveCarousel" data-slide-to="1"></li>
               <li data-target="#intuitiveCarousel" data-slide-to="2"></li>
+              <li data-target="#intuitiveCarousel" data-slide-to="3"></li>
+              <li data-target="#intuitiveCarousel" data-slide-to="4"></li>
             </ol>
-
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
               <div class="item active">
-
                 <div id="literal-assignment-include"></div>
-
-
-
-
                 <br><br><br>
                 <div class="carousel-caption">Literal assignment <b>=</b></div>
               </div>
-
               <div class="item">
-                  <br><br><br><br>
+                <div id="object-assignment-include"></div>
+                <br><br><br>
+                <div class="carousel-caption">Object assignment <b>:</b></div>
+              </div>
+              <div class="item">
+                <div id="quotes-include"></div>
+                <br><br><br>
+                <div class="carousel-caption">Quotes <b>' "</b></div>
+              </div>
+              <div class="item">
+                <div id="comma-include"></div>
+                <br><br><br>
+                <div class="carousel-caption">Comma <b>,</b></div>
+              </div>
+              <div class="item">
+                <div id="parentheses-include"></div>
+                <br><br><br>
+                <div class="carousel-caption">Parentheses <b>( )</b></div>
               </div>
 
-              <div class="item">
-                  <br><br><br><br>
-              </div>
+
             </div>
           </div>
         </div>
         <div class="col-sm-8">
-          <h4>Syntactik uses symbols that have obvious meaning.</h4>
+          <h3>Syntactik uses symbols that have obvious meaning.</h3>
           <p>
           Equaility sign <b>=</b> assigns literals.<br/>
           Colon <b>:</b> assigns objects.<br/>
           Single quote <b>'</b> and double quote <b>"</b> define literals.<br/>
-          Parentheses <b>( )</b> define regions.<br>
-          Comma <b>,</b> separates statements if needed.
+          Comma <b>,</b> separates statements if needed.<br>
+          Parentheses <b>( )</b> define regions.
         </p>
         </div>
       </div>
-
     </div>
   </section>
-
-
-      <!-- features Grid Section -->
 
 
     <!-- Contact Section -->
