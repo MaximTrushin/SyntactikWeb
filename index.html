@@ -19,6 +19,17 @@
     <link href="css/syntactik.css" rel="stylesheet"/>
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
+    <!-- JavaScript includes -->
+    <script>
+      $(function(){
+        $("#literal-assignment-include").load("examples\\literal-assignment.html");
+      });
+      $(function(){
+        $("#xml1-include").load("examples\\xml1.html");
+      });
+    </script>
+
 </head>
 <body id="page-top" class="index">
 <!-- Navigation -->
@@ -51,20 +62,21 @@
     <!-- /.container-fluid -->
 </nav>
 <!-- Users Grid Section -->
-<section id="language">
+
 <div>
 
 <div class="jumbotron">
   <div class="jumbotron-content">
       <br>
         <h1>Syntactik</h1>
-        <p>Preprocessor for XML and JSON</p>
+        <h2>People-friendly preprocessor for XML and JSON</h2>
+        <p>Use this advanced people-friendly data format to supply data for XML and JSON APIs without changing code.</p>
   </div>
 </div>
+<section class="content-section" id="language">
 <div>
-
     <div>
-        <div class="carousel slide" id="code-carousel" data-interval="12000">
+        <div class="carousel slide" id="code-carousel" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-slide-to="0" data-target="#code-carousel" class="active"></li>
                 <li data-slide-to="1" data-target="#code-carousel" class=""></li>
@@ -82,21 +94,8 @@
                     <tbody>
                     <tr>
                       <td class="td_code td_left">
-                      <span>
-                        <span style="color:#222222">&lt;</span><span><span style="color:#3364A4">ipo:purchaseOrder</span></span><span style="color:#3364A4">&nbsp;</span><br>
-                        <span style="color:#3364A4">&nbsp;&nbsp;&nbsp;&nbsp;</span><span><span style="color:#222222">xmlns:xsi</span></span><span style="color:#222222">=</span><span
-                         style="color:#DB7100"><nobr>"http://www.w3.org/2001/XMLSchema-instance"</nobr></span><span style="color:#3364A4">&nbsp;</span><br>
-                        <span style="color:#3364A4">&nbsp;&nbsp;&nbsp;&nbsp;</span><span><span style="color:#222222">xmlns:ipo</span></span><span style="color:#222222">=</span><span style="color:#DB7100">"http://www.example.com/myipo"</span><br>
-                        <span style="color:#3364A4">&nbsp;&nbsp;&nbsp;&nbsp;</span><span><span style="color:#222222">orderDate</span></span><span style="color:#222222">=</span><span style="color:#DB7100">"1999-12-01"</span><span style="color:#222222">&gt;</span><br>
-                        <span style="color:#222222">&nbsp;&nbsp;&nbsp;&nbsp;&lt;</span><span><span style="color:#3364A4">shipTo</span></span><span style="color:#3364A4">&nbsp;</span><span><span style="color:#222222">xsi:type</span></span><span style="color:#222222">=</span><span
-                        style="color:#DB7100">"<span>ipo:EU-Address</span>"</span><span style="color:#222222">&nbsp;export-code</span><span style="color:#222222">=</span><span style="color:#DB7100">"1"</span><span style="color:#222222">&gt;</span><br>
-                        <span style="color:#222222">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;</span><span><span style="color:#3364A4">ipo:name</span></span><span style="color:#222222">&gt;Helen&nbsp;Zoe&lt;/</span><span><span style="color:#3364A4">ipo:name</span></span><span style="color:#222222">&gt;</span><br>
-                        <span style="color:#222222">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;</span><span><span style="color:#3364A4">ipo:street</span></span><span style="color:#222222">&gt;47&nbsp;Eden&nbsp;Street&lt;/</span><span><span style="color:#3364A4">ipo:street</span></span><span style="color:#222222">&gt;</span><br>
-                        <span style="color:#222222">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;</span><span><span style="color:#3364A4">ipo:city</span></span><span style="color:#222222">&gt;Cambridge&lt;/</span><span><span style="color:#3364A4">ipo:city</span></span><span style="color:#222222">&gt;</span><br>
-                        <span style="color:#222222">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;</span><span><span style="color:#3364A4">ipo:postcode</span></span><span style="color:#222222">&gt;126&lt;/</span><span><span style="color:#3364A4">ipo:postcode</span></span><span style="color:#222222">&gt;</span><br>
-                        <span style="color:#222222">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/</span><span><span style="color:#3364A4">shipTo</span></span><span style="color:#222222">&gt;</span><br>
-                        <span style="color:#222222">&lt;/</span><span><span style="color:#3364A4">ipo:purchaseOrder</span></span><span style="color:#222222">&gt;</span>
-                      </span>
+                      <div id="xml1-include"></div>
+
                     </td>
 
                     <td  class="td_code">
@@ -171,23 +170,24 @@
                         style='font-size:9.5pt;font-family:Consolas;mso-bidi-font-family:Consolas;
                         color:black'>: [<o:p></o:p></span><br/>
 
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+                        <nobr><span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
                         <span style='color:#2E75B6'>&quot;value&quot;</span><span style='color:black'>: </span><span style='color:#A31515'>&quot;New&quot;</span><span
                         style='color:black'>, </span><span style='color:#2E75B6'>&quot;onclick&quot;</span><span
                         style='color:black'>: </span><span style='color:#A31515'>&quot;CreateNewDoc()&quot;</span><span
-                        style='color:black'>},</span><br/>
+                        style='color:black'>},</span></nobr><br/>
 
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+                        <nobr><span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
                         <span style='color:#2E75B6'>&quot;value&quot;</span><span style='color:black'>: </span><span style='color:#A31515'>&quot;Open&quot;</span><span
                         style='color:black'>, </span><span style='color:#2E75B6'>&quot;onclick&quot;</span><span
                         style='color:black'>: </span><span style='color:#A31515'>&quot;OpenDoc()&quot;</span><span
-                        style='color:black'>},</span><br/>
+                        style='color:black'>},</span></nobr><br/>
 
-                        <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+                        <nobr><span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
                         <span style='color:#2E75B6'>&quot;value&quot;</span><span style='color:black'>: </span><span style='color:#A31515'>&quot;Close&quot;</span><span
                         style='color:black'>, </span><span style='color:#2E75B6'>&quot;onclick&quot;</span><span
                         style='color:black'>: </span><span style='color:#A31515'>&quot;CloseDoc()&quot;</span><span
-                        style='color:black'>},</span><br/>
+                        style='color:black'>},</span></nobr><br/>
+
                         <span style='color:black'><span
                         style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>]</span><br/>
                         <span style='color:black'>&nbsp;&nbsp;&nbsp;&nbsp;}</span><br/>
@@ -240,84 +240,105 @@
             </div>
         </div>
       </div>
-
   </div>
-
-
-
-
-
+  </section>
 </div>
+
+
+<!-- Problem Section -->
+<section class="content-section" id="different">
+    <div class="container">
+        <h2>What makes Syntactik different?</h2>
+        <div class="row right-image">
+          <div class="col-sm-4" style="text-align: center">
+              <i class="fa fa-eye"></i>
+          </div>
+          <div class="col-sm-8">
+              <h3>Clarity and conciseness</h3>
+              <p>
+                  XML and JSON documents are verbose. Closing tags, brackets, and quotes slow down editing and make documents harder to read.
+                  Syntactik has indent based syntax and minimal set of intuitive rules. Syntactik is easy to read, edit and has a low learning curve.
+              </p>
+              <p>
+              </p>
+          </div>
+        </div>
+        <div class="row flex">
+          <div class="col-sm-4" style="text-align: center;">
+              <span class="fa fa-recycle"></span>
+          </div>
+          <div class="col-sm-8">
+              <h3>Code reuse</h3>
+              <p>
+                  Both formats are also missing even basic code reuse features which could improve both readability and editing of the documents.
+              </p>
+          </div>
+        </div>
+        <div class="row right-image">
+          <div class="col-sm-4" style="text-align: center">
+              <i class="fa fa-star"></i>
+          </div>
+          <div class="col-sm-8">
+              <h3>One language - two APIs</h3>
+              <p> Syntactik can define both XML and JSON documents. Use the same language to supply data for apps with XML and JSON APIs.</p>
+          </div>
+        </div>
+
+
+    </div>
 </section>
 
-      <!-- Problem Section -->
-      <section id="dotnet">
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-12 text-center">
-                      <h2>Problem being solved</h2>
-                      <hr class="star-light">
-                  </div>
-              </div>
-              <div class="features">
-                  <div class="feature">
-                    <i class="fa fa-eye-slash"></i>
-                    <h4>Verbosity</h4>
-                    <p>XML and JSON formats are verbose and have poor readability. Closing tags, brackets, and quotes slow down editing and make document harder to read.</p>
-                  </div>
-                  <div class="feature">
-                    <i class="fa fa-recycle"></i>
-                    <h4>No Code Reuse</h4>
-                    <p>Both formats are also missing even basic code reuse features which could improve both readability and editing of the documents.</p>
-                  </div>
-                </div>
-
-          </div>
-      </section>
-
       <!-- Use Cases Grid Section -->
-      <section id="editor">
-          <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Use Cases</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="features">
-                <div class="feature">
-                  <i class="fa fa-edit"></i>
-                  <h4>Editing</h4>
-                  <p>Create data documents using human-friendly syntax. Generate XML or JSON file based on Malina document.</p>
-                </div>
-                <div class="feature">
-                  <i class="fa fa-eye"></i>
-                  <h4>Reading</h4>
-                  <p>Automatically convert XML or JSON data into more readable Malina format and explore your data efficiently.</p>
-                </div>
-                <div class="feature">
-                  <i class="fa fa-recycle"></i>
-                  <h4>Code reuse</h4>
-                  <p>Create reusable templates and snippets of code and reuse them in your future documents.</p>
-                </div>
-                <div class="feature">
-                  <i class="fa fa-share"></i>
-                  <h4>Code sharing</h4>
-                  <p>Share your code templates with a team and use templates and snippets created by team members.</p>
-                </div>
-                <div class="feature">
-                  <i class="fa fa-file-text-o"></i>
-                  <h4>Data consolidation</h4>
-                  <p>Copy XML or JSON data in the buffer and paste it in Malina format. Consolidate data from different sources in one format.</p>
-                </div>
-                <div class="feature">
-                    <i class="fa fa-bar-chart"></i>
-                  <h4>Data analysis</h4>
-                  <p>Find data matching the predefined templates in the document.</p>
-                </div>
+<section class="content-section" id="editor">
+    <div class="container">
+      <h2>Intuitive clean concise syntax</h2>
+      <div class="row right-image">
+        <div class="col-sm-4">
+          <div id="intuitiveCarousel" class="carousel slide" data-ride="">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#intuitiveCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#intuitiveCarousel" data-slide-to="1"></li>
+              <li data-target="#intuitiveCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+
+                <div id="literal-assignment-include"></div>
+
+
+
+
+                <br><br><br>
+                <div class="carousel-caption">Literal assignment <b>=</b></div>
+              </div>
+
+              <div class="item">
+                  <br><br><br><br>
+              </div>
+
+              <div class="item">
+                  <br><br><br><br>
+              </div>
             </div>
           </div>
-        </section>
+        </div>
+        <div class="col-sm-8">
+          <h4>Syntactik uses symbols that have obvious meaning.</h4>
+          <p>
+          Equaility sign <b>=</b> assigns literals.<br/>
+          Colon <b>:</b> assigns objects.<br/>
+          Single quote <b>'</b> and double quote <b>"</b> define literals.<br/>
+          Parentheses <b>( )</b> define regions.<br>
+          Comma <b>,</b> separates statements if needed.
+        </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
 
 
       <!-- features Grid Section -->
