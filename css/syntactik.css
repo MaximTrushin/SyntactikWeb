@@ -5,6 +5,7 @@ section h2{
 }
 section{
   margin-top: 20px;
+  padding-bottom: 20px;
 }
 .navbar-brand{
   padding: 5px;
@@ -48,8 +49,14 @@ section{
     font-size: 14px;
     text-shadow: none;
 }
-#intuitiveCarousel {
+.code {
     border: 1px solid #ccc;
+    padding: 15px 15px 0px 15px;
+    max-width: 350px;
+    min-width: 300px;
+}
+
+#intuitiveCarousel, #codeOptionalQuotes {
     padding: 15px 15px 0px 15px;
     max-width: 350px;
     min-width: 300px;
@@ -84,8 +91,6 @@ section{
     font-family: Consolas, Inconsolata, Monaco, "Courier New" !important;
     font-size: 12px !important;
     line-height: 15px !important;
-    border: 0;
-    border-radius: 0;
     overflow-x: auto;
 }
 

@@ -33,6 +33,9 @@
         $("#syntactik1-include").load("examples\\syntactik1.html");
       });
       $(function(){
+        $("#optionalQuotes-include").load("examples\\literal-assignment.html");
+      });
+      $(function(){
         $("#json1-include").load("examples\\json1.html");
       });
       $(function(){
@@ -46,6 +49,9 @@
       });
       $(function(){
         $("#parentheses-include").load("examples\\parentheses.html");
+      });
+      $(function(){
+        $("#codeIndents-include").load("examples\\object-assignment.html");
       });
     </script>
 </head>
@@ -192,7 +198,7 @@
           </div>
           <div class="col-sm-8">
               <h3>One language - two APIs</h3>
-              <p> Syntactik can define both XML and JSON documents. Use the same language to supply data for apps with XML and JSON APIs.</p>
+              <p> Syntactik can define both XML and JSON documents. So you can use the same language to supply data for apps with XML and JSON APIs.</p>
           </div>
         </div>
     </div>
@@ -202,9 +208,19 @@
 <section class="content-section" id="editor">
     <div class="container">
       <h2>Intuitive, clean and concise syntax</h2>
-      <div class="row right-image">
+      <div class="row">
+        <div class="col-sm-8">
+          <h3>Syntactik uses symbols that have obvious meaning</h3>
+          <p>
+          Equaility sign <b>=</b> assigns literals.<br/>
+          Colon <b>:</b> assigns objects.<br/>
+          Single quote <b>'</b> and double quote <b>"</b> define literals.<br/>
+          Comma <b>,</b> separates statements if needed.<br>
+          Parentheses <b>( )</b> define regions.
+        </p>
+        </div>
         <div class="col-sm-4">
-          <div id="intuitiveCarousel" class="carousel slide" data-ride="carousel">
+          <div id="intuitiveCarousel" class="carousel slide code" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
               <li data-target="#intuitiveCarousel" data-slide-to="0" class="active"></li>
@@ -240,22 +256,42 @@
                 <br><br><br>
                 <div class="carousel-caption">Parentheses <b>( )</b></div>
               </div>
-
-
             </div>
           </div>
         </div>
+
+      </div>
+      <div class="row">
         <div class="col-sm-8">
-          <h3>Syntactik uses symbols that have obvious meaning.</h3>
+          <h3>Quotes are optional</h3>
           <p>
-          Equaility sign <b>=</b> assigns literals.<br/>
-          Colon <b>:</b> assigns objects.<br/>
-          Single quote <b>'</b> and double quote <b>"</b> define literals.<br/>
-          Comma <b>,</b> separates statements if needed.<br>
-          Parentheses <b>( )</b> define regions.
+          In most cases, strings can be defined without quotes. Symbols following equality sign define a string.
         </p>
         </div>
+        <div class="col-sm-4">
+          <div id="codeOptionalQuotes" class="code carousel-code">
+              <div id="optionalQuotes-include"></div>
+
+          </div>
+        </div>
       </div>
+      <div class="row">
+        <div class="col-sm-8">
+          <h3>Indents define document structure</h3>
+          <p>
+          In Syntactik, indents define blocks of code like in popular programming language Python. Blocks start with a colon <b>:</b> .
+          Usage of colon improves readability and prevents mistakes caused by typos.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <div id="codeIndents" class="code carousel-code">
+              <div id="codeIndents-include"></div><br>
+
+          </div>
+        </div>
+      </div>
+
+
     </div>
   </section>
 
