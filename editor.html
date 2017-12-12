@@ -83,18 +83,9 @@
       $(function(){
         $("#aliasoverloaded-include").load("examples\\aliasoverloaded.html");
       });
-      $(function(){
-        $("#attributes-include").load("examples\\attributes.html");
-      });
-      $(function(){
-        $("#namespace-include").load("examples\\namespace.html");
-      });
-      $(function(){
-        $("#arrayLiteral-include").load("examples\\arrayLiteral.html");
-      });
-      $(function(){
-        $("#arrayObject-include").load("examples\\arrayobject.html");
-      });
+
+
+
     </script>
 </head>
 <body id="page-top" class="index">
@@ -246,6 +237,7 @@
     </div>
 </section>
 
+      <!-- Use Cases Grid Section -->
 <section class="content-section">
     <div class="container">
       <h2>Intuitive, clean and concise syntax</h2>
@@ -312,6 +304,7 @@
         <div class="col-sm-4  codeCell">
           <div id="codeOptionalQuotes" class="code carousel-code">
               <div id="optionalQuotes-include"></div>
+
           </div>
         </div>
       </div>
@@ -332,14 +325,14 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-7">
+        <div class="col-sm-8">
           <h3>Comments help documenting code</h3>
           <p>
           A single line comment begins with triple single quotes <b>'''</b> .<br>
           A multiline comment begins and ends with triple double quotes <b>"""</b> .
           </p>
         </div>
-        <div class="col-sm-5 codeCell">
+        <div class="col-sm-4 codeCell">
           <div id="commentsCode" class="code carousel-code">
               <div id="comments-include"></div><br>
 
@@ -434,14 +427,14 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-7">
+          <div class="col-sm-8">
             <h3>Nested aliases</h3>
             <p>
             An alias can be passed as a value for an argument of another alias.
             Nested aliases are used to create a template for a code fragment or a whole document.
             </p>
           </div>
-          <div class="col-sm-5 codeCell">
+          <div class="col-sm-4 codeCell">
             <div id="nestedAliasCarousel" class="carousel slide code" data-ride="carousel">
               <!-- Indicators -->
               <ol class="carousel-indicators">
@@ -470,7 +463,7 @@
         </div>
 
         <div class="row">
-          <div class="col-sm-7">
+          <div class="col-sm-8">
             <h3>Alias overloading</h3>
             <p>
             Alias overloading is the ability to use the same alias with a different set of arguments.<br>
@@ -483,7 +476,7 @@
             in the alias. If a case has no parameters, then it will always be resolved unless any sibling cases are resolved before.
             </p>
           </div>
-          <div class="col-sm-5 codeCell">
+          <div class="col-sm-4 codeCell">
             <div id="overloadingCarousel" class="carousel slide code" data-ride="carousel">
               <!-- Indicators -->
               <ol class="carousel-indicators">
@@ -495,14 +488,14 @@
                 <div class="item active">
                   <div class="carousel-code">
                   <div id="aliasdefoverloaded-include"></div>
-                  <br><br><br><br>
+                  <br><br><br>
                   </div>
                   <div class="carousel-caption"><span style='color:blue'>Alias definition</span> with choice <b>::</b></div>
                 </div>
                 <div class="item">
                   <div class="carousel-code">
                   <div id="aliasoverloaded-include"></div>
-                  <br><br><br><br><br>
+                  <br><br><br><br>
                   </div>
                   <div class="carousel-caption"><span style='color:#009596'>Aliases</span> with different set of <span
                   style='color:#00C7C8'>arguments</span></div>
@@ -511,88 +504,10 @@
             </div>
           </div>
         </div>
+
+
       </div>
     </section>
-
-    <section class="content-section">
-        <div class="container">
-          <h2>Compatibility with XML and JSON</h2>
-          <div class="row container">
-            Syntactik supports XML-specific entities like <b>attributes</b> and <b>namespaces</b> as well as JSON-specific entities like <b>arrays</b>.<br>
-            Syntactik has a notion of a <b>module</b>. Files with extension <b>"s4x"</b> or <b>"s4j"</b> physically represent a module.
-            Code in <b>s4x-module</b> define XML data. Similarly, code in <b>s4j-module</b> represents JSON data.
-          </div>
-          <div class="row">
-            <div class="col-sm-8">
-              <h3>Attributes</h3>
-              <p>
-              In Syntactik, name of XML attributes starts with <b>@</b>.
-              </p>
-            </div>
-            <div class="col-sm-4 codeCell">
-              <div class="code carousel-code">
-                <div id="attributes-include"></div>
-                <br>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-7">
-              <h3>Namespaces</h3>
-              <p>
-              Namespaces must be declared in the module or document. Definition of a namespace starts with <b>!#</b> followed by
-              the XML namespace prefix, equality sign, and a uniform resource identifier (URI). Then the declared prefix can be
-              used in names of elements or attributes. In the name, the namespace prefix is separated by a dot from the rest of the name.
-              </p>
-            </div>
-            <div class="col-sm-5 codeCell">
-              <div id="namespaceCode" class="code carousel-code">
-                <div id="namespace-include"></div>
-                <br>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-sm-8">
-              <h3>Array</h3>
-              <p>
-              In Syntactik, the array is defined by a block of name/value pairs, where each pair has an empty name.
-              </p>
-            </div>
-            <div class="col-sm-4 codeCell">
-              <div id="arrayCarousel" class="carousel slide code" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                  <li data-target="#arrayCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#arrayCarousel" data-slide-to="1"></li>
-                </ol>
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <div class="carousel-code">
-                    <div id="arrayLiteral-include"></div>
-                    <br><br><br><br><br><br><br><br><br><br><br>
-                    </div>
-                    <div class="carousel-caption">Array of literals (values)</div>
-                  </div>
-                  <div class="item">
-                    <div class="carousel-code">
-                    <div id="arrayObject-include"></div>
-                    <br><br><br>
-                    </div>
-                    <div class="carousel-caption">Array of objects</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-        </div>
-      </section>
-
 
     <!-- Contact Section -->
     <section id="early_access">
@@ -603,7 +518,7 @@
                     <hr class="star-primary">
                     <h4 style="text-align: left;">
                         <li>Get a beta invite</li>
-                        <li>Use Syntactik to increase your productivity</li>
+                        <li>Use Malina to increase your productivity</li>
                         <li>Propose new features</li>
                         <li>Report issues</li>
                         <li>Be part of our community</li>
