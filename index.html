@@ -53,6 +53,39 @@
       $(function(){
         $("#codeIndents-include").load("examples\\object-assignment.html");
       });
+      $(function(){
+        $("#aliasdef-include").load("examples\\aliasdef.html");
+      });
+      $(function(){
+        $("#alias-include").load("examples\\alias.html");
+      });
+      $(function(){
+        $("#alias-include").load("examples\\alias.html");
+      });
+      $(function(){
+        $("#parameterized-include").load("examples\\parameterized.html");
+      });
+      $(function(){
+        $("#arguments-include").load("examples\\arguments.html");
+      });
+      $(function(){
+        $("#template-include").load("examples\\template.html");
+      });
+      $(function(){
+        $("#documentfromtemplate-include").load("examples\\documentfromtemplate.html");
+      });
+      $(function(){
+        $("#comments-include").load("examples\\comments.html");
+      });
+      $(function(){
+        $("#aliasdefoverloaded-include").load("examples\\aliasdefoverloaded.html");
+      });
+      $(function(){
+        $("#aliasoverloaded-include").load("examples\\aliasoverloaded.html");
+      });
+
+
+
     </script>
 </head>
 <body id="page-top" class="index">
@@ -205,7 +238,7 @@
 </section>
 
       <!-- Use Cases Grid Section -->
-<section class="content-section" id="editor">
+<section class="content-section">
     <div class="container">
       <h2>Intuitive, clean and concise syntax</h2>
       <div class="row">
@@ -219,7 +252,7 @@
           Parentheses <b>( )</b> define regions.
         </p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 codeCell">
           <div id="intuitiveCarousel" class="carousel slide code" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -268,7 +301,7 @@
           In most cases, strings can be defined without quotes. Symbols following equality sign define a string.
         </p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4  codeCell">
           <div id="codeOptionalQuotes" class="code carousel-code">
               <div id="optionalQuotes-include"></div>
 
@@ -281,20 +314,200 @@
           <p>
           In Syntactik, indents define blocks of code like in popular programming language Python. Blocks start with a colon <b>:</b> .
           Usage of colon improves readability and prevents mistakes caused by typos.
+          The parser enforces usage of the same indentation style in the whole file.
           </p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 codeCell">
           <div id="codeIndents" class="code carousel-code">
               <div id="codeIndents-include"></div><br>
 
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-sm-8">
+          <h3>Comments help documenting code</h3>
+          <p>
+          A single line comment begins with triple single quotes <b>'''</b> .<br>
+          A multiline comment begins and ends with triple double quotes <b>"""</b> .
+          </p>
+        </div>
+        <div class="col-sm-4 codeCell">
+          <div id="commentsCode" class="code carousel-code">
+              <div id="comments-include"></div><br>
 
-
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
+  <section class="content-section">
+      <div class="container">
+        <h2>Code reuse</h2>
+        <div class="row">
+          <div class="col-sm-8">
+            <h3>Alias</h3>
+            <p>
+            Alias is a powerful code reuse feature.
+            An alias represents a fragment of code, like literal value, a name/value pair or block of code.
+            Same alias can be used in multiple places in one or many documents.<br/>
+            Alias definition starts with <b>!$</b> . Alias starts with <b>$</b>.
+          </p>
+          </div>
+          <div class="col-sm-4 codeCell">
+            <div id="aliasCarousel" class="carousel slide code" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#aliasCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#aliasCarousel" data-slide-to="1"></li>
+              </ol>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div  class="carousel-code">
+                  <div id="aliasdef-include"></div>
+                  <br><br><br><br>
+                  </div>
+                  <div class="carousel-caption"><span style='color:blue'>Alias definition</span></div>
+                </div>
+                <div class="item">
+                  <div  class="carousel-code">
+                  <div id="alias-include"></div>
+                  <br><br><br>
+                  <br><br><br>
+                  </div>
+                  <div class="carousel-caption"><span style='color:#009596'>Alias</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-sm-8">
+            <h3>Parameterized alias</h3>
+            <p>
+              An alias definition can have one or more parameters. Paremeters start with <b>!%</b> .<br>
+              Parameters represent a fragment of code: literal value or block.<br>
+              Literal parameters have to be assigned with <b>:=</b> to distinguish it from a simple literal.<br>
+              Parameters get real values from the corresponding arguments of aliases. Arguments start with <b>%</b> .<br>
+              A parameter can have a default value. An argument is optional if the corresponding
+              parameter has a default value.
+            </p>
+          </div>
+          <div class="col-sm-4  codeCell">
+            <div id="parameterizedCarousel" class="carousel slide code" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#parameterizedCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#parameterizedCarousel" data-slide-to="1"></li>
+              </ol>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="carousel-code">
+                  <div id="parameterized-include"></div>
+                  <br><br><br><br><br>
+                  </div>
+                  <div class="carousel-caption"><span style='color:blue'>Alias definition</span> with <span
+                  style='color:#00C7C8'>parameter</span></div>
+                </div>
+                <div class="item">
+                  <div class="carousel-code">
+                  <div id="arguments-include"></div>
+                  <br><br><br>
+                  <br><br><br><br><br>
+                  </div>
+                  <div class="carousel-caption"><span style='color:#009596'>Alias</span> with <span
+                  style='color:#00C7C8'>argument</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-8">
+            <h3>Nested aliases</h3>
+            <p>
+            An alias can be passed as a value for an argument of another alias.
+            Nested aliases are used to create a template for a code fragment or a whole document.
+            </p>
+          </div>
+          <div class="col-sm-4 codeCell">
+            <div id="nestedAliasCarousel" class="carousel slide code" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#nestedAliasCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#nestedAliasCarousel" data-slide-to="1"></li>
+              </ol>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="carousel-code">
+                  <div id="template-include"></div>
+                  <br><br><br><br><br><br>
+                  </div>
+                  <div class="carousel-caption">Document template</div>
+                </div>
+                <div class="item">
+                  <div class="carousel-code">
+                  <div id="documentfromtemplate-include"></div>
+                  <br><br><br><br>
+                  </div>
+                  <div class="carousel-caption"><span style='color:blue'>Document</span> created using the template</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-8">
+            <h3>Alias overloading</h3>
+            <p>
+            Alias overloading is the ability to use the same alias with a different set of arguments.<br>
+            A special kind of block called <b>choice</b> adds overloading to the alias definition.
+            A choice-block starts with a double colon <b>::</b>. Each array item in this block represents a <b>case</b>.
+            A case is a block with or without parameters. When Syntactik compiler is processing an alias, and there is a choice
+            in the corresponding alias definition, then the compiler tries to resolve cases in the choice one by one.
+            The first case that is successfully resolved represents the value of choice and the processing of choice stops.
+            A case is considered to be resolved if all parameters (without a default value) in the case have corresponding arguments
+            in the alias. If a case has no parameters, then it will always be resolved unless any sibling cases are resolved before.
+            </p>
+          </div>
+          <div class="col-sm-4 codeCell">
+            <div id="overloadingCarousel" class="carousel slide code" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#overloadingCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#overloadingCarousel" data-slide-to="1"></li>
+              </ol>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="carousel-code">
+                  <div id="aliasdefoverloaded-include"></div>
+                  <br><br><br>
+                  </div>
+                  <div class="carousel-caption"><span style='color:blue'>Alias definition</span> with choice <b>::</b></div>
+                </div>
+                <div class="item">
+                  <div class="carousel-code">
+                  <div id="aliasoverloaded-include"></div>
+                  <br><br><br><br>
+                  </div>
+                  <div class="carousel-caption"><span style='color:#009596'>Aliases</span> with different set of <span
+                  style='color:#00C7C8'>arguments</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
 
     <!-- Contact Section -->
     <section id="early_access">

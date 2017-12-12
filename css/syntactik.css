@@ -38,16 +38,16 @@ section{
 .carousel {
     margin-bottom: 15px;
 }
-.carousel-caption {
+#code-carousel .carousel-caption {
     color: #000;
     font-size: 18px;
     text-shadow: none;
-    white-space: nowrap;
 }
-#intuitiveCarousel .carousel-caption {
+.carousel-caption {
     color: #000;
     font-size: 14px;
     text-shadow: none;
+    white-space: nowrap;
 }
 .code {
     border: 1px solid #ccc;
@@ -55,8 +55,21 @@ section{
     max-width: 350px;
     min-width: 300px;
 }
+#commentsCode{
+  max-width: 450px;
+  min-width: 400px;
+}
 
-#intuitiveCarousel, #codeOptionalQuotes {
+.codeCell{
+  margin-top: 40px;
+}
+
+#overloadingCarousel{
+  max-width: 400px;
+  min-width: 350px;
+}
+
+#intuitiveCarousel {
     padding: 15px 15px 0px 15px;
     max-width: 350px;
     min-width: 300px;
@@ -120,9 +133,6 @@ section{
   border-right-style: solid;
 }
 
-.content-section .row{
-  margin-top: 20px;
-}
 .content-section h2{
   text-align: center;
 }
