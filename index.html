@@ -9,7 +9,7 @@
     <meta name="description" content="Preprocessor for XML and JSON with code reuse."/>
     <meta name="author" content="Maxim Trushin"/>
     <title>Syntactik - preprocessor for XML and JSON</title>
-    <link href="img/bike-fav.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="img/bike.svg" rel="shortcut icon" type="image/x-icon" />
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -21,79 +21,9 @@
     <!-- JavaScript includes -->
     <script>
       $(function(){
-        $("#literal-assignment-include").load("examples\\literal-assignment.html");
-      });
-      $(function(){
-        $("#object-assignment-include").load("examples\\object-assignment.html");
-      });
-      $(function(){
-        $("#xml1-include").load("examples\\xml1.html");
-      });
-      $(function(){
-        $("#syntactik1-include").load("examples\\syntactik1.html");
-      });
-      $(function(){
-        $("#optionalQuotes-include").load("examples\\literal-assignment.html");
-      });
-      $(function(){
-        $("#json1-include").load("examples\\json1.html");
-      });
-      $(function(){
-        $("#syntactik2-include").load("examples\\syntactik2.html");
-      });
-      $(function(){
-        $("#quotes-include").load("examples\\quotes.html");
-      });
-      $(function(){
-        $("#comma-include").load("examples\\comma.html");
-      });
-      $(function(){
-        $("#parentheses-include").load("examples\\parentheses.html");
-      });
-      $(function(){
-        $("#codeIndents-include").load("examples\\object-assignment.html");
-      });
-      $(function(){
-        $("#aliasdef-include").load("examples\\aliasdef.html");
-      });
-      $(function(){
-        $("#alias-include").load("examples\\alias.html");
-      });
-      $(function(){
-        $("#alias-include").load("examples\\alias.html");
-      });
-      $(function(){
-        $("#parameterized-include").load("examples\\parameterized.html");
-      });
-      $(function(){
-        $("#arguments-include").load("examples\\arguments.html");
-      });
-      $(function(){
-        $("#template-include").load("examples\\template.html");
-      });
-      $(function(){
-        $("#documentfromtemplate-include").load("examples\\documentfromtemplate.html");
-      });
-      $(function(){
-        $("#comments-include").load("examples\\comments.html");
-      });
-      $(function(){
-        $("#aliasdefoverloaded-include").load("examples\\aliasdefoverloaded.html");
-      });
-      $(function(){
-        $("#aliasoverloaded-include").load("examples\\aliasoverloaded.html");
-      });
-      $(function(){
-        $("#attributes-include").load("examples\\attributes.html");
-      });
-      $(function(){
-        $("#namespace-include").load("examples\\namespace.html");
-      });
-      $(function(){
-        $("#arrayLiteral-include").load("examples\\arrayLiteral.html");
-      });
-      $(function(){
-        $("#arrayObject-include").load("examples\\arrayobject.html");
+        $('[id$="-include"]').each(function (e){
+            $(this).load("examples\\" + $(this).attr("id").replace("-include", "") +  ".html");
+        });
       });
     </script>
 </head>
@@ -137,6 +67,16 @@
         <h1>Syntactik</h1>
         <h2>People-friendly preprocessor for XML and JSON</h2>
         <p>Use this advanced people-friendly data format to supply data for XML and JSON APIs without changing code.</p>
+        <p>
+          <!-- Share buttons -->
+          <a
+          href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fwww.syntactik.com&amp;ref_src=twsrc%5Etfw&amp;text=Syntactik.NET&amp;tw_p=tweetbutton&amp;url=http%3A%2F%2Fwww.syntactik.com&amp;via=Syntactik"
+          class="twitter-share-button" data-size="small" target="_blank">Tweet</a>
+          <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+          <script type="IN/Share" data-url="http://syntactik.com"></script>
+          <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fsyntactik.com%2F&layout=button&size=small&mobile_iframe=true&appId=145465822181214&width=59&height=20" width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+        </p>
   </div>
 </div>
 <section class="content-section" id="language">
@@ -312,7 +252,7 @@
         </div>
         <div class="col-sm-4  codeCell">
           <div id="codeOptionalQuotes" class="code carousel-code">
-              <div id="optionalQuotes-include"></div>
+              <div id="literal-assignment-include"></div>
           </div>
         </div>
       </div>
@@ -327,7 +267,7 @@
         </div>
         <div class="col-sm-4 codeCell">
           <div id="codeIndents" class="code carousel-code">
-              <div id="codeIndents-include"></div><br>
+              <div id="object-assignment-include"></div><br>
 
           </div>
         </div>
@@ -617,13 +557,13 @@
     <footer>
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-4">
+                    <div class="footer-col col-sm-4">
                       <i class="fa fa-envelope-o"></i> <a href="mailto:info@syntactik.com">info@syntactik.com</a>
                     </div>
-                    <div class="footer-col col-md-4">
+                    <div class="footer-col col-sm-4">
                       <i class="fa fa-github"></i> <a href="https://github.com/syntactik/">https://github.com/syntactik</a>
                     </div>
-                    <div class="footer-col col-md-4">
+                    <div class="footer-col col-sm-4">
                       <i class="fa fa-copyright"></i> Syntactik 2017
                     </div>
                 </div>
@@ -643,7 +583,26 @@
 
 
     <!-- Theme JavaScript -->
-    <script src="js/malina.js"></script>
+    <script src="js/syntactik.js"></script>
+
+    <script>
+      window.twttr = (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+              t = window.twttr || {};
+            if (d.getElementById(id)) return t;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+
+            t._e = [];
+            t.ready = function(f) {
+              t._e.push(f);
+            };
+
+            return t;
+        }(document, "script", "twitter-wjs"));
+    </script>
 
 </body>
 

@@ -9,7 +9,7 @@
     <meta name="description" content="Preprocessor for XML and JSON with code reuse."/>
     <meta name="author" content="Maxim Trushin"/>
     <title>Syntactik - preprocessor for XML and JSON</title>
-    <link href="img/bike-fav.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="img/bike.svg" rel="shortcut icon" type="image/x-icon" />
     <!-- Bootstrap -->
     <link rel="stylesheet" href="vendor/bootstrap.3.3.7/content/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -31,6 +31,7 @@
     </script>
 </head>
 <body id="page-top" class="index">
+
 <!-- Navigation -->
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
     <div class="container">
@@ -70,6 +71,23 @@
         <h1>Syntactik.NET</h1>
         <h2>Implementation of Syntactik language for .NET</h2>
         <p>Compile Syntactik files into XML or JSON in code or use the command line tool.</p>
+        <div class="buttons">
+            <a class="btn btn-lg btn-success" href="#" data-toggle="modal" data-target="#download-modal">
+                <i class="fa fa-download fa-lg"></i> Download
+            </a>
+            <a class="btn btn-lg btn-info" href="https://github.com/syntactik/Syntactik" target="_blank">
+                <i class="fa fa-github fa-lg"></i> Source code</a>
+        </div>
+        <p>
+          <!-- Share buttons -->
+          <a
+          href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fwww.syntactik.com%2Fdotnet.html&amp;ref_src=twsrc%5Etfw&amp;text=Syntactik.NET&amp;tw_p=tweetbutton&amp;url=http%3A%2F%2Fwww.syntactik.com%2Fdotnet.html&amp;via=Syntactik"
+          class="twitter-share-button" data-size="small" target="_blank">Tweet</a>
+          <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+          <script type="IN/Share" data-url="http://syntactik.com/dotnet.html"></script>
+          <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fsyntactik.com%2Fdotnet.html%2F&layout=button&size=small&mobile_iframe=true&appId=145465822181214&width=59&height=20" width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+        </p>
   </div>
 </div>
 <section class="content-section" id="language">
@@ -189,24 +207,66 @@ JArray array = context.InMemoryOutputObjects["colors"];
               <i class="fa fa-cogs big-fa"></i>
           </div>
           <div class="col-sm-8">
-              <h3>Compile programmatically into XmlDocument or JToken</h3>
+              <h3>Compile into XmlDocument or JToken</h3>
               <p>
-                <i>Proposed unimplemented feature.</i>
                 The pipeline of compiler can be customized to produce <a href="https://msdn.microsoft.com/en-us/library/system.xml.xmldocument(v=vs.110).aspx">XmlDocuments</a>
                 or <a href="https://www.newtonsoft.com/json/help/html/T_Newtonsoft_Json_Linq_JToken.htm">JTokens</a> in memory which can be passed to XML or JSON APIs.
               </p>
           </div>
         </div>
+        <div class="row flex">
+          <div class="col-sm-4" style="text-align: center;">
+              <span class="fa fa-star big-fa"></span>
+          </div>
+          <div class="col-sm-8">
+              <h3>Compile into Syntactik DOM objects</h3>
+              <p>
+                  Syntactik compiler can produce native Syntactik DOM objects instead of XmlNodes or JTokens. If the application uses Syntactik format as a configuration
+                  file format, for example, it doesn't need to depend on XML or JSON libraries.
+                  </fieldset>
+              </p>
+          </div>
+        </div>
     </div>
 </section>
+<!-- Use Cases Grid Section -->
+<section class="content-section">
+<div class="container">
+  <h2>Help</h2>
+  <div class="row">
+    <div class="col-md-3">
+        <h4><i class="fa fa-info"></i> Documentation</h4>
+        <a href="https://github.com/syntactik/Syntactik/blob/master/README.md" target="_blank">Syntactik ReadMe</a> has full description of the language syntax and features.
+    </div>
+    <div class="col-md-3">
+        <h4><i class="fa fa-comments-o"></i> Chat room</h4>
+        Discuss Syntactik language, Syntactik.NET library, or Syntactik Editor online in the <a href="https://gitter.im/syntactik/Syntactik" target="_blank">Gitter chat room</a>.
+    </div>
+    <div class="col-md-3">
+        <h4><i class="fa fa-question-circle"></i> Forum</h4>
+        Join <a href="https://groups.google.com/forum/#!forum/syntactik" target="_blank">Syntactik Google groups forum</a>.
+        Look through the forum topics to find the answer or create the new one.
+    </div>
+    <div class="col-md-3">
+        <h4><i class="fa fa-bug"></i> Bug or feature?</h4>
+        Report a bug or propose a new feature in the <a href="https://github.com/syntactik/Syntactik/issues" target="_blank">Syntactik issue tracker</a>.
+    </div>
+  </div>
+
+</div>
+</section>
+
+
 
       <!-- Use Cases Grid Section -->
 <section class="content-section">
     <div class="container">
       <h2>Open source</h2>
       <p>
-        Syntactik.NET is an open source software. It is <a href="https://github.com/syntactik/Syntactik/blob/master/LICENSE">free for commercial use</a>.<br>
-        <a href="https://github.com/syntactik/Syntactik"><i class="fa fa-github"></i> GitHub repo.</a>
+        Syntactik.NET is an open source software. It is <a
+        href="https://github.com/syntactik/Syntactik/blob/master/LICENSE"
+        target="_blank">free for commercial use</a>.<br>
+        <a href="https://github.com/syntactik/Syntactik" target="_blank"><i class="fa fa-github"></i> GitHub repo.</a>
       </p>
 
     </div>
@@ -216,19 +276,74 @@ JArray array = context.InMemoryOutputObjects["colors"];
   <footer>
           <div class="container">
               <div class="row">
-                  <div class="footer-col col-md-4">
+                  <div class="footer-col col-sm-4">
                     <i class="fa fa-envelope-o"></i> <a href="mailto:info@syntactik.com">info@syntactik.com</a>
                   </div>
-                  <div class="footer-col col-md-4">
+                  <div class="footer-col col-sm-4">
                     <i class="fa fa-github"></i> <a href="https://github.com/syntactik/">https://github.com/syntactik</a>
                   </div>
-                  <div class="footer-col col-md-4">
+                  <div class="footer-col col-sm-4">
                     <i class="fa fa-copyright"></i> Syntactik 2017
                   </div>
               </div>
           </div>
 
   </footer>
+
+  <!-- Modals -->
+  <div class="modal fade" id="download-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body slim-dialog">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+                <h4 class="page-header">Install with NuGet</h4>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <a href="https://www.nuget.org/packages/Syntactik/" target="_blank">
+                        <img src="/img/nuget-logo.png" alt="NuGet" class="center-block" />
+                    </a>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="nuget-badge">
+                        &gt; nuget install syntactik
+                    </div>
+                  </div>
+                </div>
+                <h4 class="page-header">Install with NuGet Package Manager UI</h4>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <img src="/img/vs-logo.png" alt="NuGet" class="center-block" />
+                  </div>
+                  <div class="col-sm-6" style="margin-top: auto; margin-bottom:auto;">
+                      <a href="https://docs.microsoft.com/en-us/nuget/tools/package-manager-ui" target="_blank">Install with Visual Studio NuGet Package Manager UI</a>
+                  </div>
+                </div>
+                <h4 class="page-header">Direct Download</h4>
+                <div class="row">
+                  <div class="col-sm-6" style="text-align: center">
+                    <i class="fa fa-github" style="font-size:50px"></i>
+                  </div>
+                  <div class="col-sm-6">
+                    <p>
+                      <span class="Label--latest">
+                          <a href="https://github.com/Syntactik/Syntactik/releases/latest" target="_blank">Latest release</a>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+
+
+
+
+                <br />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
@@ -237,17 +352,36 @@ JArray array = context.InMemoryOutputObjects["colors"];
         </a>
     </div>
 
-    <!-- features Modals -->
 
 
-    <!-- Theme JavaScript -->
+
+
   <script src="js/syntactik.js"></script>
+
   <script type="text/javascript">
         var options = {
             lineNumbers: false
         };
-
         Sunlight.highlightAll(options);
+  </script>
+
+  <script>
+    window.twttr = (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0],
+            t = window.twttr || {};
+          if (d.getElementById(id)) return t;
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "https://platform.twitter.com/widgets.js";
+          fjs.parentNode.insertBefore(js, fjs);
+
+          t._e = [];
+          t.ready = function(f) {
+            t._e.push(f);
+          };
+
+          return t;
+      }(document, "script", "twitter-wjs"));
   </script>
 
 
