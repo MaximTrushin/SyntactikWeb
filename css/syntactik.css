@@ -25,6 +25,10 @@ section{
     border-bottom: 1px solid #e7e7e7;
     font-size: 18px;
 }
+
+#dotnetJumbotron{
+  background: #fbfbfb url('../img/memphis-colorful.png') repeat;
+}
 .jumbotron-content {
     text-align: center;
     max-width: 700px;
@@ -141,14 +145,15 @@ section{
   margin-top: 20px;
 }
 
-.content-section .fa{
-  font-size: 150px;
+.content-section .big-fa{
+  font-size: 120px;
   color:silver;
+  margin-top: 10px;
 
 }
 
 @media (max-width: 559px){
-  .content-section .fa{
+  .content-section .big-fa{
     font-size: 50px;
   }
   .content-section h3{
@@ -168,4 +173,18 @@ section{
   .right-image, .flex {
     flex-direction: column;
   }
+}
+
+#inMemoryCompilationPre{
+  max-width: 700px;
+  margin: auto !important;
+}
+
+footer {
+    background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+    color: #555;
+    margin-top: 20px;
+    padding: 20px 0;
+    width: 100%;
 }
