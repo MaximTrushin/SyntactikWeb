@@ -2,420 +2,582 @@
 <html lang="en">
 
 <head>
-
-    <meta charset="utf-8">
+    <meta charset="utf-8"/>
     <meta name="google-site-verification" content="fCx-RraUm0aTwbyNAG-Qftpq9gfv-czFQmxjbQ8G6Jo" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Productivity tool for XML and JSON processing featuring first people-friendly data format.">
-    <meta name="author" content="">
-
-    <title>Malina - Productivity Tool for XML/JSON Data Processing</title>
-    <link href="img/mal-fav.png" rel="shortcut icon" type="image/x-icon" />
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="Preprocessor for XML and JSON with code reuse."/>
+    <meta name="author" content="Maxim Trushin"/>
+    <title>Syntactik - preprocessor for XML and JSON</title>
+    <link href="img/bike.svg" rel="shortcut icon" type="image/x-icon" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="vendor/bootstrap.3.3.7/content/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="vendor/bootstrap.3.3.7/scripts/bootstrap.min.js"></script>
     <!-- Theme CSS -->
-    <link href="css/malina.css" rel="stylesheet">
-
+    <link href="css/syntactik.css" rel="stylesheet"/>
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- Before after CSS & scripts -->
-    <link type="text/css" href="css/before-after.css" rel="stylesheet">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
-    <script type="text/javascript" src="js/before-after.js"></script>
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <!-- JavaScript includes -->
+    <script>
+      $(function(){
+        $('[id$="-include"]').each(function (e){
+            $(this).load("examples\\" + $(this).attr("id").replace("-include", "") +  ".html");
+        });
+      });
+    </script>
 </head>
-
 <body id="page-top" class="index">
-
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top" id="main_home_link"><img class="img-responsive" src="img/mal-white1.png"></a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#product">product</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#problem">problem</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#use_cases">use cases</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#features">features</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#early_access">Early Access</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div id="header_container" class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/mal-white-big.png">
-                    <div class="intro-text">
-                        <span class="name">Productivity Tool for XML and JSON Processing</span>
-                        <hr class="star-light">
-                        <span class="skills">Featuring first people-friendly data format with code reuse</span>
-                    </div>
-                    <br>
-
-                </div>
-            </div>
-        </div>
-    </header>
-    <section id="video">
+<!-- Navigation -->
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
     <div class="container">
-        <div class="video-item">
-                <div class="caption-content">
-                    <a href="#modal_video" class="features-link" data-toggle="modal">
-                      <i class="fa fa-play-circle fa-3x"></i>
-                    </a>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="#page-top" id="main_home_link"><img class="img-responsive" src="img/logo-grey-sm.png"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="page-scroll">
+                    <a href="#page-top">Language</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="dotnet.html">Syntactik.NET</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="editor.html">Syntactik Editor</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+<!-- Users Grid Section -->
+
+<div>
+
+<div class="jumbotron">
+  <div class="jumbotron-content">
+      <br>
+        <h1>Syntactik</h1>
+        <h2>People-friendly preprocessor for XML and JSON</h2>
+        <p>Use this advanced people-friendly data format to supply data for XML and JSON APIs without changing code.</p>
+        <p>
+          <!-- Share buttons -->
+          <a
+          href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fwww.syntactik.com&amp;ref_src=twsrc%5Etfw&amp;text=Syntactik.NET&amp;tw_p=tweetbutton&amp;url=http%3A%2F%2Fwww.syntactik.com&amp;via=Syntactik"
+          class="twitter-share-button" data-size="small" target="_blank">Tweet</a>
+          <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+          <script type="IN/Share" data-url="http://syntactik.com"></script>
+          <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fsyntactik.com%2F&layout=button&size=small&mobile_iframe=true&appId=145465822181214&width=59&height=20" width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+        </p>
+  </div>
+</div>
+<section class="content-section" id="language">
+<div>
+    <div>
+        <div class="carousel slide" id="code-carousel" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-slide-to="0" data-target="#code-carousel" class="active"></li>
+                <li data-slide-to="1" data-target="#code-carousel" class=""></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                  <div class="carousel-code">
+                    <table class="table code_table" style="margin: 0px auto;">
+                    <thead>
+                      <tr>
+                        <td>XML</td>
+                        <td>Syntactik</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td class="td_code td_left">
+                      <div id="xml1-include"></div>
+                    </td>
+                    <td  class="td_code">
+                      <div id="syntactik1-include"></div>
+                    </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <br/><br/><br/><br/><br/>
+                  </div>
+                  <div class="carousel-caption">XML vs Syntactik</div>
                 </div>
-                <div class="img-box">
-                  <img id="in_use" class="img-responsive" src="img/in-use.png">
+                <div class="item">
+                  <div class="carousel-code">
+                    <table class="table code_table" style="margin: 0px auto;">
+                    <thead>
+                      <tr>
+                        <td>JSON</td>
+                        <td>Syntactik</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td class="td_code td_left">
+                          <div id="json1-include"></div>
+                      </td>
+                      <td  class="td_code">
+                        <div id="syntactik2-include"></div>
+                      </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <br/><br/><br/><br/><br/>
+                  </div>
+                  <div class="carousel-caption">JSON vs Syntactik</div>
                 </div>
+            </div>
+        </div>
+      </div>
+  </div>
+  </section>
+</div>
+
+
+<!-- Problem Section -->
+<section class="content-section" id="different">
+    <div class="container">
+        <h2>What makes Syntactik different?</h2>
+        <div class="row right-image">
+          <div class="col-sm-4" style="text-align: center">
+              <i class="fa fa-eye big-fa"></i>
+          </div>
+          <div class="col-sm-8">
+              <h3>Clarity and conciseness</h3>
+              <p>
+                  XML and JSON documents are verbose. Closing tags, brackets, and quotes slow down editing and make documents harder to read.
+                  Syntactik has indent based syntax and a minimal set of intuitive rules. Syntactik is easy to read, edit and has a low learning curve.
+
+
+              </p>
+              <br>
+          </div>
+        </div>
+        <div class="row flex">
+          <div class="col-sm-4" style="text-align: center;">
+              <span class="fa fa-recycle big-fa"></span>
+          </div>
+          <div class="col-sm-8">
+              <h3>Code reuse</h3>
+              <p>
+                  Code reuse is a unique feature of Syntactik. It accelerates editing of documents and improves readability. Most data formats don't have code reuse at all.
+                  Some formats have basic code reuse features, but Syntactik takes it to another level.
+              </p>
+          </div>
+        </div>
+        <div class="row right-image">
+          <div class="col-sm-4" style="text-align: center">
+              <i class="fa fa-star big-fa"></i>
+          </div>
+          <div class="col-sm-8">
+              <h3>One language - two APIs</h3>
+              <p> Syntactik can define both XML and JSON documents. So you can use the same language to supply data for apps with XML and JSON APIs.</p>
+          </div>
         </div>
     </div>
+</section>
+
+<section class="content-section">
+    <div class="container">
+      <h2>Intuitive, clean and concise syntax</h2>
+      <div class="row">
+        <div class="col-sm-8">
+          <h3>Syntactik uses symbols that have obvious meaning</h3>
+          <p>
+          Equaility sign <b>=</b> assigns literals.<br/>
+          Colon <b>:</b> assigns objects.<br/>
+          Single quote <b>'</b> and double quote <b>"</b> define literals.<br/>
+          Comma <b>,</b> separates statements if needed.<br>
+          Parentheses <b>( )</b> define regions.
+        </p>
+        </div>
+        <div class="col-sm-4 codeCell">
+          <div id="intuitiveCarousel" class="carousel slide code" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#intuitiveCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#intuitiveCarousel" data-slide-to="1"></li>
+              <li data-target="#intuitiveCarousel" data-slide-to="2"></li>
+              <li data-target="#intuitiveCarousel" data-slide-to="3"></li>
+              <li data-target="#intuitiveCarousel" data-slide-to="4"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div id="literal-assignment-include"></div>
+                <br><br><br>
+                <div class="carousel-caption">Literal assignment <b>=</b></div>
+              </div>
+              <div class="item">
+                <div id="object-assignment-include"></div>
+                <br><br><br>
+                <div class="carousel-caption">Object assignment <b>:</b></div>
+              </div>
+              <div class="item">
+                <div id="quotes-include"></div>
+                <br><br><br>
+                <div class="carousel-caption">Quotes <b>' "</b></div>
+              </div>
+              <div class="item">
+                <div id="comma-include"></div>
+                <br><br><br>
+                <div class="carousel-caption">Comma <b>,</b></div>
+              </div>
+              <div class="item">
+                <div id="parentheses-include"></div>
+                <br><br><br>
+                <div class="carousel-caption">Parentheses <b>( )</b></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-sm-8">
+          <h3>Quotes are optional</h3>
+          <p>
+          In most cases, strings can be defined without quotes. Symbols following equality sign define a string.
+        </p>
+        </div>
+        <div class="col-sm-4  codeCell">
+          <div id="codeOptionalQuotes" class="code carousel-code">
+              <div id="literal-assignment-include"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8">
+          <h3>Indents define document structure</h3>
+          <p>
+          In Syntactik, indents define blocks of code like in popular programming language Python. Blocks start with a colon <b>:</b> .
+          Usage of colon improves readability and prevents mistakes caused by typos.
+          The parser enforces usage of the same indentation style in the whole file.
+          </p>
+        </div>
+        <div class="col-sm-4 codeCell">
+          <div id="codeIndents" class="code carousel-code">
+              <div id="object-assignment-include"></div><br>
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-7">
+          <h3>Comments help documenting code</h3>
+          <p>
+          A single line comment begins with triple single quotes <b>'''</b> .<br>
+          A multiline comment begins and ends with triple double quotes <b>"""</b> .
+          </p>
+        </div>
+        <div class="col-sm-5 codeCell">
+          <div id="commentsCode" class="code carousel-code">
+              <div id="comments-include"></div><br>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="content-section">
+      <div class="container">
+        <h2>Code reuse</h2>
+        <div class="row">
+          <div class="col-sm-8">
+            <h3>Alias</h3>
+            <p>
+            Alias is a powerful code reuse feature.
+            An alias represents a fragment of code, like literal value, a name/value pair or block of code.
+            Same alias can be used in multiple places in one or many documents.<br/>
+            Alias definition starts with <b>!$</b> . Alias starts with <b>$</b>.
+          </p>
+          </div>
+          <div class="col-sm-4 codeCell">
+            <div id="aliasCarousel" class="carousel slide code" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#aliasCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#aliasCarousel" data-slide-to="1"></li>
+              </ol>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div  class="carousel-code">
+                  <div id="aliasdef-include"></div>
+                  <br><br><br><br>
+                  </div>
+                  <div class="carousel-caption"><span style='color:blue'>Alias definition</span></div>
+                </div>
+                <div class="item">
+                  <div  class="carousel-code">
+                  <div id="alias-include"></div>
+                  <br><br><br>
+                  <br><br><br>
+                  </div>
+                  <div class="carousel-caption"><span style='color:#009596'>Alias</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-sm-8">
+            <h3>Parameterized alias</h3>
+            <p>
+              An alias definition can have one or more parameters. Paremeters start with <b>!%</b> .<br>
+              Parameters represent a fragment of code: literal value or block.<br>
+              Literal parameters have to be assigned with <b>:=</b> to distinguish it from a simple literal.<br>
+              Parameters get real values from the corresponding arguments of aliases. Arguments start with <b>%</b> .<br>
+              A parameter can have a default value. An argument is optional if the corresponding
+              parameter has a default value.
+            </p>
+          </div>
+          <div class="col-sm-4  codeCell">
+            <div id="parameterizedCarousel" class="carousel slide code" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#parameterizedCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#parameterizedCarousel" data-slide-to="1"></li>
+              </ol>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="carousel-code">
+                  <div id="parameterized-include"></div>
+                  <br><br><br><br><br>
+                  </div>
+                  <div class="carousel-caption"><span style='color:blue'>Alias definition</span> with <span
+                  style='color:#00C7C8'>parameter</span></div>
+                </div>
+                <div class="item">
+                  <div class="carousel-code">
+                  <div id="arguments-include"></div>
+                  <br><br><br>
+                  <br><br><br><br><br>
+                  </div>
+                  <div class="carousel-caption"><span style='color:#009596'>Alias</span> with <span
+                  style='color:#00C7C8'>argument</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-7">
+            <h3>Nested aliases</h3>
+            <p>
+            An alias can be passed as a value for an argument of another alias.
+            Nested aliases are used to create a template for a code fragment or a whole document.
+            </p>
+          </div>
+          <div class="col-sm-5 codeCell">
+            <div id="nestedAliasCarousel" class="carousel slide code" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#nestedAliasCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#nestedAliasCarousel" data-slide-to="1"></li>
+              </ol>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="carousel-code">
+                  <div id="template-include"></div>
+                  <br><br><br><br><br><br>
+                  </div>
+                  <div class="carousel-caption">Document template</div>
+                </div>
+                <div class="item">
+                  <div class="carousel-code">
+                  <div id="documentfromtemplate-include"></div>
+                  <br><br><br><br>
+                  </div>
+                  <div class="carousel-caption"><span style='color:blue'>Document</span> created using the template</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-7">
+            <h3>Alias overloading</h3>
+            <p>
+            Alias overloading is the ability to use the same alias with a different set of arguments.<br>
+            A special kind of block called <b>choice</b> adds overloading to the alias definition.
+            A choice-block starts with a double colon <b>::</b>. Each array item in this block represents a <b>case</b>.
+            A case is a block with or without parameters. When Syntactik compiler is processing an alias, and there is a choice
+            in the corresponding alias definition, then the compiler tries to resolve cases in the choice one by one.
+            The first case that is successfully resolved represents the value of choice and the processing of choice stops.
+            A case is considered to be resolved if all parameters (without a default value) in the case have corresponding arguments
+            in the alias. If a case has no parameters, then it will always be resolved unless any sibling cases are resolved before.
+            </p>
+          </div>
+          <div class="col-sm-5 codeCell">
+            <div id="overloadingCarousel" class="carousel slide code" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#overloadingCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#overloadingCarousel" data-slide-to="1"></li>
+              </ol>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="carousel-code">
+                  <div id="aliasdefoverloaded-include"></div>
+                  <br><br><br><br>
+                  </div>
+                  <div class="carousel-caption"><span style='color:blue'>Alias definition</span> with choice <b>::</b></div>
+                </div>
+                <div class="item">
+                  <div class="carousel-code">
+                  <div id="aliasoverloaded-include"></div>
+                  <br><br><br><br><br>
+                  </div>
+                  <div class="carousel-caption"><span style='color:#009596'>Aliases</span> with different set of <span
+                  style='color:#00C7C8'>arguments</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <!-- Users Grid Section -->
-    <section id="product">
+
+    <section class="content-section">
         <div class="container">
+          <h2>Compatibility with XML and JSON</h2>
+          <div class="row container">
+            Syntactik supports XML-specific entities like <b>attributes</b> and <b>namespaces</b> as well as JSON-specific entities like <b>arrays</b>.
+            Syntactik has a notion of a <b>module</b>. Files with extension <b>"s4x"</b> or <b>"s4j"</b> physically represent a module.
+            Code in <b>s4x-module</b> define XML data. Similarly, code in <b>s4j-module</b> represents JSON data.
+          </div>
           <div class="row">
-              <div class="col-lg-12 text-center">
-                  <h2>Tool for the whole IT-Department</h2>
-                  <hr class="star-primary">
+            <div class="col-sm-8">
+              <h3>Attributes</h3>
+              <p>
+              In Syntactik, name of XML attributes starts with <b>@</b>.
+              </p>
+            </div>
+            <div class="col-sm-4 codeCell">
+              <div class="code carousel-code">
+                <div id="attributes-include"></div>
+                <br>
               </div>
+            </div>
           </div>
-          <div class="features">
-              <div class="feature">
-                <img class="img-responsive" src="img/supportmale.png">
-                <h4>For Administrators</h4>
-                <p>Edit configuration files more effectively, make them more readable, reduce the number of mistakes by using people-friendly syntax and rich IDE features.</p>
+          <div class="row">
+            <div class="col-sm-7">
+              <h3>Namespaces</h3>
+              <p>
+              Namespaces must be declared in the module or document. Definition of a namespace starts with <b>!#</b> followed by
+              the XML namespace prefix, equality sign, and a uniform resource identifier (URI). Then the declared prefix can be
+              used in names of elements or attributes. In the name, the namespace prefix is separated by a dot from the rest of the name.
+              </p>
+            </div>
+            <div class="col-sm-5 codeCell">
+              <div id="namespaceCode" class="code carousel-code">
+                <div id="namespace-include"></div>
+                <br>
               </div>
-              <div class="feature">
-                <img class="img-responsive" src="img/female.png">
-                <h4>For Developers & QA</h4>
-                <p>Create test requests for the web-services in seconds by using Malina’s code reuse features.</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-8">
+              <h3>Array</h3>
+              <p>
+              In Syntactik, the array is defined by a block of name/value pairs, where each pair has an empty name.
+              </p>
+            </div>
+            <div class="col-sm-4 codeCell">
+              <div id="arrayCarousel" class="carousel slide code" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#arrayCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#arrayCarousel" data-slide-to="1"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <div class="carousel-code">
+                    <div id="arrayLiteral-include"></div>
+                    <br><br><br><br><br><br><br><br><br><br><br>
+                    </div>
+                    <div class="carousel-caption">Array of literals (values)</div>
+                  </div>
+                  <div class="item">
+                    <div class="carousel-code">
+                    <div id="arrayObject-include"></div>
+                    <br><br><br>
+                    </div>
+                    <div class="carousel-caption">Array of objects</div>
+                  </div>
+                </div>
               </div>
-              <div class="feature">
-                <img class="img-responsive" src="img/matureman.png">
-                <h4>For Business & Data Analysts</h4>
-                <p>Work with data requires skills. You can start working with XML and JSON data without training using this simple, intuitive and easy to learn tool.</p>
-              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <!-- Problem Section -->
-      <section class="success" id="problem">
+      <section>
           <div class="container">
-              <div class="row">
-                  <div class="col-lg-12 text-center">
-                      <h2>Problem being solved</h2>
-                      <hr class="star-light">
-                  </div>
-              </div>
-<!--            <div class="row">
-                  <div class="col-lg-12 text-center">
-                      <h2>How we solve the problem</h2>
-                      <hr class="star-light">
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-lg-8  col-lg-offset-2">
-                      <p>We created people-friendly data format having all features of XML and JSON plus unique code reuse features. </p>
-                  </div>
-              </div>-->
-              <div class="features">
-                  <div class="feature">
-                    <i class="fa fa-eye-slash"></i>
-                    <h4>Verbosity</h4>
-                    <p>XML and JSON formats are verbose and have poor readability. Closing tags, brackets, and quotes slow down editing and make document harder to read.</p>
-                  </div>
-                  <div class="feature">
-                    <i class="fa fa-recycle"></i>
-                    <h4>No Code Reuse</h4>
-                    <p>Both formats are also missing even basic code reuse features which could improve both readability and editing of the documents.</p>
-                  </div>
-                </div>
-
+            <h2>Implementation</h2>
+            <div class="row container">
+              Currently, <a href="/dotnet.html">Syntactik.NET</a> is the only full implementation of the Syntactik language.<br />
+              <a href="https://github.com/syntactik/SyntactikJs" target="_blank">SyntactikJs</a> is the proof of concept implemented in JavaScript.
+              The project destination is to prove that it is possible to convert Syntactik parser (about 1K lines of code) to another language in a matter of days
+              by just converting language instructions one to one. Like, for example, converting if statement in C# into if statement
+              in JavaScript, etc.
+            </div>
           </div>
       </section>
 
-      <!-- Use Cases Grid Section -->
-      <section id="use_cases">
+      <section>
           <div class="container">
+            <h2>Help</h2>
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Use Cases</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="features">
-                <div class="feature">
-                  <i class="fa fa-edit"></i>
-                  <h4>Editing</h4>
-                  <p>Create data documents using human-friendly syntax. Generate XML or JSON file based on Malina document.</p>
-                </div>
-                <div class="feature">
-                  <i class="fa fa-eye"></i>
-                  <h4>Reading</h4>
-                  <p>Automatically convert XML or JSON data into more readable Malina format and explore your data efficiently.</p>
-                </div>
-                <div class="feature">
-                  <i class="fa fa-recycle"></i>
-                  <h4>Code reuse</h4>
-                  <p>Create reusable templates and snippets of code and reuse them in your future documents.</p>
-                </div>
-                <div class="feature">
-                  <i class="fa fa-share"></i>
-                  <h4>Code sharing</h4>
-                  <p>Share your code templates with a team and use templates and snippets created by team members.</p>
-                </div>
-                <div class="feature">
-                  <i class="fa fa-file-text-o"></i>
-                  <h4>Data consolidation</h4>
-                  <p>Copy XML or JSON data in the buffer and paste it in Malina format. Consolidate data from different sources in one format.</p>
-                </div>
-                <div class="feature">
-                    <i class="fa fa-bar-chart"></i>
-                  <h4>Data analysis</h4>
-                  <p>Find data matching the predefined templates in the document.</p>
-                </div>
+              <div class="col-md-4">
+                  <h4><i class="fa fa-info"></i> Documentation</h4>
+                  <a href="https://github.com/syntactik/Syntactik/blob/master/README.md" target="_blank">Syntactik ReadMe</a> has full description of the language syntax and features.
+              </div>
+              <div class="col-md-4">
+                  <h4><i class="fa fa-comments-o"></i> Chat room</h4>
+                  Discuss Syntactik language, Syntactik.NET library, or Syntactik Editor online in the <a href="https://gitter.im/syntactik/Syntactik" target="_blank">Gitter chat room</a>.
+              </div>
+              <div class="col-md-4">
+                  <h4><i class="fa fa-question-circle"></i> Forum</h4>
+                  Join <a href="https://groups.google.com/forum/#!forum/syntactik" target="_blank">Syntactik Google groups forum</a>.
+                  Look through the forum topics to find the answer or create the new one.
+
+              </div>
             </div>
           </div>
-        </section>
+      </section>
+      <!-- Footer -->
+      <footer>
+      <div class="footer-links">
+          <span><i class="fa fa-envelope-o"></i> <a href="mailto:info@syntactik.com">info@syntactik.com</a></span>
+          <span><i class="fa fa-github"></i> <a href="https://github.com/syntactik/">https://github.com/syntactik</a></span>
+      </div>
+      <div class="footer-links">
+          <a href="/terms">Disclaimer</a>
+          <a href="/privacy">Privacy</a>
+          <span><i class="fa fa-copyright"></i> Syntactik 2017</span>
+      </div>
+      </footer>
 
-
-      <!-- features Grid Section -->
-      <section class="features" id="features">
-          <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>FEATURES</h2>
-                    <hr class="star-light">
-                    <h3>Click on the feature images below to expand the details:</h3>
-                </div>
-            </div>
-            <div class="features">
-                <div class="col-sm-4 feature features-item">
-
-                    <a href="#features_Syntax" class="features-link" data-toggle="modal">
-
-                        <div class="caption">
-
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-
-                        <div class="img-box feature-img-box">
-                          <img src="img/syntax01.png" class="img-responsive feature-img-box" alt="">
-                        </div>
-                    </a>
-                    <h4>Intuitive, clean, concise syntax</h4>
-                </div>
-                <div class="col-sm-4 feature features-item">
-
-                    <a href="#features_xmljson" class="features-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <div class="img-box feature-img-box">
-                          <img src="img/xml_json.png" class="img-responsive feature-img-box" alt="">
-                        </div>
-                    </a>
-                    <h4>Compatibility with XML and JSON</h4>
-
-                </div>
-                <div class="col-sm-4 feature features-item">
-
-                    <a href="#features_CodeReuse" class="features-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <div class="img-box feature-img-box">
-                          <img src="img/codereuse.png" class="img-responsive feature-img-box" alt="">
-                        </div>
-                      </a>
-                      <h4>Code Reuse</h4>
-
-                </div>
-                <div class="col-sm-4 feature features-item">
-
-                    <a href="#features_MD" class="features-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <div class="img-box feature-img-box">
-                          <img src="img/md.png" class="img-responsive feature-img-box" alt="">
-                        </div>
-                    </a>
-                    <h4>Cross-platform IDE</h4>
-
-                </div>
-                <div class="col-sm-4 feature features-item">
-                    <a href="#features_generation" class="features-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <div class="img-box feature-img-box">
-                          <img src="img/generating.png" class="img-responsive feature-img-box" alt="">
-                        </div>
-                    </a>
-                    <h4>Generation of XML and JSON files</h4>
-                </div>
-                <div class="col-sm-4 feature  features-item">
-
-                    <a href="#features_pattern" class="features-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <div class="img-box feature-img-box">
-                          <img src="img/pattern.png" class="img-responsive feature-img-box" alt="">
-                        </div>
-                    </a>
-                    <h4>Pattern Matching for Data Analysis</h4>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="early_access">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2>Early Access</h2>
-                    <hr class="star-primary">
-                    <h4 style="text-align: left;">
-                        <li>Get a beta invite</li>
-                        <li>Use Malina to increase your productivity</li>
-                        <li>Propose new features</li>
-                        <li>Report issues</li>
-                        <li>Be part of our community</li>
-                    </h4>
-                    <br>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <form action="http://syntactik.createsend.com/t/i/s/idyutj/" name="sentMessage" method="post" id="subForm" validate>
-                      <div class="row control-group">
-                          <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label for="fieldName">Name</label><br />
-                            <input id="fieldName" name="cm-name" type="text" placeholder="Name" class="form-control" required data-validation-required-message="Please enter your name."/>
-                            <p class="help-block text-danger"></p>
-                          </div>
-                      </div>
-                      <div class="row control-group">
-                          <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label for="fieldEmail">Email</label><br />
-                            <input id="fieldEmail" name="cm-idyutj-idyutj" type="email" class="form-control" placeholder="Email Address" required data-validation-required-message="Please enter your email address." />
-                            <p class="help-block text-danger"></p>
-                          </div>
-                      </div>
-                      <div class="row control-group">
-                          <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label for="fieldtujtjy">Company</label><br />
-                            <input id="fieldtujtjy" name="cm-f-tujtjy" type="text" class="form-control" placeholder="Company" />
-                            <p class="help-block text-danger"></p>
-                          </div>
-                      </div>
-                      <div class="row control-group">
-                          <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label for="fieldtujttt">Position</label><br />
-                            <input id="fieldtujttt" name="cm-f-tujttt" type="text" class="form-control" placeholder="Position" />
-                            <p class="help-block text-danger"></p>
-                          </div>
-                      </div>
-                      <br>
-                      <div id="success"></div>
-                      <div class="row">
-                          <div class="form-group col-xs-12">
-                              <button type="submit" class="btn btn-success btn-lg">Request Early Access</button>
-                          </div>
-                      </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>EMAIL</h3>
-                        <p>
-                            <a href="mailto:info@syntactik.com">info@syntactik.com</a></p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Github</h3>
-                        <p><a href="https://github.com/syntactik/">https://github.com/syntactik</a></p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                      <img src="/img/syntactik-white-trans-sm.png"><br>
-                        Copyright &copy; Syntactik 2016
-                    </div>
-                </div>
-            </div>
-        </div>
-      <!--  <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                      <img src="/img/syntactik-white-trans-sm.png"><br>
-                        Copyright &copy; Syntactik 2016
-
-                    </div>
-                </div>
-            </div>
-        </div>-->
-    </footer>
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
@@ -425,612 +587,29 @@
     </div>
 
     <!-- features Modals -->
-    <div class="features-modal modal" id="features_Syntax" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10">
-                        <div class="modal-body">
-                            <h2>Intuitive, clean, concise syntax</h2>
-                            <hr class="star-primary">
-                            <center>
-                              <div class="ba-slider" id="slider1">
-                                  <img src="img/xml1.png">
 
-                                 <div class="resize">
-                                     <img src="img/ml1.png">
-                                 </div>
-                                 <span class="handle"></span>
-                              </div>
-                            </center>
-                            <script type="text/javascript">
-                              $('#slider1').beforeAfter();
-                            </script>
-                            <hr>
-                            <div class="features">
-                              <div class="col-xs-12 col-sm-6">
-                                <img src="img/syntax02.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-xs-12 col-sm-6">
-                                <p class="p1">Malina uses equality sign to assign value to element. No quotes needed to define a value.</p>
-                                <p class="p2">Just type your data and forget about closing tags and string brackets. It saves your time and also improves readability. </p>
-                              </div>
-                            </div>
-                            <hr>
-                            <div class="features">
-                              <div class="col-xs-12 col-sm-6">
-                                <img src="img/syntax01.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-xs-12 col-sm-6">
-                                <p class="p1">Malina uses indents to specify blocks of nested elements like in popular programming language Python.</p>
-                                <p class="p2">Colon is required in the end of the parent element to prevent accidental typos in the document structure.</p>
-                              </div>
-                            </div>
-                            <hr>
-                            <br>
-
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="features-modal modal fade" id="features_xmljson" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10">
-                        <div class="modal-body">
-                            <h2>Compatibility with XML and JSON</h2>
-                            <hr class="star-primary">
-                            <div class="features">
-                                <p class="p0">Malina supports XML-specific entities like <b>Attributes</b> and <b>Namespaces</b> as well as JSON-specific entities like <b>Arrays</b>.</p>
-                            </div>
-                            <hr>
-                            <div class="features">
-                              <div class="col-xs-12 col-sm-6">
-                                <img src="img/syntax_attr.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-xs-12 col-sm-6">
-                                <p class="p1">In Malina, attributes are defined in the same way as elements with one difference, that the name of the attribute starts with @.</p>
-                                <p class="p2">All child attributes of the element have to be defined before the first child element. Code highlighting helps to distinguish between attributes and elements.</p>
-                              </div>
-                            </div>
-                            <hr>
-                            <div class="features">
-                              <div class="col-xs-12 col-sm-6">
-                                <img src="img/syntax_namesp_dec.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-xs-12 col-sm-6">
-                                <p class="p1">Declare a namespace after #. Namespace can be declared for the whole file or just for the particular document. Put the namespace prefix before the element name separating them with dot.</p>
-                                <p class="p2">Namespaces are defined in the beginning of the file or document which make it easier to find namespace declaration in the file. Namespace prefix is separated with element by dot like  in many programming languages.</p>
-                              </div>
-                            </div>
-                            <hr>
-
-                            <div class="features">
-                              <div class="col-xs-12 col-sm-6">
-                                <img src="img/syntax_arr1.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-xs-12 col-sm-6">
-                                <p class="p1">In Malina, an array is defined as a block having only array items or values. Name/value pairs are not allowed.</p>
-                                <p class="p2">All types of JSON values are supported including string, number, and literals true, false and null.</p>
-                              </div>
-                            </div>
-                            <hr>
-
-                            <div class="features">
-                              <div class="col-xs-12 col-sm-6">
-                                <img src="img/syntax_arr2.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-xs-12 col-sm-6">
-                                <p class="p1">Array item is an element with an empty name.</p>
-                                <p class="p2">This is an example of the array with 3 objects.</p>
-                              </div>
-                            </div>
-                            <hr>
-                            <br>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="features-modal modal fade" id="features_CodeReuse" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10">
-                        <div class="modal-body">
-                            <h2>Code reuse</h2>
-                            <hr class="star-primary">
-
-                            <div class="features">
-                              <div class="col-xs-12 col-sm-6">
-                                <img src="img/syntax_reuse1.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-xs-12 col-sm-6">
-                                <p class="p1">Malina has powerful code reuse features. You can create <b>Alias</b> for any fragment of your data and then use it in multiple documents. The alias definition starts with !$ . Reference alias in the document by typing $ followed by alias name.</p>
-                                <p class="p2">The name of the alias could be compound. The compound alias name can be used to create a hierarchy of aliases grouped by type.</p>
-                              </div>
-                            </div>
-                            <hr>
-                            <div class="features">
-                              <div class="col-xs-12 col-sm-6">
-                                <img src="img/syntax_reuse2.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-xs-12 col-sm-6">
-                                <p class="p1">You will find aliases even more useful if you will use parameterized aliases. Put parameter anywhere in the alias definition by typing % followed by parameter name. You can also assign a default value.</p>
-                                <p class="p2">A parameter can represent either value of the element or element or even block of elements. The parameter representing a value called "value parameter".<br>
-                                  The parameter representing element or block of elements called block parameter.Both types of parameters can have a default value. You can define as many parameters as you want.<br>
-                                  Parameter with the same name can be defined several times. In this case parameter should have same type (value or block) in all places there it was defined.</p>
-                              </div>
-                            </div>
-                            <hr>
-
-                            <div class="features">
-                              <div class="col-xs-12 col-sm-6">
-                                <img src="img/syntax_reuse3.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-xs-12 col-sm-6">
-                                <p class="p1">Reference parameterized alias in the document and pass real values in arguments defined in the alias body.</p>
-                                <p class="p2">You must specify the value for the argument if the corresponding parameter doesn't have the default value.</p>
-                              </div>
-                            </div>
-                            <hr>
-
-                            <div class="features">
-                              <div class="col-xs-12 col-sm-6">
-                                <img src="img/syntax_reuse4.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-xs-12 col-sm-6">
-                                <p class="p1">Aliases can be nested inside each other so you can even create a template for a whole document.</p>
-                                <p class="p2">Using compound alias names you can group templates by categories so it will be easier to find them in future by name.</p>
-                              </div>
-                            </div>
-                            <hr>
-
-                            <div class="features">
-                              <div class="col-xs-12 col-sm-6">
-                                <img src="img/syntax_reuse5.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-xs-12 col-sm-6">
-                                <p class="p1">Then you can use the template along with other already created aliases for lighting fast composing of your XML or JSON document.</p>
-                                <p class="p2">The created Malina document will be also significantly more readable comparing to the XML document it's representing.</p>
-                              </div>
-                            </div>
-                            <hr>
-                            <br>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="features-modal modal fade" id="features_MD" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Cross-platform IDE</h2>
-                            <hr class="star-primary">
-                            <div class="features">
-                              <div>
-                                <center><img src="img/MD.png" class="img-responsive img-centered" alt=""></center>
-                                <p class="p1">We integrated Malina with MonoDevelop (developed by Xamarin, a subsidiary of Microsoft), an open source integrated development environment for Linux, OS X, and Windows.</p>
-                                <p class="p2">MonoDevelop is free, so there will be no extra costs for customers purchased Malina license.</p>
-                              </div>
-                            </div>
-                            <hr>
-                            <div class="features">
-                              <div class="col-sm-12 col-md-6">
-                                <img src="img/md1.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-sm-12 col-md-6">
-                                <p class="p1">Organize your Malina files in solutions and projects.</p>
-                                <p class="p1">Create address related aliases in one file and product related aliases in another so it will be easier to find them in the future. Use aliases when creating a new or editing existing XML document. All defined aliases are visible for all files in the project.</p>
-                                <p class="p2">Malina project can also reference another Malina project so it is possible to share aliases between projects efficiently.</p>
-                              </div>
-                            </div>
-                            <hr>
-                            <div class="features">
-                              <div class="col-sm-12 col-md-6">
-                                <img src="img/md2.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-sm-12 col-md-6">
-                                <p class="p1">Work like with mainstream programming language.</p>
-                                <p class="p1">Add schema files and references, navigate and manage your project files using Solution windows in MonoDevelop IDE.</p>
-                                <p class="p2">MonoDevelop is also integrated with established source control systems.</p>
-                              </div>
-                            </div>
-                            <hr>
-                            <div class="features">
-                              <div class="col-sm-12 col-md-6">
-                                <img src="img/md3.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-sm-12 col-md-6">
-                                <p class="p1">Syntax highlighting and code folding improve readability of code.</p>
-                                <p class="p2">Fold blocks of code to navigate through the code faster.</p>
-                              </div>
-                            </div>
-                            <hr>
-                            <div class="features">
-                              <div class="col-sm-12 col-md-6">
-                                <img src="img/md4.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-sm-12 col-md-6">
-                                <p class="p1">Autocomplete accelerates document creation and editing.</p>
-                                <p class="p1">Declare namespaces using autocomplete.</p>
-                                <p class="p2">Reference schema file in the project to see a list of available namespaces in the autocomplete list.</p>
-                              </div>
-                            </div>
-                            <div class="features">
-                              <div class="col-sm-12 col-md-6">
-                                <img src="img/md5.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-sm-12 col-md-6">
-                                <p class="p1">Add elements and attributes using autocomplete.</p>
-                                <p class="p2">Reference schema file in the project to see the list of available elements and attributes in the autocomplete list.</p>
-                              </div>
-                            </div>
-                            <div class="features">
-                              <div class="col-sm-12 col-md-6">
-                                <img src="img/md6.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-sm-12 col-md-6">
-                                <p class="p1">Add aliases using autocomplete.</p>
-                                <p class="p2">Aliases have to be declared in the same file, project or referenced project.</p>
-                              </div>
-                            </div>
-                            <div class="features">
-                              <div class="col-sm-12 col-md-6">
-                                <img src="img/md7.png" class="img-responsive img-centered" alt="">
-                              </div>
-                              <div class="col-sm-12 col-md-6">
-                                <p class="p1">Add arguments using autocomplete.</p>
-                                <p class="p2">You will see the list of available arguments in the autocomplete list if the cursor is inside of an alias.</p>
-                              </div>
-                            </div>
-                            <hr>
-                            <div class="features">
-                              <div>
-                                <img src="img/md8.png" class="img-responsive img-centered" alt="">
-                                <p class="p1">Interactive errors are displayed during document editing. Compilation errors are shown after compilation.</p>
-                                <p class="p2">An interactive error is displayed as a red underline. Put mouse cursor above the interactive error to see the error message.</p>
-                              </div>
-                            </div>
-                            <hr>
-
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="features-modal modal" id="features_generation" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10 ">
-                        <div class="modal-body">
-                            <h2>Generation of XML and JSON files</h2>
-                            <hr class="star-primary">
-                            <hr>
-                            <div class="features">
-                              <h4>Easy conversion from XML to Malina.</h4>
-                              <p class="p1">We made it easy to convert XML to Malina and vice versa. Just copy XML to buffer and paste it in Malina format. It will be automatically converted.</p>
-                              <p class="p2">You can also convert the whole XML file to Malina and add it to the project. In this case use command "Add Malina file from XML".</p>
-
-                              <div>
-                                <video id="pastexml" loop muted class="responsive-video"><source src="img/pastexml.mp4"></video>
-                              </div>
-
-                            </div>
-                            <div class="features">
-                              <h4>Easy conversion from Malina to XML.</h4>
-                              <p class="p1">We made it easy to convert Malina to XML also. Just use "Copy Document as XML" to copy document to buffer and paste it in XML format in another text editor.</p>
-                              <p class="p2">If Malina solution is built successfully then all Malina documents are getting compiled into XML files. The XML files could be found in the project output folder.</p>
-                              <p class="p2">You can convert the whole document as well as just document fragment. To convert a fragment of the document to XML, select the fragment and use menu "Copy Selection as XML".</p>
-                              <br>
-                              <div>
-                                <video id="pastemalina" loop muted class="responsive-video"><source src="img/pasteMalina.mp4"></video>
-                              </div>
-                              <br>
-
-                            </div>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="features-modal modal" id="features_pattern" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10">
-                        <div class="modal-body">
-                            <h2>Pattern Matching for Data Analysis</h2>
-                            <hr class="star-primary">
-                            <center>
-                            <div class="ba-slider" id="slider2">
-                               <img src="img/xml2.png">
-
-                               <div class="resize">
-                                   <img src="img/ml2.png">
-                               </div>
-                               <span class="handle"></span>
-                            </div>
-                            </center>
-                            <script type="text/javascript">
-                              $('#slider2').beforeAfter();
-                            </script>
-                            <hr>
-                            <div >
-                              <p class="p1">When converting from XML or JSON to Malina, the conversion logic can automatically apply all known aliases and add them to the result document.</p>
-                              <p class="p2">It can be used to highlight certain data patterns in the document and make it easier to find or edit.</p>
-                              <br>
-                            </div>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="sub_modal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                          <h2>Thank You!</h2>
-                          <p class="p1">Thank you for the participating in the Early Access!<br>
-                            You will receive an email with the installation instructions.<br>
-                            As a security measure, we sent you the confirmation letter. <br>
-                            Please confirm your email address by pressing the button or clicking the link in the email.<br>
-                          </p>
-                            <hr>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="sub_modal_err" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                          <h2>Something went wrong.</h2>
-                          <p class="p1">We wanted to add you to the Early Access program but our subscription system returned the following error:"<span id="sub_error"></span>".<br>
-                            We are very sorry about that. Please report the issue to this email <a href="mailto:info@syntactik.com?Subject=Subscription%20Error" target="_top">info@syntactik.com</a>
-                          </p>
-                            <hr>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="features-modal modal" id="modal_video" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div>
-                        <div class="modal-body">
-                          <div class="embed-responsive embed-responsive-16by9">
-                              <div id="player"></div>
-                          </div>
-                          <hr>
-                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-  <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
     <!-- Theme JavaScript -->
-    <script src="js/malina.js"></script>
-
-    <script type="text/javascript">
-      $(document).ready(function(){
-
-          $("#features_Syntax").on('shown.bs.modal', function () {
-              $('#slider1').each(function(){
-                var cur = $(this);
-                var width = cur.width()+'px';
-                cur.find('.resize img').css('width', width);
-              });
-            });
-
-        $("#features_pattern").on('shown.bs.modal', function () {
-              $('#slider2').each(function(){
-                var cur = $(this);
-                var width = cur.width()+'px';
-                cur.find('.resize img').css('width', width);
-              });
-        });
-
-        $("#features_generation").on('shown.bs.modal', function () {
-            document.getElementById('pastexml').play();
-            document.getElementById('pastemalina').play();
-
-              //alert("!!!");
-              /*$('#pastexml').each(function(){
-                  $(this).play();
-              });
-              $('#pastemalina').each(function(){
-                  $(this).play();
-              });*/
-        });
-        $("#modal_video").on('hide.bs.modal', function () {
-            player.pauseVideo();
-        });
-        $("#modal_video").on('shown.bs.modal', function () {
-            player.playVideo();
-        });
-
-        $(function () {
-             $('#subForm').submit(function (e) {
-               e.preventDefault();
-               $.getJSON(
-               this.action + "?callback=?",
-               $(this).serialize()
-               ).fail(function( jqxhr, textStatus, error ) {
-                  var err = textStatus + ", " + error;
-                  $("#sub_error").text(err.message);
-                  $('#sub_modal_err').modal();
-             }).done(function (data) {
-                 if (data.Status === 400) {
-                    $("#sub_error").text(data.Message);
-                    $('#sub_modal_err').modal();
-                 } else { // 200
-                    $('#sub_modal').modal();
-                 }});
-               });
-        });
-      });
-    </script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-83602990-1', 'auto');
-      ga('send', 'pageview');
-    </script>
+    <script src="js/syntactik.js"></script>
 
     <script>
-          // 2. This code loads the IFrame Player API code asynchronously.
-          var tag = document.createElement('script');
+      window.twttr = (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+              t = window.twttr || {};
+            if (d.getElementById(id)) return t;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
 
-          tag.src = "https://www.youtube.com/iframe_api";
-          var firstScriptTag = document.getElementsByTagName('script')[0];
-          firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+            t._e = [];
+            t.ready = function(f) {
+              t._e.push(f);
+            };
 
-          // 3. This function creates an <iframe> (and YouTube player)
-          //    after the API code downloads.
-          var player;
-          function onYouTubeIframeAPIReady() {
-            player = new YT.Player('player', {
-
-              videoId: 'CeViqvtigoM',
-              events: {
-                'onReady': onPlayerReady,
-                'onStateChange': onPlayerStateChange
-              }
-            });
-          }
-
-          var pauseFlag = false;
-          function onPlayerReady(event) {
-             // do nothing, no tracking needed
-          }
-          function onPlayerStateChange(event) {
-              // track when user clicks to Play
-              if (event.data == YT.PlayerState.PLAYING) {
-                  //ga.push(['_trackEvent', 'Videos', 'Play', 'Test Video']);
-                  pauseFlag = true;
-              }
-              // track when user clicks to Pause
-              if (event.data == YT.PlayerState.PAUSED && pauseFlag) {
-                  //ga.push(['_trackEvent', 'Videos', 'Pause', 'Test Video']);
-                  pauseFlag = false;
-              }
-              // track when video ends
-              if (event.data == YT.PlayerState.ENDED) {
-                  //ga.push(['_trackEvent', 'Videos', 'Finished', 'Test Video']);
-              }
-          }
-
-        </script>
-
-
+            return t;
+        }(document, "script", "twitter-wjs"));
+    </script>
 
 </body>
 

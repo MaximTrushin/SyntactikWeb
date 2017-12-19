@@ -1,0 +1,22 @@
+var syntactik = @"colors: red, orange, yellow, green, blue, indigo, violet";
+
+var compilerParameters = new CompilerParameters { Pipeline = new CompileToMemory() };
+compilerParameters.Input.Add(new StringInput("colors.s4j",syntactik));
+var compiler = new SyntactikCompiler(compilerParameters);
+var context = compiler.Run();
+Debug.Assert(context.Errors.Count == 0);
+
+string json = context.InMemoryOutputObjects["colors"].ToString();
+/*
+{{
+    "colors": [
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "blue",
+    "indigo",
+    "violet"
+    ]
+}}
+*/
