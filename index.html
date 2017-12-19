@@ -11,9 +11,9 @@
     <title>Syntactik - preprocessor for XML and JSON</title>
     <link href="img/bike.svg" rel="shortcut icon" type="image/x-icon" />
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="vendor/bootstrap.3.3.7/content/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap.3.3.7/scripts/bootstrap.min.js"></script>
     <!-- Theme CSS -->
     <link href="css/syntactik.css" rel="stylesheet"/>
     <!-- Custom Fonts -->
@@ -533,6 +533,19 @@
 
       <section>
           <div class="container">
+            <h2>Implementation</h2>
+            <div class="row container">
+              Currently, <a href="/dotnet.html">Syntactik.NET</a> is the only full implementation of the Syntactik language.<br />
+              <a href="https://github.com/syntactik/SyntactikJs" target="_blank">SyntactikJs</a> is the proof of concept implemented in JavaScript.
+              The project destination is to prove that it is possible to convert Syntactik parser (about 1K lines of code) to another language in a matter of days
+              by just converting language instructions one to one. Like, for example, converting if statement in C# into if statement
+              in JavaScript, etc.
+            </div>
+          </div>
+      </section>
+
+      <section>
+          <div class="container">
             <h2>Help</h2>
             <div class="row">
               <div class="col-md-4">
@@ -552,25 +565,19 @@
             </div>
           </div>
       </section>
-    <section>
-    <!-- Footer -->
-    <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-sm-4">
-                      <i class="fa fa-envelope-o"></i> <a href="mailto:info@syntactik.com">info@syntactik.com</a>
-                    </div>
-                    <div class="footer-col col-sm-4">
-                      <i class="fa fa-github"></i> <a href="https://github.com/syntactik/">https://github.com/syntactik</a>
-                    </div>
-                    <div class="footer-col col-sm-4">
-                      <i class="fa fa-copyright"></i> Syntactik 2017
-                    </div>
-                </div>
-            </div>
+      <!-- Footer -->
+      <footer>
+      <div class="footer-links">
+          <span><i class="fa fa-envelope-o"></i> <a href="mailto:info@syntactik.com">info@syntactik.com</a></span>
+          <span><i class="fa fa-github"></i> <a href="https://github.com/syntactik/">https://github.com/syntactik</a></span>
+      </div>
+      <div class="footer-links">
+          <a href="/terms">Disclaimer</a>
+          <a href="/privacy">Privacy</a>
+          <span><i class="fa fa-copyright"></i> Syntactik 2017</span>
+      </div>
+      </footer>
 
-    </footer>
-  </section>
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">

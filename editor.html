@@ -11,82 +11,14 @@
     <title>Syntactik - preprocessor for XML and JSON</title>
     <link href="img/bike.svg" rel="shortcut icon" type="image/x-icon" />
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="vendor/bootstrap.3.3.7/content/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap.3.3.7/scripts/bootstrap.min.js"></script>
     <!-- Theme CSS -->
     <link href="css/syntactik.css" rel="stylesheet"/>
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-    <!-- JavaScript includes -->
-    <script>
-      $(function(){
-        $("#literal-assignment-include").load("examples\\literal-assignment.html");
-      });
-      $(function(){
-        $("#object-assignment-include").load("examples\\object-assignment.html");
-      });
-      $(function(){
-        $("#xml1-include").load("examples\\xml1.html");
-      });
-      $(function(){
-        $("#syntactik1-include").load("examples\\syntactik1.html");
-      });
-      $(function(){
-        $("#optionalQuotes-include").load("examples\\literal-assignment.html");
-      });
-      $(function(){
-        $("#json1-include").load("examples\\json1.html");
-      });
-      $(function(){
-        $("#syntactik2-include").load("examples\\syntactik2.html");
-      });
-      $(function(){
-        $("#quotes-include").load("examples\\quotes.html");
-      });
-      $(function(){
-        $("#comma-include").load("examples\\comma.html");
-      });
-      $(function(){
-        $("#parentheses-include").load("examples\\parentheses.html");
-      });
-      $(function(){
-        $("#codeIndents-include").load("examples\\object-assignment.html");
-      });
-      $(function(){
-        $("#aliasdef-include").load("examples\\aliasdef.html");
-      });
-      $(function(){
-        $("#alias-include").load("examples\\alias.html");
-      });
-      $(function(){
-        $("#alias-include").load("examples\\alias.html");
-      });
-      $(function(){
-        $("#parameterized-include").load("examples\\parameterized.html");
-      });
-      $(function(){
-        $("#arguments-include").load("examples\\arguments.html");
-      });
-      $(function(){
-        $("#template-include").load("examples\\template.html");
-      });
-      $(function(){
-        $("#documentfromtemplate-include").load("examples\\documentfromtemplate.html");
-      });
-      $(function(){
-        $("#comments-include").load("examples\\comments.html");
-      });
-      $(function(){
-        $("#aliasdefoverloaded-include").load("examples\\aliasdefoverloaded.html");
-      });
-      $(function(){
-        $("#aliasoverloaded-include").load("examples\\aliasoverloaded.html");
-      });
 
-
-
-    </script>
 </head>
 <body id="page-top" class="index">
 <!-- Navigation -->
@@ -102,15 +34,20 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+            <ul id="header-actions" class="nav navbar-nav navbar-right">
                 <li class="page-scroll">
-                    <a href="#page-top">Language</a>
+                    <a href="/">Language</a>
                 </li>
                 <li class="page-scroll">
                     <a href="dotnet.html">Syntactik.NET</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="editor.html">Syntactik Editor</a>
+                    <a href="#page-top">Syntactik Editor</a>
+                </li>
+                <li id="early-access-menu" class="page-scroll">
+                  <div class="navbar-form navbar-right">
+                    <a href="#early_access" class="btn early-access-btn">Get early access</a>
+                  </div>
                 </li>
             </ul>
         </div>
@@ -122,403 +59,168 @@
 
 <div>
 
-<div class="jumbotron">
+<div class="jumbotron" id="editorJumbotron">
   <div class="jumbotron-content">
       <br>
-        <h1>Syntactik</h1>
-        <h2>People-friendly preprocessor for XML and JSON</h2>
-        <p>Use this advanced people-friendly data format to supply data for XML and JSON APIs without changing code.</p>
+        <h1>Syntactik Editor</h1>
+        <h2>Cross-platform IDE for Syntactik</h2>
+        <p>IDE for Syntactik projects of any size and complexity.</p>
+        <p>
+          <a href="#early_access" class="btn large early-access-btn">Get early access</a>
+        </p>
   </div>
-</div>
-<section class="content-section" id="language">
-<div>
-    <div>
-        <div class="carousel slide" id="code-carousel" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-slide-to="0" data-target="#code-carousel" class="active"></li>
-                <li data-slide-to="1" data-target="#code-carousel" class=""></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="item active">
-                  <div class="carousel-code">
-                    <table class="table code_table" style="margin: 0px auto;">
-                    <thead>
-                      <tr>
-                        <td>XML</td>
-                        <td>Syntactik</td>
-                      </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                      <td class="td_code td_left">
-                      <div id="xml1-include"></div>
-                    </td>
-                    <td  class="td_code">
-                      <div id="syntactik1-include"></div>
-                    </td>
-                  </tr>
-                  </tbody>
-                  </table>
-                  <br/><br/><br/><br/><br/>
-                  </div>
-                  <div class="carousel-caption">XML vs Syntactik</div>
-                </div>
-                <div class="item">
-                  <div class="carousel-code">
-                    <table class="table code_table" style="margin: 0px auto;">
-                    <thead>
-                      <tr>
-                        <td>JSON</td>
-                        <td>Syntactik</td>
-                      </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                      <td class="td_code td_left">
-                          <div id="json1-include"></div>
-                      </td>
-                      <td  class="td_code">
-                        <div id="syntactik2-include"></div>
-                      </td>
-                  </tr>
-                  </tbody>
-                  </table>
-                  <br/><br/><br/><br/><br/>
-                  </div>
-                  <div class="carousel-caption">JSON vs Syntactik</div>
-                </div>
-            </div>
-        </div>
+
+  <div class="container">
+      <div class="video-item">
+              <div class="img-box">
+              <img id="in_use" class="img-responsive" src="img/in-use.png">
+                  <!--<div class="embed-responsive embed-responsive-16by9">
+                  <iframe id="player" frameborder="0" allowfullscreen="1" gesture="media" allow="encrypted-media" title="YouTube video player" width="640" height="360" src="https://www.youtube.com/embed/CeViqvtigoM?enablejsapi=1&amp;origin=http%3A%2F%2Fwww.syntactik.com&amp;widgetid=1"></iframe>
+                </div>-->
+
+
+              </div>
       </div>
   </div>
-  </section>
+
+</div>
+
 </div>
 
 
-<!-- Problem Section -->
-<section class="content-section" id="different">
+
+<section class="content-section" id="Projects">
     <div class="container">
-        <h2>What makes Syntactik different?</h2>
-        <div class="row right-image">
-          <div class="col-sm-4" style="text-align: center">
-              <i class="fa fa-eye"></i>
+        <h2>Organize Syntactik files in projects</h2>
+        <div class="row right-image small-section">
+          <div class="col-sm-8" style="text-align: center">
+            <img src="img/newProject.png" class="img-responsive screenshot" />
           </div>
-          <div class="col-sm-8">
-              <h3>Clarity and conciseness</h3>
+          <div class="col-sm-4">
+              <h3>Two types of projects</h3>
               <p>
-                  XML and JSON documents are verbose. Closing tags, brackets, and quotes slow down editing and make documents harder to read.
-                  Syntactik has indent based syntax and a minimal set of intuitive rules. Syntactik is easy to read, edit and has a low learning curve.
-              </p>
-              <p>
+                  There are two types of projects you can create: "Syntactik for XML" and  "Syntactik for JSON".
               </p>
           </div>
         </div>
         <div class="row flex">
           <div class="col-sm-4" style="text-align: center;">
-              <span class="fa fa-recycle"></span>
+              <img src="img/solution.png" class="img-responsive screenshot" />
           </div>
           <div class="col-sm-8">
-              <h3>Code reuse</h3>
+              <h3>Solution View</h3>
               <p>
-                  Code reuse is a unique feature of Syntactik. It accelerates editing of documents and improves readability. Most data formats don't have code reuse at all.
-                  Some formats have basic code reuse features, but Syntactik takes it to another level.
+                  Navigate through your project and add schema files in the Solution view.
               </p>
-          </div>
-        </div>
-        <div class="row right-image">
-          <div class="col-sm-4" style="text-align: center">
-              <i class="fa fa-star"></i>
-          </div>
-          <div class="col-sm-8">
-              <h3>One language - two APIs</h3>
-              <p> Syntactik can define both XML and JSON documents. So you can use the same language to supply data for apps with XML and JSON APIs.</p>
           </div>
         </div>
     </div>
 </section>
 
-      <!-- Use Cases Grid Section -->
-<section class="content-section">
+<section class="content-section" id="Projects">
     <div class="container">
-      <h2>Intuitive, clean and concise syntax</h2>
-      <div class="row">
-        <div class="col-sm-8">
-          <h3>Syntactik uses symbols that have obvious meaning</h3>
-          <p>
-          Equaility sign <b>=</b> assigns literals.<br/>
-          Colon <b>:</b> assigns objects.<br/>
-          Single quote <b>'</b> and double quote <b>"</b> define literals.<br/>
-          Comma <b>,</b> separates statements if needed.<br>
-          Parentheses <b>( )</b> define regions.
-        </p>
+        <h2>Code editor</h2>
+        <div class="row right-image small-section">
+          <div class="col-sm-6" style="text-align: center">
+              <img src="img/highlighting.png" class="img-responsive screenshot" />
+          </div>
+          <div class="col-sm-5">
+              <h3>Syntax highlighting, collapsing, path</h3>
+              <p>
+                  Syntax highlighting improves readability of the code and reduces the number of errors.<br />
+                  Collapsing and path widget help to navigate through the code.
+              </p>
+          </div>
         </div>
-        <div class="col-sm-4 codeCell">
-          <div id="intuitiveCarousel" class="carousel slide code" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#intuitiveCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#intuitiveCarousel" data-slide-to="1"></li>
-              <li data-target="#intuitiveCarousel" data-slide-to="2"></li>
-              <li data-target="#intuitiveCarousel" data-slide-to="3"></li>
-              <li data-target="#intuitiveCarousel" data-slide-to="4"></li>
-            </ol>
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-              <div class="item active">
-                <div id="literal-assignment-include"></div>
-                <br><br><br>
-                <div class="carousel-caption">Literal assignment <b>=</b></div>
-              </div>
-              <div class="item">
-                <div id="object-assignment-include"></div>
-                <br><br><br>
-                <div class="carousel-caption">Object assignment <b>:</b></div>
-              </div>
-              <div class="item">
-                <div id="quotes-include"></div>
-                <br><br><br>
-                <div class="carousel-caption">Quotes <b>' "</b></div>
-              </div>
-              <div class="item">
-                <div id="comma-include"></div>
-                <br><br><br>
-                <div class="carousel-caption">Comma <b>,</b></div>
-              </div>
-              <div class="item">
-                <div id="parentheses-include"></div>
-                <br><br><br>
-                <div class="carousel-caption">Parentheses <b>( )</b></div>
+        <hr />
+        <div class="row flex">
+          <div class="col-sm-7 codeCell">
+            <div id="completionCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#completionCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#completionCarousel" data-slide-to="1"></li>
+                <li data-target="#completionCarousel" data-slide-to="2"></li>
+                <li data-target="#completionCarousel" data-slide-to="3"></li>
+              </ol>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="img/NamespaceCompletion.png" class="img-responsive screenshot" />
+                  <br /><br /><br />
+                  <div class="carousel-caption">Code completion for namespaces </div>
+                </div>
+                <div class="item">
+                  <img src="img/ElementsCompletion.png" class="img-responsive screenshot" />
+                  <br /><br /><br />
+                  <div class="carousel-caption">Code completion for elements and attributes</div>
+                </div>
+                <div class="item">
+                  <img src="img/AliasCompletion.png" class="img-responsive screenshot" />
+                  <br /><br /><br />
+                  <div class="carousel-caption">Code completion for alias</div>
+                </div>
+                <div class="item">
+                  <img src="img/ArgumentCompletion.png" class="img-responsive screenshot" />
+                  <br /><br /><br />
+                  <div class="carousel-caption">Code completion for arguments</div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-
-      </div>
-      <div class="row">
-        <div class="col-sm-8">
-          <h3>Quotes are optional</h3>
-          <p>
-          In most cases, strings can be defined without quotes. Symbols following equality sign define a string.
-        </p>
-        </div>
-        <div class="col-sm-4  codeCell">
-          <div id="codeOptionalQuotes" class="code carousel-code">
-              <div id="optionalQuotes-include"></div>
-
+          <div class="col-sm-5">
+              <h3>Code completion</h3>
+              <p>
+                  Code completion helps to create and edit documents faster. Using code completion you can declare namespaces, add elements and attributes
+                  from schema, add aliases and parameters.
+              </p>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-8">
-          <h3>Indents define document structure</h3>
-          <p>
-          In Syntactik, indents define blocks of code like in popular programming language Python. Blocks start with a colon <b>:</b> .
-          Usage of colon improves readability and prevents mistakes caused by typos.
-          The parser enforces usage of the same indentation style in the whole file.
-          </p>
-        </div>
-        <div class="col-sm-4 codeCell">
-          <div id="codeIndents" class="code carousel-code">
-              <div id="codeIndents-include"></div><br>
-
+        <hr />
+        <div class="row right-image flex">
+          <div class="col-sm-7 codeCell">
+            <div id="errorsCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#errorsCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#errorsCarousel" data-slide-to="1"></li>
+              </ol>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="img/InteractiveError.png" class="img-responsive screenshot" />
+                  <br /><br /><br />
+                  <div class="carousel-caption">Interactive error</div>
+                </div>
+                <div class="item">
+                  <img src="img/BuildError.png" class="img-responsive screenshot" />
+                  <br /><br /><br />
+                  <div class="carousel-caption">Build error</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-5">
+              <h3>Errors</h3>
+              <p>
+                Syntactik editor displays interactive and build errors.
+              </p>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-8">
-          <h3>Comments help documenting code</h3>
-          <p>
-          A single line comment begins with triple single quotes <b>'''</b> .<br>
-          A multiline comment begins and ends with triple double quotes <b>"""</b> .
-          </p>
-        </div>
-        <div class="col-sm-4 codeCell">
-          <div id="commentsCode" class="code carousel-code">
-              <div id="comments-include"></div><br>
-
-          </div>
-        </div>
-      </div>
     </div>
-  </section>
-
-  <section class="content-section">
-      <div class="container">
-        <h2>Code reuse</h2>
-        <div class="row">
-          <div class="col-sm-8">
-            <h3>Alias</h3>
-            <p>
-            Alias is a powerful code reuse feature.
-            An alias represents a fragment of code, like literal value, a name/value pair or block of code.
-            Same alias can be used in multiple places in one or many documents.<br/>
-            Alias definition starts with <b>!$</b> . Alias starts with <b>$</b>.
-          </p>
-          </div>
-          <div class="col-sm-4 codeCell">
-            <div id="aliasCarousel" class="carousel slide code" data-ride="carousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#aliasCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#aliasCarousel" data-slide-to="1"></li>
-              </ol>
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner">
-                <div class="item active">
-                  <div  class="carousel-code">
-                  <div id="aliasdef-include"></div>
-                  <br><br><br><br>
-                  </div>
-                  <div class="carousel-caption"><span style='color:blue'>Alias definition</span></div>
-                </div>
-                <div class="item">
-                  <div  class="carousel-code">
-                  <div id="alias-include"></div>
-                  <br><br><br>
-                  <br><br><br>
-                  </div>
-                  <div class="carousel-caption"><span style='color:#009596'>Alias</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="row">
-          <div class="col-sm-8">
-            <h3>Parameterized alias</h3>
-            <p>
-              An alias definition can have one or more parameters. Paremeters start with <b>!%</b> .<br>
-              Parameters represent a fragment of code: literal value or block.<br>
-              Literal parameters have to be assigned with <b>:=</b> to distinguish it from a simple literal.<br>
-              Parameters get real values from the corresponding arguments of aliases. Arguments start with <b>%</b> .<br>
-              A parameter can have a default value. An argument is optional if the corresponding
-              parameter has a default value.
-            </p>
-          </div>
-          <div class="col-sm-4  codeCell">
-            <div id="parameterizedCarousel" class="carousel slide code" data-ride="carousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#parameterizedCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#parameterizedCarousel" data-slide-to="1"></li>
-              </ol>
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner">
-                <div class="item active">
-                  <div class="carousel-code">
-                  <div id="parameterized-include"></div>
-                  <br><br><br><br><br>
-                  </div>
-                  <div class="carousel-caption"><span style='color:blue'>Alias definition</span> with <span
-                  style='color:#00C7C8'>parameter</span></div>
-                </div>
-                <div class="item">
-                  <div class="carousel-code">
-                  <div id="arguments-include"></div>
-                  <br><br><br>
-                  <br><br><br><br><br>
-                  </div>
-                  <div class="carousel-caption"><span style='color:#009596'>Alias</span> with <span
-                  style='color:#00C7C8'>argument</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-8">
-            <h3>Nested aliases</h3>
-            <p>
-            An alias can be passed as a value for an argument of another alias.
-            Nested aliases are used to create a template for a code fragment or a whole document.
-            </p>
-          </div>
-          <div class="col-sm-4 codeCell">
-            <div id="nestedAliasCarousel" class="carousel slide code" data-ride="carousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#nestedAliasCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#nestedAliasCarousel" data-slide-to="1"></li>
-              </ol>
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner">
-                <div class="item active">
-                  <div class="carousel-code">
-                  <div id="template-include"></div>
-                  <br><br><br><br><br><br>
-                  </div>
-                  <div class="carousel-caption">Document template</div>
-                </div>
-                <div class="item">
-                  <div class="carousel-code">
-                  <div id="documentfromtemplate-include"></div>
-                  <br><br><br><br>
-                  </div>
-                  <div class="carousel-caption"><span style='color:blue'>Document</span> created using the template</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-8">
-            <h3>Alias overloading</h3>
-            <p>
-            Alias overloading is the ability to use the same alias with a different set of arguments.<br>
-            A special kind of block called <b>choice</b> adds overloading to the alias definition.
-            A choice-block starts with a double colon <b>::</b>. Each array item in this block represents a <b>case</b>.
-            A case is a block with or without parameters. When Syntactik compiler is processing an alias, and there is a choice
-            in the corresponding alias definition, then the compiler tries to resolve cases in the choice one by one.
-            The first case that is successfully resolved represents the value of choice and the processing of choice stops.
-            A case is considered to be resolved if all parameters (without a default value) in the case have corresponding arguments
-            in the alias. If a case has no parameters, then it will always be resolved unless any sibling cases are resolved before.
-            </p>
-          </div>
-          <div class="col-sm-4 codeCell">
-            <div id="overloadingCarousel" class="carousel slide code" data-ride="carousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#overloadingCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#overloadingCarousel" data-slide-to="1"></li>
-              </ol>
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner">
-                <div class="item active">
-                  <div class="carousel-code">
-                  <div id="aliasdefoverloaded-include"></div>
-                  <br><br><br>
-                  </div>
-                  <div class="carousel-caption"><span style='color:blue'>Alias definition</span> with choice <b>::</b></div>
-                </div>
-                <div class="item">
-                  <div class="carousel-code">
-                  <div id="aliasoverloaded-include"></div>
-                  <br><br><br><br>
-                  </div>
-                  <div class="carousel-caption"><span style='color:#009596'>Aliases</span> with different set of <span
-                  style='color:#00C7C8'>arguments</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+</section>
 
 
-      </div>
-    </section>
 
     <!-- Contact Section -->
     <section id="early_access">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2>Early Access</h2>
-                    <hr class="star-primary">
+                    <div class="col-lg-8 col-lg-offset-2">
                     <h4 style="text-align: left;">
-                        <li>Get a beta invite</li>
-                        <li>Use Malina to increase your productivity</li>
+                        <li>Get the beta invite</li>
+                        <li>Use Syntactik to increase your productivity</li>
                         <li>Propose new features</li>
                         <li>Report issues</li>
                         <li>Be part of our community</li>
@@ -561,7 +263,7 @@
                       <div id="success"></div>
                       <div class="row">
                           <div class="form-group col-xs-12">
-                              <button type="submit" class="btn btn-success btn-lg">Request Early Access</button>
+                              <button type="submit" class="btn btn-lg early-access-btn">Request Early Access</button>
                           </div>
                       </div>
                     </form>
@@ -570,39 +272,18 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>EMAIL</h3>
-                        <p>
-                            <a href="mailto:info@syntactik.com">info@syntactik.com</a></p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Github</h3>
-                        <p><a href="https://github.com/syntactik/">https://github.com/syntactik</a></p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                      <img src="/img/syntactik-white-trans-sm.png"><br>
-                        Copyright &copy; Syntactik 2016
-                    </div>
-                </div>
-            </div>
-        </div>
-      <!--  <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                      <img src="/img/syntactik-white-trans-sm.png"><br>
-                        Copyright &copy; Syntactik 2016
-
-                    </div>
-                </div>
-            </div>
-        </div>-->
-    </footer>
+  <!-- Footer -->
+  <footer>
+  <div class="footer-links">
+      <span><i class="fa fa-envelope-o"></i> <a href="mailto:info@syntactik.com">info@syntactik.com</a></span>
+      <span><i class="fa fa-github"></i> <a href="https://github.com/syntactik/">https://github.com/syntactik</a></span>
+  </div>
+  <div class="footer-links">
+      <a href="/terms">Disclaimer</a>
+      <a href="/privacy">Privacy</a>
+      <span><i class="fa fa-copyright"></i> Syntactik 2017</span>
+  </div>
+</footer>
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
@@ -611,11 +292,90 @@
         </a>
     </div>
 
-    <!-- features Modals -->
+    <!-- Early Access Modals -->
+    <div class="modal fade" id="sub_modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                              <h2>Thank You!</h2>
+                              <p class="p1">Thank you for the participating in the Early Access!<br>
+                                You will receive an email with the installation instructions.<br>
+                                As a security measure, we sent you the confirmation letter. <br>
+                                Please confirm your email address by pressing the button or clicking the link in the email.<br>
+                              </p>
+                                <hr>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="sub_modal_err" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                              <h2>Something went wrong.</h2>
+                              <p class="p1">We wanted to add you to the Early Access program but our subscription system returned the following error:"<span id="sub_error"></span>".<br>
+                                We are very sorry about that. Please report the issue to this email <a href="mailto:info@syntactik.com?Subject=Subscription%20Error" target="_top">info@syntactik.com</a>
+                              </p>
+                                <hr>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
 
     <!-- Theme JavaScript -->
-    <script src="js/malina.js"></script>
+    <script src="js/syntactik.js"></script>
+    <script type="text/javascript">
+     $(document).ready(function(){
+       $(function () {
+            $('#subForm').submit(function (e) {
+              e.preventDefault();
+              $.getJSON(
+              this.action + "?callback=?",
+              $(this).serialize()
+              ).fail(function( jqxhr, textStatus, error ) {
+                 var err = textStatus + ", " + error;
+                 $("#sub_error").text(err.message);
+                 $('#sub_modal_err').modal();
+            }).done(function (data) {
+                if (data.Status === 400) {
+                   $("#sub_error").text(data.Message);
+                   $('#sub_modal_err').modal();
+                } else { // 200
+                   $('#sub_modal').modal();
+                }});
+              });
+       });
+     });
+   </script>
+
+
+
+
 
 </body>
 
