@@ -1,0 +1,1560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Accept method">
+    <HelpKINode Title="Alias.Accept Method " Url="html/M_Syntactik_DOM_Alias_Accept.htm" />
+    <HelpKINode Title="AliasDefinition.Accept Method " Url="html/M_Syntactik_DOM_AliasDefinition_Accept.htm" />
+    <HelpKINode Title="Argument.Accept Method " Url="html/M_Syntactik_DOM_Argument_Accept.htm" />
+    <HelpKINode Title="Attribute.Accept Method " Url="html/M_Syntactik_DOM_Attribute_Accept.htm" />
+    <HelpKINode Title="Comment.Accept Method " Url="html/M_Syntactik_DOM_Comment_Accept.htm" />
+    <HelpKINode Title="CompileUnit.Accept Method " Url="html/M_Syntactik_DOM_CompileUnit_Accept.htm" />
+    <HelpKINode Title="Document.Accept Method " Url="html/M_Syntactik_DOM_Document_Accept.htm" />
+    <HelpKINode Title="Element.Accept Method " Url="html/M_Syntactik_DOM_Element_Accept.htm" />
+    <HelpKINode Title="Module.Accept Method " Url="html/M_Syntactik_DOM_Module_Accept.htm" />
+    <HelpKINode Title="NamespaceDefinition.Accept Method " Url="html/M_Syntactik_DOM_NamespaceDefinition_Accept.htm" />
+    <HelpKINode Title="Pair.Accept Method " Url="html/M_Syntactik_DOM_Pair_Accept.htm" />
+    <HelpKINode Title="Parameter.Accept Method " Url="html/M_Syntactik_DOM_Parameter_Accept.htm" />
+    <HelpKINode Title="Scope.Accept Method " Url="html/M_Syntactik_DOM_Scope_Accept.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Add method">
+    <HelpKINode Title="CompilerPipeline.Add Method " Url="html/M_Syntactik_Compiler_CompilerPipeline_Add.htm" />
+    <HelpKINode Title="PairCollection(T).Add Method " Url="html/M_Syntactik_DOM_PairCollection_1_Add.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddChild method" Url="html/M_Syntactik_DOM_Mapped_ChoiceInfo_AddChild.htm" />
+  <HelpKINode Title="AddEntity method" Url="html/M_Syntactik_DOM_Module_AddEntity.htm" />
+  <HelpKINode Title="AddError method">
+    <HelpKINode Title="ChoiceInfo.AddError Method " Url="html/M_Syntactik_DOM_Mapped_ChoiceInfo_AddError.htm" />
+    <HelpKINode Title="CompilerContext.AddError Method " Url="html/M_Syntactik_Compiler_CompilerContext_AddError.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddLocationMapRecord method" Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_AddLocationMapRecord.htm" />
+  <HelpKINode Title="AddRange method" Url="html/M_Syntactik_DOM_PairCollection_1_AddRange.htm" />
+  <HelpKINode Title="Alias class">
+    <HelpKINode Title="Alias Class" Url="html/T_Syntactik_DOM_Alias.htm" />
+    <HelpKINode Title="Alias Class" Url="html/T_Syntactik_DOM_Mapped_Alias.htm" />
+    <HelpKINode Title="about Alias class" Url="html/T_Syntactik_DOM_Alias.htm" />
+    <HelpKINode Title="about Alias class" Url="html/T_Syntactik_DOM_Mapped_Alias.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_Mapped_Alias__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_Alias__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Mapped_Alias.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Alias.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Alias.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Mapped_Alias.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Alias.Accept method" Url="html/M_Syntactik_DOM_Alias_Accept.htm" />
+  <HelpKINode Title="Alias.Alias constructor">
+    <HelpKINode Title="Alias Constructor " Url="html/M_Syntactik_DOM_Mapped_Alias__ctor.htm" />
+    <HelpKINode Title="Alias Constructor " Url="html/M_Syntactik_DOM_Alias__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Alias.AliasDefinition property" Url="html/P_Syntactik_DOM_Mapped_Alias_AliasDefinition.htm" />
+  <HelpKINode Title="Alias.AppendChild method">
+    <HelpKINode Title="Alias.AppendChild Method " Url="html/M_Syntactik_DOM_Alias_AppendChild.htm" />
+    <HelpKINode Title="Alias.AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_Alias_AppendChild.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Alias.Arguments property" Url="html/P_Syntactik_DOM_Alias_Arguments.htm" />
+  <HelpKINode Title="Alias.AssignmentInterval property" Url="html/P_Syntactik_DOM_Mapped_Alias_AssignmentInterval.htm" />
+  <HelpKINode Title="Alias.Entities property" Url="html/P_Syntactik_DOM_Alias_Entities.htm" />
+  <HelpKINode Title="Alias.InitializeParent method" Url="html/M_Syntactik_DOM_Mapped_Alias_InitializeParent.htm" />
+  <HelpKINode Title="Alias.InterpolationItems property" Url="html/P_Syntactik_DOM_Mapped_Alias_InterpolationItems.htm" />
+  <HelpKINode Title="Alias.IsValueNode property" Url="html/P_Syntactik_DOM_Mapped_Alias_IsValueNode.htm" />
+  <HelpKINode Title="Alias.NameInterval property" Url="html/P_Syntactik_DOM_Mapped_Alias_NameInterval.htm" />
+  <HelpKINode Title="Alias.NameQuotesType property" Url="html/P_Syntactik_DOM_Mapped_Alias_NameQuotesType.htm" />
+  <HelpKINode Title="Alias.ValueIndent property" Url="html/P_Syntactik_DOM_Mapped_Alias_ValueIndent.htm" />
+  <HelpKINode Title="Alias.ValueInterval property" Url="html/P_Syntactik_DOM_Mapped_Alias_ValueInterval.htm" />
+  <HelpKINode Title="Alias.ValueQuotesType property" Url="html/P_Syntactik_DOM_Mapped_Alias_ValueQuotesType.htm" />
+  <HelpKINode Title="Alias.ValueType property" Url="html/P_Syntactik_DOM_Mapped_Alias_ValueType.htm" />
+  <HelpKINode Title="AliasContext property" Url="html/P_Syntactik_Compiler_Steps_AliasResolvingVisitor_AliasContext.htm" />
+  <HelpKINode Title="AliasDefinition class">
+    <HelpKINode Title="AliasDefinition Class" Url="html/T_Syntactik_DOM_Mapped_AliasDefinition.htm" />
+    <HelpKINode Title="AliasDefinition Class" Url="html/T_Syntactik_DOM_AliasDefinition.htm" />
+    <HelpKINode Title="about AliasDefinition class" Url="html/T_Syntactik_DOM_AliasDefinition.htm" />
+    <HelpKINode Title="about AliasDefinition class" Url="html/T_Syntactik_DOM_Mapped_AliasDefinition.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Syntactik_DOM_Mapped_AliasDefinition__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_AliasDefinition__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_AliasDefinition.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Mapped_AliasDefinition.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_AliasDefinition.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Mapped_AliasDefinition.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AliasDefinition property">
+    <HelpKINode Title="Alias.AliasDefinition Property " Url="html/P_Syntactik_DOM_Mapped_Alias_AliasDefinition.htm" />
+    <HelpKINode Title="Parameter.AliasDefinition Property " Url="html/P_Syntactik_DOM_Mapped_Parameter_AliasDefinition.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AliasDefinition.Accept method" Url="html/M_Syntactik_DOM_AliasDefinition_Accept.htm" />
+  <HelpKINode Title="AliasDefinition.AliasDefinition constructor">
+    <HelpKINode Title="AliasDefinition Constructor " Url="html/Overload_Syntactik_DOM_Mapped_AliasDefinition__ctor.htm" />
+    <HelpKINode Title="AliasDefinition Constructor " Url="html/M_Syntactik_DOM_AliasDefinition__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AliasDefinition.AppendChild method">
+    <HelpKINode Title="AliasDefinition.AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_AliasDefinition_AppendChild.htm" />
+    <HelpKINode Title="AliasDefinition.AppendChild Method " Url="html/M_Syntactik_DOM_AliasDefinition_AppendChild.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AliasDefinition.AssignmentInterval property" Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_AssignmentInterval.htm" />
+  <HelpKINode Title="AliasDefinition.Entities property" Url="html/P_Syntactik_DOM_AliasDefinition_Entities.htm" />
+  <HelpKINode Title="AliasDefinition.HasCircularReference property" Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_HasCircularReference.htm" />
+  <HelpKINode Title="AliasDefinition.HasDefaultBlockParameter property" Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_HasDefaultBlockParameter.htm" />
+  <HelpKINode Title="AliasDefinition.HasDefaultValueParameter property" Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_HasDefaultValueParameter.htm" />
+  <HelpKINode Title="AliasDefinition.InterpolationItems property" Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_InterpolationItems.htm" />
+  <HelpKINode Title="AliasDefinition.IsValueNode property" Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_IsValueNode.htm" />
+  <HelpKINode Title="AliasDefinition.NameInterval property" Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_NameInterval.htm" />
+  <HelpKINode Title="AliasDefinition.NameQuotesType property" Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_NameQuotesType.htm" />
+  <HelpKINode Title="AliasDefinition.Parameters property" Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_Parameters.htm" />
+  <HelpKINode Title="AliasDefinition.ValueIndent property" Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_ValueIndent.htm" />
+  <HelpKINode Title="AliasDefinition.ValueInterval property" Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_ValueInterval.htm" />
+  <HelpKINode Title="AliasDefinition.ValueQuotesType property" Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_ValueQuotesType.htm" />
+  <HelpKINode Title="AliasDefinition.ValueType property" Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_ValueType.htm" />
+  <HelpKINode Title="Aliases property" Url="html/P_Syntactik_Compiler_Steps_NsInfo_Aliases.htm" />
+  <HelpKINode Title="AliasesResolved property" Url="html/P_Syntactik_Compiler_Steps_NsInfo_AliasesResolved.htm" />
+  <HelpKINode Title="AliasResolvingVisitor class">
+    <HelpKINode Title="AliasResolvingVisitor Class" Url="html/T_Syntactik_Compiler_Steps_AliasResolvingVisitor.htm" />
+    <HelpKINode Title="about AliasResolvingVisitor class" Url="html/T_Syntactik_Compiler_Steps_AliasResolvingVisitor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Syntactik_Compiler_Steps_AliasResolvingVisitor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_Steps_AliasResolvingVisitor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_Compiler_Steps_AliasResolvingVisitor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AliasResolvingVisitor.AliasContext property" Url="html/P_Syntactik_Compiler_Steps_AliasResolvingVisitor_AliasContext.htm" />
+  <HelpKINode Title="AliasResolvingVisitor.AliasResolvingVisitor constructor" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor__ctor.htm" />
+  <HelpKINode Title="AliasResolvingVisitor.Context property" Url="html/P_Syntactik_Compiler_Steps_AliasResolvingVisitor_Context.htm" />
+  <HelpKINode Title="AliasResolvingVisitor.CurrentDocument property" Url="html/P_Syntactik_Compiler_Steps_AliasResolvingVisitor_CurrentDocument.htm" />
+  <HelpKINode Title="AliasResolvingVisitor.NamespaceResolver field" Url="html/F_Syntactik_Compiler_Steps_AliasResolvingVisitor_NamespaceResolver.htm" />
+  <HelpKINode Title="AliasResolvingVisitor.OnValue method" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_OnValue.htm" />
+  <HelpKINode Title="AliasResolvingVisitor.ResolveAttributes method" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveAttributes.htm" />
+  <HelpKINode Title="AliasResolvingVisitor.ResolveAttributesInAlias method" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveAttributesInAlias.htm" />
+  <HelpKINode Title="AliasResolvingVisitor.ResolveAttributesInParameter method" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveAttributesInParameter.htm" />
+  <HelpKINode Title="AliasResolvingVisitor.ResolveChoiceValue method" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveChoiceValue.htm" />
+  <HelpKINode Title="AliasResolvingVisitor.ResolveDqsEscape method" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveDqsEscape.htm" />
+  <HelpKINode Title="AliasResolvingVisitor.ResolveDqsEscapeChar method" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveDqsEscapeChar.htm" />
+  <HelpKINode Title="AliasResolvingVisitor.ResolvePairValue method" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolvePairValue.htm" />
+  <HelpKINode Title="AliasResolvingVisitor.ResolveValue method" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveValue.htm" />
+  <HelpKINode Title="AliasResolvingVisitor.ResolveValueAlias method" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveValueAlias.htm" />
+  <HelpKINode Title="AliasResolvingVisitor.ResolveValueParameter method" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveValueParameter.htm" />
+  <HelpKINode Title="AliasResolvingVisitor.ScopeContext property" Url="html/P_Syntactik_Compiler_Steps_AliasResolvingVisitor_ScopeContext.htm" />
+  <HelpKINode Title="AliasResolvingVisitor.Visit method" Url="html/Overload_Syntactik_Compiler_Steps_AliasResolvingVisitor_Visit.htm" />
+  <HelpKINode Title="AppendChild method">
+    <HelpKINode Title="Alias.AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_Alias_AppendChild.htm" />
+    <HelpKINode Title="Alias.AppendChild Method " Url="html/M_Syntactik_DOM_Alias_AppendChild.htm" />
+    <HelpKINode Title="AliasDefinition.AppendChild Method " Url="html/M_Syntactik_DOM_AliasDefinition_AppendChild.htm" />
+    <HelpKINode Title="AliasDefinition.AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_AliasDefinition_AppendChild.htm" />
+    <HelpKINode Title="Argument.AppendChild Method " Url="html/M_Syntactik_DOM_Argument_AppendChild.htm" />
+    <HelpKINode Title="Argument.AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_Argument_AppendChild.htm" />
+    <HelpKINode Title="Attribute.AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_Attribute_AppendChild.htm" />
+    <HelpKINode Title="CompileUnit.AppendChild Method " Url="html/M_Syntactik_DOM_CompileUnit_AppendChild.htm" />
+    <HelpKINode Title="Document.AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_Document_AppendChild.htm" />
+    <HelpKINode Title="Document.AppendChild Method " Url="html/M_Syntactik_DOM_Document_AppendChild.htm" />
+    <HelpKINode Title="Element.AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_Element_AppendChild.htm" />
+    <HelpKINode Title="Element.AppendChild Method " Url="html/M_Syntactik_DOM_Element_AppendChild.htm" />
+    <HelpKINode Title="IPairFactory.AppendChild Method " Url="html/M_Syntactik_DOM_IPairFactory_AppendChild.htm" />
+    <HelpKINode Title="Module.AppendChild Method " Url="html/M_Syntactik_DOM_Module_AppendChild.htm" />
+    <HelpKINode Title="Module.AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_Module_AppendChild.htm" />
+    <HelpKINode Title="NamespaceDefinition.AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_NamespaceDefinition_AppendChild.htm" />
+    <HelpKINode Title="Pair.AppendChild Method " Url="html/M_Syntactik_DOM_Pair_AppendChild.htm" />
+    <HelpKINode Title="PairFactoryForJson.AppendChild Method " Url="html/M_Syntactik_Compiler_Steps_PairFactoryForJson_AppendChild.htm" />
+    <HelpKINode Title="PairFactoryForXml.AppendChild Method " Url="html/M_Syntactik_Compiler_Steps_PairFactoryForXml_AppendChild.htm" />
+    <HelpKINode Title="Parameter.AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_Parameter_AppendChild.htm" />
+    <HelpKINode Title="Parameter.AppendChild Method " Url="html/M_Syntactik_DOM_Parameter_AppendChild.htm" />
+    <HelpKINode Title="Scope.AppendChild Method " Url="html/M_Syntactik_DOM_Scope_AppendChild.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Argument class">
+    <HelpKINode Title="Argument Class" Url="html/T_Syntactik_DOM_Mapped_Argument.htm" />
+    <HelpKINode Title="Argument Class" Url="html/T_Syntactik_DOM_Argument.htm" />
+    <HelpKINode Title="about Argument class" Url="html/T_Syntactik_DOM_Mapped_Argument.htm" />
+    <HelpKINode Title="about Argument class" Url="html/T_Syntactik_DOM_Argument.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_Argument__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_Mapped_Argument__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Argument.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Mapped_Argument.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Mapped_Argument.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Argument.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Argument.Accept method" Url="html/M_Syntactik_DOM_Argument_Accept.htm" />
+  <HelpKINode Title="Argument.AppendChild method">
+    <HelpKINode Title="Argument.AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_Argument_AppendChild.htm" />
+    <HelpKINode Title="Argument.AppendChild Method " Url="html/M_Syntactik_DOM_Argument_AppendChild.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Argument.Argument constructor">
+    <HelpKINode Title="Argument Constructor " Url="html/M_Syntactik_DOM_Argument__ctor.htm" />
+    <HelpKINode Title="Argument Constructor " Url="html/M_Syntactik_DOM_Mapped_Argument__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Argument.AssignmentInterval property" Url="html/P_Syntactik_DOM_Mapped_Argument_AssignmentInterval.htm" />
+  <HelpKINode Title="Argument.Entities property" Url="html/P_Syntactik_DOM_Argument_Entities.htm" />
+  <HelpKINode Title="Argument.InterpolationItems property" Url="html/P_Syntactik_DOM_Mapped_Argument_InterpolationItems.htm" />
+  <HelpKINode Title="Argument.IsValueNode property" Url="html/P_Syntactik_DOM_Mapped_Argument_IsValueNode.htm" />
+  <HelpKINode Title="Argument.NameInterval property" Url="html/P_Syntactik_DOM_Mapped_Argument_NameInterval.htm" />
+  <HelpKINode Title="Argument.NameQuotesType property" Url="html/P_Syntactik_DOM_Mapped_Argument_NameQuotesType.htm" />
+  <HelpKINode Title="Argument.ValueIndent property" Url="html/P_Syntactik_DOM_Mapped_Argument_ValueIndent.htm" />
+  <HelpKINode Title="Argument.ValueInterval property" Url="html/P_Syntactik_DOM_Mapped_Argument_ValueInterval.htm" />
+  <HelpKINode Title="Argument.ValueQuotesType property" Url="html/P_Syntactik_DOM_Mapped_Argument_ValueQuotesType.htm" />
+  <HelpKINode Title="Argument.ValueType property" Url="html/P_Syntactik_DOM_Mapped_Argument_ValueType.htm" />
+  <HelpKINode Title="Arguments property" Url="html/P_Syntactik_DOM_Alias_Arguments.htm" />
+  <HelpKINode Title="Array enumeration member" Url="html/T_Syntactik_Compiler_Generator_JsonGenerator_BlockStateEnum.htm" />
+  <HelpKINode Title="Assignment property" Url="html/P_Syntactik_DOM_Pair_Assignment.htm" />
+  <HelpKINode Title="AssignmentEnum enumeration" Url="html/T_Syntactik_DOM_AssignmentEnum.htm" />
+  <HelpKINode Title="AssignmentInterval property">
+    <HelpKINode Title="Alias.AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_Alias_AssignmentInterval.htm" />
+    <HelpKINode Title="AliasDefinition.AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_AssignmentInterval.htm" />
+    <HelpKINode Title="Argument.AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_Argument_AssignmentInterval.htm" />
+    <HelpKINode Title="Attribute.AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_Attribute_AssignmentInterval.htm" />
+    <HelpKINode Title="Comment.AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_Comment_AssignmentInterval.htm" />
+    <HelpKINode Title="Document.AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_Document_AssignmentInterval.htm" />
+    <HelpKINode Title="Element.AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_Element_AssignmentInterval.htm" />
+    <HelpKINode Title="IMappedPair.AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_IMappedPair_AssignmentInterval.htm" />
+    <HelpKINode Title="Module.AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_Module_AssignmentInterval.htm" />
+    <HelpKINode Title="NamespaceDefinition.AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_AssignmentInterval.htm" />
+    <HelpKINode Title="Parameter.AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_Parameter_AssignmentInterval.htm" />
+    <HelpKINode Title="Scope.AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_Scope_AssignmentInterval.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Attribute class">
+    <HelpKINode Title="Attribute Class" Url="html/T_Syntactik_DOM_Attribute.htm" />
+    <HelpKINode Title="Attribute Class" Url="html/T_Syntactik_DOM_Mapped_Attribute.htm" />
+    <HelpKINode Title="about Attribute class" Url="html/T_Syntactik_DOM_Attribute.htm" />
+    <HelpKINode Title="about Attribute class" Url="html/T_Syntactik_DOM_Mapped_Attribute.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_Attribute__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_Mapped_Attribute__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Attribute.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Mapped_Attribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Mapped_Attribute.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Attribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Attribute.Accept method" Url="html/M_Syntactik_DOM_Attribute_Accept.htm" />
+  <HelpKINode Title="Attribute.AppendChild method" Url="html/M_Syntactik_DOM_Mapped_Attribute_AppendChild.htm" />
+  <HelpKINode Title="Attribute.AssignmentInterval property" Url="html/P_Syntactik_DOM_Mapped_Attribute_AssignmentInterval.htm" />
+  <HelpKINode Title="Attribute.Attribute constructor">
+    <HelpKINode Title="Attribute Constructor " Url="html/M_Syntactik_DOM_Attribute__ctor.htm" />
+    <HelpKINode Title="Attribute Constructor " Url="html/M_Syntactik_DOM_Mapped_Attribute__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Attribute.InterpolationItems property" Url="html/P_Syntactik_DOM_Mapped_Attribute_InterpolationItems.htm" />
+  <HelpKINode Title="Attribute.IsValueNode property" Url="html/P_Syntactik_DOM_Mapped_Attribute_IsValueNode.htm" />
+  <HelpKINode Title="Attribute.NameInterval property" Url="html/P_Syntactik_DOM_Mapped_Attribute_NameInterval.htm" />
+  <HelpKINode Title="Attribute.NameQuotesType property" Url="html/P_Syntactik_DOM_Mapped_Attribute_NameQuotesType.htm" />
+  <HelpKINode Title="Attribute.NsPrefix property" Url="html/P_Syntactik_DOM_Attribute_NsPrefix.htm" />
+  <HelpKINode Title="Attribute.OverrideNsPrefix method" Url="html/M_Syntactik_DOM_Mapped_Attribute_OverrideNsPrefix.htm" />
+  <HelpKINode Title="Attribute.ValueIndent property" Url="html/P_Syntactik_DOM_Mapped_Attribute_ValueIndent.htm" />
+  <HelpKINode Title="Attribute.ValueInterval property" Url="html/P_Syntactik_DOM_Mapped_Attribute_ValueInterval.htm" />
+  <HelpKINode Title="Attribute.ValueQuotesType property" Url="html/P_Syntactik_DOM_Mapped_Attribute_ValueQuotesType.htm" />
+  <HelpKINode Title="Attribute.ValueType property" Url="html/P_Syntactik_DOM_Mapped_Attribute_ValueType.htm" />
+  <HelpKINode Title="Begin field" Url="html/F_Syntactik_DOM_Interval_Begin.htm" />
+  <HelpKINode Title="BlockIsStarting field" Url="html/F_Syntactik_Compiler_Generator_JsonGenerator_BlockIsStarting.htm" />
+  <HelpKINode Title="BlockState field" Url="html/F_Syntactik_Compiler_Generator_JsonGenerator_BlockState.htm" />
+  <HelpKINode Title="Boolean enumeration member" Url="html/T_Syntactik_DOM_Mapped_ValueType.htm" />
+  <HelpKINode Title="C enumeration member" Url="html/T_Syntactik_DOM_AssignmentEnum.htm" />
+  <HelpKINode Title="CC enumeration member" Url="html/T_Syntactik_DOM_AssignmentEnum.htm" />
+  <HelpKINode Title="CCC enumeration member" Url="html/T_Syntactik_DOM_AssignmentEnum.htm" />
+  <HelpKINode Title="CE enumeration member" Url="html/T_Syntactik_DOM_AssignmentEnum.htm" />
+  <HelpKINode Title="CharLocation class">
+    <HelpKINode Title="CharLocation Class" Url="html/T_Syntactik_DOM_CharLocation.htm" />
+    <HelpKINode Title="about CharLocation class" Url="html/T_Syntactik_DOM_CharLocation.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Syntactik_DOM_CharLocation__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Syntactik_DOM_CharLocation.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_CharLocation.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CharLocation.CharLocation constructor" Url="html/Overload_Syntactik_DOM_CharLocation__ctor.htm" />
+  <HelpKINode Title="CharLocation.Column field" Url="html/F_Syntactik_DOM_CharLocation_Column.htm" />
+  <HelpKINode Title="CharLocation.CompareTo method" Url="html/M_Syntactik_DOM_CharLocation_CompareTo.htm" />
+  <HelpKINode Title="CharLocation.Empty field" Url="html/F_Syntactik_DOM_CharLocation_Empty.htm" />
+  <HelpKINode Title="CharLocation.Equals method" Url="html/Overload_Syntactik_DOM_CharLocation_Equals.htm" />
+  <HelpKINode Title="CharLocation.Index field" Url="html/F_Syntactik_DOM_CharLocation_Index.htm" />
+  <HelpKINode Title="CharLocation.Line field" Url="html/F_Syntactik_DOM_CharLocation_Line.htm" />
+  <HelpKINode Title="CharLocation.ToString method" Url="html/M_Syntactik_DOM_CharLocation_ToString.htm" />
+  <HelpKINode Title="CheckBlockStartForAlias method" Url="html/M_Syntactik_Compiler_Generator_JsonGenerator_CheckBlockStartForAlias.htm" />
+  <HelpKINode Title="Children property" Url="html/P_Syntactik_DOM_Mapped_ChoiceInfo_Children.htm" />
+  <HelpKINode Title="ChoiceInfo class">
+    <HelpKINode Title="ChoiceInfo Class" Url="html/T_Syntactik_DOM_Mapped_ChoiceInfo.htm" />
+    <HelpKINode Title="about ChoiceInfo class" Url="html/T_Syntactik_DOM_Mapped_ChoiceInfo.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_Mapped_ChoiceInfo__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Mapped_ChoiceInfo.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Mapped_ChoiceInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ChoiceInfo property" Url="html/P_Syntactik_DOM_Mapped_Document_ChoiceInfo.htm" />
+  <HelpKINode Title="ChoiceInfo.AddChild method" Url="html/M_Syntactik_DOM_Mapped_ChoiceInfo_AddChild.htm" />
+  <HelpKINode Title="ChoiceInfo.AddError method" Url="html/M_Syntactik_DOM_Mapped_ChoiceInfo_AddError.htm" />
+  <HelpKINode Title="ChoiceInfo.Children property" Url="html/P_Syntactik_DOM_Mapped_ChoiceInfo_Children.htm" />
+  <HelpKINode Title="ChoiceInfo.ChoiceInfo constructor" Url="html/M_Syntactik_DOM_Mapped_ChoiceInfo__ctor.htm" />
+  <HelpKINode Title="ChoiceInfo.ChoiceNode property" Url="html/P_Syntactik_DOM_Mapped_ChoiceInfo_ChoiceNode.htm" />
+  <HelpKINode Title="ChoiceInfo.Errors property" Url="html/P_Syntactik_DOM_Mapped_ChoiceInfo_Errors.htm" />
+  <HelpKINode Title="ChoiceInfo.Parent property" Url="html/P_Syntactik_DOM_Mapped_ChoiceInfo_Parent.htm" />
+  <HelpKINode Title="ChoiceNode property" Url="html/P_Syntactik_DOM_Mapped_ChoiceInfo_ChoiceNode.htm" />
+  <HelpKINode Title="ChoiceObjects property">
+    <HelpKINode Title="Element.ChoiceObjects Property " Url="html/P_Syntactik_DOM_Mapped_Element_ChoiceObjects.htm" />
+    <HelpKINode Title="IChoiceNode.ChoiceObjects Property " Url="html/P_Syntactik_DOM_Mapped_IChoiceNode_ChoiceObjects.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ChoiceStack field">
+    <HelpKINode Title="JsonGenerator.ChoiceStack Field" Url="html/F_Syntactik_Compiler_Generator_JsonGenerator_ChoiceStack.htm" />
+    <HelpKINode Title="XmlGenerator.ChoiceStack Field" Url="html/F_Syntactik_Compiler_Generator_XmlGenerator_ChoiceStack.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Clear method" Url="html/M_Syntactik_DOM_PairCollection_1_Clear.htm" />
+  <HelpKINode Title="Code property" Url="html/P_Syntactik_Compiler_CompilerError_Code.htm" />
+  <HelpKINode Title="Column field" Url="html/F_Syntactik_DOM_CharLocation_Column.htm" />
+  <HelpKINode Title="Column property">
+    <HelpKINode Title="ICharStream.Column Property " Url="html/P_Syntactik_IO_ICharStream_Column.htm" />
+    <HelpKINode Title="InputStream.Column Property " Url="html/P_Syntactik_IO_InputStream_Column.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Comment class">
+    <HelpKINode Title="Comment Class" Url="html/T_Syntactik_DOM_Comment.htm" />
+    <HelpKINode Title="Comment Class" Url="html/T_Syntactik_DOM_Mapped_Comment.htm" />
+    <HelpKINode Title="about Comment class" Url="html/T_Syntactik_DOM_Comment.htm" />
+    <HelpKINode Title="about Comment class" Url="html/T_Syntactik_DOM_Mapped_Comment.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_Comment__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_Mapped_Comment__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Mapped_Comment.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Comment.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Mapped_Comment.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Comment.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Comment.Accept method" Url="html/M_Syntactik_DOM_Comment_Accept.htm" />
+  <HelpKINode Title="Comment.AssignmentInterval property" Url="html/P_Syntactik_DOM_Mapped_Comment_AssignmentInterval.htm" />
+  <HelpKINode Title="Comment.Comment constructor">
+    <HelpKINode Title="Comment Constructor " Url="html/M_Syntactik_DOM_Comment__ctor.htm" />
+    <HelpKINode Title="Comment Constructor " Url="html/M_Syntactik_DOM_Mapped_Comment__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Comment.CommentType property" Url="html/P_Syntactik_DOM_Mapped_Comment_CommentType.htm" />
+  <HelpKINode Title="Comment.IsValueNode property" Url="html/P_Syntactik_DOM_Mapped_Comment_IsValueNode.htm" />
+  <HelpKINode Title="Comment.NameInterval property" Url="html/P_Syntactik_DOM_Mapped_Comment_NameInterval.htm" />
+  <HelpKINode Title="Comment.NameQuotesType property" Url="html/P_Syntactik_DOM_Mapped_Comment_NameQuotesType.htm" />
+  <HelpKINode Title="Comment.ValueIndent property" Url="html/P_Syntactik_DOM_Mapped_Comment_ValueIndent.htm" />
+  <HelpKINode Title="Comment.ValueInterval property" Url="html/P_Syntactik_DOM_Mapped_Comment_ValueInterval.htm" />
+  <HelpKINode Title="Comment.ValueQuotesType property" Url="html/P_Syntactik_DOM_Mapped_Comment_ValueQuotesType.htm" />
+  <HelpKINode Title="Comment.ValueType property" Url="html/P_Syntactik_DOM_Mapped_Comment_ValueType.htm" />
+  <HelpKINode Title="CommentType property" Url="html/P_Syntactik_DOM_Mapped_Comment_CommentType.htm" />
+  <HelpKINode Title="CompareTo method">
+    <HelpKINode Title="CharLocation.CompareTo Method " Url="html/M_Syntactik_DOM_CharLocation_CompareTo.htm" />
+    <HelpKINode Title="CompilerError.CompareTo Method " Url="html/M_Syntactik_Compiler_CompilerError_CompareTo.htm" />
+    <HelpKINode Title="LexicalInfo.CompareTo Method " Url="html/Overload_Syntactik_DOM_LexicalInfo_CompareTo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CompilerContext class">
+    <HelpKINode Title="CompilerContext Class" Url="html/T_Syntactik_Compiler_CompilerContext.htm" />
+    <HelpKINode Title="about CompilerContext class" Url="html/T_Syntactik_Compiler_CompilerContext.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_Compiler_CompilerContext__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_CompilerContext.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_Compiler_CompilerContext.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CompilerContext.AddError method" Url="html/M_Syntactik_Compiler_CompilerContext_AddError.htm" />
+  <HelpKINode Title="CompilerContext.CompilerContext constructor" Url="html/M_Syntactik_Compiler_CompilerContext__ctor.htm" />
+  <HelpKINode Title="CompilerContext.CompileUnit property" Url="html/P_Syntactik_Compiler_CompilerContext_CompileUnit.htm" />
+  <HelpKINode Title="CompilerContext.Errors property" Url="html/P_Syntactik_Compiler_CompilerContext_Errors.htm" />
+  <HelpKINode Title="CompilerContext.InMemoryOutputObjects property" Url="html/P_Syntactik_Compiler_CompilerContext_InMemoryOutputObjects.htm" />
+  <HelpKINode Title="CompilerContext.Parameters property" Url="html/P_Syntactik_Compiler_CompilerContext_Parameters.htm" />
+  <HelpKINode Title="CompilerContext.Properties property" Url="html/P_Syntactik_Compiler_CompilerContext_Properties.htm" />
+  <HelpKINode Title="CompilerError class">
+    <HelpKINode Title="CompilerError Class" Url="html/T_Syntactik_Compiler_CompilerError.htm" />
+    <HelpKINode Title="about CompilerError class" Url="html/T_Syntactik_Compiler_CompilerError.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Syntactik_Compiler_CompilerError__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_Syntactik_Compiler_CompilerError.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_CompilerError.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_Compiler_CompilerError.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CompilerError.Code property" Url="html/P_Syntactik_Compiler_CompilerError_Code.htm" />
+  <HelpKINode Title="CompilerError.CompareTo method" Url="html/M_Syntactik_Compiler_CompilerError_CompareTo.htm" />
+  <HelpKINode Title="CompilerError.CompilerError constructor" Url="html/Overload_Syntactik_Compiler_CompilerError__ctor.htm" />
+  <HelpKINode Title="CompilerError.IsParserError property" Url="html/P_Syntactik_Compiler_CompilerError_IsParserError.htm" />
+  <HelpKINode Title="CompilerError.LexicalInfo property" Url="html/P_Syntactik_Compiler_CompilerError_LexicalInfo.htm" />
+  <HelpKINode Title="CompilerError.ToString method" Url="html/M_Syntactik_Compiler_CompilerError_ToString.htm" />
+  <HelpKINode Title="CompilerErrorFactory class">
+    <HelpKINode Title="CompilerErrorFactory Class" Url="html/T_Syntactik_Compiler_CompilerErrorFactory.htm" />
+    <HelpKINode Title="about CompilerErrorFactory class" Url="html/T_Syntactik_Compiler_CompilerErrorFactory.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_CompilerErrorFactory.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CompilerErrorFactory.FatalError method" Url="html/Overload_Syntactik_Compiler_CompilerErrorFactory_FatalError.htm" />
+  <HelpKINode Title="CompilerErrorFactory.InputError method" Url="html/M_Syntactik_Compiler_CompilerErrorFactory_InputError.htm" />
+  <HelpKINode Title="CompilerParameters class">
+    <HelpKINode Title="CompilerParameters Class" Url="html/T_Syntactik_Compiler_CompilerParameters.htm" />
+    <HelpKINode Title="about CompilerParameters class" Url="html/T_Syntactik_Compiler_CompilerParameters.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_Compiler_CompilerParameters__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_CompilerParameters.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_Compiler_CompilerParameters.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CompilerParameters.CompilerParameters constructor" Url="html/M_Syntactik_Compiler_CompilerParameters__ctor.htm" />
+  <HelpKINode Title="CompilerParameters.Input property" Url="html/P_Syntactik_Compiler_CompilerParameters_Input.htm" />
+  <HelpKINode Title="CompilerParameters.OutputDirectory property" Url="html/P_Syntactik_Compiler_CompilerParameters_OutputDirectory.htm" />
+  <HelpKINode Title="CompilerParameters.Pipeline property" Url="html/P_Syntactik_Compiler_CompilerParameters_Pipeline.htm" />
+  <HelpKINode Title="CompilerParameters.XmlSchemaSet property" Url="html/P_Syntactik_Compiler_CompilerParameters_XmlSchemaSet.htm" />
+  <HelpKINode Title="CompilerPipeline class">
+    <HelpKINode Title="CompilerPipeline Class" Url="html/T_Syntactik_Compiler_CompilerPipeline.htm" />
+    <HelpKINode Title="about CompilerPipeline class" Url="html/T_Syntactik_Compiler_CompilerPipeline.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_Compiler_CompilerPipeline__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_CompilerPipeline.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_Compiler_CompilerPipeline.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CompilerPipeline.Add method" Url="html/M_Syntactik_Compiler_CompilerPipeline_Add.htm" />
+  <HelpKINode Title="CompilerPipeline.CompilerPipeline constructor" Url="html/M_Syntactik_Compiler_CompilerPipeline__ctor.htm" />
+  <HelpKINode Title="CompilerPipeline.Run method" Url="html/M_Syntactik_Compiler_CompilerPipeline_Run.htm" />
+  <HelpKINode Title="CompilerPipeline.Steps property" Url="html/P_Syntactik_Compiler_CompilerPipeline_Steps.htm" />
+  <HelpKINode Title="CompileToFiles class">
+    <HelpKINode Title="CompileToFiles Class" Url="html/T_Syntactik_Compiler_Pipelines_CompileToFiles.htm" />
+    <HelpKINode Title="about CompileToFiles class" Url="html/T_Syntactik_Compiler_Pipelines_CompileToFiles.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_Compiler_Pipelines_CompileToFiles__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_Pipelines_CompileToFiles.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_Compiler_Pipelines_CompileToFiles.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CompileToFiles.CompileToFiles constructor" Url="html/M_Syntactik_Compiler_Pipelines_CompileToFiles__ctor.htm" />
+  <HelpKINode Title="CompileToMemory class">
+    <HelpKINode Title="CompileToMemory Class" Url="html/T_Syntactik_Compiler_Pipelines_CompileToMemory.htm" />
+    <HelpKINode Title="about CompileToMemory class" Url="html/T_Syntactik_Compiler_Pipelines_CompileToMemory.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_Compiler_Pipelines_CompileToMemory__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_Pipelines_CompileToMemory.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_Compiler_Pipelines_CompileToMemory.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CompileToMemory.CompileToMemory constructor" Url="html/M_Syntactik_Compiler_Pipelines_CompileToMemory__ctor.htm" />
+  <HelpKINode Title="CompileUnit class">
+    <HelpKINode Title="CompileUnit Class" Url="html/T_Syntactik_DOM_CompileUnit.htm" />
+    <HelpKINode Title="about CompileUnit class" Url="html/T_Syntactik_DOM_CompileUnit.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_CompileUnit__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_CompileUnit.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_CompileUnit.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CompileUnit property" Url="html/P_Syntactik_Compiler_CompilerContext_CompileUnit.htm" />
+  <HelpKINode Title="CompileUnit.Accept method" Url="html/M_Syntactik_DOM_CompileUnit_Accept.htm" />
+  <HelpKINode Title="CompileUnit.AppendChild method" Url="html/M_Syntactik_DOM_CompileUnit_AppendChild.htm" />
+  <HelpKINode Title="CompileUnit.CompileUnit constructor" Url="html/M_Syntactik_DOM_CompileUnit__ctor.htm" />
+  <HelpKINode Title="CompileUnit.Modules property" Url="html/P_Syntactik_DOM_CompileUnit_Modules.htm" />
+  <HelpKINode Title="Concatenation enumeration member" Url="html/T_Syntactik_DOM_Mapped_ValueType.htm" />
+  <HelpKINode Title="Consume method">
+    <HelpKINode Title="ICharStream.Consume Method " Url="html/M_Syntactik_IO_ICharStream_Consume.htm" />
+    <HelpKINode Title="InputStream.Consume Method " Url="html/M_Syntactik_IO_InputStream_Consume.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Contains method" Url="html/M_Syntactik_DOM_PairCollection_1_Contains.htm" />
+  <HelpKINode Title="Context property">
+    <HelpKINode Title="AliasResolvingVisitor.Context Property " Url="html/P_Syntactik_Compiler_Steps_AliasResolvingVisitor_Context.htm" />
+    <HelpKINode Title="Parse.Context Property " Url="html/P_Syntactik_Compiler_Steps_Parse_Context.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CopyTo method" Url="html/Overload_Syntactik_DOM_PairCollection_1_CopyTo.htm" />
+  <HelpKINode Title="Count property" Url="html/P_Syntactik_DOM_PairCollection_1_Count.htm" />
+  <HelpKINode Title="CreateMappedPair method">
+    <HelpKINode Title="IPairFactory.CreateMappedPair Method " Url="html/M_Syntactik_DOM_IPairFactory_CreateMappedPair.htm" />
+    <HelpKINode Title="PairFactoryForJson.CreateMappedPair Method " Url="html/M_Syntactik_Compiler_Steps_PairFactoryForJson_CreateMappedPair.htm" />
+    <HelpKINode Title="PairFactoryForXml.CreateMappedPair Method " Url="html/M_Syntactik_Compiler_Steps_PairFactoryForXml_CreateMappedPair.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreateModule method" Url="html/M_Syntactik_Compiler_Steps_Parse_CreateModule.htm" />
+  <HelpKINode Title="CreateModuleDocument method" Url="html/M_Syntactik_DOM_Module_CreateModuleDocument.htm" />
+  <HelpKINode Title="CurrentDocument property" Url="html/P_Syntactik_Compiler_Steps_AliasResolvingVisitor_CurrentDocument.htm" />
+  <HelpKINode Title="CurrentModuleMember field" Url="html/F_Syntactik_Compiler_Generator_XmlGenerator_CurrentModuleMember.htm" />
+  <HelpKINode Title="Dispose method">
+    <HelpKINode Title="InputStream.Dispose Method " Url="html/M_Syntactik_IO_InputStream_Dispose.htm" />
+    <HelpKINode Title="Parse.Dispose Method " Url="html/M_Syntactik_Compiler_Steps_Parse_Dispose.htm" />
+    <HelpKINode Title="ProcessAliasesAndNamespaces.Dispose Method " Url="html/M_Syntactik_Compiler_Steps_ProcessAliasesAndNamespaces_Dispose.htm" />
+    <HelpKINode Title="ValidateDocuments.Dispose Method " Url="html/M_Syntactik_Compiler_Steps_ValidateDocuments_Dispose.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Document class">
+    <HelpKINode Title="Document Class" Url="html/T_Syntactik_DOM_Document.htm" />
+    <HelpKINode Title="Document Class" Url="html/T_Syntactik_DOM_Mapped_Document.htm" />
+    <HelpKINode Title="about Document class" Url="html/T_Syntactik_DOM_Mapped_Document.htm" />
+    <HelpKINode Title="about Document class" Url="html/T_Syntactik_DOM_Document.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_Mapped_Document__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_Document__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Syntactik_DOM_Mapped_Document.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Syntactik_DOM_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Document.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Mapped_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Document.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Mapped_Document.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Document.Accept method" Url="html/M_Syntactik_DOM_Document_Accept.htm" />
+  <HelpKINode Title="Document.AppendChild method">
+    <HelpKINode Title="Document.AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_Document_AppendChild.htm" />
+    <HelpKINode Title="Document.AppendChild Method " Url="html/M_Syntactik_DOM_Document_AppendChild.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Document.AssignmentInterval property" Url="html/P_Syntactik_DOM_Mapped_Document_AssignmentInterval.htm" />
+  <HelpKINode Title="Document.ChoiceInfo property" Url="html/P_Syntactik_DOM_Mapped_Document_ChoiceInfo.htm" />
+  <HelpKINode Title="Document.Document constructor">
+    <HelpKINode Title="Document Constructor " Url="html/M_Syntactik_DOM_Document__ctor.htm" />
+    <HelpKINode Title="Document Constructor " Url="html/M_Syntactik_DOM_Mapped_Document__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Document.DocumentElement field" Url="html/F_Syntactik_DOM_Document_DocumentElement.htm" />
+  <HelpKINode Title="Document.Entities property" Url="html/P_Syntactik_DOM_Document_Entities.htm" />
+  <HelpKINode Title="Document.InterpolationItems property" Url="html/P_Syntactik_DOM_Mapped_Document_InterpolationItems.htm" />
+  <HelpKINode Title="Document.IsValueNode property" Url="html/P_Syntactik_DOM_Mapped_Document_IsValueNode.htm" />
+  <HelpKINode Title="Document.NameInterval property" Url="html/P_Syntactik_DOM_Mapped_Document_NameInterval.htm" />
+  <HelpKINode Title="Document.NameQuotesType property" Url="html/P_Syntactik_DOM_Mapped_Document_NameQuotesType.htm" />
+  <HelpKINode Title="Document.ValueIndent property" Url="html/P_Syntactik_DOM_Mapped_Document_ValueIndent.htm" />
+  <HelpKINode Title="Document.ValueInterval property" Url="html/P_Syntactik_DOM_Mapped_Document_ValueInterval.htm" />
+  <HelpKINode Title="Document.ValueQuotesType property" Url="html/P_Syntactik_DOM_Mapped_Document_ValueQuotesType.htm" />
+  <HelpKINode Title="Document.ValueType property" Url="html/P_Syntactik_DOM_Mapped_Document_ValueType.htm" />
+  <HelpKINode Title="DocumentElement field" Url="html/F_Syntactik_DOM_Document_DocumentElement.htm" />
+  <HelpKINode Title="DocumentElementAdded field" Url="html/F_Syntactik_Compiler_Generator_XmlGenerator_DocumentElementAdded.htm" />
+  <HelpKINode Title="DoParse method" Url="html/M_Syntactik_Compiler_Steps_Parse_DoParse.htm" />
+  <HelpKINode Title="Double enumeration member" Url="html/T_Syntactik_DOM_QuotesEnum.htm" />
+  <HelpKINode Title="DoubleQuotedString enumeration member" Url="html/T_Syntactik_DOM_Mapped_ValueType.htm" />
+  <HelpKINode Title="E enumeration member" Url="html/T_Syntactik_DOM_AssignmentEnum.htm" />
+  <HelpKINode Title="EC enumeration member" Url="html/T_Syntactik_DOM_AssignmentEnum.htm" />
+  <HelpKINode Title="ECC enumeration member" Url="html/T_Syntactik_DOM_AssignmentEnum.htm" />
+  <HelpKINode Title="EE enumeration member" Url="html/T_Syntactik_DOM_AssignmentEnum.htm" />
+  <HelpKINode Title="Element class">
+    <HelpKINode Title="Element Class" Url="html/T_Syntactik_DOM_Mapped_Element.htm" />
+    <HelpKINode Title="Element Class" Url="html/T_Syntactik_DOM_Element.htm" />
+    <HelpKINode Title="about Element class" Url="html/T_Syntactik_DOM_Mapped_Element.htm" />
+    <HelpKINode Title="about Element class" Url="html/T_Syntactik_DOM_Element.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_Mapped_Element__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_Element__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Element.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Mapped_Element.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Mapped_Element.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Element.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Element.Accept method" Url="html/M_Syntactik_DOM_Element_Accept.htm" />
+  <HelpKINode Title="Element.AppendChild method">
+    <HelpKINode Title="Element.AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_Element_AppendChild.htm" />
+    <HelpKINode Title="Element.AppendChild Method " Url="html/M_Syntactik_DOM_Element_AppendChild.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Element.AssignmentInterval property" Url="html/P_Syntactik_DOM_Mapped_Element_AssignmentInterval.htm" />
+  <HelpKINode Title="Element.ChoiceObjects property" Url="html/P_Syntactik_DOM_Mapped_Element_ChoiceObjects.htm" />
+  <HelpKINode Title="Element.Element constructor">
+    <HelpKINode Title="Element Constructor " Url="html/M_Syntactik_DOM_Mapped_Element__ctor.htm" />
+    <HelpKINode Title="Element Constructor " Url="html/M_Syntactik_DOM_Element__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Element.Entities property" Url="html/P_Syntactik_DOM_Element_Entities.htm" />
+  <HelpKINode Title="Element.GetNameAndNs method" Url="html/M_Syntactik_DOM_Mapped_Element_GetNameAndNs.htm" />
+  <HelpKINode Title="Element.InitializeParent method" Url="html/M_Syntactik_DOM_Mapped_Element_InitializeParent.htm" />
+  <HelpKINode Title="Element.InterpolationItems property" Url="html/P_Syntactik_DOM_Mapped_Element_InterpolationItems.htm" />
+  <HelpKINode Title="Element.IsChoice property" Url="html/P_Syntactik_DOM_Mapped_Element_IsChoice.htm" />
+  <HelpKINode Title="Element.IsValueNode property" Url="html/P_Syntactik_DOM_Mapped_Element_IsValueNode.htm" />
+  <HelpKINode Title="Element.NameInterval property" Url="html/P_Syntactik_DOM_Mapped_Element_NameInterval.htm" />
+  <HelpKINode Title="Element.NameQuotesType property" Url="html/P_Syntactik_DOM_Mapped_Element_NameQuotesType.htm" />
+  <HelpKINode Title="Element.NsPrefix property" Url="html/P_Syntactik_DOM_Element_NsPrefix.htm" />
+  <HelpKINode Title="Element.OverrideNsPrefix method" Url="html/M_Syntactik_DOM_Mapped_Element_OverrideNsPrefix.htm" />
+  <HelpKINode Title="Element.ValueIndent property" Url="html/P_Syntactik_DOM_Mapped_Element_ValueIndent.htm" />
+  <HelpKINode Title="Element.ValueInterval property" Url="html/P_Syntactik_DOM_Mapped_Element_ValueInterval.htm" />
+  <HelpKINode Title="Element.ValueQuotesType property" Url="html/P_Syntactik_DOM_Mapped_Element_ValueQuotesType.htm" />
+  <HelpKINode Title="Element.ValueType property" Url="html/P_Syntactik_DOM_Mapped_Element_ValueType.htm" />
+  <HelpKINode Title="Empty enumeration member" Url="html/T_Syntactik_DOM_Mapped_ValueType.htm" />
+  <HelpKINode Title="Empty field">
+    <HelpKINode Title="CharLocation.Empty Field" Url="html/F_Syntactik_DOM_CharLocation_Empty.htm" />
+    <HelpKINode Title="Interval.Empty Field" Url="html/F_Syntactik_DOM_Interval_Empty.htm" />
+    <HelpKINode Title="LexicalInfo.Empty Field" Url="html/F_Syntactik_DOM_LexicalInfo_Empty.htm" />
+  </HelpKINode>
+  <HelpKINode Title="End field" Url="html/F_Syntactik_DOM_Interval_End.htm" />
+  <HelpKINode Title="EndPair method">
+    <HelpKINode Title="IPairFactory.EndPair Method " Url="html/M_Syntactik_DOM_IPairFactory_EndPair.htm" />
+    <HelpKINode Title="PairFactoryForJson.EndPair Method " Url="html/M_Syntactik_Compiler_Steps_PairFactoryForJson_EndPair.htm" />
+    <HelpKINode Title="PairFactoryForXml.EndPair Method " Url="html/M_Syntactik_Compiler_Steps_PairFactoryForXml_EndPair.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnterAliasDef method" Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver_EnterAliasDef.htm" />
+  <HelpKINode Title="EnterChoiceContainer method">
+    <HelpKINode Title="JsonGenerator.EnterChoiceContainer Method " Url="html/M_Syntactik_Compiler_Generator_JsonGenerator_EnterChoiceContainer.htm" />
+    <HelpKINode Title="XmlGenerator.EnterChoiceContainer Method " Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_EnterChoiceContainer.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnterDocument method" Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver_EnterDocument.htm" />
+  <HelpKINode Title="EnterModule method" Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver_EnterModule.htm" />
+  <HelpKINode Title="Entities property">
+    <HelpKINode Title="Alias.Entities Property " Url="html/P_Syntactik_DOM_Alias_Entities.htm" />
+    <HelpKINode Title="AliasDefinition.Entities Property " Url="html/P_Syntactik_DOM_AliasDefinition_Entities.htm" />
+    <HelpKINode Title="Argument.Entities Property " Url="html/P_Syntactik_DOM_Argument_Entities.htm" />
+    <HelpKINode Title="Document.Entities Property " Url="html/P_Syntactik_DOM_Document_Entities.htm" />
+    <HelpKINode Title="Element.Entities Property " Url="html/P_Syntactik_DOM_Element_Entities.htm" />
+    <HelpKINode Title="IContainer.Entities Property " Url="html/P_Syntactik_DOM_IContainer_Entities.htm" />
+    <HelpKINode Title="Parameter.Entities Property " Url="html/P_Syntactik_DOM_Parameter_Entities.htm" />
+    <HelpKINode Title="Scope.Entities Property " Url="html/P_Syntactik_DOM_Scope_Entities.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Entity class">
+    <HelpKINode Title="Entity Class" Url="html/T_Syntactik_DOM_Entity.htm" />
+    <HelpKINode Title="about Entity class" Url="html/T_Syntactik_DOM_Entity.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_Entity__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Entity.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Entity.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Entity.Entity constructor" Url="html/M_Syntactik_DOM_Entity__ctor.htm" />
+  <HelpKINode Title="Equals method">
+    <HelpKINode Title="CharLocation.Equals Method " Url="html/Overload_Syntactik_DOM_CharLocation_Equals.htm" />
+    <HelpKINode Title="LexicalInfo.Equals Method " Url="html/Overload_Syntactik_DOM_LexicalInfo_Equals.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ErrorListener class">
+    <HelpKINode Title="ErrorListener Class" Url="html/T_Syntactik_Compiler_Steps_ErrorListener.htm" />
+    <HelpKINode Title="about ErrorListener class" Url="html/T_Syntactik_Compiler_Steps_ErrorListener.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_Compiler_Steps_ErrorListener__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_Steps_ErrorListener.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_Compiler_Steps_ErrorListener.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ErrorListener.ErrorListener constructor" Url="html/M_Syntactik_Compiler_Steps_ErrorListener__ctor.htm" />
+  <HelpKINode Title="ErrorListener.Errors property" Url="html/P_Syntactik_Compiler_Steps_ErrorListener_Errors.htm" />
+  <HelpKINode Title="ErrorListener.OnError method" Url="html/M_Syntactik_Compiler_Steps_ErrorListener_OnError.htm" />
+  <HelpKINode Title="ErrorListeners property" Url="html/P_Syntactik_Parser_ErrorListeners.htm" />
+  <HelpKINode Title="Errors property">
+    <HelpKINode Title="ChoiceInfo.Errors Property " Url="html/P_Syntactik_DOM_Mapped_ChoiceInfo_Errors.htm" />
+    <HelpKINode Title="CompilerContext.Errors Property " Url="html/P_Syntactik_Compiler_CompilerContext_Errors.htm" />
+    <HelpKINode Title="ErrorListener.Errors Property " Url="html/P_Syntactik_Compiler_Steps_ErrorListener_Errors.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EscapeMatch class">
+    <HelpKINode Title="EscapeMatch Class" Url="html/T_Syntactik_Compiler_Steps_EscapeMatch.htm" />
+    <HelpKINode Title="about EscapeMatch class" Url="html/T_Syntactik_Compiler_Steps_EscapeMatch.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_Compiler_Steps_EscapeMatch__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Syntactik_Compiler_Steps_EscapeMatch.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_Steps_EscapeMatch.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EscapeMatch.EscapeMatch constructor" Url="html/M_Syntactik_Compiler_Steps_EscapeMatch__ctor.htm" />
+  <HelpKINode Title="EscapeMatch.Value field" Url="html/F_Syntactik_Compiler_Steps_EscapeMatch_Value.htm" />
+  <HelpKINode Title="FatalError method" Url="html/Overload_Syntactik_Compiler_CompilerErrorFactory_FatalError.htm" />
+  <HelpKINode Title="FileInput class">
+    <HelpKINode Title="FileInput Class" Url="html/T_Syntactik_Compiler_IO_FileInput.htm" />
+    <HelpKINode Title="about FileInput class" Url="html/T_Syntactik_Compiler_IO_FileInput.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_Compiler_IO_FileInput__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_IO_FileInput.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_Compiler_IO_FileInput.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FileInput.FileInput constructor" Url="html/M_Syntactik_Compiler_IO_FileInput__ctor.htm" />
+  <HelpKINode Title="FileInput.Name property" Url="html/P_Syntactik_Compiler_IO_FileInput_Name.htm" />
+  <HelpKINode Title="FileInput.Open method" Url="html/M_Syntactik_Compiler_IO_FileInput_Open.htm" />
+  <HelpKINode Title="FileName property">
+    <HelpKINode Title="LexicalInfo.FileName Property " Url="html/P_Syntactik_DOM_LexicalInfo_FileName.htm" />
+    <HelpKINode Title="Module.FileName Property " Url="html/P_Syntactik_DOM_Module_FileName.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Format method" Url="html/M_Syntactik_ParsingErrors_Format.htm" />
+  <HelpKINode Title="FreeOpenString enumeration member" Url="html/T_Syntactik_DOM_Mapped_ValueType.htm" />
+  <HelpKINode Title="FullPath property" Url="html/P_Syntactik_DOM_LexicalInfo_FullPath.htm" />
+  <HelpKINode Title="GetAliasDefinition method" Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver_GetAliasDefinition.htm" />
+  <HelpKINode Title="GetChar method">
+    <HelpKINode Title="InputStream.GetChar Method " Url="html/M_Syntactik_IO_InputStream_GetChar.htm" />
+    <HelpKINode Title="ITextSource.GetChar Method " Url="html/M_Syntactik_IO_ITextSource_GetChar.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetEncoding method" Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_GetEncoding.htm" />
+  <HelpKINode Title="GetEnumerator method" Url="html/M_Syntactik_DOM_PairCollection_1_GetEnumerator.htm" />
+  <HelpKINode Title="GetNameAndNs method" Url="html/M_Syntactik_DOM_Mapped_Element_GetNameAndNs.htm" />
+  <HelpKINode Title="GetNsInfo method" Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver_GetNsInfo.htm" />
+  <HelpKINode Title="GetParser method" Url="html/M_Syntactik_Compiler_Steps_Parse_GetParser.htm" />
+  <HelpKINode Title="GetPrefixAndNs method" Url="html/Overload_Syntactik_Compiler_Steps_NamespaceResolver_GetPrefixAndNs.htm" />
+  <HelpKINode Title="GetText method">
+    <HelpKINode Title="InputStream.GetText Method " Url="html/M_Syntactik_IO_InputStream_GetText.htm" />
+    <HelpKINode Title="ITextSource.GetText Method " Url="html/M_Syntactik_IO_ITextSource_GetText.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HasCircularReference property" Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_HasCircularReference.htm" />
+  <HelpKINode Title="HasDefaultBlockParameter property" Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_HasDefaultBlockParameter.htm" />
+  <HelpKINode Title="HasDefaultValueParameter property" Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_HasDefaultValueParameter.htm" />
+  <HelpKINode Title="HasValue method" Url="html/M_Syntactik_DOM_Pair_HasValue.htm" />
+  <HelpKINode Title="ICharStream interface">
+    <HelpKINode Title="ICharStream Interface" Url="html/T_Syntactik_IO_ICharStream.htm" />
+    <HelpKINode Title="about ICharStream interface" Url="html/T_Syntactik_IO_ICharStream.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_IO_ICharStream.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_IO_ICharStream.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICharStream.Column property" Url="html/P_Syntactik_IO_ICharStream_Column.htm" />
+  <HelpKINode Title="ICharStream.Consume method" Url="html/M_Syntactik_IO_ICharStream_Consume.htm" />
+  <HelpKINode Title="ICharStream.Index property" Url="html/P_Syntactik_IO_ICharStream_Index.htm" />
+  <HelpKINode Title="ICharStream.La method" Url="html/M_Syntactik_IO_ICharStream_La.htm" />
+  <HelpKINode Title="ICharStream.Length property" Url="html/P_Syntactik_IO_ICharStream_Length.htm" />
+  <HelpKINode Title="ICharStream.Line property" Url="html/P_Syntactik_IO_ICharStream_Line.htm" />
+  <HelpKINode Title="ICharStream.Next property" Url="html/P_Syntactik_IO_ICharStream_Next.htm" />
+  <HelpKINode Title="ICharStream.Reset method" Url="html/M_Syntactik_IO_ICharStream_Reset.htm" />
+  <HelpKINode Title="IChoiceNode interface">
+    <HelpKINode Title="IChoiceNode Interface" Url="html/T_Syntactik_DOM_Mapped_IChoiceNode.htm" />
+    <HelpKINode Title="about IChoiceNode interface" Url="html/T_Syntactik_DOM_Mapped_IChoiceNode.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Mapped_IChoiceNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IChoiceNode.ChoiceObjects property" Url="html/P_Syntactik_DOM_Mapped_IChoiceNode_ChoiceObjects.htm" />
+  <HelpKINode Title="IChoiceNode.IsChoice property" Url="html/P_Syntactik_DOM_Mapped_IChoiceNode_IsChoice.htm" />
+  <HelpKINode Title="ICompilerComponent interface">
+    <HelpKINode Title="ICompilerComponent Interface" Url="html/T_Syntactik_Compiler_ICompilerComponent.htm" />
+    <HelpKINode Title="about ICompilerComponent interface" Url="html/T_Syntactik_Compiler_ICompilerComponent.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_ICompilerComponent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICompilerComponent.Initialize method" Url="html/M_Syntactik_Compiler_ICompilerComponent_Initialize.htm" />
+  <HelpKINode Title="ICompilerInput interface">
+    <HelpKINode Title="ICompilerInput Interface" Url="html/T_Syntactik_Compiler_ICompilerInput.htm" />
+    <HelpKINode Title="about ICompilerInput interface" Url="html/T_Syntactik_Compiler_ICompilerInput.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_ICompilerInput.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_Compiler_ICompilerInput.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICompilerInput.Name property" Url="html/P_Syntactik_Compiler_ICompilerInput_Name.htm" />
+  <HelpKINode Title="ICompilerInput.Open method" Url="html/M_Syntactik_Compiler_ICompilerInput_Open.htm" />
+  <HelpKINode Title="ICompilerStep interface">
+    <HelpKINode Title="ICompilerStep Interface" Url="html/T_Syntactik_Compiler_ICompilerStep.htm" />
+    <HelpKINode Title="about ICompilerStep interface" Url="html/T_Syntactik_Compiler_ICompilerStep.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_ICompilerStep.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ICompilerStep.Run method" Url="html/M_Syntactik_Compiler_ICompilerStep_Run.htm" />
+  <HelpKINode Title="IContainer interface">
+    <HelpKINode Title="IContainer Interface" Url="html/T_Syntactik_DOM_IContainer.htm" />
+    <HelpKINode Title="about IContainer interface" Url="html/T_Syntactik_DOM_IContainer.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_IContainer.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IContainer.Entities property" Url="html/P_Syntactik_DOM_IContainer_Entities.htm" />
+  <HelpKINode Title="IDomVisitor interface">
+    <HelpKINode Title="IDomVisitor Interface" Url="html/T_Syntactik_DOM_IDomVisitor.htm" />
+    <HelpKINode Title="about IDomVisitor interface" Url="html/T_Syntactik_DOM_IDomVisitor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_IDomVisitor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IDomVisitor.Visit method" Url="html/Overload_Syntactik_DOM_IDomVisitor_Visit.htm" />
+  <HelpKINode Title="IErrorListener interface">
+    <HelpKINode Title="IErrorListener Interface" Url="html/T_Syntactik_IErrorListener.htm" />
+    <HelpKINode Title="about IErrorListener interface" Url="html/T_Syntactik_IErrorListener.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_IErrorListener.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IErrorListener.OnError method" Url="html/M_Syntactik_IErrorListener_OnError.htm" />
+  <HelpKINode Title="IMappedPair interface">
+    <HelpKINode Title="IMappedPair Interface" Url="html/T_Syntactik_DOM_Mapped_IMappedPair.htm" />
+    <HelpKINode Title="about IMappedPair interface" Url="html/T_Syntactik_DOM_Mapped_IMappedPair.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Mapped_IMappedPair.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IMappedPair.AssignmentInterval property" Url="html/P_Syntactik_DOM_Mapped_IMappedPair_AssignmentInterval.htm" />
+  <HelpKINode Title="IMappedPair.IsValueNode property" Url="html/P_Syntactik_DOM_Mapped_IMappedPair_IsValueNode.htm" />
+  <HelpKINode Title="IMappedPair.NameInterval property" Url="html/P_Syntactik_DOM_Mapped_IMappedPair_NameInterval.htm" />
+  <HelpKINode Title="IMappedPair.NameQuotesType property" Url="html/P_Syntactik_DOM_Mapped_IMappedPair_NameQuotesType.htm" />
+  <HelpKINode Title="IMappedPair.ValueIndent property" Url="html/P_Syntactik_DOM_Mapped_IMappedPair_ValueIndent.htm" />
+  <HelpKINode Title="IMappedPair.ValueInterval property" Url="html/P_Syntactik_DOM_Mapped_IMappedPair_ValueInterval.htm" />
+  <HelpKINode Title="IMappedPair.ValueQuotesType property" Url="html/P_Syntactik_DOM_Mapped_IMappedPair_ValueQuotesType.htm" />
+  <HelpKINode Title="IMappedPair.ValueType property" Url="html/P_Syntactik_DOM_Mapped_IMappedPair_ValueType.htm" />
+  <HelpKINode Title="IndentMultiplicity property" Url="html/P_Syntactik_DOM_Module_IndentMultiplicity.htm" />
+  <HelpKINode Title="IndentSymbol property" Url="html/P_Syntactik_DOM_Module_IndentSymbol.htm" />
+  <HelpKINode Title="Index field" Url="html/F_Syntactik_DOM_CharLocation_Index.htm" />
+  <HelpKINode Title="Index property">
+    <HelpKINode Title="ICharStream.Index Property " Url="html/P_Syntactik_IO_ICharStream_Index.htm" />
+    <HelpKINode Title="InputStream.Index Property " Url="html/P_Syntactik_IO_InputStream_Index.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Initialize method">
+    <HelpKINode Title="ICompilerComponent.Initialize Method " Url="html/M_Syntactik_Compiler_ICompilerComponent_Initialize.htm" />
+    <HelpKINode Title="Parse.Initialize Method " Url="html/M_Syntactik_Compiler_Steps_Parse_Initialize.htm" />
+    <HelpKINode Title="ProcessAliasesAndNamespaces.Initialize Method " Url="html/M_Syntactik_Compiler_Steps_ProcessAliasesAndNamespaces_Initialize.htm" />
+    <HelpKINode Title="ValidateDocuments.Initialize Method " Url="html/M_Syntactik_Compiler_Steps_ValidateDocuments_Initialize.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InitializeParent method">
+    <HelpKINode Title="Alias.InitializeParent Method " Url="html/M_Syntactik_DOM_Mapped_Alias_InitializeParent.htm" />
+    <HelpKINode Title="Element.InitializeParent Method " Url="html/M_Syntactik_DOM_Mapped_Element_InitializeParent.htm" />
+    <HelpKINode Title="Pair.InitializeParent Method " Url="html/M_Syntactik_DOM_Pair_InitializeParent.htm" />
+    <HelpKINode Title="Parameter.InitializeParent Method " Url="html/M_Syntactik_DOM_Mapped_Parameter_InitializeParent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InMemoryOutputObjects property" Url="html/P_Syntactik_Compiler_CompilerContext_InMemoryOutputObjects.htm" />
+  <HelpKINode Title="Input property" Url="html/P_Syntactik_Compiler_CompilerParameters_Input.htm" />
+  <HelpKINode Title="InputError method" Url="html/M_Syntactik_Compiler_CompilerErrorFactory_InputError.htm" />
+  <HelpKINode Title="InputStream class">
+    <HelpKINode Title="InputStream Class" Url="html/T_Syntactik_IO_InputStream.htm" />
+    <HelpKINode Title="about InputStream class" Url="html/T_Syntactik_IO_InputStream.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Syntactik_IO_InputStream__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_IO_InputStream.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_IO_InputStream.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InputStream.Column property" Url="html/P_Syntactik_IO_InputStream_Column.htm" />
+  <HelpKINode Title="InputStream.Consume method" Url="html/M_Syntactik_IO_InputStream_Consume.htm" />
+  <HelpKINode Title="InputStream.Dispose method" Url="html/M_Syntactik_IO_InputStream_Dispose.htm" />
+  <HelpKINode Title="InputStream.GetChar method" Url="html/M_Syntactik_IO_InputStream_GetChar.htm" />
+  <HelpKINode Title="InputStream.GetText method" Url="html/M_Syntactik_IO_InputStream_GetText.htm" />
+  <HelpKINode Title="InputStream.Index property" Url="html/P_Syntactik_IO_InputStream_Index.htm" />
+  <HelpKINode Title="InputStream.InputStream constructor" Url="html/Overload_Syntactik_IO_InputStream__ctor.htm" />
+  <HelpKINode Title="InputStream.La method" Url="html/M_Syntactik_IO_InputStream_La.htm" />
+  <HelpKINode Title="InputStream.Length property" Url="html/P_Syntactik_IO_InputStream_Length.htm" />
+  <HelpKINode Title="InputStream.Line property" Url="html/P_Syntactik_IO_InputStream_Line.htm" />
+  <HelpKINode Title="InputStream.Next property" Url="html/P_Syntactik_IO_InputStream_Next.htm" />
+  <HelpKINode Title="InputStream.Reset method" Url="html/M_Syntactik_IO_InputStream_Reset.htm" />
+  <HelpKINode Title="Insert method" Url="html/M_Syntactik_DOM_PairCollection_1_Insert.htm" />
+  <HelpKINode Title="INsNode interface">
+    <HelpKINode Title="INsNode Interface" Url="html/T_Syntactik_DOM_INsNode.htm" />
+    <HelpKINode Title="about INsNode interface" Url="html/T_Syntactik_DOM_INsNode.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_INsNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="INsNode.NsPrefix property" Url="html/P_Syntactik_DOM_INsNode_NsPrefix.htm" />
+  <HelpKINode Title="INsNodeOverridable interface">
+    <HelpKINode Title="INsNodeOverridable Interface" Url="html/T_Syntactik_DOM_INsNodeOverridable.htm" />
+    <HelpKINode Title="about INsNodeOverridable interface" Url="html/T_Syntactik_DOM_INsNodeOverridable.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_INsNodeOverridable.htm" />
+  </HelpKINode>
+  <HelpKINode Title="INsNodeOverridable.OverrideNsPrefix method" Url="html/M_Syntactik_DOM_INsNodeOverridable_OverrideNsPrefix.htm" />
+  <HelpKINode Title="IntegerCharExtensions class">
+    <HelpKINode Title="IntegerCharExtensions Class" Url="html/T_Syntactik_IO_IntegerCharExtensions.htm" />
+    <HelpKINode Title="about IntegerCharExtensions class" Url="html/T_Syntactik_IO_IntegerCharExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_IO_IntegerCharExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IntegerCharExtensions.IsEndOfOpenName method" Url="html/M_Syntactik_IO_IntegerCharExtensions_IsEndOfOpenName.htm" />
+  <HelpKINode Title="IntegerCharExtensions.IsEndOfOpenString method" Url="html/M_Syntactik_IO_IntegerCharExtensions_IsEndOfOpenString.htm" />
+  <HelpKINode Title="IntegerCharExtensions.IsIndentCharacter method" Url="html/M_Syntactik_IO_IntegerCharExtensions_IsIndentCharacter.htm" />
+  <HelpKINode Title="IntegerCharExtensions.IsNewLineCharacter method" Url="html/M_Syntactik_IO_IntegerCharExtensions_IsNewLineCharacter.htm" />
+  <HelpKINode Title="IntegerCharExtensions.IsSpaceCharacter method" Url="html/M_Syntactik_IO_IntegerCharExtensions_IsSpaceCharacter.htm" />
+  <HelpKINode Title="InterpolationItems property">
+    <HelpKINode Title="Alias.InterpolationItems Property " Url="html/P_Syntactik_DOM_Mapped_Alias_InterpolationItems.htm" />
+    <HelpKINode Title="AliasDefinition.InterpolationItems Property " Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_InterpolationItems.htm" />
+    <HelpKINode Title="Argument.InterpolationItems Property " Url="html/P_Syntactik_DOM_Mapped_Argument_InterpolationItems.htm" />
+    <HelpKINode Title="Attribute.InterpolationItems Property " Url="html/P_Syntactik_DOM_Mapped_Attribute_InterpolationItems.htm" />
+    <HelpKINode Title="Document.InterpolationItems Property " Url="html/P_Syntactik_DOM_Mapped_Document_InterpolationItems.htm" />
+    <HelpKINode Title="Element.InterpolationItems Property " Url="html/P_Syntactik_DOM_Mapped_Element_InterpolationItems.htm" />
+    <HelpKINode Title="NamespaceDefinition.InterpolationItems Property " Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_InterpolationItems.htm" />
+    <HelpKINode Title="Parameter.InterpolationItems Property " Url="html/P_Syntactik_DOM_Mapped_Parameter_InterpolationItems.htm" />
+    <HelpKINode Title="Scope.InterpolationItems Property " Url="html/P_Syntactik_DOM_Mapped_Scope_InterpolationItems.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Interval class">
+    <HelpKINode Title="Interval Class" Url="html/T_Syntactik_DOM_Interval.htm" />
+    <HelpKINode Title="about Interval class" Url="html/T_Syntactik_DOM_Interval.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Syntactik_DOM_Interval__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Syntactik_DOM_Interval.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Interval.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Interval.Begin field" Url="html/F_Syntactik_DOM_Interval_Begin.htm" />
+  <HelpKINode Title="Interval.Empty field" Url="html/F_Syntactik_DOM_Interval_Empty.htm" />
+  <HelpKINode Title="Interval.End field" Url="html/F_Syntactik_DOM_Interval_End.htm" />
+  <HelpKINode Title="Interval.Interval constructor" Url="html/Overload_Syntactik_DOM_Interval__ctor.htm" />
+  <HelpKINode Title="IPairFactory interface">
+    <HelpKINode Title="IPairFactory Interface" Url="html/T_Syntactik_DOM_IPairFactory.htm" />
+    <HelpKINode Title="about IPairFactory interface" Url="html/T_Syntactik_DOM_IPairFactory.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_IPairFactory.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IPairFactory.AppendChild method" Url="html/M_Syntactik_DOM_IPairFactory_AppendChild.htm" />
+  <HelpKINode Title="IPairFactory.CreateMappedPair method" Url="html/M_Syntactik_DOM_IPairFactory_CreateMappedPair.htm" />
+  <HelpKINode Title="IPairFactory.EndPair method" Url="html/M_Syntactik_DOM_IPairFactory_EndPair.htm" />
+  <HelpKINode Title="IPairFactory.ProcessComment method" Url="html/M_Syntactik_DOM_IPairFactory_ProcessComment.htm" />
+  <HelpKINode Title="IsChoice property">
+    <HelpKINode Title="Element.IsChoice Property " Url="html/P_Syntactik_DOM_Mapped_Element_IsChoice.htm" />
+    <HelpKINode Title="IChoiceNode.IsChoice Property " Url="html/P_Syntactik_DOM_Mapped_IChoiceNode_IsChoice.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsEndOfOpenName method" Url="html/M_Syntactik_IO_IntegerCharExtensions_IsEndOfOpenName.htm" />
+  <HelpKINode Title="IsEndOfOpenString method" Url="html/M_Syntactik_IO_IntegerCharExtensions_IsEndOfOpenString.htm" />
+  <HelpKINode Title="IsIndentCharacter method" Url="html/M_Syntactik_IO_IntegerCharExtensions_IsIndentCharacter.htm" />
+  <HelpKINode Title="IsLegalXmlChar method" Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_IsLegalXmlChar.htm" />
+  <HelpKINode Title="IsNewLineCharacter method" Url="html/M_Syntactik_IO_IntegerCharExtensions_IsNewLineCharacter.htm" />
+  <HelpKINode Title="IsParserError property" Url="html/P_Syntactik_Compiler_CompilerError_IsParserError.htm" />
+  <HelpKINode Title="IsReadOnly property" Url="html/P_Syntactik_DOM_PairCollection_1_IsReadOnly.htm" />
+  <HelpKINode Title="IsSpaceCharacter method" Url="html/M_Syntactik_IO_IntegerCharExtensions_IsSpaceCharacter.htm" />
+  <HelpKINode Title="IsValueNode property">
+    <HelpKINode Title="Alias.IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_Alias_IsValueNode.htm" />
+    <HelpKINode Title="AliasDefinition.IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_IsValueNode.htm" />
+    <HelpKINode Title="Argument.IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_Argument_IsValueNode.htm" />
+    <HelpKINode Title="Attribute.IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_Attribute_IsValueNode.htm" />
+    <HelpKINode Title="Comment.IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_Comment_IsValueNode.htm" />
+    <HelpKINode Title="Document.IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_Document_IsValueNode.htm" />
+    <HelpKINode Title="Element.IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_Element_IsValueNode.htm" />
+    <HelpKINode Title="IMappedPair.IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_IMappedPair_IsValueNode.htm" />
+    <HelpKINode Title="Module.IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_Module_IsValueNode.htm" />
+    <HelpKINode Title="NamespaceDefinition.IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_IsValueNode.htm" />
+    <HelpKINode Title="Parameter.IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_Parameter_IsValueNode.htm" />
+    <HelpKINode Title="Scope.IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_Scope_IsValueNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Item property" Url="html/P_Syntactik_DOM_PairCollection_1_Item.htm" />
+  <HelpKINode Title="ITextSource interface">
+    <HelpKINode Title="ITextSource Interface" Url="html/T_Syntactik_IO_ITextSource.htm" />
+    <HelpKINode Title="about ITextSource interface" Url="html/T_Syntactik_IO_ITextSource.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_IO_ITextSource.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITextSource.GetChar method" Url="html/M_Syntactik_IO_ITextSource_GetChar.htm" />
+  <HelpKINode Title="ITextSource.GetText method" Url="html/M_Syntactik_IO_ITextSource_GetText.htm" />
+  <HelpKINode Title="Json enumeration member" Url="html/T_Syntactik_DOM_Mapped_Module_TargetFormats.htm" />
+  <HelpKINode Title="JsonGenerator class">
+    <HelpKINode Title="JsonGenerator Class" Url="html/T_Syntactik_Compiler_Generator_JsonGenerator.htm" />
+    <HelpKINode Title="about JsonGenerator class" Url="html/T_Syntactik_Compiler_Generator_JsonGenerator.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_Compiler_Generator_JsonGenerator__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Syntactik_Compiler_Generator_JsonGenerator.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_Generator_JsonGenerator.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_Compiler_Generator_JsonGenerator.htm" />
+  </HelpKINode>
+  <HelpKINode Title="JsonGenerator.BlockIsStarting field" Url="html/F_Syntactik_Compiler_Generator_JsonGenerator_BlockIsStarting.htm" />
+  <HelpKINode Title="JsonGenerator.BlockState field" Url="html/F_Syntactik_Compiler_Generator_JsonGenerator_BlockState.htm" />
+  <HelpKINode Title="JsonGenerator.BlockStateEnum enumeration" Url="html/T_Syntactik_Compiler_Generator_JsonGenerator_BlockStateEnum.htm" />
+  <HelpKINode Title="JsonGenerator.CheckBlockStartForAlias method" Url="html/M_Syntactik_Compiler_Generator_JsonGenerator_CheckBlockStartForAlias.htm" />
+  <HelpKINode Title="JsonGenerator.ChoiceStack field" Url="html/F_Syntactik_Compiler_Generator_JsonGenerator_ChoiceStack.htm" />
+  <HelpKINode Title="JsonGenerator.EnterChoiceContainer method" Url="html/M_Syntactik_Compiler_Generator_JsonGenerator_EnterChoiceContainer.htm" />
+  <HelpKINode Title="JsonGenerator.JsonGenerator constructor" Url="html/M_Syntactik_Compiler_Generator_JsonGenerator__ctor.htm" />
+  <HelpKINode Title="JsonGenerator.JsonWriter field" Url="html/F_Syntactik_Compiler_Generator_JsonGenerator_JsonWriter.htm" />
+  <HelpKINode Title="JsonGenerator.OnValue method" Url="html/M_Syntactik_Compiler_Generator_JsonGenerator_OnValue.htm" />
+  <HelpKINode Title="JsonGenerator.ResolveChoiceValue method" Url="html/M_Syntactik_Compiler_Generator_JsonGenerator_ResolveChoiceValue.htm" />
+  <HelpKINode Title="JsonGenerator.Visit method" Url="html/Overload_Syntactik_Compiler_Generator_JsonGenerator_Visit.htm" />
+  <HelpKINode Title="JsonGenerator.WriterDelegate field" Url="html/F_Syntactik_Compiler_Generator_JsonGenerator_WriterDelegate.htm" />
+  <HelpKINode Title="JsonWriter field" Url="html/F_Syntactik_Compiler_Generator_JsonGenerator_JsonWriter.htm" />
+  <HelpKINode Title="La method">
+    <HelpKINode Title="ICharStream.La Method " Url="html/M_Syntactik_IO_ICharStream_La.htm" />
+    <HelpKINode Title="InputStream.La Method " Url="html/M_Syntactik_IO_InputStream_La.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Length property">
+    <HelpKINode Title="ICharStream.Length Property " Url="html/P_Syntactik_IO_ICharStream_Length.htm" />
+    <HelpKINode Title="InputStream.Length Property " Url="html/P_Syntactik_IO_InputStream_Length.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LexicalInfo class">
+    <HelpKINode Title="LexicalInfo Class" Url="html/T_Syntactik_DOM_LexicalInfo.htm" />
+    <HelpKINode Title="about LexicalInfo class" Url="html/T_Syntactik_DOM_LexicalInfo.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Syntactik_DOM_LexicalInfo__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Syntactik_DOM_LexicalInfo.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_LexicalInfo.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_LexicalInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LexicalInfo property" Url="html/P_Syntactik_Compiler_CompilerError_LexicalInfo.htm" />
+  <HelpKINode Title="LexicalInfo.CompareTo method" Url="html/Overload_Syntactik_DOM_LexicalInfo_CompareTo.htm" />
+  <HelpKINode Title="LexicalInfo.Empty field" Url="html/F_Syntactik_DOM_LexicalInfo_Empty.htm" />
+  <HelpKINode Title="LexicalInfo.Equals method" Url="html/Overload_Syntactik_DOM_LexicalInfo_Equals.htm" />
+  <HelpKINode Title="LexicalInfo.FileName property" Url="html/P_Syntactik_DOM_LexicalInfo_FileName.htm" />
+  <HelpKINode Title="LexicalInfo.FullPath property" Url="html/P_Syntactik_DOM_LexicalInfo_FullPath.htm" />
+  <HelpKINode Title="LexicalInfo.LexicalInfo constructor" Url="html/Overload_Syntactik_DOM_LexicalInfo__ctor.htm" />
+  <HelpKINode Title="LexicalInfo.ToString method" Url="html/M_Syntactik_DOM_LexicalInfo_ToString.htm" />
+  <HelpKINode Title="Line field" Url="html/F_Syntactik_DOM_CharLocation_Line.htm" />
+  <HelpKINode Title="Line property">
+    <HelpKINode Title="ICharStream.Line Property " Url="html/P_Syntactik_IO_ICharStream_Line.htm" />
+    <HelpKINode Title="InputStream.Line Property " Url="html/P_Syntactik_IO_InputStream_Line.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LiteralChoice enumeration member" Url="html/T_Syntactik_DOM_Mapped_ValueType.htm" />
+  <HelpKINode Title="LocationMap property" Url="html/P_Syntactik_Compiler_Generator_XmlGenerator_LocationMap.htm" />
+  <HelpKINode Title="Members property" Url="html/P_Syntactik_DOM_Module_Members.htm" />
+  <HelpKINode Title="Messages field" Url="html/F_Syntactik_ParsingErrors_Messages.htm" />
+  <HelpKINode Title="Module class">
+    <HelpKINode Title="Module Class" Url="html/T_Syntactik_DOM_Mapped_Module.htm" />
+    <HelpKINode Title="Module Class" Url="html/T_Syntactik_DOM_Module.htm" />
+    <HelpKINode Title="about Module class" Url="html/T_Syntactik_DOM_Module.htm" />
+    <HelpKINode Title="about Module class" Url="html/T_Syntactik_DOM_Mapped_Module.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_Mapped_Module__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_Module__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Mapped_Module.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Module.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Module.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Mapped_Module.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Module property" Url="html/P_Syntactik_DOM_ModuleMember_Module.htm" />
+  <HelpKINode Title="Module.Accept method" Url="html/M_Syntactik_DOM_Module_Accept.htm" />
+  <HelpKINode Title="Module.AddEntity method" Url="html/M_Syntactik_DOM_Module_AddEntity.htm" />
+  <HelpKINode Title="Module.AppendChild method">
+    <HelpKINode Title="Module.AppendChild Method " Url="html/M_Syntactik_DOM_Module_AppendChild.htm" />
+    <HelpKINode Title="Module.AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_Module_AppendChild.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Module.AssignmentInterval property" Url="html/P_Syntactik_DOM_Mapped_Module_AssignmentInterval.htm" />
+  <HelpKINode Title="Module.CreateModuleDocument method" Url="html/M_Syntactik_DOM_Module_CreateModuleDocument.htm" />
+  <HelpKINode Title="Module.FileName property" Url="html/P_Syntactik_DOM_Module_FileName.htm" />
+  <HelpKINode Title="Module.IndentMultiplicity property" Url="html/P_Syntactik_DOM_Module_IndentMultiplicity.htm" />
+  <HelpKINode Title="Module.IndentSymbol property" Url="html/P_Syntactik_DOM_Module_IndentSymbol.htm" />
+  <HelpKINode Title="Module.IsValueNode property" Url="html/P_Syntactik_DOM_Mapped_Module_IsValueNode.htm" />
+  <HelpKINode Title="Module.Members property" Url="html/P_Syntactik_DOM_Module_Members.htm" />
+  <HelpKINode Title="Module.Module constructor">
+    <HelpKINode Title="Module Constructor " Url="html/M_Syntactik_DOM_Module__ctor.htm" />
+    <HelpKINode Title="Module Constructor " Url="html/M_Syntactik_DOM_Mapped_Module__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Module.ModuleDocument property" Url="html/P_Syntactik_DOM_Module_ModuleDocument.htm" />
+  <HelpKINode Title="Module.NameInterval property" Url="html/P_Syntactik_DOM_Mapped_Module_NameInterval.htm" />
+  <HelpKINode Title="Module.NameQuotesType property" Url="html/P_Syntactik_DOM_Mapped_Module_NameQuotesType.htm" />
+  <HelpKINode Title="Module.NamespaceDefinitions property" Url="html/P_Syntactik_DOM_Module_NamespaceDefinitions.htm" />
+  <HelpKINode Title="Module.TargetFormat property" Url="html/P_Syntactik_DOM_Mapped_Module_TargetFormat.htm" />
+  <HelpKINode Title="Module.TargetFormats enumeration" Url="html/T_Syntactik_DOM_Mapped_Module_TargetFormats.htm" />
+  <HelpKINode Title="Module.ValueIndent property" Url="html/P_Syntactik_DOM_Mapped_Module_ValueIndent.htm" />
+  <HelpKINode Title="Module.ValueInterval property" Url="html/P_Syntactik_DOM_Mapped_Module_ValueInterval.htm" />
+  <HelpKINode Title="Module.ValueQuotesType property" Url="html/P_Syntactik_DOM_Mapped_Module_ValueQuotesType.htm" />
+  <HelpKINode Title="Module.ValueType property" Url="html/P_Syntactik_DOM_Mapped_Module_ValueType.htm" />
+  <HelpKINode Title="ModuleDocument property" Url="html/P_Syntactik_DOM_Module_ModuleDocument.htm" />
+  <HelpKINode Title="ModuleMember class">
+    <HelpKINode Title="ModuleMember Class" Url="html/T_Syntactik_DOM_ModuleMember.htm" />
+    <HelpKINode Title="about ModuleMember class" Url="html/T_Syntactik_DOM_ModuleMember.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_ModuleMember__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_ModuleMember.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_ModuleMember.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ModuleMember property" Url="html/P_Syntactik_Compiler_Steps_NsInfo_ModuleMember.htm" />
+  <HelpKINode Title="ModuleMember.Module property" Url="html/P_Syntactik_DOM_ModuleMember_Module.htm" />
+  <HelpKINode Title="ModuleMember.ModuleMember constructor" Url="html/M_Syntactik_DOM_ModuleMember__ctor.htm" />
+  <HelpKINode Title="ModuleMember.NamespaceDefinitions property" Url="html/P_Syntactik_DOM_ModuleMember_NamespaceDefinitions.htm" />
+  <HelpKINode Title="ModuleMembersNsInfo property" Url="html/P_Syntactik_Compiler_Steps_NamespaceResolver_ModuleMembersNsInfo.htm" />
+  <HelpKINode Title="Modules property" Url="html/P_Syntactik_DOM_CompileUnit_Modules.htm" />
+  <HelpKINode Title="Name property">
+    <HelpKINode Title="FileInput.Name Property " Url="html/P_Syntactik_Compiler_IO_FileInput_Name.htm" />
+    <HelpKINode Title="ICompilerInput.Name Property " Url="html/P_Syntactik_Compiler_ICompilerInput_Name.htm" />
+    <HelpKINode Title="Pair.Name Property " Url="html/P_Syntactik_DOM_Pair_Name.htm" />
+    <HelpKINode Title="ReaderInput.Name Property " Url="html/P_Syntactik_Compiler_IO_ReaderInput_Name.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NameInterval property">
+    <HelpKINode Title="Alias.NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_Alias_NameInterval.htm" />
+    <HelpKINode Title="AliasDefinition.NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_NameInterval.htm" />
+    <HelpKINode Title="Argument.NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_Argument_NameInterval.htm" />
+    <HelpKINode Title="Attribute.NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_Attribute_NameInterval.htm" />
+    <HelpKINode Title="Comment.NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_Comment_NameInterval.htm" />
+    <HelpKINode Title="Document.NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_Document_NameInterval.htm" />
+    <HelpKINode Title="Element.NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_Element_NameInterval.htm" />
+    <HelpKINode Title="IMappedPair.NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_IMappedPair_NameInterval.htm" />
+    <HelpKINode Title="Module.NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_Module_NameInterval.htm" />
+    <HelpKINode Title="NamespaceDefinition.NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_NameInterval.htm" />
+    <HelpKINode Title="Parameter.NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_Parameter_NameInterval.htm" />
+    <HelpKINode Title="Scope.NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_Scope_NameInterval.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NameQuotesType property">
+    <HelpKINode Title="Alias.NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Alias_NameQuotesType.htm" />
+    <HelpKINode Title="AliasDefinition.NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_NameQuotesType.htm" />
+    <HelpKINode Title="Argument.NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Argument_NameQuotesType.htm" />
+    <HelpKINode Title="Attribute.NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Attribute_NameQuotesType.htm" />
+    <HelpKINode Title="Comment.NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Comment_NameQuotesType.htm" />
+    <HelpKINode Title="Document.NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Document_NameQuotesType.htm" />
+    <HelpKINode Title="Element.NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Element_NameQuotesType.htm" />
+    <HelpKINode Title="IMappedPair.NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_IMappedPair_NameQuotesType.htm" />
+    <HelpKINode Title="Module.NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Module_NameQuotesType.htm" />
+    <HelpKINode Title="NamespaceDefinition.NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_NameQuotesType.htm" />
+    <HelpKINode Title="Parameter.NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Parameter_NameQuotesType.htm" />
+    <HelpKINode Title="Scope.NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Scope_NameQuotesType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NamespaceDefinition class">
+    <HelpKINode Title="NamespaceDefinition Class" Url="html/T_Syntactik_DOM_Mapped_NamespaceDefinition.htm" />
+    <HelpKINode Title="NamespaceDefinition Class" Url="html/T_Syntactik_DOM_NamespaceDefinition.htm" />
+    <HelpKINode Title="about NamespaceDefinition class" Url="html/T_Syntactik_DOM_Mapped_NamespaceDefinition.htm" />
+    <HelpKINode Title="about NamespaceDefinition class" Url="html/T_Syntactik_DOM_NamespaceDefinition.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_NamespaceDefinition__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_Mapped_NamespaceDefinition__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_NamespaceDefinition.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Mapped_NamespaceDefinition.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_NamespaceDefinition.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Mapped_NamespaceDefinition.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NamespaceDefinition.Accept method" Url="html/M_Syntactik_DOM_NamespaceDefinition_Accept.htm" />
+  <HelpKINode Title="NamespaceDefinition.AppendChild method" Url="html/M_Syntactik_DOM_Mapped_NamespaceDefinition_AppendChild.htm" />
+  <HelpKINode Title="NamespaceDefinition.AssignmentInterval property" Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_AssignmentInterval.htm" />
+  <HelpKINode Title="NamespaceDefinition.InterpolationItems property" Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_InterpolationItems.htm" />
+  <HelpKINode Title="NamespaceDefinition.IsValueNode property" Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_IsValueNode.htm" />
+  <HelpKINode Title="NamespaceDefinition.NameInterval property" Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_NameInterval.htm" />
+  <HelpKINode Title="NamespaceDefinition.NameQuotesType property" Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_NameQuotesType.htm" />
+  <HelpKINode Title="NamespaceDefinition.NamespaceDefinition constructor">
+    <HelpKINode Title="NamespaceDefinition Constructor " Url="html/M_Syntactik_DOM_NamespaceDefinition__ctor.htm" />
+    <HelpKINode Title="NamespaceDefinition Constructor " Url="html/M_Syntactik_DOM_Mapped_NamespaceDefinition__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NamespaceDefinition.ValueIndent property" Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_ValueIndent.htm" />
+  <HelpKINode Title="NamespaceDefinition.ValueInterval property" Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_ValueInterval.htm" />
+  <HelpKINode Title="NamespaceDefinition.ValueQuotesType property" Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_ValueQuotesType.htm" />
+  <HelpKINode Title="NamespaceDefinition.ValueType property" Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_ValueType.htm" />
+  <HelpKINode Title="NamespaceDefinitions property">
+    <HelpKINode Title="Module.NamespaceDefinitions Property " Url="html/P_Syntactik_DOM_Module_NamespaceDefinitions.htm" />
+    <HelpKINode Title="ModuleMember.NamespaceDefinitions Property " Url="html/P_Syntactik_DOM_ModuleMember_NamespaceDefinitions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NamespaceResolver class">
+    <HelpKINode Title="NamespaceResolver Class" Url="html/T_Syntactik_Compiler_Steps_NamespaceResolver.htm" />
+    <HelpKINode Title="about NamespaceResolver class" Url="html/T_Syntactik_Compiler_Steps_NamespaceResolver.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_Steps_NamespaceResolver.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_Compiler_Steps_NamespaceResolver.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NamespaceResolver field" Url="html/F_Syntactik_Compiler_Steps_AliasResolvingVisitor_NamespaceResolver.htm" />
+  <HelpKINode Title="NamespaceResolver.EnterAliasDef method" Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver_EnterAliasDef.htm" />
+  <HelpKINode Title="NamespaceResolver.EnterDocument method" Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver_EnterDocument.htm" />
+  <HelpKINode Title="NamespaceResolver.EnterModule method" Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver_EnterModule.htm" />
+  <HelpKINode Title="NamespaceResolver.GetAliasDefinition method" Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver_GetAliasDefinition.htm" />
+  <HelpKINode Title="NamespaceResolver.GetNsInfo method" Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver_GetNsInfo.htm" />
+  <HelpKINode Title="NamespaceResolver.GetPrefixAndNs method" Url="html/Overload_Syntactik_Compiler_Steps_NamespaceResolver_GetPrefixAndNs.htm" />
+  <HelpKINode Title="NamespaceResolver.ModuleMembersNsInfo property" Url="html/P_Syntactik_Compiler_Steps_NamespaceResolver_ModuleMembersNsInfo.htm" />
+  <HelpKINode Title="NamespaceResolver.NamespaceResolver constructor" Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver__ctor.htm" />
+  <HelpKINode Title="NamespaceResolver.ProcessAlias method" Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver_ProcessAlias.htm" />
+  <HelpKINode Title="NamespaceResolver.ResolveAliasesAndDoChecks method" Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver_ResolveAliasesAndDoChecks.htm" />
+  <HelpKINode Title="Namespaces property" Url="html/P_Syntactik_Compiler_Steps_NsInfo_Namespaces.htm" />
+  <HelpKINode Title="Next property">
+    <HelpKINode Title="ICharStream.Next Property " Url="html/P_Syntactik_IO_ICharStream_Next.htm" />
+    <HelpKINode Title="InputStream.Next Property " Url="html/P_Syntactik_IO_InputStream_Next.htm" />
+  </HelpKINode>
+  <HelpKINode Title="None enumeration member">
+    <HelpKINode Title="AssignmentEnum Enumeration" Url="html/T_Syntactik_DOM_AssignmentEnum.htm" />
+    <HelpKINode Title="QuotesEnum Enumeration" Url="html/T_Syntactik_DOM_QuotesEnum.htm" />
+    <HelpKINode Title="ValueType Enumeration" Url="html/T_Syntactik_DOM_Mapped_ValueType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NsInfo class">
+    <HelpKINode Title="NsInfo Class" Url="html/T_Syntactik_Compiler_Steps_NsInfo.htm" />
+    <HelpKINode Title="about NsInfo class" Url="html/T_Syntactik_Compiler_Steps_NsInfo.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_Compiler_Steps_NsInfo__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_Steps_NsInfo.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_Compiler_Steps_NsInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NsInfo.Aliases property" Url="html/P_Syntactik_Compiler_Steps_NsInfo_Aliases.htm" />
+  <HelpKINode Title="NsInfo.AliasesResolved property" Url="html/P_Syntactik_Compiler_Steps_NsInfo_AliasesResolved.htm" />
+  <HelpKINode Title="NsInfo.ModuleMember property" Url="html/P_Syntactik_Compiler_Steps_NsInfo_ModuleMember.htm" />
+  <HelpKINode Title="NsInfo.Namespaces property" Url="html/P_Syntactik_Compiler_Steps_NsInfo_Namespaces.htm" />
+  <HelpKINode Title="NsInfo.NsInfo constructor" Url="html/M_Syntactik_Compiler_Steps_NsInfo__ctor.htm" />
+  <HelpKINode Title="NsPrefix property">
+    <HelpKINode Title="Attribute.NsPrefix Property " Url="html/P_Syntactik_DOM_Attribute_NsPrefix.htm" />
+    <HelpKINode Title="Element.NsPrefix Property " Url="html/P_Syntactik_DOM_Element_NsPrefix.htm" />
+    <HelpKINode Title="INsNode.NsPrefix Property " Url="html/P_Syntactik_DOM_INsNode_NsPrefix.htm" />
+    <HelpKINode Title="Scope.NsPrefix Property " Url="html/P_Syntactik_DOM_Scope_NsPrefix.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Null enumeration member" Url="html/T_Syntactik_DOM_Mapped_ValueType.htm" />
+  <HelpKINode Title="Number enumeration member" Url="html/T_Syntactik_DOM_Mapped_ValueType.htm" />
+  <HelpKINode Title="Object enumeration member">
+    <HelpKINode Title="JsonGenerator.BlockStateEnum Enumeration" Url="html/T_Syntactik_Compiler_Generator_JsonGenerator_BlockStateEnum.htm" />
+    <HelpKINode Title="ValueType Enumeration" Url="html/T_Syntactik_DOM_Mapped_ValueType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnError method">
+    <HelpKINode Title="ErrorListener.OnError Method " Url="html/M_Syntactik_Compiler_Steps_ErrorListener_OnError.htm" />
+    <HelpKINode Title="IErrorListener.OnError Method " Url="html/M_Syntactik_IErrorListener_OnError.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnPair method" Url="html/M_Syntactik_DOM_SyntactikDepthFirstVisitor_OnPair.htm" />
+  <HelpKINode Title="OnValue method">
+    <HelpKINode Title="AliasResolvingVisitor.OnValue Method " Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_OnValue.htm" />
+    <HelpKINode Title="JsonGenerator.OnValue Method " Url="html/M_Syntactik_Compiler_Generator_JsonGenerator_OnValue.htm" />
+    <HelpKINode Title="XmlGenerator.OnValue Method " Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_OnValue.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Open method">
+    <HelpKINode Title="FileInput.Open Method " Url="html/M_Syntactik_Compiler_IO_FileInput_Open.htm" />
+    <HelpKINode Title="ICompilerInput.Open Method " Url="html/M_Syntactik_Compiler_ICompilerInput_Open.htm" />
+    <HelpKINode Title="ReaderInput.Open Method " Url="html/M_Syntactik_Compiler_IO_ReaderInput_Open.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OpenString enumeration member" Url="html/T_Syntactik_DOM_Mapped_ValueType.htm" />
+  <HelpKINode Title="OutputDirectory property" Url="html/P_Syntactik_Compiler_CompilerParameters_OutputDirectory.htm" />
+  <HelpKINode Title="OverrideNsPrefix method">
+    <HelpKINode Title="Attribute.OverrideNsPrefix Method " Url="html/M_Syntactik_DOM_Mapped_Attribute_OverrideNsPrefix.htm" />
+    <HelpKINode Title="Element.OverrideNsPrefix Method " Url="html/M_Syntactik_DOM_Mapped_Element_OverrideNsPrefix.htm" />
+    <HelpKINode Title="INsNodeOverridable.OverrideNsPrefix Method " Url="html/M_Syntactik_DOM_INsNodeOverridable_OverrideNsPrefix.htm" />
+    <HelpKINode Title="Scope.OverrideNsPrefix Method " Url="html/M_Syntactik_DOM_Mapped_Scope_OverrideNsPrefix.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Pair class">
+    <HelpKINode Title="Pair Class" Url="html/T_Syntactik_DOM_Pair.htm" />
+    <HelpKINode Title="about Pair class" Url="html/T_Syntactik_DOM_Pair.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Syntactik_DOM_Pair__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Pair.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Pair.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Pair.Accept method" Url="html/M_Syntactik_DOM_Pair_Accept.htm" />
+  <HelpKINode Title="Pair.AppendChild method" Url="html/M_Syntactik_DOM_Pair_AppendChild.htm" />
+  <HelpKINode Title="Pair.Assignment property" Url="html/P_Syntactik_DOM_Pair_Assignment.htm" />
+  <HelpKINode Title="Pair.HasValue method" Url="html/M_Syntactik_DOM_Pair_HasValue.htm" />
+  <HelpKINode Title="Pair.InitializeParent method" Url="html/M_Syntactik_DOM_Pair_InitializeParent.htm" />
+  <HelpKINode Title="Pair.Name property" Url="html/P_Syntactik_DOM_Pair_Name.htm" />
+  <HelpKINode Title="Pair.Pair constructor" Url="html/Overload_Syntactik_DOM_Pair__ctor.htm" />
+  <HelpKINode Title="Pair.PairValue property" Url="html/P_Syntactik_DOM_Pair_PairValue.htm" />
+  <HelpKINode Title="Pair.Parent property" Url="html/P_Syntactik_DOM_Pair_Parent.htm" />
+  <HelpKINode Title="Pair.Value property" Url="html/P_Syntactik_DOM_Pair_Value.htm" />
+  <HelpKINode Title="PairCollection(Of T) class">
+    <HelpKINode Title="PairCollection(T) Class" Url="html/T_Syntactik_DOM_PairCollection_1.htm" />
+    <HelpKINode Title="about PairCollection(Of T) class" Url="html/T_Syntactik_DOM_PairCollection_1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Syntactik_DOM_PairCollection_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_PairCollection_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_PairCollection_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PairCollection(Of T).Add method" Url="html/M_Syntactik_DOM_PairCollection_1_Add.htm" />
+  <HelpKINode Title="PairCollection(Of T).AddRange method" Url="html/M_Syntactik_DOM_PairCollection_1_AddRange.htm" />
+  <HelpKINode Title="PairCollection(Of T).Clear method" Url="html/M_Syntactik_DOM_PairCollection_1_Clear.htm" />
+  <HelpKINode Title="PairCollection(Of T).Contains method" Url="html/M_Syntactik_DOM_PairCollection_1_Contains.htm" />
+  <HelpKINode Title="PairCollection(Of T).CopyTo method" Url="html/Overload_Syntactik_DOM_PairCollection_1_CopyTo.htm" />
+  <HelpKINode Title="PairCollection(Of T).Count property" Url="html/P_Syntactik_DOM_PairCollection_1_Count.htm" />
+  <HelpKINode Title="PairCollection(Of T).GetEnumerator method" Url="html/M_Syntactik_DOM_PairCollection_1_GetEnumerator.htm" />
+  <HelpKINode Title="PairCollection(Of T).Insert method" Url="html/M_Syntactik_DOM_PairCollection_1_Insert.htm" />
+  <HelpKINode Title="PairCollection(Of T).IsReadOnly property" Url="html/P_Syntactik_DOM_PairCollection_1_IsReadOnly.htm" />
+  <HelpKINode Title="PairCollection(Of T).Item property" Url="html/P_Syntactik_DOM_PairCollection_1_Item.htm" />
+  <HelpKINode Title="PairCollection(Of T).PairCollection constructor" Url="html/Overload_Syntactik_DOM_PairCollection_1__ctor.htm" />
+  <HelpKINode Title="PairCollection(Of T).Parent property" Url="html/P_Syntactik_DOM_PairCollection_1_Parent.htm" />
+  <HelpKINode Title="PairCollection(Of T).Remove method" Url="html/M_Syntactik_DOM_PairCollection_1_Remove.htm" />
+  <HelpKINode Title="PairCollection(Of T).Replace method" Url="html/M_Syntactik_DOM_PairCollection_1_Replace.htm" />
+  <HelpKINode Title="PairCollection(Of T).ToArray method" Url="html/M_Syntactik_DOM_PairCollection_1_ToArray.htm" />
+  <HelpKINode Title="PairCollection&lt;T&gt; class">
+    <HelpKINode Title="PairCollection(T) Class" Url="html/T_Syntactik_DOM_PairCollection_1.htm" />
+    <HelpKINode Title="about PairCollection&lt;T&gt; class" Url="html/T_Syntactik_DOM_PairCollection_1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Syntactik_DOM_PairCollection_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_PairCollection_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_PairCollection_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PairCollection&lt;T&gt;.Add method" Url="html/M_Syntactik_DOM_PairCollection_1_Add.htm" />
+  <HelpKINode Title="PairCollection&lt;T&gt;.AddRange method" Url="html/M_Syntactik_DOM_PairCollection_1_AddRange.htm" />
+  <HelpKINode Title="PairCollection&lt;T&gt;.Clear method" Url="html/M_Syntactik_DOM_PairCollection_1_Clear.htm" />
+  <HelpKINode Title="PairCollection&lt;T&gt;.Contains method" Url="html/M_Syntactik_DOM_PairCollection_1_Contains.htm" />
+  <HelpKINode Title="PairCollection&lt;T&gt;.CopyTo method" Url="html/Overload_Syntactik_DOM_PairCollection_1_CopyTo.htm" />
+  <HelpKINode Title="PairCollection&lt;T&gt;.Count property" Url="html/P_Syntactik_DOM_PairCollection_1_Count.htm" />
+  <HelpKINode Title="PairCollection&lt;T&gt;.GetEnumerator method" Url="html/M_Syntactik_DOM_PairCollection_1_GetEnumerator.htm" />
+  <HelpKINode Title="PairCollection&lt;T&gt;.Insert method" Url="html/M_Syntactik_DOM_PairCollection_1_Insert.htm" />
+  <HelpKINode Title="PairCollection&lt;T&gt;.IsReadOnly property" Url="html/P_Syntactik_DOM_PairCollection_1_IsReadOnly.htm" />
+  <HelpKINode Title="PairCollection&lt;T&gt;.Item property" Url="html/P_Syntactik_DOM_PairCollection_1_Item.htm" />
+  <HelpKINode Title="PairCollection&lt;T&gt;.PairCollection constructor" Url="html/Overload_Syntactik_DOM_PairCollection_1__ctor.htm" />
+  <HelpKINode Title="PairCollection&lt;T&gt;.Parent property" Url="html/P_Syntactik_DOM_PairCollection_1_Parent.htm" />
+  <HelpKINode Title="PairCollection&lt;T&gt;.Remove method" Url="html/M_Syntactik_DOM_PairCollection_1_Remove.htm" />
+  <HelpKINode Title="PairCollection&lt;T&gt;.Replace method" Url="html/M_Syntactik_DOM_PairCollection_1_Replace.htm" />
+  <HelpKINode Title="PairCollection&lt;T&gt;.ToArray method" Url="html/M_Syntactik_DOM_PairCollection_1_ToArray.htm" />
+  <HelpKINode Title="PairFactoryForJson class">
+    <HelpKINode Title="PairFactoryForJson Class" Url="html/T_Syntactik_Compiler_Steps_PairFactoryForJson.htm" />
+    <HelpKINode Title="about PairFactoryForJson class" Url="html/T_Syntactik_Compiler_Steps_PairFactoryForJson.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_Compiler_Steps_PairFactoryForJson__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_Steps_PairFactoryForJson.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PairFactoryForJson.AppendChild method" Url="html/M_Syntactik_Compiler_Steps_PairFactoryForJson_AppendChild.htm" />
+  <HelpKINode Title="PairFactoryForJson.CreateMappedPair method" Url="html/M_Syntactik_Compiler_Steps_PairFactoryForJson_CreateMappedPair.htm" />
+  <HelpKINode Title="PairFactoryForJson.EndPair method" Url="html/M_Syntactik_Compiler_Steps_PairFactoryForJson_EndPair.htm" />
+  <HelpKINode Title="PairFactoryForJson.PairFactoryForJson constructor" Url="html/M_Syntactik_Compiler_Steps_PairFactoryForJson__ctor.htm" />
+  <HelpKINode Title="PairFactoryForJson.ProcessComment method" Url="html/M_Syntactik_Compiler_Steps_PairFactoryForJson_ProcessComment.htm" />
+  <HelpKINode Title="PairFactoryForXml class">
+    <HelpKINode Title="PairFactoryForXml Class" Url="html/T_Syntactik_Compiler_Steps_PairFactoryForXml.htm" />
+    <HelpKINode Title="about PairFactoryForXml class" Url="html/T_Syntactik_Compiler_Steps_PairFactoryForXml.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_Compiler_Steps_PairFactoryForXml__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_Steps_PairFactoryForXml.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PairFactoryForXml.AppendChild method" Url="html/M_Syntactik_Compiler_Steps_PairFactoryForXml_AppendChild.htm" />
+  <HelpKINode Title="PairFactoryForXml.CreateMappedPair method" Url="html/M_Syntactik_Compiler_Steps_PairFactoryForXml_CreateMappedPair.htm" />
+  <HelpKINode Title="PairFactoryForXml.EndPair method" Url="html/M_Syntactik_Compiler_Steps_PairFactoryForXml_EndPair.htm" />
+  <HelpKINode Title="PairFactoryForXml.PairFactoryForXml constructor" Url="html/M_Syntactik_Compiler_Steps_PairFactoryForXml__ctor.htm" />
+  <HelpKINode Title="PairFactoryForXml.ProcessComment method" Url="html/M_Syntactik_Compiler_Steps_PairFactoryForXml_ProcessComment.htm" />
+  <HelpKINode Title="PairValue enumeration member" Url="html/T_Syntactik_DOM_Mapped_ValueType.htm" />
+  <HelpKINode Title="PairValue property" Url="html/P_Syntactik_DOM_Pair_PairValue.htm" />
+  <HelpKINode Title="Parameter class">
+    <HelpKINode Title="Parameter Class" Url="html/T_Syntactik_DOM_Mapped_Parameter.htm" />
+    <HelpKINode Title="Parameter Class" Url="html/T_Syntactik_DOM_Parameter.htm" />
+    <HelpKINode Title="about Parameter class" Url="html/T_Syntactik_DOM_Mapped_Parameter.htm" />
+    <HelpKINode Title="about Parameter class" Url="html/T_Syntactik_DOM_Parameter.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_Mapped_Parameter__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_Parameter__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Mapped_Parameter.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Parameter.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Mapped_Parameter.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Parameter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Parameter.Accept method" Url="html/M_Syntactik_DOM_Parameter_Accept.htm" />
+  <HelpKINode Title="Parameter.AliasDefinition property" Url="html/P_Syntactik_DOM_Mapped_Parameter_AliasDefinition.htm" />
+  <HelpKINode Title="Parameter.AppendChild method">
+    <HelpKINode Title="Parameter.AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_Parameter_AppendChild.htm" />
+    <HelpKINode Title="Parameter.AppendChild Method " Url="html/M_Syntactik_DOM_Parameter_AppendChild.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Parameter.AssignmentInterval property" Url="html/P_Syntactik_DOM_Mapped_Parameter_AssignmentInterval.htm" />
+  <HelpKINode Title="Parameter.Entities property" Url="html/P_Syntactik_DOM_Parameter_Entities.htm" />
+  <HelpKINode Title="Parameter.InitializeParent method" Url="html/M_Syntactik_DOM_Mapped_Parameter_InitializeParent.htm" />
+  <HelpKINode Title="Parameter.InterpolationItems property" Url="html/P_Syntactik_DOM_Mapped_Parameter_InterpolationItems.htm" />
+  <HelpKINode Title="Parameter.IsValueNode property" Url="html/P_Syntactik_DOM_Mapped_Parameter_IsValueNode.htm" />
+  <HelpKINode Title="Parameter.NameInterval property" Url="html/P_Syntactik_DOM_Mapped_Parameter_NameInterval.htm" />
+  <HelpKINode Title="Parameter.NameQuotesType property" Url="html/P_Syntactik_DOM_Mapped_Parameter_NameQuotesType.htm" />
+  <HelpKINode Title="Parameter.Parameter constructor">
+    <HelpKINode Title="Parameter Constructor " Url="html/M_Syntactik_DOM_Parameter__ctor.htm" />
+    <HelpKINode Title="Parameter Constructor " Url="html/M_Syntactik_DOM_Mapped_Parameter__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Parameter.ToString method" Url="html/M_Syntactik_DOM_Parameter_ToString.htm" />
+  <HelpKINode Title="Parameter.ValueIndent property" Url="html/P_Syntactik_DOM_Mapped_Parameter_ValueIndent.htm" />
+  <HelpKINode Title="Parameter.ValueInterval property" Url="html/P_Syntactik_DOM_Mapped_Parameter_ValueInterval.htm" />
+  <HelpKINode Title="Parameter.ValueQuotesType property" Url="html/P_Syntactik_DOM_Mapped_Parameter_ValueQuotesType.htm" />
+  <HelpKINode Title="Parameter.ValueType property" Url="html/P_Syntactik_DOM_Mapped_Parameter_ValueType.htm" />
+  <HelpKINode Title="Parameters property">
+    <HelpKINode Title="AliasDefinition.Parameters Property " Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_Parameters.htm" />
+    <HelpKINode Title="CompilerContext.Parameters Property " Url="html/P_Syntactik_Compiler_CompilerContext_Parameters.htm" />
+    <HelpKINode Title="SyntactikCompiler.Parameters Property " Url="html/P_Syntactik_Compiler_SyntactikCompiler_Parameters.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Parent property">
+    <HelpKINode Title="ChoiceInfo.Parent Property " Url="html/P_Syntactik_DOM_Mapped_ChoiceInfo_Parent.htm" />
+    <HelpKINode Title="Pair.Parent Property " Url="html/P_Syntactik_DOM_Pair_Parent.htm" />
+    <HelpKINode Title="PairCollection(T).Parent Property " Url="html/P_Syntactik_DOM_PairCollection_1_Parent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Parse class">
+    <HelpKINode Title="Parse Class" Url="html/T_Syntactik_Compiler_Steps_Parse.htm" />
+    <HelpKINode Title="about Parse class" Url="html/T_Syntactik_Compiler_Steps_Parse.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_Compiler_Steps_Parse__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_Steps_Parse.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_Compiler_Steps_Parse.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Parse.Context property" Url="html/P_Syntactik_Compiler_Steps_Parse_Context.htm" />
+  <HelpKINode Title="Parse.CreateModule method" Url="html/M_Syntactik_Compiler_Steps_Parse_CreateModule.htm" />
+  <HelpKINode Title="Parse.Dispose method" Url="html/M_Syntactik_Compiler_Steps_Parse_Dispose.htm" />
+  <HelpKINode Title="Parse.DoParse method" Url="html/M_Syntactik_Compiler_Steps_Parse_DoParse.htm" />
+  <HelpKINode Title="Parse.GetParser method" Url="html/M_Syntactik_Compiler_Steps_Parse_GetParser.htm" />
+  <HelpKINode Title="Parse.Initialize method" Url="html/M_Syntactik_Compiler_Steps_Parse_Initialize.htm" />
+  <HelpKINode Title="Parse.Parse constructor" Url="html/M_Syntactik_Compiler_Steps_Parse__ctor.htm" />
+  <HelpKINode Title="Parse.Run method" Url="html/M_Syntactik_Compiler_Steps_Parse_Run.htm" />
+  <HelpKINode Title="ParseModule method" Url="html/M_Syntactik_Parser_ParseModule.htm" />
+  <HelpKINode Title="Parser class">
+    <HelpKINode Title="Parser Class" Url="html/T_Syntactik_Parser.htm" />
+    <HelpKINode Title="about Parser class" Url="html/T_Syntactik_Parser.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_Parser__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Parser.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_Parser.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Parser.ErrorListeners property" Url="html/P_Syntactik_Parser_ErrorListeners.htm" />
+  <HelpKINode Title="Parser.ParseModule method" Url="html/M_Syntactik_Parser_ParseModule.htm" />
+  <HelpKINode Title="Parser.Parser constructor" Url="html/M_Syntactik_Parser__ctor.htm" />
+  <HelpKINode Title="ParsingErrors class">
+    <HelpKINode Title="ParsingErrors Class" Url="html/T_Syntactik_ParsingErrors.htm" />
+    <HelpKINode Title="about ParsingErrors class" Url="html/T_Syntactik_ParsingErrors.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Syntactik_ParsingErrors.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_ParsingErrors.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ParsingErrors.Format method" Url="html/M_Syntactik_ParsingErrors_Format.htm" />
+  <HelpKINode Title="ParsingErrors.Messages field" Url="html/F_Syntactik_ParsingErrors_Messages.htm" />
+  <HelpKINode Title="Pipeline property" Url="html/P_Syntactik_Compiler_CompilerParameters_Pipeline.htm" />
+  <HelpKINode Title="ProcessAlias method" Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver_ProcessAlias.htm" />
+  <HelpKINode Title="ProcessAliasesAndNamespaces class">
+    <HelpKINode Title="ProcessAliasesAndNamespaces Class" Url="html/T_Syntactik_Compiler_Steps_ProcessAliasesAndNamespaces.htm" />
+    <HelpKINode Title="about ProcessAliasesAndNamespaces class" Url="html/T_Syntactik_Compiler_Steps_ProcessAliasesAndNamespaces.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_Compiler_Steps_ProcessAliasesAndNamespaces__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_Steps_ProcessAliasesAndNamespaces.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProcessAliasesAndNamespaces.Dispose method" Url="html/M_Syntactik_Compiler_Steps_ProcessAliasesAndNamespaces_Dispose.htm" />
+  <HelpKINode Title="ProcessAliasesAndNamespaces.Initialize method" Url="html/M_Syntactik_Compiler_Steps_ProcessAliasesAndNamespaces_Initialize.htm" />
+  <HelpKINode Title="ProcessAliasesAndNamespaces.ProcessAliasesAndNamespaces constructor" Url="html/M_Syntactik_Compiler_Steps_ProcessAliasesAndNamespaces__ctor.htm" />
+  <HelpKINode Title="ProcessAliasesAndNamespaces.Run method" Url="html/M_Syntactik_Compiler_Steps_ProcessAliasesAndNamespaces_Run.htm" />
+  <HelpKINode Title="ProcessComment method">
+    <HelpKINode Title="IPairFactory.ProcessComment Method " Url="html/M_Syntactik_DOM_IPairFactory_ProcessComment.htm" />
+    <HelpKINode Title="PairFactoryForJson.ProcessComment Method " Url="html/M_Syntactik_Compiler_Steps_PairFactoryForJson_ProcessComment.htm" />
+    <HelpKINode Title="PairFactoryForXml.ProcessComment Method " Url="html/M_Syntactik_Compiler_Steps_PairFactoryForXml_ProcessComment.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Properties property" Url="html/P_Syntactik_Compiler_CompilerContext_Properties.htm" />
+  <HelpKINode Title="QuotesEnum enumeration" Url="html/T_Syntactik_DOM_QuotesEnum.htm" />
+  <HelpKINode Title="ReaderInput class">
+    <HelpKINode Title="ReaderInput Class" Url="html/T_Syntactik_Compiler_IO_ReaderInput.htm" />
+    <HelpKINode Title="about ReaderInput class" Url="html/T_Syntactik_Compiler_IO_ReaderInput.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_Compiler_IO_ReaderInput__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_IO_ReaderInput.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_Compiler_IO_ReaderInput.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ReaderInput.Name property" Url="html/P_Syntactik_Compiler_IO_ReaderInput_Name.htm" />
+  <HelpKINode Title="ReaderInput.Open method" Url="html/M_Syntactik_Compiler_IO_ReaderInput_Open.htm" />
+  <HelpKINode Title="ReaderInput.ReaderInput constructor" Url="html/M_Syntactik_Compiler_IO_ReaderInput__ctor.htm" />
+  <HelpKINode Title="Remove method" Url="html/M_Syntactik_DOM_PairCollection_1_Remove.htm" />
+  <HelpKINode Title="Replace method" Url="html/M_Syntactik_DOM_PairCollection_1_Replace.htm" />
+  <HelpKINode Title="Reset method">
+    <HelpKINode Title="ICharStream.Reset Method " Url="html/M_Syntactik_IO_ICharStream_Reset.htm" />
+    <HelpKINode Title="InputStream.Reset Method " Url="html/M_Syntactik_IO_InputStream_Reset.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResolveAliasesAndDoChecks method" Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver_ResolveAliasesAndDoChecks.htm" />
+  <HelpKINode Title="ResolveAttributes method" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveAttributes.htm" />
+  <HelpKINode Title="ResolveAttributesInAlias method" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveAttributesInAlias.htm" />
+  <HelpKINode Title="ResolveAttributesInParameter method" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveAttributesInParameter.htm" />
+  <HelpKINode Title="ResolveChoiceValue method">
+    <HelpKINode Title="AliasResolvingVisitor.ResolveChoiceValue Method " Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveChoiceValue.htm" />
+    <HelpKINode Title="JsonGenerator.ResolveChoiceValue Method " Url="html/M_Syntactik_Compiler_Generator_JsonGenerator_ResolveChoiceValue.htm" />
+    <HelpKINode Title="XmlGenerator.ResolveChoiceValue Method " Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_ResolveChoiceValue.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResolveDqsEscape method">
+    <HelpKINode Title="AliasResolvingVisitor.ResolveDqsEscape Method " Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveDqsEscape.htm" />
+    <HelpKINode Title="XmlGenerator.ResolveDqsEscape Method " Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_ResolveDqsEscape.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResolveDqsEscapeChar method" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveDqsEscapeChar.htm" />
+  <HelpKINode Title="ResolvePairValue method" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolvePairValue.htm" />
+  <HelpKINode Title="ResolveValue method" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveValue.htm" />
+  <HelpKINode Title="ResolveValueAlias method" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveValueAlias.htm" />
+  <HelpKINode Title="ResolveValueParameter method" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveValueParameter.htm" />
+  <HelpKINode Title="Run method">
+    <HelpKINode Title="CompilerPipeline.Run Method " Url="html/M_Syntactik_Compiler_CompilerPipeline_Run.htm" />
+    <HelpKINode Title="ICompilerStep.Run Method " Url="html/M_Syntactik_Compiler_ICompilerStep_Run.htm" />
+    <HelpKINode Title="Parse.Run Method " Url="html/M_Syntactik_Compiler_Steps_Parse_Run.htm" />
+    <HelpKINode Title="ProcessAliasesAndNamespaces.Run Method " Url="html/M_Syntactik_Compiler_Steps_ProcessAliasesAndNamespaces_Run.htm" />
+    <HelpKINode Title="SyntactikCompiler.Run Method " Url="html/M_Syntactik_Compiler_SyntactikCompiler_Run.htm" />
+    <HelpKINode Title="ValidateDocuments.Run Method " Url="html/M_Syntactik_Compiler_Steps_ValidateDocuments_Run.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Scope class">
+    <HelpKINode Title="Scope Class" Url="html/T_Syntactik_DOM_Scope.htm" />
+    <HelpKINode Title="Scope Class" Url="html/T_Syntactik_DOM_Mapped_Scope.htm" />
+    <HelpKINode Title="about Scope class" Url="html/T_Syntactik_DOM_Mapped_Scope.htm" />
+    <HelpKINode Title="about Scope class" Url="html/T_Syntactik_DOM_Scope.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_Mapped_Scope__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_Scope__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Scope.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_Mapped_Scope.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Mapped_Scope.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_DOM_Scope.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Scope.Accept method" Url="html/M_Syntactik_DOM_Scope_Accept.htm" />
+  <HelpKINode Title="Scope.AppendChild method" Url="html/M_Syntactik_DOM_Scope_AppendChild.htm" />
+  <HelpKINode Title="Scope.AssignmentInterval property" Url="html/P_Syntactik_DOM_Mapped_Scope_AssignmentInterval.htm" />
+  <HelpKINode Title="Scope.Entities property" Url="html/P_Syntactik_DOM_Scope_Entities.htm" />
+  <HelpKINode Title="Scope.InterpolationItems property" Url="html/P_Syntactik_DOM_Mapped_Scope_InterpolationItems.htm" />
+  <HelpKINode Title="Scope.IsValueNode property" Url="html/P_Syntactik_DOM_Mapped_Scope_IsValueNode.htm" />
+  <HelpKINode Title="Scope.NameInterval property" Url="html/P_Syntactik_DOM_Mapped_Scope_NameInterval.htm" />
+  <HelpKINode Title="Scope.NameQuotesType property" Url="html/P_Syntactik_DOM_Mapped_Scope_NameQuotesType.htm" />
+  <HelpKINode Title="Scope.NsPrefix property" Url="html/P_Syntactik_DOM_Scope_NsPrefix.htm" />
+  <HelpKINode Title="Scope.OverrideNsPrefix method" Url="html/M_Syntactik_DOM_Mapped_Scope_OverrideNsPrefix.htm" />
+  <HelpKINode Title="Scope.Scope constructor">
+    <HelpKINode Title="Scope Constructor " Url="html/M_Syntactik_DOM_Scope__ctor.htm" />
+    <HelpKINode Title="Scope Constructor " Url="html/M_Syntactik_DOM_Mapped_Scope__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Scope.ValueIndent property" Url="html/P_Syntactik_DOM_Mapped_Scope_ValueIndent.htm" />
+  <HelpKINode Title="Scope.ValueInterval property" Url="html/P_Syntactik_DOM_Mapped_Scope_ValueInterval.htm" />
+  <HelpKINode Title="Scope.ValueQuotesType property" Url="html/P_Syntactik_DOM_Mapped_Scope_ValueQuotesType.htm" />
+  <HelpKINode Title="Scope.ValueType property" Url="html/P_Syntactik_DOM_Mapped_Scope_ValueType.htm" />
+  <HelpKINode Title="ScopeContext property" Url="html/P_Syntactik_Compiler_Steps_AliasResolvingVisitor_ScopeContext.htm" />
+  <HelpKINode Title="Single enumeration member" Url="html/T_Syntactik_DOM_QuotesEnum.htm" />
+  <HelpKINode Title="SingleQuotedString enumeration member" Url="html/T_Syntactik_DOM_Mapped_ValueType.htm" />
+  <HelpKINode Title="Steps property" Url="html/P_Syntactik_Compiler_CompilerPipeline_Steps.htm" />
+  <HelpKINode Title="StringInput class">
+    <HelpKINode Title="StringInput Class" Url="html/T_Syntactik_Compiler_IO_StringInput.htm" />
+    <HelpKINode Title="about StringInput class" Url="html/T_Syntactik_Compiler_IO_StringInput.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_Compiler_IO_StringInput__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_IO_StringInput.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_Compiler_IO_StringInput.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StringInput.StringInput constructor" Url="html/M_Syntactik_Compiler_IO_StringInput__ctor.htm" />
+  <HelpKINode Title="Syntactik namespace" Url="html/N_Syntactik.htm" />
+  <HelpKINode Title="Syntactik.Compiler namespace" Url="html/N_Syntactik_Compiler.htm" />
+  <HelpKINode Title="Syntactik.Compiler.CompilerContext class" Url="html/T_Syntactik_Compiler_CompilerContext.htm" />
+  <HelpKINode Title="Syntactik.Compiler.CompilerError class" Url="html/T_Syntactik_Compiler_CompilerError.htm" />
+  <HelpKINode Title="Syntactik.Compiler.CompilerErrorFactory class" Url="html/T_Syntactik_Compiler_CompilerErrorFactory.htm" />
+  <HelpKINode Title="Syntactik.Compiler.CompilerParameters class" Url="html/T_Syntactik_Compiler_CompilerParameters.htm" />
+  <HelpKINode Title="Syntactik.Compiler.CompilerPipeline class" Url="html/T_Syntactik_Compiler_CompilerPipeline.htm" />
+  <HelpKINode Title="Syntactik.Compiler.Generator namespace" Url="html/N_Syntactik_Compiler_Generator.htm" />
+  <HelpKINode Title="Syntactik.Compiler.Generator.JsonGenerator class" Url="html/T_Syntactik_Compiler_Generator_JsonGenerator.htm" />
+  <HelpKINode Title="Syntactik.Compiler.Generator.JsonGenerator.BlockStateEnum enumeration" Url="html/T_Syntactik_Compiler_Generator_JsonGenerator_BlockStateEnum.htm" />
+  <HelpKINode Title="Syntactik.Compiler.Generator.XmlGenerator class" Url="html/T_Syntactik_Compiler_Generator_XmlGenerator.htm" />
+  <HelpKINode Title="Syntactik.Compiler.ICompilerComponent interface" Url="html/T_Syntactik_Compiler_ICompilerComponent.htm" />
+  <HelpKINode Title="Syntactik.Compiler.ICompilerInput interface" Url="html/T_Syntactik_Compiler_ICompilerInput.htm" />
+  <HelpKINode Title="Syntactik.Compiler.ICompilerStep interface" Url="html/T_Syntactik_Compiler_ICompilerStep.htm" />
+  <HelpKINode Title="Syntactik.Compiler.IO namespace" Url="html/N_Syntactik_Compiler_IO.htm" />
+  <HelpKINode Title="Syntactik.Compiler.IO.FileInput class" Url="html/T_Syntactik_Compiler_IO_FileInput.htm" />
+  <HelpKINode Title="Syntactik.Compiler.IO.ReaderInput class" Url="html/T_Syntactik_Compiler_IO_ReaderInput.htm" />
+  <HelpKINode Title="Syntactik.Compiler.IO.StringInput class" Url="html/T_Syntactik_Compiler_IO_StringInput.htm" />
+  <HelpKINode Title="Syntactik.Compiler.Pipelines namespace" Url="html/N_Syntactik_Compiler_Pipelines.htm" />
+  <HelpKINode Title="Syntactik.Compiler.Pipelines.CompileToFiles class" Url="html/T_Syntactik_Compiler_Pipelines_CompileToFiles.htm" />
+  <HelpKINode Title="Syntactik.Compiler.Pipelines.CompileToMemory class" Url="html/T_Syntactik_Compiler_Pipelines_CompileToMemory.htm" />
+  <HelpKINode Title="Syntactik.Compiler.Steps namespace" Url="html/N_Syntactik_Compiler_Steps.htm" />
+  <HelpKINode Title="Syntactik.Compiler.Steps.AliasResolvingVisitor class" Url="html/T_Syntactik_Compiler_Steps_AliasResolvingVisitor.htm" />
+  <HelpKINode Title="Syntactik.Compiler.Steps.ErrorListener class" Url="html/T_Syntactik_Compiler_Steps_ErrorListener.htm" />
+  <HelpKINode Title="Syntactik.Compiler.Steps.EscapeMatch class" Url="html/T_Syntactik_Compiler_Steps_EscapeMatch.htm" />
+  <HelpKINode Title="Syntactik.Compiler.Steps.NamespaceResolver class" Url="html/T_Syntactik_Compiler_Steps_NamespaceResolver.htm" />
+  <HelpKINode Title="Syntactik.Compiler.Steps.NsInfo class" Url="html/T_Syntactik_Compiler_Steps_NsInfo.htm" />
+  <HelpKINode Title="Syntactik.Compiler.Steps.PairFactoryForJson class" Url="html/T_Syntactik_Compiler_Steps_PairFactoryForJson.htm" />
+  <HelpKINode Title="Syntactik.Compiler.Steps.PairFactoryForXml class" Url="html/T_Syntactik_Compiler_Steps_PairFactoryForXml.htm" />
+  <HelpKINode Title="Syntactik.Compiler.Steps.Parse class" Url="html/T_Syntactik_Compiler_Steps_Parse.htm" />
+  <HelpKINode Title="Syntactik.Compiler.Steps.ProcessAliasesAndNamespaces class" Url="html/T_Syntactik_Compiler_Steps_ProcessAliasesAndNamespaces.htm" />
+  <HelpKINode Title="Syntactik.Compiler.Steps.ValidateDocuments class" Url="html/T_Syntactik_Compiler_Steps_ValidateDocuments.htm" />
+  <HelpKINode Title="Syntactik.Compiler.SyntactikCompiler class" Url="html/T_Syntactik_Compiler_SyntactikCompiler.htm" />
+  <HelpKINode Title="Syntactik.DOM namespace" Url="html/N_Syntactik_DOM.htm" />
+  <HelpKINode Title="Syntactik.DOM.Alias class" Url="html/T_Syntactik_DOM_Alias.htm" />
+  <HelpKINode Title="Syntactik.DOM.AliasDefinition class" Url="html/T_Syntactik_DOM_AliasDefinition.htm" />
+  <HelpKINode Title="Syntactik.DOM.Argument class" Url="html/T_Syntactik_DOM_Argument.htm" />
+  <HelpKINode Title="Syntactik.DOM.AssignmentEnum enumeration" Url="html/T_Syntactik_DOM_AssignmentEnum.htm" />
+  <HelpKINode Title="Syntactik.DOM.Attribute class" Url="html/T_Syntactik_DOM_Attribute.htm" />
+  <HelpKINode Title="Syntactik.DOM.CharLocation class" Url="html/T_Syntactik_DOM_CharLocation.htm" />
+  <HelpKINode Title="Syntactik.DOM.Comment class" Url="html/T_Syntactik_DOM_Comment.htm" />
+  <HelpKINode Title="Syntactik.DOM.CompileUnit class" Url="html/T_Syntactik_DOM_CompileUnit.htm" />
+  <HelpKINode Title="Syntactik.DOM.Document class" Url="html/T_Syntactik_DOM_Document.htm" />
+  <HelpKINode Title="Syntactik.DOM.Element class" Url="html/T_Syntactik_DOM_Element.htm" />
+  <HelpKINode Title="Syntactik.DOM.Entity class" Url="html/T_Syntactik_DOM_Entity.htm" />
+  <HelpKINode Title="Syntactik.DOM.IContainer interface" Url="html/T_Syntactik_DOM_IContainer.htm" />
+  <HelpKINode Title="Syntactik.DOM.IDomVisitor interface" Url="html/T_Syntactik_DOM_IDomVisitor.htm" />
+  <HelpKINode Title="Syntactik.DOM.INsNode interface" Url="html/T_Syntactik_DOM_INsNode.htm" />
+  <HelpKINode Title="Syntactik.DOM.INsNodeOverridable interface" Url="html/T_Syntactik_DOM_INsNodeOverridable.htm" />
+  <HelpKINode Title="Syntactik.DOM.Interval class" Url="html/T_Syntactik_DOM_Interval.htm" />
+  <HelpKINode Title="Syntactik.DOM.IPairFactory interface" Url="html/T_Syntactik_DOM_IPairFactory.htm" />
+  <HelpKINode Title="Syntactik.DOM.LexicalInfo class" Url="html/T_Syntactik_DOM_LexicalInfo.htm" />
+  <HelpKINode Title="Syntactik.DOM.Mapped namespace" Url="html/N_Syntactik_DOM_Mapped.htm" />
+  <HelpKINode Title="Syntactik.DOM.Mapped.Alias class" Url="html/T_Syntactik_DOM_Mapped_Alias.htm" />
+  <HelpKINode Title="Syntactik.DOM.Mapped.AliasDefinition class" Url="html/T_Syntactik_DOM_Mapped_AliasDefinition.htm" />
+  <HelpKINode Title="Syntactik.DOM.Mapped.Argument class" Url="html/T_Syntactik_DOM_Mapped_Argument.htm" />
+  <HelpKINode Title="Syntactik.DOM.Mapped.Attribute class" Url="html/T_Syntactik_DOM_Mapped_Attribute.htm" />
+  <HelpKINode Title="Syntactik.DOM.Mapped.ChoiceInfo class" Url="html/T_Syntactik_DOM_Mapped_ChoiceInfo.htm" />
+  <HelpKINode Title="Syntactik.DOM.Mapped.Comment class" Url="html/T_Syntactik_DOM_Mapped_Comment.htm" />
+  <HelpKINode Title="Syntactik.DOM.Mapped.Document class" Url="html/T_Syntactik_DOM_Mapped_Document.htm" />
+  <HelpKINode Title="Syntactik.DOM.Mapped.Element class" Url="html/T_Syntactik_DOM_Mapped_Element.htm" />
+  <HelpKINode Title="Syntactik.DOM.Mapped.IChoiceNode interface" Url="html/T_Syntactik_DOM_Mapped_IChoiceNode.htm" />
+  <HelpKINode Title="Syntactik.DOM.Mapped.IMappedPair interface" Url="html/T_Syntactik_DOM_Mapped_IMappedPair.htm" />
+  <HelpKINode Title="Syntactik.DOM.Mapped.Module class" Url="html/T_Syntactik_DOM_Mapped_Module.htm" />
+  <HelpKINode Title="Syntactik.DOM.Mapped.Module.TargetFormats enumeration" Url="html/T_Syntactik_DOM_Mapped_Module_TargetFormats.htm" />
+  <HelpKINode Title="Syntactik.DOM.Mapped.NamespaceDefinition class" Url="html/T_Syntactik_DOM_Mapped_NamespaceDefinition.htm" />
+  <HelpKINode Title="Syntactik.DOM.Mapped.Parameter class" Url="html/T_Syntactik_DOM_Mapped_Parameter.htm" />
+  <HelpKINode Title="Syntactik.DOM.Mapped.Scope class" Url="html/T_Syntactik_DOM_Mapped_Scope.htm" />
+  <HelpKINode Title="Syntactik.DOM.Mapped.ValueType enumeration" Url="html/T_Syntactik_DOM_Mapped_ValueType.htm" />
+  <HelpKINode Title="Syntactik.DOM.Module class" Url="html/T_Syntactik_DOM_Module.htm" />
+  <HelpKINode Title="Syntactik.DOM.ModuleMember class" Url="html/T_Syntactik_DOM_ModuleMember.htm" />
+  <HelpKINode Title="Syntactik.DOM.NamespaceDefinition class" Url="html/T_Syntactik_DOM_NamespaceDefinition.htm" />
+  <HelpKINode Title="Syntactik.DOM.Pair class" Url="html/T_Syntactik_DOM_Pair.htm" />
+  <HelpKINode Title="Syntactik.DOM.PairCollection(Of T) class" Url="html/T_Syntactik_DOM_PairCollection_1.htm" />
+  <HelpKINode Title="Syntactik.DOM.PairCollection&lt;T&gt; class" Url="html/T_Syntactik_DOM_PairCollection_1.htm" />
+  <HelpKINode Title="Syntactik.DOM.Parameter class" Url="html/T_Syntactik_DOM_Parameter.htm" />
+  <HelpKINode Title="Syntactik.DOM.QuotesEnum enumeration" Url="html/T_Syntactik_DOM_QuotesEnum.htm" />
+  <HelpKINode Title="Syntactik.DOM.Scope class" Url="html/T_Syntactik_DOM_Scope.htm" />
+  <HelpKINode Title="Syntactik.DOM.SyntactikDepthFirstVisitor class" Url="html/T_Syntactik_DOM_SyntactikDepthFirstVisitor.htm" />
+  <HelpKINode Title="Syntactik.IErrorListener interface" Url="html/T_Syntactik_IErrorListener.htm" />
+  <HelpKINode Title="Syntactik.IO namespace" Url="html/N_Syntactik_IO.htm" />
+  <HelpKINode Title="Syntactik.IO.ICharStream interface" Url="html/T_Syntactik_IO_ICharStream.htm" />
+  <HelpKINode Title="Syntactik.IO.InputStream class" Url="html/T_Syntactik_IO_InputStream.htm" />
+  <HelpKINode Title="Syntactik.IO.IntegerCharExtensions class" Url="html/T_Syntactik_IO_IntegerCharExtensions.htm" />
+  <HelpKINode Title="Syntactik.IO.ITextSource interface" Url="html/T_Syntactik_IO_ITextSource.htm" />
+  <HelpKINode Title="Syntactik.Parser class" Url="html/T_Syntactik_Parser.htm" />
+  <HelpKINode Title="Syntactik.ParsingErrors class" Url="html/T_Syntactik_ParsingErrors.htm" />
+  <HelpKINode Title="SyntactikCompiler class">
+    <HelpKINode Title="SyntactikCompiler Class" Url="html/T_Syntactik_Compiler_SyntactikCompiler.htm" />
+    <HelpKINode Title="about SyntactikCompiler class" Url="html/T_Syntactik_Compiler_SyntactikCompiler.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Syntactik_Compiler_SyntactikCompiler__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_SyntactikCompiler.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_Compiler_SyntactikCompiler.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SyntactikCompiler.Parameters property" Url="html/P_Syntactik_Compiler_SyntactikCompiler_Parameters.htm" />
+  <HelpKINode Title="SyntactikCompiler.Run method" Url="html/M_Syntactik_Compiler_SyntactikCompiler_Run.htm" />
+  <HelpKINode Title="SyntactikCompiler.SyntactikCompiler constructor" Url="html/Overload_Syntactik_Compiler_SyntactikCompiler__ctor.htm" />
+  <HelpKINode Title="SyntactikDepthFirstVisitor class">
+    <HelpKINode Title="SyntactikDepthFirstVisitor Class" Url="html/T_Syntactik_DOM_SyntactikDepthFirstVisitor.htm" />
+    <HelpKINode Title="about SyntactikDepthFirstVisitor class" Url="html/T_Syntactik_DOM_SyntactikDepthFirstVisitor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_DOM_SyntactikDepthFirstVisitor__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_DOM_SyntactikDepthFirstVisitor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SyntactikDepthFirstVisitor.OnPair method" Url="html/M_Syntactik_DOM_SyntactikDepthFirstVisitor_OnPair.htm" />
+  <HelpKINode Title="SyntactikDepthFirstVisitor.SyntactikDepthFirstVisitor constructor" Url="html/M_Syntactik_DOM_SyntactikDepthFirstVisitor__ctor.htm" />
+  <HelpKINode Title="SyntactikDepthFirstVisitor.Visit method" Url="html/Overload_Syntactik_DOM_SyntactikDepthFirstVisitor_Visit.htm" />
+  <HelpKINode Title="TargetFormat property" Url="html/P_Syntactik_DOM_Mapped_Module_TargetFormat.htm" />
+  <HelpKINode Title="ToArray method" Url="html/M_Syntactik_DOM_PairCollection_1_ToArray.htm" />
+  <HelpKINode Title="ToString method">
+    <HelpKINode Title="CharLocation.ToString Method " Url="html/M_Syntactik_DOM_CharLocation_ToString.htm" />
+    <HelpKINode Title="CompilerError.ToString Method " Url="html/M_Syntactik_Compiler_CompilerError_ToString.htm" />
+    <HelpKINode Title="LexicalInfo.ToString Method " Url="html/M_Syntactik_DOM_LexicalInfo_ToString.htm" />
+    <HelpKINode Title="Parameter.ToString Method " Url="html/M_Syntactik_DOM_Parameter_ToString.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Undefined enumeration member" Url="html/T_Syntactik_DOM_Mapped_Module_TargetFormats.htm" />
+  <HelpKINode Title="ValidateDocuments class">
+    <HelpKINode Title="ValidateDocuments Class" Url="html/T_Syntactik_Compiler_Steps_ValidateDocuments.htm" />
+    <HelpKINode Title="about ValidateDocuments class" Url="html/T_Syntactik_Compiler_Steps_ValidateDocuments.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_Compiler_Steps_ValidateDocuments__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_Steps_ValidateDocuments.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ValidateDocuments.Dispose method" Url="html/M_Syntactik_Compiler_Steps_ValidateDocuments_Dispose.htm" />
+  <HelpKINode Title="ValidateDocuments.Initialize method" Url="html/M_Syntactik_Compiler_Steps_ValidateDocuments_Initialize.htm" />
+  <HelpKINode Title="ValidateDocuments.Run method" Url="html/M_Syntactik_Compiler_Steps_ValidateDocuments_Run.htm" />
+  <HelpKINode Title="ValidateDocuments.ValidateDocuments constructor" Url="html/M_Syntactik_Compiler_Steps_ValidateDocuments__ctor.htm" />
+  <HelpKINode Title="Value field" Url="html/F_Syntactik_Compiler_Steps_EscapeMatch_Value.htm" />
+  <HelpKINode Title="Value property" Url="html/P_Syntactik_DOM_Pair_Value.htm" />
+  <HelpKINode Title="ValueIndent property">
+    <HelpKINode Title="Alias.ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_Alias_ValueIndent.htm" />
+    <HelpKINode Title="AliasDefinition.ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_ValueIndent.htm" />
+    <HelpKINode Title="Argument.ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_Argument_ValueIndent.htm" />
+    <HelpKINode Title="Attribute.ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_Attribute_ValueIndent.htm" />
+    <HelpKINode Title="Comment.ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_Comment_ValueIndent.htm" />
+    <HelpKINode Title="Document.ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_Document_ValueIndent.htm" />
+    <HelpKINode Title="Element.ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_Element_ValueIndent.htm" />
+    <HelpKINode Title="IMappedPair.ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_IMappedPair_ValueIndent.htm" />
+    <HelpKINode Title="Module.ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_Module_ValueIndent.htm" />
+    <HelpKINode Title="NamespaceDefinition.ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_ValueIndent.htm" />
+    <HelpKINode Title="Parameter.ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_Parameter_ValueIndent.htm" />
+    <HelpKINode Title="Scope.ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_Scope_ValueIndent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ValueInterval property">
+    <HelpKINode Title="Alias.ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_Alias_ValueInterval.htm" />
+    <HelpKINode Title="AliasDefinition.ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_ValueInterval.htm" />
+    <HelpKINode Title="Argument.ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_Argument_ValueInterval.htm" />
+    <HelpKINode Title="Attribute.ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_Attribute_ValueInterval.htm" />
+    <HelpKINode Title="Comment.ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_Comment_ValueInterval.htm" />
+    <HelpKINode Title="Document.ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_Document_ValueInterval.htm" />
+    <HelpKINode Title="Element.ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_Element_ValueInterval.htm" />
+    <HelpKINode Title="IMappedPair.ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_IMappedPair_ValueInterval.htm" />
+    <HelpKINode Title="Module.ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_Module_ValueInterval.htm" />
+    <HelpKINode Title="NamespaceDefinition.ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_ValueInterval.htm" />
+    <HelpKINode Title="Parameter.ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_Parameter_ValueInterval.htm" />
+    <HelpKINode Title="Scope.ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_Scope_ValueInterval.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ValueQuotesType property">
+    <HelpKINode Title="Alias.ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Alias_ValueQuotesType.htm" />
+    <HelpKINode Title="AliasDefinition.ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_ValueQuotesType.htm" />
+    <HelpKINode Title="Argument.ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Argument_ValueQuotesType.htm" />
+    <HelpKINode Title="Attribute.ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Attribute_ValueQuotesType.htm" />
+    <HelpKINode Title="Comment.ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Comment_ValueQuotesType.htm" />
+    <HelpKINode Title="Document.ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Document_ValueQuotesType.htm" />
+    <HelpKINode Title="Element.ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Element_ValueQuotesType.htm" />
+    <HelpKINode Title="IMappedPair.ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_IMappedPair_ValueQuotesType.htm" />
+    <HelpKINode Title="Module.ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Module_ValueQuotesType.htm" />
+    <HelpKINode Title="NamespaceDefinition.ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_ValueQuotesType.htm" />
+    <HelpKINode Title="Parameter.ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Parameter_ValueQuotesType.htm" />
+    <HelpKINode Title="Scope.ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Scope_ValueQuotesType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ValueType enumeration" Url="html/T_Syntactik_DOM_Mapped_ValueType.htm" />
+  <HelpKINode Title="ValueType property">
+    <HelpKINode Title="Alias.ValueType Property " Url="html/P_Syntactik_DOM_Mapped_Alias_ValueType.htm" />
+    <HelpKINode Title="AliasDefinition.ValueType Property " Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_ValueType.htm" />
+    <HelpKINode Title="Argument.ValueType Property " Url="html/P_Syntactik_DOM_Mapped_Argument_ValueType.htm" />
+    <HelpKINode Title="Attribute.ValueType Property " Url="html/P_Syntactik_DOM_Mapped_Attribute_ValueType.htm" />
+    <HelpKINode Title="Comment.ValueType Property " Url="html/P_Syntactik_DOM_Mapped_Comment_ValueType.htm" />
+    <HelpKINode Title="Document.ValueType Property " Url="html/P_Syntactik_DOM_Mapped_Document_ValueType.htm" />
+    <HelpKINode Title="Element.ValueType Property " Url="html/P_Syntactik_DOM_Mapped_Element_ValueType.htm" />
+    <HelpKINode Title="IMappedPair.ValueType Property " Url="html/P_Syntactik_DOM_Mapped_IMappedPair_ValueType.htm" />
+    <HelpKINode Title="Module.ValueType Property " Url="html/P_Syntactik_DOM_Mapped_Module_ValueType.htm" />
+    <HelpKINode Title="NamespaceDefinition.ValueType Property " Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_ValueType.htm" />
+    <HelpKINode Title="Parameter.ValueType Property " Url="html/P_Syntactik_DOM_Mapped_Parameter_ValueType.htm" />
+    <HelpKINode Title="Scope.ValueType Property " Url="html/P_Syntactik_DOM_Mapped_Scope_ValueType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Visit method">
+    <HelpKINode Title="AliasResolvingVisitor.Visit Method " Url="html/Overload_Syntactik_Compiler_Steps_AliasResolvingVisitor_Visit.htm" />
+    <HelpKINode Title="IDomVisitor.Visit Method " Url="html/Overload_Syntactik_DOM_IDomVisitor_Visit.htm" />
+    <HelpKINode Title="JsonGenerator.Visit Method " Url="html/Overload_Syntactik_Compiler_Generator_JsonGenerator_Visit.htm" />
+    <HelpKINode Title="SyntactikDepthFirstVisitor.Visit Method " Url="html/Overload_Syntactik_DOM_SyntactikDepthFirstVisitor_Visit.htm" />
+    <HelpKINode Title="XmlGenerator.Visit Method " Url="html/Overload_Syntactik_Compiler_Generator_XmlGenerator_Visit.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WriterDelegate field">
+    <HelpKINode Title="JsonGenerator.WriterDelegate Field" Url="html/F_Syntactik_Compiler_Generator_JsonGenerator_WriterDelegate.htm" />
+    <HelpKINode Title="XmlGenerator.WriterDelegate Field" Url="html/F_Syntactik_Compiler_Generator_XmlGenerator_WriterDelegate.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WriteStartDocument method" Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_WriteStartDocument.htm" />
+  <HelpKINode Title="Xml enumeration member" Url="html/T_Syntactik_DOM_Mapped_Module_TargetFormats.htm" />
+  <HelpKINode Title="XmlGenerator class">
+    <HelpKINode Title="XmlGenerator Class" Url="html/T_Syntactik_Compiler_Generator_XmlGenerator.htm" />
+    <HelpKINode Title="about XmlGenerator class" Url="html/T_Syntactik_Compiler_Generator_XmlGenerator.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Syntactik_Compiler_Generator_XmlGenerator__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Syntactik_Compiler_Generator_XmlGenerator.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Syntactik_Compiler_Generator_XmlGenerator.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Syntactik_Compiler_Generator_XmlGenerator.htm" />
+  </HelpKINode>
+  <HelpKINode Title="XmlGenerator.AddLocationMapRecord method" Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_AddLocationMapRecord.htm" />
+  <HelpKINode Title="XmlGenerator.ChoiceStack field" Url="html/F_Syntactik_Compiler_Generator_XmlGenerator_ChoiceStack.htm" />
+  <HelpKINode Title="XmlGenerator.CurrentModuleMember field" Url="html/F_Syntactik_Compiler_Generator_XmlGenerator_CurrentModuleMember.htm" />
+  <HelpKINode Title="XmlGenerator.DocumentElementAdded field" Url="html/F_Syntactik_Compiler_Generator_XmlGenerator_DocumentElementAdded.htm" />
+  <HelpKINode Title="XmlGenerator.EnterChoiceContainer method" Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_EnterChoiceContainer.htm" />
+  <HelpKINode Title="XmlGenerator.GetEncoding method" Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_GetEncoding.htm" />
+  <HelpKINode Title="XmlGenerator.IsLegalXmlChar method" Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_IsLegalXmlChar.htm" />
+  <HelpKINode Title="XmlGenerator.LocationMap property" Url="html/P_Syntactik_Compiler_Generator_XmlGenerator_LocationMap.htm" />
+  <HelpKINode Title="XmlGenerator.OnValue method" Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_OnValue.htm" />
+  <HelpKINode Title="XmlGenerator.ResolveChoiceValue method" Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_ResolveChoiceValue.htm" />
+  <HelpKINode Title="XmlGenerator.ResolveDqsEscape method" Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_ResolveDqsEscape.htm" />
+  <HelpKINode Title="XmlGenerator.Visit method" Url="html/Overload_Syntactik_Compiler_Generator_XmlGenerator_Visit.htm" />
+  <HelpKINode Title="XmlGenerator.WriterDelegate field" Url="html/F_Syntactik_Compiler_Generator_XmlGenerator_WriterDelegate.htm" />
+  <HelpKINode Title="XmlGenerator.WriteStartDocument method" Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_WriteStartDocument.htm" />
+  <HelpKINode Title="XmlGenerator.XmlGenerator constructor" Url="html/M_Syntactik_Compiler_Generator_XmlGenerator__ctor.htm" />
+  <HelpKINode Title="XmlGenerator.XmlTextWriter field" Url="html/F_Syntactik_Compiler_Generator_XmlGenerator_XmlTextWriter.htm" />
+  <HelpKINode Title="XmlGenerator._readerDelegate field" Url="html/F_Syntactik_Compiler_Generator_XmlGenerator__readerDelegate.htm" />
+  <HelpKINode Title="XmlSchemaSet property" Url="html/P_Syntactik_Compiler_CompilerParameters_XmlSchemaSet.htm" />
+  <HelpKINode Title="XmlTextWriter field" Url="html/F_Syntactik_Compiler_Generator_XmlGenerator_XmlTextWriter.htm" />
+  <HelpKINode Title="_readerDelegate field" Url="html/F_Syntactik_Compiler_Generator_XmlGenerator__readerDelegate.htm" />
+</HelpKI>

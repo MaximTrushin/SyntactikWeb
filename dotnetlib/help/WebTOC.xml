@@ -1,0 +1,952 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="f8391a74-95e0-428a-bc7b-94b02b423261" Title="API Reference" Url="html/R_Project_Documentation.htm">
+    <HelpTOCNode Id="18afdcd2-135a-4d7d-9741-8a04cb0dea5c" Title="Syntactik" Url="html/N_Syntactik.htm">
+      <HelpTOCNode Id="e6cb439d-0cee-4f07-afb3-5946cfcf41aa" Title="IErrorListener Interface" Url="html/T_Syntactik_IErrorListener.htm">
+        <HelpTOCNode Id="11f69005-66b3-4703-97f4-798b43282b78" Title="IErrorListener Methods" Url="html/Methods_T_Syntactik_IErrorListener.htm">
+          <HelpTOCNode Title="OnError Method " Url="html/M_Syntactik_IErrorListener_OnError.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="f1c6d783-c245-43c0-9952-4de197572eb9" Title="Parser Class" Url="html/T_Syntactik_Parser.htm">
+        <HelpTOCNode Title="Parser Constructor " Url="html/M_Syntactik_Parser__ctor.htm" />
+        <HelpTOCNode Id="fb436b1e-e361-4c79-9a5d-24aeb30cd9ef" Title="Parser Properties" Url="html/Properties_T_Syntactik_Parser.htm">
+          <HelpTOCNode Title="ErrorListeners Property " Url="html/P_Syntactik_Parser_ErrorListeners.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="5ee5bc3f-080c-4110-bc67-c9a0c7e24d92" Title="Parser Methods" Url="html/Methods_T_Syntactik_Parser.htm">
+          <HelpTOCNode Title="ParseModule Method " Url="html/M_Syntactik_Parser_ParseModule.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="3fb1e7c3-b9c2-4d03-b385-7b08a0263a07" Title="ParsingErrors Class" Url="html/T_Syntactik_ParsingErrors.htm">
+        <HelpTOCNode Id="2dc9e118-2b74-41c3-a585-c7627879eb64" Title="ParsingErrors Methods" Url="html/Methods_T_Syntactik_ParsingErrors.htm">
+          <HelpTOCNode Title="Format Method " Url="html/M_Syntactik_ParsingErrors_Format.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0726c2fc-19de-4a3d-bdbf-c0842f25eaed" Title="ParsingErrors Fields" Url="html/Fields_T_Syntactik_ParsingErrors.htm">
+          <HelpTOCNode Title="Messages Field" Url="html/F_Syntactik_ParsingErrors_Messages.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="87f30cc4-c914-4e30-9eca-057d47d47cbb" Title="Syntactik.Compiler" Url="html/N_Syntactik_Compiler.htm">
+      <HelpTOCNode Id="95694960-08b4-4842-aeac-9b2718a1de9b" Title="CompilerContext Class" Url="html/T_Syntactik_Compiler_CompilerContext.htm">
+        <HelpTOCNode Title="CompilerContext Constructor " Url="html/M_Syntactik_Compiler_CompilerContext__ctor.htm" />
+        <HelpTOCNode Id="a7e2e651-ed26-413b-a312-59d408ba55dd" Title="CompilerContext Properties" Url="html/Properties_T_Syntactik_Compiler_CompilerContext.htm">
+          <HelpTOCNode Title="CompileUnit Property " Url="html/P_Syntactik_Compiler_CompilerContext_CompileUnit.htm" />
+          <HelpTOCNode Title="Errors Property " Url="html/P_Syntactik_Compiler_CompilerContext_Errors.htm" />
+          <HelpTOCNode Title="InMemoryOutputObjects Property " Url="html/P_Syntactik_Compiler_CompilerContext_InMemoryOutputObjects.htm" />
+          <HelpTOCNode Title="Parameters Property " Url="html/P_Syntactik_Compiler_CompilerContext_Parameters.htm" />
+          <HelpTOCNode Title="Properties Property " Url="html/P_Syntactik_Compiler_CompilerContext_Properties.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ecbd1511-522b-4de8-a49b-8df3e93d2476" Title="CompilerContext Methods" Url="html/Methods_T_Syntactik_Compiler_CompilerContext.htm">
+          <HelpTOCNode Title="AddError Method " Url="html/M_Syntactik_Compiler_CompilerContext_AddError.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="e09af9bd-b46b-4c79-a918-4b2a64829374" Title="CompilerError Class" Url="html/T_Syntactik_Compiler_CompilerError.htm">
+        <HelpTOCNode Id="c6c6f0aa-e133-4cb8-b158-fe60c511bbee" Title="CompilerError Constructor " Url="html/Overload_Syntactik_Compiler_CompilerError__ctor.htm">
+          <HelpTOCNode Title="CompilerError Constructor (String)" Url="html/M_Syntactik_Compiler_CompilerError__ctor_3.htm" />
+          <HelpTOCNode Title="CompilerError Constructor (LexicalInfo, Exception)" Url="html/M_Syntactik_Compiler_CompilerError__ctor.htm" />
+          <HelpTOCNode Title="CompilerError Constructor (LexicalInfo, String)" Url="html/M_Syntactik_Compiler_CompilerError__ctor_1.htm" />
+          <HelpTOCNode Title="CompilerError Constructor (String, Exception, Object[])" Url="html/M_Syntactik_Compiler_CompilerError__ctor_7.htm" />
+          <HelpTOCNode Title="CompilerError Constructor (LexicalInfo, String, Exception)" Url="html/M_Syntactik_Compiler_CompilerError__ctor_2.htm" />
+          <HelpTOCNode Title="CompilerError Constructor (String, LexicalInfo, Boolean, Object[])" Url="html/M_Syntactik_Compiler_CompilerError__ctor_4.htm" />
+          <HelpTOCNode Title="CompilerError Constructor (String, LexicalInfo, Exception, Object[])" Url="html/M_Syntactik_Compiler_CompilerError__ctor_5.htm" />
+          <HelpTOCNode Title="CompilerError Constructor (String, LexicalInfo, String, Exception)" Url="html/M_Syntactik_Compiler_CompilerError__ctor_6.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="66d480e4-b578-47dd-8c92-57d5a84b47a4" Title="CompilerError Properties" Url="html/Properties_T_Syntactik_Compiler_CompilerError.htm">
+          <HelpTOCNode Title="Code Property " Url="html/P_Syntactik_Compiler_CompilerError_Code.htm" />
+          <HelpTOCNode Title="IsParserError Property " Url="html/P_Syntactik_Compiler_CompilerError_IsParserError.htm" />
+          <HelpTOCNode Title="LexicalInfo Property " Url="html/P_Syntactik_Compiler_CompilerError_LexicalInfo.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="510f35ba-f2e3-4b04-a2a3-fc6edf9fdc24" Title="CompilerError Methods" Url="html/Methods_T_Syntactik_Compiler_CompilerError.htm">
+          <HelpTOCNode Title="CompareTo Method " Url="html/M_Syntactik_Compiler_CompilerError_CompareTo.htm" />
+          <HelpTOCNode Title="ToString Method " Url="html/M_Syntactik_Compiler_CompilerError_ToString.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CompilerError Events" Url="html/Events_T_Syntactik_Compiler_CompilerError.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b286dfe6-cc4c-4348-9c04-fff09832f5ee" Title="CompilerErrorFactory Class" Url="html/T_Syntactik_Compiler_CompilerErrorFactory.htm">
+        <HelpTOCNode Id="ad897dc7-5591-40cd-8e63-2029cc6f803d" Title="CompilerErrorFactory Methods" Url="html/Methods_T_Syntactik_Compiler_CompilerErrorFactory.htm">
+          <HelpTOCNode Id="379477ff-48ef-4912-9582-81c3de5f09b9" Title="FatalError Method " Url="html/Overload_Syntactik_Compiler_CompilerErrorFactory_FatalError.htm">
+            <HelpTOCNode Title="FatalError Method (Exception)" Url="html/M_Syntactik_Compiler_CompilerErrorFactory_FatalError.htm" />
+            <HelpTOCNode Title="FatalError Method (Exception, String)" Url="html/M_Syntactik_Compiler_CompilerErrorFactory_FatalError_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="InputError Method " Url="html/M_Syntactik_Compiler_CompilerErrorFactory_InputError.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="dcec31bc-a4eb-4bab-86c1-c89e47eeee88" Title="CompilerParameters Class" Url="html/T_Syntactik_Compiler_CompilerParameters.htm">
+        <HelpTOCNode Title="CompilerParameters Constructor " Url="html/M_Syntactik_Compiler_CompilerParameters__ctor.htm" />
+        <HelpTOCNode Id="2aaf006b-7a27-4f04-8f88-228bcf7fa7fe" Title="CompilerParameters Properties" Url="html/Properties_T_Syntactik_Compiler_CompilerParameters.htm">
+          <HelpTOCNode Title="Input Property " Url="html/P_Syntactik_Compiler_CompilerParameters_Input.htm" />
+          <HelpTOCNode Title="OutputDirectory Property " Url="html/P_Syntactik_Compiler_CompilerParameters_OutputDirectory.htm" />
+          <HelpTOCNode Title="Pipeline Property " Url="html/P_Syntactik_Compiler_CompilerParameters_Pipeline.htm" />
+          <HelpTOCNode Title="XmlSchemaSet Property " Url="html/P_Syntactik_Compiler_CompilerParameters_XmlSchemaSet.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CompilerParameters Methods" Url="html/Methods_T_Syntactik_Compiler_CompilerParameters.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="72ecacb5-27d1-40f2-a8ee-ddf06a4e6d38" Title="CompilerPipeline Class" Url="html/T_Syntactik_Compiler_CompilerPipeline.htm">
+        <HelpTOCNode Title="CompilerPipeline Constructor " Url="html/M_Syntactik_Compiler_CompilerPipeline__ctor.htm" />
+        <HelpTOCNode Id="752b12a7-cac1-4661-8879-85e6d8e0714a" Title="CompilerPipeline Properties" Url="html/Properties_T_Syntactik_Compiler_CompilerPipeline.htm">
+          <HelpTOCNode Title="Steps Property " Url="html/P_Syntactik_Compiler_CompilerPipeline_Steps.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="08acbf24-76fd-4e3c-8522-f34a28f33033" Title="CompilerPipeline Methods" Url="html/Methods_T_Syntactik_Compiler_CompilerPipeline.htm">
+          <HelpTOCNode Title="Add Method " Url="html/M_Syntactik_Compiler_CompilerPipeline_Add.htm" />
+          <HelpTOCNode Title="Run Method " Url="html/M_Syntactik_Compiler_CompilerPipeline_Run.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="24717211-b8ae-44f7-bc88-96623c1db7e6" Title="ICompilerComponent Interface" Url="html/T_Syntactik_Compiler_ICompilerComponent.htm">
+        <HelpTOCNode Id="03b9b7b5-6dda-4830-82ce-ab66a33150d6" Title="ICompilerComponent Methods" Url="html/Methods_T_Syntactik_Compiler_ICompilerComponent.htm">
+          <HelpTOCNode Title="Initialize Method " Url="html/M_Syntactik_Compiler_ICompilerComponent_Initialize.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="c5240f68-a4d0-4f4f-b554-85f0f812ae08" Title="ICompilerInput Interface" Url="html/T_Syntactik_Compiler_ICompilerInput.htm">
+        <HelpTOCNode Id="5286004b-31a6-4aa8-8392-018e66f32fbb" Title="ICompilerInput Properties" Url="html/Properties_T_Syntactik_Compiler_ICompilerInput.htm">
+          <HelpTOCNode Title="Name Property " Url="html/P_Syntactik_Compiler_ICompilerInput_Name.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="574643de-f4f4-46f5-a124-1030e16e03de" Title="ICompilerInput Methods" Url="html/Methods_T_Syntactik_Compiler_ICompilerInput.htm">
+          <HelpTOCNode Title="Open Method " Url="html/M_Syntactik_Compiler_ICompilerInput_Open.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="e647c783-f154-44a5-9ef9-9abf9fcfda07" Title="ICompilerStep Interface" Url="html/T_Syntactik_Compiler_ICompilerStep.htm">
+        <HelpTOCNode Id="554be8a0-d738-44a9-a0bb-d4d9f0a85a5e" Title="ICompilerStep Methods" Url="html/Methods_T_Syntactik_Compiler_ICompilerStep.htm">
+          <HelpTOCNode Title="Run Method " Url="html/M_Syntactik_Compiler_ICompilerStep_Run.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="49bcf079-0710-4c20-ac9f-66f44f959124" Title="SyntactikCompiler Class" Url="html/T_Syntactik_Compiler_SyntactikCompiler.htm">
+        <HelpTOCNode Id="cb4fbd7b-6ccd-4843-a0db-b3e7edb868f3" Title="SyntactikCompiler Constructor " Url="html/Overload_Syntactik_Compiler_SyntactikCompiler__ctor.htm">
+          <HelpTOCNode Title="SyntactikCompiler Constructor " Url="html/M_Syntactik_Compiler_SyntactikCompiler__ctor.htm" />
+          <HelpTOCNode Title="SyntactikCompiler Constructor (CompilerParameters)" Url="html/M_Syntactik_Compiler_SyntactikCompiler__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a9ec1250-d508-489c-9c45-d501d423caff" Title="SyntactikCompiler Properties" Url="html/Properties_T_Syntactik_Compiler_SyntactikCompiler.htm">
+          <HelpTOCNode Title="Parameters Property " Url="html/P_Syntactik_Compiler_SyntactikCompiler_Parameters.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="deecc026-38b3-46d0-a235-25f092b92b97" Title="SyntactikCompiler Methods" Url="html/Methods_T_Syntactik_Compiler_SyntactikCompiler.htm">
+          <HelpTOCNode Title="Run Method " Url="html/M_Syntactik_Compiler_SyntactikCompiler_Run.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0036deca-e3b6-4b35-9a5d-2b927f9f1452" Title="Syntactik.Compiler.Generator" Url="html/N_Syntactik_Compiler_Generator.htm">
+      <HelpTOCNode Id="33a63158-2379-4b6a-b6d0-93d7e2cf0004" Title="JsonGenerator Class" Url="html/T_Syntactik_Compiler_Generator_JsonGenerator.htm">
+        <HelpTOCNode Title="JsonGenerator Constructor " Url="html/M_Syntactik_Compiler_Generator_JsonGenerator__ctor.htm" />
+        <HelpTOCNode Title="JsonGenerator Properties" Url="html/Properties_T_Syntactik_Compiler_Generator_JsonGenerator.htm" />
+        <HelpTOCNode Id="8ce49a8b-fb28-4688-9a27-105faec4719f" Title="JsonGenerator Methods" Url="html/Methods_T_Syntactik_Compiler_Generator_JsonGenerator.htm">
+          <HelpTOCNode Title="CheckBlockStartForAlias Method " Url="html/M_Syntactik_Compiler_Generator_JsonGenerator_CheckBlockStartForAlias.htm" />
+          <HelpTOCNode Title="EnterChoiceContainer Method " Url="html/M_Syntactik_Compiler_Generator_JsonGenerator_EnterChoiceContainer.htm" />
+          <HelpTOCNode Title="OnValue Method " Url="html/M_Syntactik_Compiler_Generator_JsonGenerator_OnValue.htm" />
+          <HelpTOCNode Title="ResolveChoiceValue Method " Url="html/M_Syntactik_Compiler_Generator_JsonGenerator_ResolveChoiceValue.htm" />
+          <HelpTOCNode Id="32692245-d734-4f0c-a79b-5d6a141da042" Title="Visit Method " Url="html/Overload_Syntactik_Compiler_Generator_JsonGenerator_Visit.htm">
+            <HelpTOCNode Title="Visit Method (Alias)" Url="html/M_Syntactik_Compiler_Generator_JsonGenerator_Visit.htm" />
+            <HelpTOCNode Title="Visit Method (Attribute)" Url="html/M_Syntactik_Compiler_Generator_JsonGenerator_Visit_1.htm" />
+            <HelpTOCNode Title="Visit Method (Document)" Url="html/M_Syntactik_Compiler_Generator_JsonGenerator_Visit_2.htm" />
+            <HelpTOCNode Title="Visit Method (Element)" Url="html/M_Syntactik_Compiler_Generator_JsonGenerator_Visit_3.htm" />
+            <HelpTOCNode Title="Visit Method (Module)" Url="html/M_Syntactik_Compiler_Generator_JsonGenerator_Visit_4.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="9045472b-0a02-40f0-8d14-84e45007f2d8" Title="JsonGenerator Fields" Url="html/Fields_T_Syntactik_Compiler_Generator_JsonGenerator.htm">
+          <HelpTOCNode Title="BlockIsStarting Field" Url="html/F_Syntactik_Compiler_Generator_JsonGenerator_BlockIsStarting.htm" />
+          <HelpTOCNode Title="BlockState Field" Url="html/F_Syntactik_Compiler_Generator_JsonGenerator_BlockState.htm" />
+          <HelpTOCNode Title="ChoiceStack Field" Url="html/F_Syntactik_Compiler_Generator_JsonGenerator_ChoiceStack.htm" />
+          <HelpTOCNode Title="JsonWriter Field" Url="html/F_Syntactik_Compiler_Generator_JsonGenerator_JsonWriter.htm" />
+          <HelpTOCNode Title="WriterDelegate Field" Url="html/F_Syntactik_Compiler_Generator_JsonGenerator_WriterDelegate.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="JsonGenerator.BlockStateEnum Enumeration" Url="html/T_Syntactik_Compiler_Generator_JsonGenerator_BlockStateEnum.htm" />
+      <HelpTOCNode Id="6b891068-03be-4aa9-9907-afa2c178c932" Title="XmlGenerator Class" Url="html/T_Syntactik_Compiler_Generator_XmlGenerator.htm">
+        <HelpTOCNode Title="XmlGenerator Constructor " Url="html/M_Syntactik_Compiler_Generator_XmlGenerator__ctor.htm" />
+        <HelpTOCNode Id="750e60d4-a919-4582-8c24-76a84408075c" Title="XmlGenerator Properties" Url="html/Properties_T_Syntactik_Compiler_Generator_XmlGenerator.htm">
+          <HelpTOCNode Title="LocationMap Property " Url="html/P_Syntactik_Compiler_Generator_XmlGenerator_LocationMap.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="936092e3-d203-4c46-913d-1d6cd3860da6" Title="XmlGenerator Methods" Url="html/Methods_T_Syntactik_Compiler_Generator_XmlGenerator.htm">
+          <HelpTOCNode Title="AddLocationMapRecord Method " Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_AddLocationMapRecord.htm" />
+          <HelpTOCNode Title="EnterChoiceContainer Method " Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_EnterChoiceContainer.htm" />
+          <HelpTOCNode Title="GetEncoding Method " Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_GetEncoding.htm" />
+          <HelpTOCNode Title="IsLegalXmlChar Method " Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_IsLegalXmlChar.htm" />
+          <HelpTOCNode Title="OnValue Method " Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_OnValue.htm" />
+          <HelpTOCNode Title="ResolveChoiceValue Method " Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_ResolveChoiceValue.htm" />
+          <HelpTOCNode Title="ResolveDqsEscape Method " Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_ResolveDqsEscape.htm" />
+          <HelpTOCNode Id="be62bad9-8ddf-47de-90a8-9339c574a1b3" Title="Visit Method " Url="html/Overload_Syntactik_Compiler_Generator_XmlGenerator_Visit.htm">
+            <HelpTOCNode Title="Visit Method (Alias)" Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_Visit.htm" />
+            <HelpTOCNode Title="Visit Method (Attribute)" Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_Visit_1.htm" />
+            <HelpTOCNode Title="Visit Method (Comment)" Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_Visit_2.htm" />
+            <HelpTOCNode Title="Visit Method (Document)" Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_Visit_3.htm" />
+            <HelpTOCNode Title="Visit Method (Element)" Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_Visit_4.htm" />
+            <HelpTOCNode Title="Visit Method (Module)" Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_Visit_5.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="WriteStartDocument Method " Url="html/M_Syntactik_Compiler_Generator_XmlGenerator_WriteStartDocument.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9e2860a1-778b-4382-9979-4245082decf2" Title="XmlGenerator Fields" Url="html/Fields_T_Syntactik_Compiler_Generator_XmlGenerator.htm">
+          <HelpTOCNode Title="_readerDelegate Field" Url="html/F_Syntactik_Compiler_Generator_XmlGenerator__readerDelegate.htm" />
+          <HelpTOCNode Title="ChoiceStack Field" Url="html/F_Syntactik_Compiler_Generator_XmlGenerator_ChoiceStack.htm" />
+          <HelpTOCNode Title="CurrentModuleMember Field" Url="html/F_Syntactik_Compiler_Generator_XmlGenerator_CurrentModuleMember.htm" />
+          <HelpTOCNode Title="DocumentElementAdded Field" Url="html/F_Syntactik_Compiler_Generator_XmlGenerator_DocumentElementAdded.htm" />
+          <HelpTOCNode Title="WriterDelegate Field" Url="html/F_Syntactik_Compiler_Generator_XmlGenerator_WriterDelegate.htm" />
+          <HelpTOCNode Title="XmlTextWriter Field" Url="html/F_Syntactik_Compiler_Generator_XmlGenerator_XmlTextWriter.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c9a9364f-5e21-40dc-95f8-b145400b6105" Title="Syntactik.Compiler.IO" Url="html/N_Syntactik_Compiler_IO.htm">
+      <HelpTOCNode Id="8a978a6d-5ecf-47e0-878f-c4c6e1591f42" Title="FileInput Class" Url="html/T_Syntactik_Compiler_IO_FileInput.htm">
+        <HelpTOCNode Title="FileInput Constructor " Url="html/M_Syntactik_Compiler_IO_FileInput__ctor.htm" />
+        <HelpTOCNode Id="668957b8-32f8-4593-9f88-d8d377f5386a" Title="FileInput Properties" Url="html/Properties_T_Syntactik_Compiler_IO_FileInput.htm">
+          <HelpTOCNode Title="Name Property " Url="html/P_Syntactik_Compiler_IO_FileInput_Name.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="1c0bdd5b-7d6e-46a1-a19f-f2813688e95a" Title="FileInput Methods" Url="html/Methods_T_Syntactik_Compiler_IO_FileInput.htm">
+          <HelpTOCNode Title="Open Method " Url="html/M_Syntactik_Compiler_IO_FileInput_Open.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="8e993049-d187-49f8-ad47-cbbbcf08736a" Title="ReaderInput Class" Url="html/T_Syntactik_Compiler_IO_ReaderInput.htm">
+        <HelpTOCNode Title="ReaderInput Constructor " Url="html/M_Syntactik_Compiler_IO_ReaderInput__ctor.htm" />
+        <HelpTOCNode Id="600f327f-1fec-4c56-ba2e-6583ac37f5dc" Title="ReaderInput Properties" Url="html/Properties_T_Syntactik_Compiler_IO_ReaderInput.htm">
+          <HelpTOCNode Title="Name Property " Url="html/P_Syntactik_Compiler_IO_ReaderInput_Name.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="dc57dfd9-794e-4481-9967-09d0e369af15" Title="ReaderInput Methods" Url="html/Methods_T_Syntactik_Compiler_IO_ReaderInput.htm">
+          <HelpTOCNode Title="Open Method " Url="html/M_Syntactik_Compiler_IO_ReaderInput_Open.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="0c8ef5e4-c1a5-442b-a336-bc4c1f73f1ae" Title="StringInput Class" Url="html/T_Syntactik_Compiler_IO_StringInput.htm">
+        <HelpTOCNode Title="StringInput Constructor " Url="html/M_Syntactik_Compiler_IO_StringInput__ctor.htm" />
+        <HelpTOCNode Title="StringInput Properties" Url="html/Properties_T_Syntactik_Compiler_IO_StringInput.htm" />
+        <HelpTOCNode Title="StringInput Methods" Url="html/Methods_T_Syntactik_Compiler_IO_StringInput.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="da076bd1-eab6-431d-8ce1-ae0bdaea6338" Title="Syntactik.Compiler.Pipelines" Url="html/N_Syntactik_Compiler_Pipelines.htm">
+      <HelpTOCNode Id="4b374a31-587c-4af1-a19b-ded84fd9aaa1" Title="CompileToFiles Class" Url="html/T_Syntactik_Compiler_Pipelines_CompileToFiles.htm">
+        <HelpTOCNode Title="CompileToFiles Constructor " Url="html/M_Syntactik_Compiler_Pipelines_CompileToFiles__ctor.htm" />
+        <HelpTOCNode Title="CompileToFiles Properties" Url="html/Properties_T_Syntactik_Compiler_Pipelines_CompileToFiles.htm" />
+        <HelpTOCNode Title="CompileToFiles Methods" Url="html/Methods_T_Syntactik_Compiler_Pipelines_CompileToFiles.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="098072af-4ce8-4103-9cbf-c5deb30cb518" Title="CompileToMemory Class" Url="html/T_Syntactik_Compiler_Pipelines_CompileToMemory.htm">
+        <HelpTOCNode Title="CompileToMemory Constructor " Url="html/M_Syntactik_Compiler_Pipelines_CompileToMemory__ctor.htm" />
+        <HelpTOCNode Title="CompileToMemory Properties" Url="html/Properties_T_Syntactik_Compiler_Pipelines_CompileToMemory.htm" />
+        <HelpTOCNode Title="CompileToMemory Methods" Url="html/Methods_T_Syntactik_Compiler_Pipelines_CompileToMemory.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9996e7ab-7e63-4c3f-b546-1bee4761352d" Title="Syntactik.Compiler.Steps" Url="html/N_Syntactik_Compiler_Steps.htm">
+      <HelpTOCNode Id="cdff58d9-7389-424e-a0db-abcc1d00048c" Title="AliasResolvingVisitor Class" Url="html/T_Syntactik_Compiler_Steps_AliasResolvingVisitor.htm">
+        <HelpTOCNode Title="AliasResolvingVisitor Constructor " Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor__ctor.htm" />
+        <HelpTOCNode Id="c6c1be00-5f26-4861-8063-683429f8a677" Title="AliasResolvingVisitor Properties" Url="html/Properties_T_Syntactik_Compiler_Steps_AliasResolvingVisitor.htm">
+          <HelpTOCNode Title="AliasContext Property " Url="html/P_Syntactik_Compiler_Steps_AliasResolvingVisitor_AliasContext.htm" />
+          <HelpTOCNode Title="Context Property " Url="html/P_Syntactik_Compiler_Steps_AliasResolvingVisitor_Context.htm" />
+          <HelpTOCNode Title="CurrentDocument Property " Url="html/P_Syntactik_Compiler_Steps_AliasResolvingVisitor_CurrentDocument.htm" />
+          <HelpTOCNode Title="ScopeContext Property " Url="html/P_Syntactik_Compiler_Steps_AliasResolvingVisitor_ScopeContext.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="32a8a678-8900-4a45-8efb-837d83f2d943" Title="AliasResolvingVisitor Methods" Url="html/Methods_T_Syntactik_Compiler_Steps_AliasResolvingVisitor.htm">
+          <HelpTOCNode Title="OnValue Method " Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_OnValue.htm" />
+          <HelpTOCNode Title="ResolveAttributes Method " Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveAttributes.htm" />
+          <HelpTOCNode Title="ResolveAttributesInAlias Method " Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveAttributesInAlias.htm" />
+          <HelpTOCNode Title="ResolveAttributesInParameter Method " Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveAttributesInParameter.htm" />
+          <HelpTOCNode Title="ResolveChoiceValue Method " Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveChoiceValue.htm" />
+          <HelpTOCNode Title="ResolveDqsEscape Method " Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveDqsEscape.htm" />
+          <HelpTOCNode Title="ResolveDqsEscapeChar Method " Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveDqsEscapeChar.htm" />
+          <HelpTOCNode Title="ResolvePairValue Method " Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolvePairValue.htm" />
+          <HelpTOCNode Title="ResolveValue Method " Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveValue.htm" />
+          <HelpTOCNode Title="ResolveValueAlias Method " Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveValueAlias.htm" />
+          <HelpTOCNode Title="ResolveValueParameter Method " Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_ResolveValueParameter.htm" />
+          <HelpTOCNode Id="840e2e00-669f-4620-9714-5433a3aa21d6" Title="Visit Method " Url="html/Overload_Syntactik_Compiler_Steps_AliasResolvingVisitor_Visit.htm">
+            <HelpTOCNode Title="Visit Method (Alias)" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_Visit.htm" />
+            <HelpTOCNode Title="Visit Method (AliasDefinition)" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_Visit_1.htm" />
+            <HelpTOCNode Title="Visit Method (Element)" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_Visit_2.htm" />
+            <HelpTOCNode Title="Visit Method (Parameter)" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_Visit_3.htm" />
+            <HelpTOCNode Title="Visit Method (Scope)" Url="html/M_Syntactik_Compiler_Steps_AliasResolvingVisitor_Visit_4.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="2e0130cb-b11e-47c5-b0c2-8d424ffa61f8" Title="AliasResolvingVisitor Fields" Url="html/Fields_T_Syntactik_Compiler_Steps_AliasResolvingVisitor.htm">
+          <HelpTOCNode Title="NamespaceResolver Field" Url="html/F_Syntactik_Compiler_Steps_AliasResolvingVisitor_NamespaceResolver.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="876225bc-3ea6-4c08-9d77-8e540a02773f" Title="ErrorListener Class" Url="html/T_Syntactik_Compiler_Steps_ErrorListener.htm">
+        <HelpTOCNode Title="ErrorListener Constructor " Url="html/M_Syntactik_Compiler_Steps_ErrorListener__ctor.htm" />
+        <HelpTOCNode Id="26348e4d-8b9d-43d8-927b-ea6aa0bbd87f" Title="ErrorListener Properties" Url="html/Properties_T_Syntactik_Compiler_Steps_ErrorListener.htm">
+          <HelpTOCNode Title="Errors Property " Url="html/P_Syntactik_Compiler_Steps_ErrorListener_Errors.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ce8ffbec-024c-4031-8302-ac1a4bbba225" Title="ErrorListener Methods" Url="html/Methods_T_Syntactik_Compiler_Steps_ErrorListener.htm">
+          <HelpTOCNode Title="OnError Method " Url="html/M_Syntactik_Compiler_Steps_ErrorListener_OnError.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="846446b1-d140-46bf-aabf-d436db464e6b" Title="EscapeMatch Class" Url="html/T_Syntactik_Compiler_Steps_EscapeMatch.htm">
+        <HelpTOCNode Title="EscapeMatch Constructor " Url="html/M_Syntactik_Compiler_Steps_EscapeMatch__ctor.htm" />
+        <HelpTOCNode Title="EscapeMatch Methods" Url="html/Methods_T_Syntactik_Compiler_Steps_EscapeMatch.htm" />
+        <HelpTOCNode Id="8054a528-fd41-4889-a1ae-ed4bfe52d4d5" Title="EscapeMatch Fields" Url="html/Fields_T_Syntactik_Compiler_Steps_EscapeMatch.htm">
+          <HelpTOCNode Title="Value Field" Url="html/F_Syntactik_Compiler_Steps_EscapeMatch_Value.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="af400fa5-1a3b-41fb-8e93-88e742358dd1" Title="NamespaceResolver Class" Url="html/T_Syntactik_Compiler_Steps_NamespaceResolver.htm">
+        <HelpTOCNode Title="NamespaceResolver Constructor " Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver__ctor.htm" />
+        <HelpTOCNode Id="e1663acb-78ed-418d-90bb-2497ed2c180a" Title="NamespaceResolver Properties" Url="html/Properties_T_Syntactik_Compiler_Steps_NamespaceResolver.htm">
+          <HelpTOCNode Title="ModuleMembersNsInfo Property " Url="html/P_Syntactik_Compiler_Steps_NamespaceResolver_ModuleMembersNsInfo.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="7daed576-a9cc-45d5-9aa9-520b34adde79" Title="NamespaceResolver Methods" Url="html/Methods_T_Syntactik_Compiler_Steps_NamespaceResolver.htm">
+          <HelpTOCNode Title="EnterAliasDef Method " Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver_EnterAliasDef.htm" />
+          <HelpTOCNode Title="EnterDocument Method " Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver_EnterDocument.htm" />
+          <HelpTOCNode Title="EnterModule Method " Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver_EnterModule.htm" />
+          <HelpTOCNode Title="GetAliasDefinition Method " Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver_GetAliasDefinition.htm" />
+          <HelpTOCNode Title="GetNsInfo Method " Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver_GetNsInfo.htm" />
+          <HelpTOCNode Id="aa60eb1c-afd2-4b34-8621-33daaaf33555" Title="GetPrefixAndNs Method " Url="html/Overload_Syntactik_Compiler_Steps_NamespaceResolver_GetPrefixAndNs.htm">
+            <HelpTOCNode Title="GetPrefixAndNs Method (String, INsNode, Document, String, String)" Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver_GetPrefixAndNs_1.htm" />
+            <HelpTOCNode Title="GetPrefixAndNs Method (INsNode, Document, Scope, String, String)" Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver_GetPrefixAndNs.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="ProcessAlias Method " Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver_ProcessAlias.htm" />
+          <HelpTOCNode Title="ResolveAliasesAndDoChecks Method " Url="html/M_Syntactik_Compiler_Steps_NamespaceResolver_ResolveAliasesAndDoChecks.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="336f566f-3a09-464a-9b7c-7d165d74ed26" Title="NsInfo Class" Url="html/T_Syntactik_Compiler_Steps_NsInfo.htm">
+        <HelpTOCNode Title="NsInfo Constructor " Url="html/M_Syntactik_Compiler_Steps_NsInfo__ctor.htm" />
+        <HelpTOCNode Id="2a0e820d-8579-42c1-9d7a-32c0ad5d8f00" Title="NsInfo Properties" Url="html/Properties_T_Syntactik_Compiler_Steps_NsInfo.htm">
+          <HelpTOCNode Title="Aliases Property " Url="html/P_Syntactik_Compiler_Steps_NsInfo_Aliases.htm" />
+          <HelpTOCNode Title="AliasesResolved Property " Url="html/P_Syntactik_Compiler_Steps_NsInfo_AliasesResolved.htm" />
+          <HelpTOCNode Title="ModuleMember Property " Url="html/P_Syntactik_Compiler_Steps_NsInfo_ModuleMember.htm" />
+          <HelpTOCNode Title="Namespaces Property " Url="html/P_Syntactik_Compiler_Steps_NsInfo_Namespaces.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="NsInfo Methods" Url="html/Methods_T_Syntactik_Compiler_Steps_NsInfo.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a893dbc7-509e-402a-b621-04acd883230b" Title="PairFactoryForJson Class" Url="html/T_Syntactik_Compiler_Steps_PairFactoryForJson.htm">
+        <HelpTOCNode Title="PairFactoryForJson Constructor " Url="html/M_Syntactik_Compiler_Steps_PairFactoryForJson__ctor.htm" />
+        <HelpTOCNode Id="831d177b-549e-4aa5-bca7-9ef907cbe746" Title="PairFactoryForJson Methods" Url="html/Methods_T_Syntactik_Compiler_Steps_PairFactoryForJson.htm">
+          <HelpTOCNode Title="AppendChild Method " Url="html/M_Syntactik_Compiler_Steps_PairFactoryForJson_AppendChild.htm" />
+          <HelpTOCNode Title="CreateMappedPair Method " Url="html/M_Syntactik_Compiler_Steps_PairFactoryForJson_CreateMappedPair.htm" />
+          <HelpTOCNode Title="EndPair Method " Url="html/M_Syntactik_Compiler_Steps_PairFactoryForJson_EndPair.htm" />
+          <HelpTOCNode Title="ProcessComment Method " Url="html/M_Syntactik_Compiler_Steps_PairFactoryForJson_ProcessComment.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="9b08e9aa-8709-4605-b709-b76a6b784633" Title="PairFactoryForXml Class" Url="html/T_Syntactik_Compiler_Steps_PairFactoryForXml.htm">
+        <HelpTOCNode Title="PairFactoryForXml Constructor " Url="html/M_Syntactik_Compiler_Steps_PairFactoryForXml__ctor.htm" />
+        <HelpTOCNode Id="806840fc-91b1-4b9b-a3fc-1c22a0cc68ec" Title="PairFactoryForXml Methods" Url="html/Methods_T_Syntactik_Compiler_Steps_PairFactoryForXml.htm">
+          <HelpTOCNode Title="AppendChild Method " Url="html/M_Syntactik_Compiler_Steps_PairFactoryForXml_AppendChild.htm" />
+          <HelpTOCNode Title="CreateMappedPair Method " Url="html/M_Syntactik_Compiler_Steps_PairFactoryForXml_CreateMappedPair.htm" />
+          <HelpTOCNode Title="EndPair Method " Url="html/M_Syntactik_Compiler_Steps_PairFactoryForXml_EndPair.htm" />
+          <HelpTOCNode Title="ProcessComment Method " Url="html/M_Syntactik_Compiler_Steps_PairFactoryForXml_ProcessComment.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="0850f94f-daf5-4a56-8dde-92bc1e7a07dd" Title="Parse Class" Url="html/T_Syntactik_Compiler_Steps_Parse.htm">
+        <HelpTOCNode Title="Parse Constructor " Url="html/M_Syntactik_Compiler_Steps_Parse__ctor.htm" />
+        <HelpTOCNode Id="cb94a876-af12-42f7-951c-06a7a616dd1d" Title="Parse Properties" Url="html/Properties_T_Syntactik_Compiler_Steps_Parse.htm">
+          <HelpTOCNode Title="Context Property " Url="html/P_Syntactik_Compiler_Steps_Parse_Context.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="58652c25-9e1e-4ee5-a2d3-3bad6c3bdb97" Title="Parse Methods" Url="html/Methods_T_Syntactik_Compiler_Steps_Parse.htm">
+          <HelpTOCNode Title="CreateModule Method " Url="html/M_Syntactik_Compiler_Steps_Parse_CreateModule.htm" />
+          <HelpTOCNode Title="Dispose Method " Url="html/M_Syntactik_Compiler_Steps_Parse_Dispose.htm" />
+          <HelpTOCNode Title="DoParse Method " Url="html/M_Syntactik_Compiler_Steps_Parse_DoParse.htm" />
+          <HelpTOCNode Title="GetParser Method " Url="html/M_Syntactik_Compiler_Steps_Parse_GetParser.htm" />
+          <HelpTOCNode Title="Initialize Method " Url="html/M_Syntactik_Compiler_Steps_Parse_Initialize.htm" />
+          <HelpTOCNode Title="Run Method " Url="html/M_Syntactik_Compiler_Steps_Parse_Run.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="824987f0-76c5-4d84-8356-ac0cc0d4a0cb" Title="ProcessAliasesAndNamespaces Class" Url="html/T_Syntactik_Compiler_Steps_ProcessAliasesAndNamespaces.htm">
+        <HelpTOCNode Title="ProcessAliasesAndNamespaces Constructor " Url="html/M_Syntactik_Compiler_Steps_ProcessAliasesAndNamespaces__ctor.htm" />
+        <HelpTOCNode Id="18df78fc-2b29-4551-b9ac-ddae5a2cda2d" Title="ProcessAliasesAndNamespaces Methods" Url="html/Methods_T_Syntactik_Compiler_Steps_ProcessAliasesAndNamespaces.htm">
+          <HelpTOCNode Title="Dispose Method " Url="html/M_Syntactik_Compiler_Steps_ProcessAliasesAndNamespaces_Dispose.htm" />
+          <HelpTOCNode Title="Initialize Method " Url="html/M_Syntactik_Compiler_Steps_ProcessAliasesAndNamespaces_Initialize.htm" />
+          <HelpTOCNode Title="Run Method " Url="html/M_Syntactik_Compiler_Steps_ProcessAliasesAndNamespaces_Run.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="4a433fb0-8781-4691-bc0a-783f9c680b08" Title="ValidateDocuments Class" Url="html/T_Syntactik_Compiler_Steps_ValidateDocuments.htm">
+        <HelpTOCNode Title="ValidateDocuments Constructor " Url="html/M_Syntactik_Compiler_Steps_ValidateDocuments__ctor.htm" />
+        <HelpTOCNode Id="162448e3-b1af-4a12-9266-026d264a01d2" Title="ValidateDocuments Methods" Url="html/Methods_T_Syntactik_Compiler_Steps_ValidateDocuments.htm">
+          <HelpTOCNode Title="Dispose Method " Url="html/M_Syntactik_Compiler_Steps_ValidateDocuments_Dispose.htm" />
+          <HelpTOCNode Title="Initialize Method " Url="html/M_Syntactik_Compiler_Steps_ValidateDocuments_Initialize.htm" />
+          <HelpTOCNode Title="Run Method " Url="html/M_Syntactik_Compiler_Steps_ValidateDocuments_Run.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5e3ab681-c56e-48b3-ad0b-6874c77ba3a4" Title="Syntactik.DOM" Url="html/N_Syntactik_DOM.htm">
+      <HelpTOCNode Id="50fa5bb3-67ca-4c82-b3db-e740f0400504" Title="Alias Class" Url="html/T_Syntactik_DOM_Alias.htm">
+        <HelpTOCNode Title="Alias Constructor " Url="html/M_Syntactik_DOM_Alias__ctor.htm" />
+        <HelpTOCNode Id="0a4741c6-1441-4336-809b-1a8c3a0322b6" Title="Alias Properties" Url="html/Properties_T_Syntactik_DOM_Alias.htm">
+          <HelpTOCNode Title="Arguments Property " Url="html/P_Syntactik_DOM_Alias_Arguments.htm" />
+          <HelpTOCNode Title="Entities Property " Url="html/P_Syntactik_DOM_Alias_Entities.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ec01089a-14df-42a0-9ab1-bc0d7f643fd3" Title="Alias Methods" Url="html/Methods_T_Syntactik_DOM_Alias.htm">
+          <HelpTOCNode Title="Accept Method " Url="html/M_Syntactik_DOM_Alias_Accept.htm" />
+          <HelpTOCNode Title="AppendChild Method " Url="html/M_Syntactik_DOM_Alias_AppendChild.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="7fa06023-43cd-48bf-b935-182e8fd998c2" Title="AliasDefinition Class" Url="html/T_Syntactik_DOM_AliasDefinition.htm">
+        <HelpTOCNode Title="AliasDefinition Constructor " Url="html/M_Syntactik_DOM_AliasDefinition__ctor.htm" />
+        <HelpTOCNode Id="433c3321-592c-4c55-9193-b7dab6d9a6c1" Title="AliasDefinition Properties" Url="html/Properties_T_Syntactik_DOM_AliasDefinition.htm">
+          <HelpTOCNode Title="Entities Property " Url="html/P_Syntactik_DOM_AliasDefinition_Entities.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8c06fb74-f0d2-4ac3-9cd9-4a1f47df8cba" Title="AliasDefinition Methods" Url="html/Methods_T_Syntactik_DOM_AliasDefinition.htm">
+          <HelpTOCNode Title="Accept Method " Url="html/M_Syntactik_DOM_AliasDefinition_Accept.htm" />
+          <HelpTOCNode Title="AppendChild Method " Url="html/M_Syntactik_DOM_AliasDefinition_AppendChild.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="1e747673-bd94-4279-acc8-f7e66a20fb69" Title="Argument Class" Url="html/T_Syntactik_DOM_Argument.htm">
+        <HelpTOCNode Title="Argument Constructor " Url="html/M_Syntactik_DOM_Argument__ctor.htm" />
+        <HelpTOCNode Id="84425b9d-24c4-414b-b0a8-df701ad3e568" Title="Argument Properties" Url="html/Properties_T_Syntactik_DOM_Argument.htm">
+          <HelpTOCNode Title="Entities Property " Url="html/P_Syntactik_DOM_Argument_Entities.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8004d0b5-2215-4d32-8683-d65a4dca078f" Title="Argument Methods" Url="html/Methods_T_Syntactik_DOM_Argument.htm">
+          <HelpTOCNode Title="Accept Method " Url="html/M_Syntactik_DOM_Argument_Accept.htm" />
+          <HelpTOCNode Title="AppendChild Method " Url="html/M_Syntactik_DOM_Argument_AppendChild.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="AssignmentEnum Enumeration" Url="html/T_Syntactik_DOM_AssignmentEnum.htm" />
+      <HelpTOCNode Id="7d40d24e-a7fd-4328-bb9f-443eb9a377f5" Title="Attribute Class" Url="html/T_Syntactik_DOM_Attribute.htm">
+        <HelpTOCNode Title="Attribute Constructor " Url="html/M_Syntactik_DOM_Attribute__ctor.htm" />
+        <HelpTOCNode Id="d35dcece-a383-45a6-a854-21ecea4e86f4" Title="Attribute Properties" Url="html/Properties_T_Syntactik_DOM_Attribute.htm">
+          <HelpTOCNode Title="NsPrefix Property " Url="html/P_Syntactik_DOM_Attribute_NsPrefix.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d528162c-754f-4879-bd49-3c2ae58deaab" Title="Attribute Methods" Url="html/Methods_T_Syntactik_DOM_Attribute.htm">
+          <HelpTOCNode Title="Accept Method " Url="html/M_Syntactik_DOM_Attribute_Accept.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ef560479-176e-4bb2-af3e-557d75dfefcb" Title="CharLocation Class" Url="html/T_Syntactik_DOM_CharLocation.htm">
+        <HelpTOCNode Id="bd21915a-6827-4e9e-ab2a-73cec4c85951" Title="CharLocation Constructor " Url="html/Overload_Syntactik_DOM_CharLocation__ctor.htm">
+          <HelpTOCNode Title="CharLocation Constructor (ICharStream)" Url="html/M_Syntactik_DOM_CharLocation__ctor.htm" />
+          <HelpTOCNode Title="CharLocation Constructor (Int32, Int32, Int32)" Url="html/M_Syntactik_DOM_CharLocation__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="af6c9dd4-dcda-4348-a675-be06cfcec8f7" Title="CharLocation Methods" Url="html/Methods_T_Syntactik_DOM_CharLocation.htm">
+          <HelpTOCNode Title="CompareTo Method " Url="html/M_Syntactik_DOM_CharLocation_CompareTo.htm" />
+          <HelpTOCNode Id="45f22add-0225-4e39-a09a-c951c8cec7e9" Title="Equals Method " Url="html/Overload_Syntactik_DOM_CharLocation_Equals.htm">
+            <HelpTOCNode Title="Equals Method (CharLocation)" Url="html/M_Syntactik_DOM_CharLocation_Equals.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="ToString Method " Url="html/M_Syntactik_DOM_CharLocation_ToString.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="36bdf700-778e-4693-a99c-b2925ecad471" Title="CharLocation Fields" Url="html/Fields_T_Syntactik_DOM_CharLocation.htm">
+          <HelpTOCNode Title="Column Field" Url="html/F_Syntactik_DOM_CharLocation_Column.htm" />
+          <HelpTOCNode Title="Empty Field" Url="html/F_Syntactik_DOM_CharLocation_Empty.htm" />
+          <HelpTOCNode Title="Index Field" Url="html/F_Syntactik_DOM_CharLocation_Index.htm" />
+          <HelpTOCNode Title="Line Field" Url="html/F_Syntactik_DOM_CharLocation_Line.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="44d38b32-3a05-4b17-8bb6-a860938ddd5f" Title="Comment Class" Url="html/T_Syntactik_DOM_Comment.htm">
+        <HelpTOCNode Title="Comment Constructor " Url="html/M_Syntactik_DOM_Comment__ctor.htm" />
+        <HelpTOCNode Title="Comment Properties" Url="html/Properties_T_Syntactik_DOM_Comment.htm" />
+        <HelpTOCNode Id="5d27f752-3dc7-4f89-82d2-c7691a1203ba" Title="Comment Methods" Url="html/Methods_T_Syntactik_DOM_Comment.htm">
+          <HelpTOCNode Title="Accept Method " Url="html/M_Syntactik_DOM_Comment_Accept.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="18e0a1d3-ccbb-43f2-a6b2-9f9daa8c06ec" Title="CompileUnit Class" Url="html/T_Syntactik_DOM_CompileUnit.htm">
+        <HelpTOCNode Title="CompileUnit Constructor " Url="html/M_Syntactik_DOM_CompileUnit__ctor.htm" />
+        <HelpTOCNode Id="4761c612-48cf-42ea-9e26-6129d1a0c6f8" Title="CompileUnit Properties" Url="html/Properties_T_Syntactik_DOM_CompileUnit.htm">
+          <HelpTOCNode Title="Modules Property " Url="html/P_Syntactik_DOM_CompileUnit_Modules.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="432c6b84-4ac9-4211-b0c7-570e45bef226" Title="CompileUnit Methods" Url="html/Methods_T_Syntactik_DOM_CompileUnit.htm">
+          <HelpTOCNode Title="Accept Method " Url="html/M_Syntactik_DOM_CompileUnit_Accept.htm" />
+          <HelpTOCNode Title="AppendChild Method " Url="html/M_Syntactik_DOM_CompileUnit_AppendChild.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="43ebbd0f-39ee-45b9-86cb-bc0e31c315d0" Title="Document Class" Url="html/T_Syntactik_DOM_Document.htm">
+        <HelpTOCNode Title="Document Constructor " Url="html/M_Syntactik_DOM_Document__ctor.htm" />
+        <HelpTOCNode Id="975cd9a8-8bd2-4cab-b742-e1c94872a259" Title="Document Properties" Url="html/Properties_T_Syntactik_DOM_Document.htm">
+          <HelpTOCNode Title="Entities Property " Url="html/P_Syntactik_DOM_Document_Entities.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="3ad7ac5e-8861-46f2-b197-d188f45de698" Title="Document Methods" Url="html/Methods_T_Syntactik_DOM_Document.htm">
+          <HelpTOCNode Title="Accept Method " Url="html/M_Syntactik_DOM_Document_Accept.htm" />
+          <HelpTOCNode Title="AppendChild Method " Url="html/M_Syntactik_DOM_Document_AppendChild.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="86cb7e8a-20b5-4227-930f-03129a420580" Title="Document Fields" Url="html/Fields_T_Syntactik_DOM_Document.htm">
+          <HelpTOCNode Title="DocumentElement Field" Url="html/F_Syntactik_DOM_Document_DocumentElement.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="d5d89442-40e7-4459-8467-798157897947" Title="Element Class" Url="html/T_Syntactik_DOM_Element.htm">
+        <HelpTOCNode Title="Element Constructor " Url="html/M_Syntactik_DOM_Element__ctor.htm" />
+        <HelpTOCNode Id="00a8e552-ccf8-4800-a1c7-1138412a38b4" Title="Element Properties" Url="html/Properties_T_Syntactik_DOM_Element.htm">
+          <HelpTOCNode Title="Entities Property " Url="html/P_Syntactik_DOM_Element_Entities.htm" />
+          <HelpTOCNode Title="NsPrefix Property " Url="html/P_Syntactik_DOM_Element_NsPrefix.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="097b2e9d-5ee9-4870-b297-81f1ae69b880" Title="Element Methods" Url="html/Methods_T_Syntactik_DOM_Element.htm">
+          <HelpTOCNode Title="Accept Method " Url="html/M_Syntactik_DOM_Element_Accept.htm" />
+          <HelpTOCNode Title="AppendChild Method " Url="html/M_Syntactik_DOM_Element_AppendChild.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="1c194d3c-1976-4f75-820a-76b2ca28117c" Title="Entity Class" Url="html/T_Syntactik_DOM_Entity.htm">
+        <HelpTOCNode Title="Entity Constructor " Url="html/M_Syntactik_DOM_Entity__ctor.htm" />
+        <HelpTOCNode Title="Entity Properties" Url="html/Properties_T_Syntactik_DOM_Entity.htm" />
+        <HelpTOCNode Title="Entity Methods" Url="html/Methods_T_Syntactik_DOM_Entity.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2bfd2b78-2ed6-45ee-966f-b390baae76c0" Title="IContainer Interface" Url="html/T_Syntactik_DOM_IContainer.htm">
+        <HelpTOCNode Id="50d39132-3156-49f1-bbd1-f75c7b4600c2" Title="IContainer Properties" Url="html/Properties_T_Syntactik_DOM_IContainer.htm">
+          <HelpTOCNode Title="Entities Property " Url="html/P_Syntactik_DOM_IContainer_Entities.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="bcfed7d9-363a-4d66-8078-8ac619e9a234" Title="IDomVisitor Interface" Url="html/T_Syntactik_DOM_IDomVisitor.htm">
+        <HelpTOCNode Id="fe8558f4-383e-42b5-be8a-41c0624b6310" Title="IDomVisitor Methods" Url="html/Methods_T_Syntactik_DOM_IDomVisitor.htm">
+          <HelpTOCNode Id="79b5d7ac-bda9-4982-8559-8180320fa0fb" Title="Visit Method " Url="html/Overload_Syntactik_DOM_IDomVisitor_Visit.htm">
+            <HelpTOCNode Title="Visit Method (Alias)" Url="html/M_Syntactik_DOM_IDomVisitor_Visit.htm" />
+            <HelpTOCNode Title="Visit Method (AliasDefinition)" Url="html/M_Syntactik_DOM_IDomVisitor_Visit_1.htm" />
+            <HelpTOCNode Title="Visit Method (Argument)" Url="html/M_Syntactik_DOM_IDomVisitor_Visit_2.htm" />
+            <HelpTOCNode Title="Visit Method (Attribute)" Url="html/M_Syntactik_DOM_IDomVisitor_Visit_3.htm" />
+            <HelpTOCNode Title="Visit Method (Comment)" Url="html/M_Syntactik_DOM_IDomVisitor_Visit_4.htm" />
+            <HelpTOCNode Title="Visit Method (CompileUnit)" Url="html/M_Syntactik_DOM_IDomVisitor_Visit_5.htm" />
+            <HelpTOCNode Title="Visit Method (Document)" Url="html/M_Syntactik_DOM_IDomVisitor_Visit_6.htm" />
+            <HelpTOCNode Title="Visit Method (Element)" Url="html/M_Syntactik_DOM_IDomVisitor_Visit_7.htm" />
+            <HelpTOCNode Title="Visit Method (Module)" Url="html/M_Syntactik_DOM_IDomVisitor_Visit_8.htm" />
+            <HelpTOCNode Title="Visit Method (NamespaceDefinition)" Url="html/M_Syntactik_DOM_IDomVisitor_Visit_9.htm" />
+            <HelpTOCNode Title="Visit Method (Parameter)" Url="html/M_Syntactik_DOM_IDomVisitor_Visit_10.htm" />
+            <HelpTOCNode Title="Visit Method (Scope)" Url="html/M_Syntactik_DOM_IDomVisitor_Visit_11.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ae069875-5e2f-479f-b7b4-bd824adaccd9" Title="INsNode Interface" Url="html/T_Syntactik_DOM_INsNode.htm">
+        <HelpTOCNode Id="e2fb8a56-6eb7-476d-bf6c-bcd6ff628cdf" Title="INsNode Properties" Url="html/Properties_T_Syntactik_DOM_INsNode.htm">
+          <HelpTOCNode Title="NsPrefix Property " Url="html/P_Syntactik_DOM_INsNode_NsPrefix.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ba12d1fc-b866-4b0c-82b4-be4ae6e15968" Title="INsNodeOverridable Interface" Url="html/T_Syntactik_DOM_INsNodeOverridable.htm">
+        <HelpTOCNode Id="56658541-229b-485c-8bb3-da969cb51c15" Title="INsNodeOverridable Methods" Url="html/Methods_T_Syntactik_DOM_INsNodeOverridable.htm">
+          <HelpTOCNode Title="OverrideNsPrefix Method " Url="html/M_Syntactik_DOM_INsNodeOverridable_OverrideNsPrefix.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="e91b68b9-1d9d-421e-822b-f444737fb3dd" Title="Interval Class" Url="html/T_Syntactik_DOM_Interval.htm">
+        <HelpTOCNode Id="0d92808f-e8dc-46d2-8e70-1b6a50a2541c" Title="Interval Constructor " Url="html/Overload_Syntactik_DOM_Interval__ctor.htm">
+          <HelpTOCNode Title="Interval Constructor (CharLocation)" Url="html/M_Syntactik_DOM_Interval__ctor.htm" />
+          <HelpTOCNode Title="Interval Constructor (ICharStream)" Url="html/M_Syntactik_DOM_Interval__ctor_2.htm" />
+          <HelpTOCNode Title="Interval Constructor (CharLocation, CharLocation)" Url="html/M_Syntactik_DOM_Interval__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Interval Methods" Url="html/Methods_T_Syntactik_DOM_Interval.htm" />
+        <HelpTOCNode Id="e5f1db5d-708a-4776-ba32-a2e81e179a97" Title="Interval Fields" Url="html/Fields_T_Syntactik_DOM_Interval.htm">
+          <HelpTOCNode Title="Begin Field" Url="html/F_Syntactik_DOM_Interval_Begin.htm" />
+          <HelpTOCNode Title="Empty Field" Url="html/F_Syntactik_DOM_Interval_Empty.htm" />
+          <HelpTOCNode Title="End Field" Url="html/F_Syntactik_DOM_Interval_End.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="e1c1105e-3f58-4945-a8b3-8345057be4dc" Title="IPairFactory Interface" Url="html/T_Syntactik_DOM_IPairFactory.htm">
+        <HelpTOCNode Id="1e0dfefd-4e83-4915-a19e-3a286ac75d8a" Title="IPairFactory Methods" Url="html/Methods_T_Syntactik_DOM_IPairFactory.htm">
+          <HelpTOCNode Title="AppendChild Method " Url="html/M_Syntactik_DOM_IPairFactory_AppendChild.htm" />
+          <HelpTOCNode Title="CreateMappedPair Method " Url="html/M_Syntactik_DOM_IPairFactory_CreateMappedPair.htm" />
+          <HelpTOCNode Title="EndPair Method " Url="html/M_Syntactik_DOM_IPairFactory_EndPair.htm" />
+          <HelpTOCNode Title="ProcessComment Method " Url="html/M_Syntactik_DOM_IPairFactory_ProcessComment.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="9b729bdb-c5ec-4904-bc0d-9403d572827e" Title="LexicalInfo Class" Url="html/T_Syntactik_DOM_LexicalInfo.htm">
+        <HelpTOCNode Id="d8efc73d-c72c-4c0c-8a1e-13c02d4b002d" Title="LexicalInfo Constructor " Url="html/Overload_Syntactik_DOM_LexicalInfo__ctor.htm">
+          <HelpTOCNode Title="LexicalInfo Constructor (String)" Url="html/M_Syntactik_DOM_LexicalInfo__ctor_1.htm" />
+          <HelpTOCNode Title="LexicalInfo Constructor (LexicalInfo)" Url="html/M_Syntactik_DOM_LexicalInfo__ctor.htm" />
+          <HelpTOCNode Title="LexicalInfo Constructor (String, Int32, Int32, Int32)" Url="html/M_Syntactik_DOM_LexicalInfo__ctor_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="4a2eba71-6fe1-440c-803f-447bd8e8cb8f" Title="LexicalInfo Properties" Url="html/Properties_T_Syntactik_DOM_LexicalInfo.htm">
+          <HelpTOCNode Title="FileName Property " Url="html/P_Syntactik_DOM_LexicalInfo_FileName.htm" />
+          <HelpTOCNode Title="FullPath Property " Url="html/P_Syntactik_DOM_LexicalInfo_FullPath.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="46b373fa-3b08-45e5-b391-37afb362bce0" Title="LexicalInfo Methods" Url="html/Methods_T_Syntactik_DOM_LexicalInfo.htm">
+          <HelpTOCNode Id="61d2591a-279c-4317-9d16-90819126bb22" Title="CompareTo Method " Url="html/Overload_Syntactik_DOM_LexicalInfo_CompareTo.htm">
+            <HelpTOCNode Title="CompareTo Method (LexicalInfo)" Url="html/M_Syntactik_DOM_LexicalInfo_CompareTo.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="3242ccce-67dd-4fc0-a2a0-4b4c5914ea01" Title="Equals Method " Url="html/Overload_Syntactik_DOM_LexicalInfo_Equals.htm">
+            <HelpTOCNode Title="Equals Method (LexicalInfo)" Url="html/M_Syntactik_DOM_LexicalInfo_Equals.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="ToString Method " Url="html/M_Syntactik_DOM_LexicalInfo_ToString.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="aa746cd6-6fc7-41b9-b094-d2144dfea489" Title="LexicalInfo Fields" Url="html/Fields_T_Syntactik_DOM_LexicalInfo.htm">
+          <HelpTOCNode Title="Empty Field" Url="html/F_Syntactik_DOM_LexicalInfo_Empty.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="33360fd0-f2ae-4113-9f97-0b78883fdfb3" Title="Module Class" Url="html/T_Syntactik_DOM_Module.htm">
+        <HelpTOCNode Title="Module Constructor " Url="html/M_Syntactik_DOM_Module__ctor.htm" />
+        <HelpTOCNode Id="b8bda0c7-9c54-4119-9042-ec66f2c5466d" Title="Module Properties" Url="html/Properties_T_Syntactik_DOM_Module.htm">
+          <HelpTOCNode Title="FileName Property " Url="html/P_Syntactik_DOM_Module_FileName.htm" />
+          <HelpTOCNode Title="IndentMultiplicity Property " Url="html/P_Syntactik_DOM_Module_IndentMultiplicity.htm" />
+          <HelpTOCNode Title="IndentSymbol Property " Url="html/P_Syntactik_DOM_Module_IndentSymbol.htm" />
+          <HelpTOCNode Title="Members Property " Url="html/P_Syntactik_DOM_Module_Members.htm" />
+          <HelpTOCNode Title="ModuleDocument Property " Url="html/P_Syntactik_DOM_Module_ModuleDocument.htm" />
+          <HelpTOCNode Title="NamespaceDefinitions Property " Url="html/P_Syntactik_DOM_Module_NamespaceDefinitions.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="dfc49a78-0acc-48f8-8e3c-0e72b0c62781" Title="Module Methods" Url="html/Methods_T_Syntactik_DOM_Module.htm">
+          <HelpTOCNode Title="Accept Method " Url="html/M_Syntactik_DOM_Module_Accept.htm" />
+          <HelpTOCNode Title="AddEntity Method " Url="html/M_Syntactik_DOM_Module_AddEntity.htm" />
+          <HelpTOCNode Title="AppendChild Method " Url="html/M_Syntactik_DOM_Module_AppendChild.htm" />
+          <HelpTOCNode Title="CreateModuleDocument Method " Url="html/M_Syntactik_DOM_Module_CreateModuleDocument.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="fbf44e22-008a-4623-9c11-80ba0b333f3d" Title="ModuleMember Class" Url="html/T_Syntactik_DOM_ModuleMember.htm">
+        <HelpTOCNode Title="ModuleMember Constructor " Url="html/M_Syntactik_DOM_ModuleMember__ctor.htm" />
+        <HelpTOCNode Id="0d32cfd1-b599-4686-b4a0-68db72a5079d" Title="ModuleMember Properties" Url="html/Properties_T_Syntactik_DOM_ModuleMember.htm">
+          <HelpTOCNode Title="Module Property " Url="html/P_Syntactik_DOM_ModuleMember_Module.htm" />
+          <HelpTOCNode Title="NamespaceDefinitions Property " Url="html/P_Syntactik_DOM_ModuleMember_NamespaceDefinitions.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ModuleMember Methods" Url="html/Methods_T_Syntactik_DOM_ModuleMember.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3dc3ce9c-ff6b-4c41-a110-5155283b7b7d" Title="NamespaceDefinition Class" Url="html/T_Syntactik_DOM_NamespaceDefinition.htm">
+        <HelpTOCNode Title="NamespaceDefinition Constructor " Url="html/M_Syntactik_DOM_NamespaceDefinition__ctor.htm" />
+        <HelpTOCNode Title="NamespaceDefinition Properties" Url="html/Properties_T_Syntactik_DOM_NamespaceDefinition.htm" />
+        <HelpTOCNode Id="84b2dc51-0756-4d0e-914f-a658b8ac683f" Title="NamespaceDefinition Methods" Url="html/Methods_T_Syntactik_DOM_NamespaceDefinition.htm">
+          <HelpTOCNode Title="Accept Method " Url="html/M_Syntactik_DOM_NamespaceDefinition_Accept.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="0cb90b3a-c548-451f-8956-8dcdf5c063e5" Title="Pair Class" Url="html/T_Syntactik_DOM_Pair.htm">
+        <HelpTOCNode Id="3f5e14e9-5dcf-4824-aa0e-39b212eb23be" Title="Pair Constructor " Url="html/Overload_Syntactik_DOM_Pair__ctor.htm">
+          <HelpTOCNode Title="Pair Constructor " Url="html/M_Syntactik_DOM_Pair__ctor.htm" />
+          <HelpTOCNode Title="Pair Constructor (String)" Url="html/M_Syntactik_DOM_Pair__ctor_3.htm" />
+          <HelpTOCNode Title="Pair Constructor (AssignmentEnum)" Url="html/M_Syntactik_DOM_Pair__ctor_1.htm" />
+          <HelpTOCNode Title="Pair Constructor (String, AssignmentEnum)" Url="html/M_Syntactik_DOM_Pair__ctor_4.htm" />
+          <HelpTOCNode Title="Pair Constructor (AssignmentEnum, String)" Url="html/M_Syntactik_DOM_Pair__ctor_2.htm" />
+          <HelpTOCNode Title="Pair Constructor (String, AssignmentEnum, String)" Url="html/M_Syntactik_DOM_Pair__ctor_5.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="fa6f026f-c9cf-4caf-9055-3e55b9acbb59" Title="Pair Properties" Url="html/Properties_T_Syntactik_DOM_Pair.htm">
+          <HelpTOCNode Title="Assignment Property " Url="html/P_Syntactik_DOM_Pair_Assignment.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_Syntactik_DOM_Pair_Name.htm" />
+          <HelpTOCNode Title="PairValue Property " Url="html/P_Syntactik_DOM_Pair_PairValue.htm" />
+          <HelpTOCNode Title="Parent Property " Url="html/P_Syntactik_DOM_Pair_Parent.htm" />
+          <HelpTOCNode Title="Value Property " Url="html/P_Syntactik_DOM_Pair_Value.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="61e07541-5383-428b-bc8d-da71cd1c1815" Title="Pair Methods" Url="html/Methods_T_Syntactik_DOM_Pair.htm">
+          <HelpTOCNode Title="Accept Method " Url="html/M_Syntactik_DOM_Pair_Accept.htm" />
+          <HelpTOCNode Title="AppendChild Method " Url="html/M_Syntactik_DOM_Pair_AppendChild.htm" />
+          <HelpTOCNode Title="HasValue Method " Url="html/M_Syntactik_DOM_Pair_HasValue.htm" />
+          <HelpTOCNode Title="InitializeParent Method " Url="html/M_Syntactik_DOM_Pair_InitializeParent.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="a415a1c5-b5e1-4623-8477-19fcb0919993" Title="PairCollection(T) Class" Url="html/T_Syntactik_DOM_PairCollection_1.htm">
+        <HelpTOCNode Id="7314b575-2203-451c-82ff-966a827340b3" Title="PairCollection(T) Constructor " Url="html/Overload_Syntactik_DOM_PairCollection_1__ctor.htm">
+          <HelpTOCNode Title="PairCollection(T) Constructor " Url="html/M_Syntactik_DOM_PairCollection_1__ctor.htm" />
+          <HelpTOCNode Title="PairCollection(T) Constructor (Pair)" Url="html/M_Syntactik_DOM_PairCollection_1__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="cbb7486e-713d-4a85-b0b6-4d47bf90158f" Title="PairCollection(T) Properties" Url="html/Properties_T_Syntactik_DOM_PairCollection_1.htm">
+          <HelpTOCNode Title="Count Property " Url="html/P_Syntactik_DOM_PairCollection_1_Count.htm" />
+          <HelpTOCNode Title="IsReadOnly Property " Url="html/P_Syntactik_DOM_PairCollection_1_IsReadOnly.htm" />
+          <HelpTOCNode Title="Item Property " Url="html/P_Syntactik_DOM_PairCollection_1_Item.htm" />
+          <HelpTOCNode Title="Parent Property " Url="html/P_Syntactik_DOM_PairCollection_1_Parent.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e4270751-fc9e-4d56-bd8d-5ae06b48485d" Title="PairCollection(T) Methods" Url="html/Methods_T_Syntactik_DOM_PairCollection_1.htm">
+          <HelpTOCNode Title="Add Method " Url="html/M_Syntactik_DOM_PairCollection_1_Add.htm" />
+          <HelpTOCNode Title="AddRange Method " Url="html/M_Syntactik_DOM_PairCollection_1_AddRange.htm" />
+          <HelpTOCNode Title="Clear Method " Url="html/M_Syntactik_DOM_PairCollection_1_Clear.htm" />
+          <HelpTOCNode Title="Contains Method " Url="html/M_Syntactik_DOM_PairCollection_1_Contains.htm" />
+          <HelpTOCNode Id="12c58282-402d-4af6-88da-ca53182073cf" Title="CopyTo Method " Url="html/Overload_Syntactik_DOM_PairCollection_1_CopyTo.htm">
+            <HelpTOCNode Title="CopyTo Method (Array, Int32)" Url="html/M_Syntactik_DOM_PairCollection_1_CopyTo.htm" />
+            <HelpTOCNode Title="CopyTo Method (T[], Int32)" Url="html/M_Syntactik_DOM_PairCollection_1_CopyTo_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="GetEnumerator Method " Url="html/M_Syntactik_DOM_PairCollection_1_GetEnumerator.htm" />
+          <HelpTOCNode Title="Insert Method " Url="html/M_Syntactik_DOM_PairCollection_1_Insert.htm" />
+          <HelpTOCNode Title="Remove Method " Url="html/M_Syntactik_DOM_PairCollection_1_Remove.htm" />
+          <HelpTOCNode Title="Replace Method " Url="html/M_Syntactik_DOM_PairCollection_1_Replace.htm" />
+          <HelpTOCNode Title="ToArray Method " Url="html/M_Syntactik_DOM_PairCollection_1_ToArray.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="c3aed834-322f-46d7-b784-23b96b9dea43" Title="Parameter Class" Url="html/T_Syntactik_DOM_Parameter.htm">
+        <HelpTOCNode Title="Parameter Constructor " Url="html/M_Syntactik_DOM_Parameter__ctor.htm" />
+        <HelpTOCNode Id="e458b195-2f7f-4f3c-bad3-b9411ff3bc2f" Title="Parameter Properties" Url="html/Properties_T_Syntactik_DOM_Parameter.htm">
+          <HelpTOCNode Title="Entities Property " Url="html/P_Syntactik_DOM_Parameter_Entities.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9187ed1e-9292-428f-ab4c-e9904df722bb" Title="Parameter Methods" Url="html/Methods_T_Syntactik_DOM_Parameter.htm">
+          <HelpTOCNode Title="Accept Method " Url="html/M_Syntactik_DOM_Parameter_Accept.htm" />
+          <HelpTOCNode Title="AppendChild Method " Url="html/M_Syntactik_DOM_Parameter_AppendChild.htm" />
+          <HelpTOCNode Title="ToString Method " Url="html/M_Syntactik_DOM_Parameter_ToString.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="QuotesEnum Enumeration" Url="html/T_Syntactik_DOM_QuotesEnum.htm" />
+      <HelpTOCNode Id="0e8a5868-4997-433a-90ba-d912dfaf88ba" Title="Scope Class" Url="html/T_Syntactik_DOM_Scope.htm">
+        <HelpTOCNode Title="Scope Constructor " Url="html/M_Syntactik_DOM_Scope__ctor.htm" />
+        <HelpTOCNode Id="7296496c-bbe6-458a-8179-f26738ede234" Title="Scope Properties" Url="html/Properties_T_Syntactik_DOM_Scope.htm">
+          <HelpTOCNode Title="Entities Property " Url="html/P_Syntactik_DOM_Scope_Entities.htm" />
+          <HelpTOCNode Title="NsPrefix Property " Url="html/P_Syntactik_DOM_Scope_NsPrefix.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="281bf828-2e5e-4d80-bba9-f95e1099ac1f" Title="Scope Methods" Url="html/Methods_T_Syntactik_DOM_Scope.htm">
+          <HelpTOCNode Title="Accept Method " Url="html/M_Syntactik_DOM_Scope_Accept.htm" />
+          <HelpTOCNode Title="AppendChild Method " Url="html/M_Syntactik_DOM_Scope_AppendChild.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ef3727b4-5a19-443c-aee6-7f6746ce85e6" Title="SyntactikDepthFirstVisitor Class" Url="html/T_Syntactik_DOM_SyntactikDepthFirstVisitor.htm">
+        <HelpTOCNode Title="SyntactikDepthFirstVisitor Constructor " Url="html/M_Syntactik_DOM_SyntactikDepthFirstVisitor__ctor.htm" />
+        <HelpTOCNode Id="4ef89135-8e70-4925-9aec-82366eefe823" Title="SyntactikDepthFirstVisitor Methods" Url="html/Methods_T_Syntactik_DOM_SyntactikDepthFirstVisitor.htm">
+          <HelpTOCNode Title="OnPair Method " Url="html/M_Syntactik_DOM_SyntactikDepthFirstVisitor_OnPair.htm" />
+          <HelpTOCNode Id="87cbf03c-61d8-4494-a883-7fb949637bfc" Title="Visit Method " Url="html/Overload_Syntactik_DOM_SyntactikDepthFirstVisitor_Visit.htm">
+            <HelpTOCNode Title="Visit(T) Method (IEnumerable(T))" Url="html/M_Syntactik_DOM_SyntactikDepthFirstVisitor_Visit__1.htm" />
+            <HelpTOCNode Title="Visit Method (Alias)" Url="html/M_Syntactik_DOM_SyntactikDepthFirstVisitor_Visit.htm" />
+            <HelpTOCNode Title="Visit Method (AliasDefinition)" Url="html/M_Syntactik_DOM_SyntactikDepthFirstVisitor_Visit_1.htm" />
+            <HelpTOCNode Title="Visit Method (Argument)" Url="html/M_Syntactik_DOM_SyntactikDepthFirstVisitor_Visit_2.htm" />
+            <HelpTOCNode Title="Visit Method (Attribute)" Url="html/M_Syntactik_DOM_SyntactikDepthFirstVisitor_Visit_3.htm" />
+            <HelpTOCNode Title="Visit Method (Comment)" Url="html/M_Syntactik_DOM_SyntactikDepthFirstVisitor_Visit_4.htm" />
+            <HelpTOCNode Title="Visit Method (CompileUnit)" Url="html/M_Syntactik_DOM_SyntactikDepthFirstVisitor_Visit_5.htm" />
+            <HelpTOCNode Title="Visit Method (Document)" Url="html/M_Syntactik_DOM_SyntactikDepthFirstVisitor_Visit_6.htm" />
+            <HelpTOCNode Title="Visit Method (Element)" Url="html/M_Syntactik_DOM_SyntactikDepthFirstVisitor_Visit_7.htm" />
+            <HelpTOCNode Title="Visit Method (Module)" Url="html/M_Syntactik_DOM_SyntactikDepthFirstVisitor_Visit_8.htm" />
+            <HelpTOCNode Title="Visit Method (NamespaceDefinition)" Url="html/M_Syntactik_DOM_SyntactikDepthFirstVisitor_Visit_9.htm" />
+            <HelpTOCNode Title="Visit Method (Pair)" Url="html/M_Syntactik_DOM_SyntactikDepthFirstVisitor_Visit_10.htm" />
+            <HelpTOCNode Title="Visit Method (Parameter)" Url="html/M_Syntactik_DOM_SyntactikDepthFirstVisitor_Visit_11.htm" />
+            <HelpTOCNode Title="Visit Method (Scope)" Url="html/M_Syntactik_DOM_SyntactikDepthFirstVisitor_Visit_12.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ea000a03-f2d5-431d-9934-f51f58de23b2" Title="Syntactik.DOM.Mapped" Url="html/N_Syntactik_DOM_Mapped.htm">
+      <HelpTOCNode Id="8d5843e1-eae4-4748-9a23-5968d9afbda5" Title="Alias Class" Url="html/T_Syntactik_DOM_Mapped_Alias.htm">
+        <HelpTOCNode Title="Alias Constructor " Url="html/M_Syntactik_DOM_Mapped_Alias__ctor.htm" />
+        <HelpTOCNode Id="7a2771dd-0a90-41d7-82e3-5587adcab6a6" Title="Alias Properties" Url="html/Properties_T_Syntactik_DOM_Mapped_Alias.htm">
+          <HelpTOCNode Title="AliasDefinition Property " Url="html/P_Syntactik_DOM_Mapped_Alias_AliasDefinition.htm" />
+          <HelpTOCNode Title="AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_Alias_AssignmentInterval.htm" />
+          <HelpTOCNode Title="InterpolationItems Property " Url="html/P_Syntactik_DOM_Mapped_Alias_InterpolationItems.htm" />
+          <HelpTOCNode Title="IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_Alias_IsValueNode.htm" />
+          <HelpTOCNode Title="NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_Alias_NameInterval.htm" />
+          <HelpTOCNode Title="NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Alias_NameQuotesType.htm" />
+          <HelpTOCNode Title="ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_Alias_ValueIndent.htm" />
+          <HelpTOCNode Title="ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_Alias_ValueInterval.htm" />
+          <HelpTOCNode Title="ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Alias_ValueQuotesType.htm" />
+          <HelpTOCNode Title="ValueType Property " Url="html/P_Syntactik_DOM_Mapped_Alias_ValueType.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="02e15d8a-a097-4453-ba03-4c86c4652e12" Title="Alias Methods" Url="html/Methods_T_Syntactik_DOM_Mapped_Alias.htm">
+          <HelpTOCNode Title="AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_Alias_AppendChild.htm" />
+          <HelpTOCNode Title="InitializeParent Method " Url="html/M_Syntactik_DOM_Mapped_Alias_InitializeParent.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="4b8dcb43-2ad4-4186-98ad-6705b068de19" Title="AliasDefinition Class" Url="html/T_Syntactik_DOM_Mapped_AliasDefinition.htm">
+        <HelpTOCNode Id="728f8ab9-1da3-41a4-8d71-3254bc9c3acf" Title="AliasDefinition Constructor " Url="html/Overload_Syntactik_DOM_Mapped_AliasDefinition__ctor.htm">
+          <HelpTOCNode Title="AliasDefinition Constructor (String, AssignmentEnum, String)" Url="html/M_Syntactik_DOM_Mapped_AliasDefinition__ctor.htm" />
+          <HelpTOCNode Title="AliasDefinition Constructor (String, AssignmentEnum, String, Interval, Interval, Interval, Int32, Int32, ValueType, List(Object), Int32)" Url="html/M_Syntactik_DOM_Mapped_AliasDefinition__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="27df52e0-441c-4b45-8da8-3fad7f876446" Title="AliasDefinition Properties" Url="html/Properties_T_Syntactik_DOM_Mapped_AliasDefinition.htm">
+          <HelpTOCNode Title="AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_AssignmentInterval.htm" />
+          <HelpTOCNode Title="HasCircularReference Property " Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_HasCircularReference.htm" />
+          <HelpTOCNode Title="HasDefaultBlockParameter Property " Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_HasDefaultBlockParameter.htm" />
+          <HelpTOCNode Title="HasDefaultValueParameter Property " Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_HasDefaultValueParameter.htm" />
+          <HelpTOCNode Title="InterpolationItems Property " Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_InterpolationItems.htm" />
+          <HelpTOCNode Title="IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_IsValueNode.htm" />
+          <HelpTOCNode Title="NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_NameInterval.htm" />
+          <HelpTOCNode Title="NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_NameQuotesType.htm" />
+          <HelpTOCNode Title="Parameters Property " Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_Parameters.htm" />
+          <HelpTOCNode Title="ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_ValueIndent.htm" />
+          <HelpTOCNode Title="ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_ValueInterval.htm" />
+          <HelpTOCNode Title="ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_ValueQuotesType.htm" />
+          <HelpTOCNode Title="ValueType Property " Url="html/P_Syntactik_DOM_Mapped_AliasDefinition_ValueType.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8df4bd32-d752-4497-9d8d-91d34b131594" Title="AliasDefinition Methods" Url="html/Methods_T_Syntactik_DOM_Mapped_AliasDefinition.htm">
+          <HelpTOCNode Title="AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_AliasDefinition_AppendChild.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="0ec5c0dc-3122-40c5-b291-f12efe3ddb56" Title="Argument Class" Url="html/T_Syntactik_DOM_Mapped_Argument.htm">
+        <HelpTOCNode Title="Argument Constructor " Url="html/M_Syntactik_DOM_Mapped_Argument__ctor.htm" />
+        <HelpTOCNode Id="eab03e35-55b3-42be-8c00-61211dd114aa" Title="Argument Properties" Url="html/Properties_T_Syntactik_DOM_Mapped_Argument.htm">
+          <HelpTOCNode Title="AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_Argument_AssignmentInterval.htm" />
+          <HelpTOCNode Title="InterpolationItems Property " Url="html/P_Syntactik_DOM_Mapped_Argument_InterpolationItems.htm" />
+          <HelpTOCNode Title="IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_Argument_IsValueNode.htm" />
+          <HelpTOCNode Title="NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_Argument_NameInterval.htm" />
+          <HelpTOCNode Title="NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Argument_NameQuotesType.htm" />
+          <HelpTOCNode Title="ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_Argument_ValueIndent.htm" />
+          <HelpTOCNode Title="ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_Argument_ValueInterval.htm" />
+          <HelpTOCNode Title="ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Argument_ValueQuotesType.htm" />
+          <HelpTOCNode Title="ValueType Property " Url="html/P_Syntactik_DOM_Mapped_Argument_ValueType.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="800b2e29-2e86-402b-97df-4f2352b20f4c" Title="Argument Methods" Url="html/Methods_T_Syntactik_DOM_Mapped_Argument.htm">
+          <HelpTOCNode Title="AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_Argument_AppendChild.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="0ff67d12-117c-4d9c-8d53-f3efa99824d8" Title="Attribute Class" Url="html/T_Syntactik_DOM_Mapped_Attribute.htm">
+        <HelpTOCNode Title="Attribute Constructor " Url="html/M_Syntactik_DOM_Mapped_Attribute__ctor.htm" />
+        <HelpTOCNode Id="f80a11df-c3f2-4d13-b2cf-fccf310c2ad4" Title="Attribute Properties" Url="html/Properties_T_Syntactik_DOM_Mapped_Attribute.htm">
+          <HelpTOCNode Title="AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_Attribute_AssignmentInterval.htm" />
+          <HelpTOCNode Title="InterpolationItems Property " Url="html/P_Syntactik_DOM_Mapped_Attribute_InterpolationItems.htm" />
+          <HelpTOCNode Title="IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_Attribute_IsValueNode.htm" />
+          <HelpTOCNode Title="NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_Attribute_NameInterval.htm" />
+          <HelpTOCNode Title="NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Attribute_NameQuotesType.htm" />
+          <HelpTOCNode Title="ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_Attribute_ValueIndent.htm" />
+          <HelpTOCNode Title="ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_Attribute_ValueInterval.htm" />
+          <HelpTOCNode Title="ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Attribute_ValueQuotesType.htm" />
+          <HelpTOCNode Title="ValueType Property " Url="html/P_Syntactik_DOM_Mapped_Attribute_ValueType.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="82d709fd-6a7e-4bfc-b2f0-16d783dcafdb" Title="Attribute Methods" Url="html/Methods_T_Syntactik_DOM_Mapped_Attribute.htm">
+          <HelpTOCNode Title="AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_Attribute_AppendChild.htm" />
+          <HelpTOCNode Title="OverrideNsPrefix Method " Url="html/M_Syntactik_DOM_Mapped_Attribute_OverrideNsPrefix.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="b9be1826-c04d-43ac-9280-adbf502c3dd6" Title="ChoiceInfo Class" Url="html/T_Syntactik_DOM_Mapped_ChoiceInfo.htm">
+        <HelpTOCNode Title="ChoiceInfo Constructor " Url="html/M_Syntactik_DOM_Mapped_ChoiceInfo__ctor.htm" />
+        <HelpTOCNode Id="56e74d66-154c-4b9d-aa59-006371b6a7ab" Title="ChoiceInfo Properties" Url="html/Properties_T_Syntactik_DOM_Mapped_ChoiceInfo.htm">
+          <HelpTOCNode Title="Children Property " Url="html/P_Syntactik_DOM_Mapped_ChoiceInfo_Children.htm" />
+          <HelpTOCNode Title="ChoiceNode Property " Url="html/P_Syntactik_DOM_Mapped_ChoiceInfo_ChoiceNode.htm" />
+          <HelpTOCNode Title="Errors Property " Url="html/P_Syntactik_DOM_Mapped_ChoiceInfo_Errors.htm" />
+          <HelpTOCNode Title="Parent Property " Url="html/P_Syntactik_DOM_Mapped_ChoiceInfo_Parent.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="eb9c84f3-5afe-4d48-858c-b6197028dd9c" Title="ChoiceInfo Methods" Url="html/Methods_T_Syntactik_DOM_Mapped_ChoiceInfo.htm">
+          <HelpTOCNode Title="AddChild Method " Url="html/M_Syntactik_DOM_Mapped_ChoiceInfo_AddChild.htm" />
+          <HelpTOCNode Title="AddError Method " Url="html/M_Syntactik_DOM_Mapped_ChoiceInfo_AddError.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="7bfe7a1c-f9c9-4434-b5d8-ef92f22fe163" Title="Comment Class" Url="html/T_Syntactik_DOM_Mapped_Comment.htm">
+        <HelpTOCNode Title="Comment Constructor " Url="html/M_Syntactik_DOM_Mapped_Comment__ctor.htm" />
+        <HelpTOCNode Id="d00f2454-40f2-4144-9ce0-c81a6a31c7b2" Title="Comment Properties" Url="html/Properties_T_Syntactik_DOM_Mapped_Comment.htm">
+          <HelpTOCNode Title="AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_Comment_AssignmentInterval.htm" />
+          <HelpTOCNode Title="CommentType Property " Url="html/P_Syntactik_DOM_Mapped_Comment_CommentType.htm" />
+          <HelpTOCNode Title="IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_Comment_IsValueNode.htm" />
+          <HelpTOCNode Title="NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_Comment_NameInterval.htm" />
+          <HelpTOCNode Title="NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Comment_NameQuotesType.htm" />
+          <HelpTOCNode Title="ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_Comment_ValueIndent.htm" />
+          <HelpTOCNode Title="ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_Comment_ValueInterval.htm" />
+          <HelpTOCNode Title="ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Comment_ValueQuotesType.htm" />
+          <HelpTOCNode Title="ValueType Property " Url="html/P_Syntactik_DOM_Mapped_Comment_ValueType.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Comment Methods" Url="html/Methods_T_Syntactik_DOM_Mapped_Comment.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d949552c-f416-432a-9a49-27595d77bcab" Title="Document Class" Url="html/T_Syntactik_DOM_Mapped_Document.htm">
+        <HelpTOCNode Title="Document Constructor " Url="html/M_Syntactik_DOM_Mapped_Document__ctor.htm" />
+        <HelpTOCNode Id="be99f4bb-11b8-49fe-a571-8fc795ba7041" Title="Document Properties" Url="html/Properties_T_Syntactik_DOM_Mapped_Document.htm">
+          <HelpTOCNode Title="AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_Document_AssignmentInterval.htm" />
+          <HelpTOCNode Title="ChoiceInfo Property " Url="html/P_Syntactik_DOM_Mapped_Document_ChoiceInfo.htm" />
+          <HelpTOCNode Title="InterpolationItems Property " Url="html/P_Syntactik_DOM_Mapped_Document_InterpolationItems.htm" />
+          <HelpTOCNode Title="IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_Document_IsValueNode.htm" />
+          <HelpTOCNode Title="NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_Document_NameInterval.htm" />
+          <HelpTOCNode Title="NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Document_NameQuotesType.htm" />
+          <HelpTOCNode Title="ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_Document_ValueIndent.htm" />
+          <HelpTOCNode Title="ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_Document_ValueInterval.htm" />
+          <HelpTOCNode Title="ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Document_ValueQuotesType.htm" />
+          <HelpTOCNode Title="ValueType Property " Url="html/P_Syntactik_DOM_Mapped_Document_ValueType.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="2ba7f569-eb99-4184-a5d3-a0c6f9124f0d" Title="Document Methods" Url="html/Methods_T_Syntactik_DOM_Mapped_Document.htm">
+          <HelpTOCNode Title="AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_Document_AppendChild.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Document Fields" Url="html/Fields_T_Syntactik_DOM_Mapped_Document.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="cba16ece-980e-4060-ab2f-1aa6fcdc9412" Title="Element Class" Url="html/T_Syntactik_DOM_Mapped_Element.htm">
+        <HelpTOCNode Title="Element Constructor " Url="html/M_Syntactik_DOM_Mapped_Element__ctor.htm" />
+        <HelpTOCNode Id="6ed5eb2b-5d83-479d-b158-17a9ebcee2c8" Title="Element Properties" Url="html/Properties_T_Syntactik_DOM_Mapped_Element.htm">
+          <HelpTOCNode Title="AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_Element_AssignmentInterval.htm" />
+          <HelpTOCNode Title="ChoiceObjects Property " Url="html/P_Syntactik_DOM_Mapped_Element_ChoiceObjects.htm" />
+          <HelpTOCNode Title="InterpolationItems Property " Url="html/P_Syntactik_DOM_Mapped_Element_InterpolationItems.htm" />
+          <HelpTOCNode Title="IsChoice Property " Url="html/P_Syntactik_DOM_Mapped_Element_IsChoice.htm" />
+          <HelpTOCNode Title="IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_Element_IsValueNode.htm" />
+          <HelpTOCNode Title="NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_Element_NameInterval.htm" />
+          <HelpTOCNode Title="NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Element_NameQuotesType.htm" />
+          <HelpTOCNode Title="ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_Element_ValueIndent.htm" />
+          <HelpTOCNode Title="ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_Element_ValueInterval.htm" />
+          <HelpTOCNode Title="ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Element_ValueQuotesType.htm" />
+          <HelpTOCNode Title="ValueType Property " Url="html/P_Syntactik_DOM_Mapped_Element_ValueType.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="76c2399f-0d75-43c8-b470-54756c35b671" Title="Element Methods" Url="html/Methods_T_Syntactik_DOM_Mapped_Element.htm">
+          <HelpTOCNode Title="AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_Element_AppendChild.htm" />
+          <HelpTOCNode Title="GetNameAndNs Method " Url="html/M_Syntactik_DOM_Mapped_Element_GetNameAndNs.htm" />
+          <HelpTOCNode Title="InitializeParent Method " Url="html/M_Syntactik_DOM_Mapped_Element_InitializeParent.htm" />
+          <HelpTOCNode Title="OverrideNsPrefix Method " Url="html/M_Syntactik_DOM_Mapped_Element_OverrideNsPrefix.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="f5b81c3a-52ce-4d62-94dd-34fb21fc0fc1" Title="IChoiceNode Interface" Url="html/T_Syntactik_DOM_Mapped_IChoiceNode.htm">
+        <HelpTOCNode Id="33810886-7610-46bc-b004-a27a746c9d05" Title="IChoiceNode Properties" Url="html/Properties_T_Syntactik_DOM_Mapped_IChoiceNode.htm">
+          <HelpTOCNode Title="ChoiceObjects Property " Url="html/P_Syntactik_DOM_Mapped_IChoiceNode_ChoiceObjects.htm" />
+          <HelpTOCNode Title="IsChoice Property " Url="html/P_Syntactik_DOM_Mapped_IChoiceNode_IsChoice.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="93338668-38ba-4acf-9d95-660144958bad" Title="IMappedPair Interface" Url="html/T_Syntactik_DOM_Mapped_IMappedPair.htm">
+        <HelpTOCNode Id="0d96b06f-b2fb-4ed6-93f6-fb1c05eb73c8" Title="IMappedPair Properties" Url="html/Properties_T_Syntactik_DOM_Mapped_IMappedPair.htm">
+          <HelpTOCNode Title="AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_IMappedPair_AssignmentInterval.htm" />
+          <HelpTOCNode Title="IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_IMappedPair_IsValueNode.htm" />
+          <HelpTOCNode Title="NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_IMappedPair_NameInterval.htm" />
+          <HelpTOCNode Title="NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_IMappedPair_NameQuotesType.htm" />
+          <HelpTOCNode Title="ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_IMappedPair_ValueIndent.htm" />
+          <HelpTOCNode Title="ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_IMappedPair_ValueInterval.htm" />
+          <HelpTOCNode Title="ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_IMappedPair_ValueQuotesType.htm" />
+          <HelpTOCNode Title="ValueType Property " Url="html/P_Syntactik_DOM_Mapped_IMappedPair_ValueType.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="fe2c7cc6-0916-42fa-9658-44cada88e140" Title="Module Class" Url="html/T_Syntactik_DOM_Mapped_Module.htm">
+        <HelpTOCNode Title="Module Constructor " Url="html/M_Syntactik_DOM_Mapped_Module__ctor.htm" />
+        <HelpTOCNode Id="27f7b989-9cee-48ee-8e00-791cef55ee8d" Title="Module Properties" Url="html/Properties_T_Syntactik_DOM_Mapped_Module.htm">
+          <HelpTOCNode Title="AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_Module_AssignmentInterval.htm" />
+          <HelpTOCNode Title="IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_Module_IsValueNode.htm" />
+          <HelpTOCNode Title="NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_Module_NameInterval.htm" />
+          <HelpTOCNode Title="NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Module_NameQuotesType.htm" />
+          <HelpTOCNode Title="TargetFormat Property " Url="html/P_Syntactik_DOM_Mapped_Module_TargetFormat.htm" />
+          <HelpTOCNode Title="ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_Module_ValueIndent.htm" />
+          <HelpTOCNode Title="ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_Module_ValueInterval.htm" />
+          <HelpTOCNode Title="ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Module_ValueQuotesType.htm" />
+          <HelpTOCNode Title="ValueType Property " Url="html/P_Syntactik_DOM_Mapped_Module_ValueType.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="b53d3581-b3e2-450a-b837-6bc24299c705" Title="Module Methods" Url="html/Methods_T_Syntactik_DOM_Mapped_Module.htm">
+          <HelpTOCNode Title="AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_Module_AppendChild.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Module.TargetFormats Enumeration" Url="html/T_Syntactik_DOM_Mapped_Module_TargetFormats.htm" />
+      <HelpTOCNode Id="1d177ba6-25f4-4465-9a2c-ce5be8da1170" Title="NamespaceDefinition Class" Url="html/T_Syntactik_DOM_Mapped_NamespaceDefinition.htm">
+        <HelpTOCNode Title="NamespaceDefinition Constructor " Url="html/M_Syntactik_DOM_Mapped_NamespaceDefinition__ctor.htm" />
+        <HelpTOCNode Id="11c82da6-6182-4656-a6cc-50d89d4c3647" Title="NamespaceDefinition Properties" Url="html/Properties_T_Syntactik_DOM_Mapped_NamespaceDefinition.htm">
+          <HelpTOCNode Title="AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_AssignmentInterval.htm" />
+          <HelpTOCNode Title="InterpolationItems Property " Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_InterpolationItems.htm" />
+          <HelpTOCNode Title="IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_IsValueNode.htm" />
+          <HelpTOCNode Title="NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_NameInterval.htm" />
+          <HelpTOCNode Title="NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_NameQuotesType.htm" />
+          <HelpTOCNode Title="ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_ValueIndent.htm" />
+          <HelpTOCNode Title="ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_ValueInterval.htm" />
+          <HelpTOCNode Title="ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_ValueQuotesType.htm" />
+          <HelpTOCNode Title="ValueType Property " Url="html/P_Syntactik_DOM_Mapped_NamespaceDefinition_ValueType.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a84f2113-c078-41fb-9e5d-7c00c056cbf9" Title="NamespaceDefinition Methods" Url="html/Methods_T_Syntactik_DOM_Mapped_NamespaceDefinition.htm">
+          <HelpTOCNode Title="AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_NamespaceDefinition_AppendChild.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="892a0f44-99e2-48c2-8c78-0710ed795b95" Title="Parameter Class" Url="html/T_Syntactik_DOM_Mapped_Parameter.htm">
+        <HelpTOCNode Title="Parameter Constructor " Url="html/M_Syntactik_DOM_Mapped_Parameter__ctor.htm" />
+        <HelpTOCNode Id="1177d3b3-12ec-4ec6-be80-96242603f2c1" Title="Parameter Properties" Url="html/Properties_T_Syntactik_DOM_Mapped_Parameter.htm">
+          <HelpTOCNode Title="AliasDefinition Property " Url="html/P_Syntactik_DOM_Mapped_Parameter_AliasDefinition.htm" />
+          <HelpTOCNode Title="AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_Parameter_AssignmentInterval.htm" />
+          <HelpTOCNode Title="InterpolationItems Property " Url="html/P_Syntactik_DOM_Mapped_Parameter_InterpolationItems.htm" />
+          <HelpTOCNode Title="IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_Parameter_IsValueNode.htm" />
+          <HelpTOCNode Title="NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_Parameter_NameInterval.htm" />
+          <HelpTOCNode Title="NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Parameter_NameQuotesType.htm" />
+          <HelpTOCNode Title="ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_Parameter_ValueIndent.htm" />
+          <HelpTOCNode Title="ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_Parameter_ValueInterval.htm" />
+          <HelpTOCNode Title="ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Parameter_ValueQuotesType.htm" />
+          <HelpTOCNode Title="ValueType Property " Url="html/P_Syntactik_DOM_Mapped_Parameter_ValueType.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8fe83bca-83fd-4ce4-9a3e-71dc43c604f1" Title="Parameter Methods" Url="html/Methods_T_Syntactik_DOM_Mapped_Parameter.htm">
+          <HelpTOCNode Title="AppendChild Method " Url="html/M_Syntactik_DOM_Mapped_Parameter_AppendChild.htm" />
+          <HelpTOCNode Title="InitializeParent Method " Url="html/M_Syntactik_DOM_Mapped_Parameter_InitializeParent.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="edb12da1-1fb8-439b-9771-b28f2a860d08" Title="Scope Class" Url="html/T_Syntactik_DOM_Mapped_Scope.htm">
+        <HelpTOCNode Title="Scope Constructor " Url="html/M_Syntactik_DOM_Mapped_Scope__ctor.htm" />
+        <HelpTOCNode Id="691eb66e-0faa-490f-be1f-dd5d20a1c7b8" Title="Scope Properties" Url="html/Properties_T_Syntactik_DOM_Mapped_Scope.htm">
+          <HelpTOCNode Title="AssignmentInterval Property " Url="html/P_Syntactik_DOM_Mapped_Scope_AssignmentInterval.htm" />
+          <HelpTOCNode Title="InterpolationItems Property " Url="html/P_Syntactik_DOM_Mapped_Scope_InterpolationItems.htm" />
+          <HelpTOCNode Title="IsValueNode Property " Url="html/P_Syntactik_DOM_Mapped_Scope_IsValueNode.htm" />
+          <HelpTOCNode Title="NameInterval Property " Url="html/P_Syntactik_DOM_Mapped_Scope_NameInterval.htm" />
+          <HelpTOCNode Title="NameQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Scope_NameQuotesType.htm" />
+          <HelpTOCNode Title="ValueIndent Property " Url="html/P_Syntactik_DOM_Mapped_Scope_ValueIndent.htm" />
+          <HelpTOCNode Title="ValueInterval Property " Url="html/P_Syntactik_DOM_Mapped_Scope_ValueInterval.htm" />
+          <HelpTOCNode Title="ValueQuotesType Property " Url="html/P_Syntactik_DOM_Mapped_Scope_ValueQuotesType.htm" />
+          <HelpTOCNode Title="ValueType Property " Url="html/P_Syntactik_DOM_Mapped_Scope_ValueType.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8391646c-3dfe-4772-8246-672d1406611f" Title="Scope Methods" Url="html/Methods_T_Syntactik_DOM_Mapped_Scope.htm">
+          <HelpTOCNode Title="OverrideNsPrefix Method " Url="html/M_Syntactik_DOM_Mapped_Scope_OverrideNsPrefix.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="ValueType Enumeration" Url="html/T_Syntactik_DOM_Mapped_ValueType.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b524f1a6-239d-4a72-87d0-bb3eeeeb9b54" Title="Syntactik.IO" Url="html/N_Syntactik_IO.htm">
+      <HelpTOCNode Id="25282078-d024-40cb-9a51-0f509a2db4c9" Title="ICharStream Interface" Url="html/T_Syntactik_IO_ICharStream.htm">
+        <HelpTOCNode Id="f370e788-3788-4f2e-bc85-8fe9517e5c4c" Title="ICharStream Properties" Url="html/Properties_T_Syntactik_IO_ICharStream.htm">
+          <HelpTOCNode Title="Column Property " Url="html/P_Syntactik_IO_ICharStream_Column.htm" />
+          <HelpTOCNode Title="Index Property " Url="html/P_Syntactik_IO_ICharStream_Index.htm" />
+          <HelpTOCNode Title="Length Property " Url="html/P_Syntactik_IO_ICharStream_Length.htm" />
+          <HelpTOCNode Title="Line Property " Url="html/P_Syntactik_IO_ICharStream_Line.htm" />
+          <HelpTOCNode Title="Next Property " Url="html/P_Syntactik_IO_ICharStream_Next.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ee6be2f0-d5b5-456a-972e-febd28a34a5b" Title="ICharStream Methods" Url="html/Methods_T_Syntactik_IO_ICharStream.htm">
+          <HelpTOCNode Title="Consume Method " Url="html/M_Syntactik_IO_ICharStream_Consume.htm" />
+          <HelpTOCNode Title="La Method " Url="html/M_Syntactik_IO_ICharStream_La.htm" />
+          <HelpTOCNode Title="Reset Method " Url="html/M_Syntactik_IO_ICharStream_Reset.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="7b698737-f51c-4018-bf65-93962c7f6f5e" Title="InputStream Class" Url="html/T_Syntactik_IO_InputStream.htm">
+        <HelpTOCNode Id="2f2fbedf-ee4f-476c-8659-dfbf9f024ce6" Title="InputStream Constructor " Url="html/Overload_Syntactik_IO_InputStream__ctor.htm">
+          <HelpTOCNode Title="InputStream Constructor (String)" Url="html/M_Syntactik_IO_InputStream__ctor.htm" />
+          <HelpTOCNode Title="InputStream Constructor (String, Int32)" Url="html/M_Syntactik_IO_InputStream__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ed8abfe6-3861-430d-8c33-5e65bad9452e" Title="InputStream Properties" Url="html/Properties_T_Syntactik_IO_InputStream.htm">
+          <HelpTOCNode Title="Column Property " Url="html/P_Syntactik_IO_InputStream_Column.htm" />
+          <HelpTOCNode Title="Index Property " Url="html/P_Syntactik_IO_InputStream_Index.htm" />
+          <HelpTOCNode Title="Length Property " Url="html/P_Syntactik_IO_InputStream_Length.htm" />
+          <HelpTOCNode Title="Line Property " Url="html/P_Syntactik_IO_InputStream_Line.htm" />
+          <HelpTOCNode Title="Next Property " Url="html/P_Syntactik_IO_InputStream_Next.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="4b68f206-b8a7-4cb8-be04-0d08cbda309d" Title="InputStream Methods" Url="html/Methods_T_Syntactik_IO_InputStream.htm">
+          <HelpTOCNode Title="Consume Method " Url="html/M_Syntactik_IO_InputStream_Consume.htm" />
+          <HelpTOCNode Title="Dispose Method " Url="html/M_Syntactik_IO_InputStream_Dispose.htm" />
+          <HelpTOCNode Title="GetChar Method " Url="html/M_Syntactik_IO_InputStream_GetChar.htm" />
+          <HelpTOCNode Title="GetText Method " Url="html/M_Syntactik_IO_InputStream_GetText.htm" />
+          <HelpTOCNode Title="La Method " Url="html/M_Syntactik_IO_InputStream_La.htm" />
+          <HelpTOCNode Title="Reset Method " Url="html/M_Syntactik_IO_InputStream_Reset.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="144ec085-3b61-45cb-b1d8-0a0a6b39d1be" Title="IntegerCharExtensions Class" Url="html/T_Syntactik_IO_IntegerCharExtensions.htm">
+        <HelpTOCNode Id="e06e5a56-6fbd-40eb-ac71-021641e5242c" Title="IntegerCharExtensions Methods" Url="html/Methods_T_Syntactik_IO_IntegerCharExtensions.htm">
+          <HelpTOCNode Title="IsEndOfOpenName Method " Url="html/M_Syntactik_IO_IntegerCharExtensions_IsEndOfOpenName.htm" />
+          <HelpTOCNode Title="IsEndOfOpenString Method " Url="html/M_Syntactik_IO_IntegerCharExtensions_IsEndOfOpenString.htm" />
+          <HelpTOCNode Title="IsIndentCharacter Method " Url="html/M_Syntactik_IO_IntegerCharExtensions_IsIndentCharacter.htm" />
+          <HelpTOCNode Title="IsNewLineCharacter Method " Url="html/M_Syntactik_IO_IntegerCharExtensions_IsNewLineCharacter.htm" />
+          <HelpTOCNode Title="IsSpaceCharacter Method " Url="html/M_Syntactik_IO_IntegerCharExtensions_IsSpaceCharacter.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="6bf2e257-fb6c-401d-bb73-cc8da0b75ca3" Title="ITextSource Interface" Url="html/T_Syntactik_IO_ITextSource.htm">
+        <HelpTOCNode Id="71befd6e-9d1c-424f-8412-733bf00cfe3f" Title="ITextSource Methods" Url="html/Methods_T_Syntactik_IO_ITextSource.htm">
+          <HelpTOCNode Title="GetChar Method " Url="html/M_Syntactik_IO_ITextSource_GetChar.htm" />
+          <HelpTOCNode Title="GetText Method " Url="html/M_Syntactik_IO_ITextSource_GetText.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
