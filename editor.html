@@ -55,7 +55,10 @@
                 </li>
                 <li id="early-access-menu" class="page-scroll">
                   <div class="navbar-form navbar-right">
-                    <a href="#early_access" class="btn early-access-btn">Get early access</a>
+                    <a href="#early_access"  class="btn early-access-btn">
+                        <i class="fa fa-download fa-lg"></i> Download
+                    </a>
+
                   </div>
                 </li>
             </ul>
@@ -75,7 +78,9 @@
         <h2>Painless XML and JSON authoring</h2>
         <p>Cross-platform IDE for Syntactik projects of any size and complexity.</p>
         <p>
-          <a href="#early_access" class="btn large early-access-btn">Get early access</a>
+          <a href="#early_access"  class="btn large early-access-btn">
+              <i class="fa fa-download fa-lg"></i> Download
+          </a>
         </p>
   </div>
 
@@ -226,14 +231,13 @@
     <section id="early_access">
         <div class="container">
             <div class="row">
-                    <h2>Early Access</h2>
-                    <div class="col-lg-8 col-lg-offset-2">
+                <h2>Download Syntactik Editor</h2>
+                <div class="col-lg-8 col-lg-offset-2">
                     <h4 style="text-align: left;">
-                        <li>Get the beta invite</li>
-                        <li>Use Syntactik to increase your productivity</li>
-                        <li>Propose new features</li>
-                        <li>Report issues</li>
-                        <li>Be part of our community</li>
+                        <li>Currently, only the demo for Windows is available for downloading.</li>
+                        <li>To download the demo, please register using the form below.</li>
+                        <li>If you have already registered, just fill in the name and email address.</li>
+                        <li>Your download will start automatically.</li>
                     </h4>
                     <br>
                 </div>
@@ -273,7 +277,7 @@
                       <div id="success"></div>
                       <div class="row">
                           <div class="form-group col-xs-12">
-                              <button type="submit" class="btn btn-lg early-access-btn">Request Early Access</button>
+                              <button type="submit" class="btn btn-lg btn-success"><i class="fa fa-download fa-lg"></i> Register & download demo</button>
                           </div>
                       </div>
                     </form>
@@ -355,6 +359,13 @@
             </div>
         </div>
 
+        <iframe id="download_iframe" style="display:none;"></iframe>
+        <script>
+          function Download(url) {
+              document.getElementById('download_iframe').src = url;
+          };
+        </script>
+
 
 
     <!-- Theme JavaScript -->
@@ -377,6 +388,7 @@
                    $('#sub_modal_err').modal();
                 } else { // 200
                    $('#sub_modal').modal();
+                   Download("/download/SyntactikFullSetup.exe");                   
                 }});
               });
        });
