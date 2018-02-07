@@ -13,7 +13,7 @@ section{
   margin-top: 20px;
   padding-bottom: 20px;
 }
-.navbar-brand{
+#main_home_link.navbar-brand{
   padding: 5px;
 }
 
@@ -253,6 +253,11 @@ footer .footer-links>* {
   border-right-color: silver;
   border-right-style: solid;
 }
+.colorTable tbody tr td{
+  padding: 2px;
+  border: 2px solid white
+}
+
 
 .content-section h2{
   text-align: left;

@@ -1,0 +1,364 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="google-site-verification" content="fCx-RraUm0aTwbyNAG-Qftpq9gfv-czFQmxjbQ8G6Jo" />
+  <link href="img/bike_fav.ico" rel="shortcut icon" type="image/x-icon" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Syntactik Editor Help</title>
+  <meta name="description" content="Description of menu, editor and other features of Syntactik Editor.">
+  <meta content="Maxim Trushin and contributors" name=author>
+  <meta name="keywords" content="Syntactik, Syntactik Editor, Syntactik guide, Syntactik cheatsheet, Syntactik Editor help, Syntactik Editor tutorial">
+
+  <link rel='stylesheet' href='https://d33wubrfki0l68.cloudfront.net/css/39056aa2c45875c80213000ce06d80d1110590bc/assets/css/bootstrap.min.css'/>
+
+  <!--TOC add after bootstrap.min.css -->
+  <link rel='stylesheet' href='https://d33wubrfki0l68.cloudfront.net/bundles/1fbccd5cf3526c09adb01e98495fd2b125ea97f9.css'/>
+
+  <!-- Theme CSS -->
+  <link href="css/syntactik.css" rel="stylesheet"/>
+
+  <!-- Canonical link tag -->
+  <link rel="canonical" href="https://www.syntactik.com/editorHelp.html">
+
+  <!-- for search -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-83602990-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-83602990-1');
+  </script>
+
+</head>
+
+  <body data-spy="scroll" data-target="#toc" data-offset="70">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Syntactik Editor Guide</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+      </ul>
+      <div class="navbar-form navbar-right visible-md-inline visible-lg-inline bs-search" role="search">
+        <div class="col-xs-6 col-sm-3">
+          <div class="input-group input-group-sm">
+            <input type="text" class="form-control" id="search-input" placeholder="Search" aria-describedby="sizing-addon3">
+            <span class="input-group-btn" id="sizing-addon3">
+              <button class="btn btn-default" type="button">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
+
+    <div class="container">
+      <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-xs-12 col-sm-9">
+
+<h1 class="page-header">Overview</h1>
+
+<p class="lead">Syntactik Editor is a standalone application for authoring XML and JSON documents using Syntactik preprocessor language.</p>
+
+<p>Syntactik Editor is implemented as add-in for open source cross platform IDE <a href="http://www.monodevelop.com/">MonoDevelop</a>.</p>
+
+<h1 class="page-header">Installation</h1>
+
+<p>See <a href="/demoinstall" target="_blank">Syntactik Editor installation instructions</a></p>
+
+<h1>Language</h1>
+<p>Use <a href="https://github.com/syntactik/Syntactik/blob/master/README.md" target="_blank">Syntactik.NET readme</a> as the language reference.</p>
+
+<h1 class="page-header">Projects</h1>
+
+<p>To create a new Syntactik project use "File/New Solution" menu item.</p>
+<img class="img-responsive screenshot" src="/img/help/newProject.png" /><br />
+<p>Then choose type of Syntactik project.</p>
+<img class="img-responsive screenshot" src="/img/help/projectType.png" /><br />
+<p>Choose name and path for the created project.</p>
+<h2>New File</h2>
+<p>To add a new file use "File/New File" menu item. In the New File dialog, select Syntactik category in the left list box if you want to add a new Syntactik file to your project.
+You can also add text, XML and HTML files to your Syntactik project if needed.</p>
+<img class="img-responsive screenshot" src="/img/help/newFile.png" /><br />
+
+<h2>Project options</h2>
+<p>
+  The menu <code class="highlighter-rouge">Project/&lt;project_name&gt; Options</code> opens Project Options dialog. Among all, the dialog includes options for
+  <b>Source Code Formatting</b>. Here you can create a separate policy for Syntactik projects. For example, you could set up the type of indentation (tabs or spaces) you will
+  use.
+</p>
+<img class="img-responsive screenshot" src="/img/help/projectOptions.png" /><br />
+
+
+<h1 class="page-header">Schemas</h1>
+<p>Syntactik XML projects can include XSD schema files. JSON schema is not supported yet.<br />
+To add XSD schema files to the project, open context menu of the Schema folder, and click on "Add Schema".</p>
+<img class="img-responsive screenshot" src="/img/help/addSchema.png" /><br />
+<p>Find and attach the xsd files using Add Schema dialog.</p>
+<img class="img-responsive screenshot" src="/img/help/addSchema2.png" /><br />
+
+<h1 class="page-header">Editing</h1>
+<h2>Syntax highlighting</h2>
+<p>Syntactik Editor highlights pair names with different colors depending on which DOM class type the pair represents.</p>
+<table class="table table-bordered table-striped" style="width:300px;">
+  <tbody>
+    <tr>
+      <td style="text-align:right;">Element</td>
+      <td style="width:40px;background-color:#ab3339"></td>
+      <td style="width:80px;">&nbsp;#ab3339</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">Attribute</td>
+      <td style="width:40px;background-color:#ff0000"></td>
+      <td style="width:80px;">&nbsp;#ff0000</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">Namespace&nbsp;Definition<br/>Scope</td>
+      <td style="width:40px;background-color:#00c800"></td>
+      <td style="width:80px;">&nbsp;#00c800</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">Document<br/>Alias&nbsp;Definition</td>
+      <td style="width:40px;background-color:#0000ff"></td>
+      <td style="width:80px;">&nbsp;#0000ff</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">Alias</td>
+      <td style="width:40px;background-color:#009696"></td>
+      <td style="width:80px;">&nbsp;#009696</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">Argument<br/>Parameter</td>
+      <td style="width:40px;background-color:#00c8c8"></td>
+      <td style="width:80px;">&nbsp;#00c8c8</td>
+    </tr>
+  </tbody>
+</table>
+<p>The editor also highlights pair values and comments.</p>
+<table class="table table-bordered table-striped" style="width:300px">
+  <tbody>
+    <tr>
+      <td style="text-align:right;">Literal value</td>
+      <td style="width:40px;background-color:#5d0095"></td>
+      <td style="width:80px;">&nbsp;#5d0095</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">JSON literal</td>
+      <td style="width:40px;background-color:#ef00ef"></td>
+      <td style="width:80px;">&nbsp;#ef00ef</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">Attribute&nbsp;value<br/>URI</td>
+      <td style="width:40px;background-color:#f57d00"></td>
+      <td style="width:80px;">&nbsp;#f57d00</td>
+    </tr>
+    <tr>
+      <td style="text-align:right;">Comment</td>
+      <td style="width:40px;background-color:#c0c0c0"></td>
+      <td style="width:80px;">&nbsp;#c0c0c0</td>
+    </tr>
+  </tbody>
+</table>
+<p>Examples:</p>
+<img class="img-responsive screenshot" src="/img/help/highlighting.png" /><br />
+<img class="img-responsive screenshot" src="/img/help/jsonLiterals.png" /><br />
+<h2>Code completion</h2>
+<p>Press <code class="highlighter-rouge">Ctrl+Space</code> to show Code Completion dropdown list.</p>
+<img class="img-responsive screenshot" src="/img/help/completion.png" /><br />
+<p>The Code Completion dropdown list will open automatically when you start typing a name of element, alias, argument</p>
+<img class="img-responsive screenshot" src="/img/help/completion2.png" /><br />
+<img class="img-responsive screenshot" src="/img/help/completion3.png" /><br />
+<img class="img-responsive screenshot" src="/img/help/completion5.png" /><br />
+<p>or in the middle of the alias name after you press dot <code class="highlighter-rouge">.</code>.</p>
+<img class="img-responsive screenshot" src="/img/help/completion4.png" /><br />
+<p>Code completion filters list of the displayed items based on the context. If context is missing then it will display a full list of know completion entities.
+For example, there is no context in the beginning of the alias definition, so code completion will display the full list of available items.</p>
+<img class="img-responsive screenshot" src="/img/help/completion6.png" /><br />
+<p>The completion logic filters the list based on the entered symbols:</p>
+<img class="img-responsive screenshot" src="/img/help/completion7.png" /><br />
+<h2>Code folding</h2>
+<p>Code folding helps to edit and navigate large files. Click the folding icons +/- in the beginning of lines to toggle foldings.</p>
+<img class="img-responsive screenshot" src="/img/help/collapsing.png" /><br />
+<p>Other toggle functions are available in the <code class="highlighter-rouge">View/Folding</code> menu.</p>
+<h2>Path widget</h2>
+<p>Path widget display path from the current editing DOM item to the root ancestor DOM item. Each item in the path has content menu with "Go to" menu item. Clicking on
+  <code class="highlighter-rouge">Go to</code> will cause the cursor to move at the start of the corresponding item.</p>
+<img class="img-responsive screenshot" src="/img/help/pathwidget.png" /><br />
+
+<h2>Interactive errors</h2>
+<p>Syntactik Editor automatically finds syntactic errors and underline the problem code fragment. Roll the mouse cursor over the undeline to see the description of the error.
+</p>
+<img class="img-responsive screenshot" src="/img/help/errors.png" /><br />
+
+
+
+
+
+<h1>Copy/Paste operations</h1>
+<p class="lead">
+  Syntactik Editor has additional copy/paste command on top of the standard ones. They help quickly convert fragments of code from Syntactik to XML/JSON, and vice versa. <br />
+  <code class="highlighter-rouge">Paste Syntactik Fragment</code> command helps to move indented Syntactic code from one place to another without worrying about indent mismatch.
+</p>
+<h2>Copy Document as XML/JSON</h2>
+<p>Use <code class="highlighter-rouge">Copy Document as XML/JSON</code> to quickly convert Syntactik document to XML/JSON format. Just place the cursor anywhere inside the document
+  and click on the menu item. Editor will display the message <code class="highlighter-rouge">XML/JSON document is copied to clipboard</code> if the convertion succeeded. Otherwise
+  it will display <code class="highlighter-rouge">Document can't be converted to valid XML/JSON.</code>
+</p>
+<img class="img-responsive screenshot" src="/img/help/copyAsDoc.png" /><br />
+<p>
+  Paste the result XML in any text editor.
+</p>
+<img class="img-responsive screenshot" src="/img/help/xml1.png" /><br />
+
+
+<h2>Copy Selection as XML/JSON</h2>
+<p>Use <code class="highlighter-rouge">Copy Selection as XML/JSON</code> to quickly convert fragments of Syntactik code to XML/JSON format.
+  Select the fragment you want to convert and click on the menu.
+   Editor will display the message <code class="highlighter-rouge">XML/JSON is copied to clipboard</code> if the convertion succeeded. Otherwise
+  it will display <code class="highlighter-rouge">Selection can't be converted to valid XML/JSON.</code>
+</p>
+<img class="img-responsive screenshot" src="/img/help/copySelection.png" /><br />
+<p>
+  Paste the result XML/JSON in any text editor.
+</p>
+<img class="img-responsive screenshot" src="/img/help/json1.png" /><br />
+
+
+<h2>Paste XML/JSON</h2>
+<p>Use <code class="highlighter-rouge">Paste XML/JSON</code> to convert fragments of XML/JSON from the clipboard to Syntactik format.
+  Select the fragment you want to convert and copy it to clipboard.
+</p>
+<img class="img-responsive screenshot" src="/img/help/copyXML.png" /><br />
+<p>
+   Put the cursor in the position where you want to insert the converted code. It is important to choose the right indent. Click on
+   <code class="highlighter-rouge">Paste XML/JSON</code> menu.
+</p>
+<img class="img-responsive screenshot" src="/img/help/pasteXml.png" /><br />
+<p>
+  The converted fragment will be inserted in the code. Editor will display the message <code class="highlighter-rouge">Syntactik code is generated
+  from XML/JSON in clipboard</code> if the convertion succeeded.
+  Otherwise it will display <code class="highlighter-rouge">Text in clipboard is not valid XML/JSON.</code>
+</p>
+<img class="img-responsive screenshot" src="/img/help/pasteXml2.png" /><br />
+<h2>Paste Syntactik Fragment</h2>
+<p>
+<code class="highlighter-rouge">Paste Syntactik Fragment</code> command helps to move indented Syntactic code from one place to another without worrying about indent mismatch.
+For example, if you want to define an alias based on fragment, you could select and cut the code to the clipboard.
+</p>
+<img class="img-responsive screenshot" src="/img/help/cutSyntactik.png" /><br />
+<p>
+Then put the cursor inside the created Alias Definition and click <code class="highlighter-rouge">Paste Syntactik Fragment</code> command.
+The fragment with the correct indent will be inserted at the position of the cursor.
+</p>
+
+<div class="row">
+    <div class="col-sm-6">
+      <img class="img-responsive screenshot" src="/img/help/pasteSyntactik.png" />
+    </div>
+    <div class="col-sm-6">
+      <img class="img-responsive screenshot" src="/img/help/pasteSyntactik2.png" />
+    </div>
+</div>
+<br />
+<p>
+  <div class="alert alert-success">
+    <i class="fa fa-lightbulb-o" aria-hidden="true"></i> Note that the orginal fragment had 2 tabs indent and the pasted fragment automatically got 1 tab indent.
+  </div>
+</p>
+
+<h1>Build</h1>
+<p>
+  Use <code class="highlighter-rouge">Build/Build &lt;project_name&gt; F7</code> command to build the current.
+</p>
+<img class="img-responsive screenshot" src="/img/help/build.png" /><br />
+<p>
+All documents defined in the project will be compiled into the output project folder.
+</p>
+<img class="img-responsive screenshot" src="/img/help/output.png" /><br />
+<p>
+You can change output directory in the Project Options dialog.
+</p>
+<img class="img-responsive screenshot" src="/img/help/outputDir.png" /><br />
+
+
+        </div>
+        <div class="col-xs-6 col-sm-3 hidden-xs" id="sidebar">
+          <nav id="toc" data-spy="affix" data-toggle="toc"></nav>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+    <div class="footer-links">
+        <span><i class="fa fa-envelope-o"></i> <a href="mailto:info@syntactik.com">info@syntactik.com</a></span>
+        <span><i class="fa fa-github"></i> <a href="https://github.com/syntactik/">https://github.com/syntactik</a></span>
+    </div>
+    <div class="footer-links">
+        <a href="/terms">Disclaimer</a>
+        <a href="/privacy">Privacy</a>
+        <span><i class="fa fa-copyright"></i> Syntactik 2017</span>
+    </div>
+  </footer>
+<script type='text/javascript' src='https://d33wubrfki0l68.cloudfront.net/js/1abe26fcd314d0dc505d4d9193584d8dadae76c8/assets/javascript/anchor.js'></script>
+<script>
+  anchors.options = {
+  placement: 'left',
+  };
+  anchors.add('h1, h2, h3, h4, h5').remove('.no-anchor');
+</script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src='https://d33wubrfki0l68.cloudfront.net/js/65b11dde19ea8232376dc8529c4d27e72434e8c2/assets/javascript/jquery-1.12.4.min.js'></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src='https://d33wubrfki0l68.cloudfront.net/js/8d61d52d0ca706a51abc94c5ff82529fac99d054/assets/javascript/bootstrap.min.js'></script>
+
+<!-- TOC - add after bootstrap.min.js -->
+<script src='https://d33wubrfki0l68.cloudfront.net/js/3d004677daa6e9f9c824ec33b1c86f04306677f0/assets/javascript/bootstrap-toc.min.js'></script>
+
+<script type="text/javascript">
+$("#toc").affix({
+    offset: {
+      top: 60
+    }
+});
+</script>
+
+<!-- Move headings down when using anchor links -->
+<script type="text/javascript">
+var shiftWindow = function() { scrollBy(0, -70) };
+if (location.hash) shiftWindow();
+window.addEventListener("hashchange", shiftWindow);
+</script>
+
+<!-- for search -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+<script type="text/javascript">
+docsearch({
+apiKey: '12313132131213123',
+indexName: 'syntactikguide',
+inputSelector: '#search-input',
+debug: true // Set debug to true if you want to inspect the dropdown
+});
+</script>
+
+  </body>
+</html>
