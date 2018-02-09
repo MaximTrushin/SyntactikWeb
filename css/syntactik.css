@@ -88,8 +88,12 @@ footer {
 
 
 
-footer .footer-links>* {
-    margin-right: 30px;
+footer .footer-links {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+
 }
 
 /* Background pattern from subtlepatterns.com */

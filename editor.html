@@ -27,7 +27,13 @@
     <link href="css/syntactik.css" rel="stylesheet"/>
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-
+    <script>
+      $(function(){
+        $('[id$="-inc"]').each(function (e){
+            $(this).load("include\\" + $(this).attr("id").replace("-inc", "") +  ".html");
+        });
+      });
+    </script>
 </head>
 <body id="page-top" class="index">
 <!-- Navigation -->
@@ -288,17 +294,7 @@
     </section>
 
   <!-- Footer -->
-  <footer>
-  <div class="footer-links">
-      <span><i class="fa fa-envelope-o"></i> <a href="mailto:info@syntactik.com">info@syntactik.com</a></span>
-      <span><i class="fa fa-github"></i> <a href="https://github.com/syntactik/">https://github.com/syntactik</a></span>
-  </div>
-  <div class="footer-links">
-      <a href="/terms">Disclaimer</a>
-      <a href="/privacy">Privacy</a>
-      <span><i class="fa fa-copyright"></i> Syntactik 2017</span>
-  </div>
-</footer>
+  <div id="footer-inc"></div>
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">

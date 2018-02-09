@@ -35,7 +35,14 @@
     <!-- JavaScript includes -->
     <script>
       $(function(){
-        $("#inMemoryCompilation-include").load("examples\\inMemoryCompilation.txt");
+        $('[id$="-include"]').each(function (e){
+            $(this).load("examples\\" + $(this).attr("id").replace("-include", "") +  ".html");
+        });
+      });
+      $(function(){
+        $('[id$="-inc"]').each(function (e){
+            $(this).load("include\\" + $(this).attr("id").replace("-inc", "") +  ".html");
+        });
       });
     </script>
 </head>
@@ -268,7 +275,7 @@ JArray array = context.InMemoryOutputObjects["colors"];
 
 
       <!-- Use Cases Grid Section -->
-<section class="content-section">
+<section>
     <div class="container">
       <h2>Open source</h2>
       <p>
@@ -277,22 +284,11 @@ JArray array = context.InMemoryOutputObjects["colors"];
         target="_blank">free for commercial use</a>.<br>
         <a href="https://github.com/syntactik/Syntactik" target="_blank"><i class="fa fa-github"></i> GitHub repo.</a>
       </p>
-
     </div>
   </section>
 
   <!-- Footer -->
-  <footer>
-  <div class="footer-links">
-      <span><i class="fa fa-envelope-o"></i> <a href="mailto:info@syntactik.com">info@syntactik.com</a></span>
-      <span><i class="fa fa-github"></i> <a href="https://github.com/syntactik/">https://github.com/syntactik</a></span>
-  </div>
-  <div class="footer-links">
-      <a href="/terms">Disclaimer</a>
-      <a href="/privacy">Privacy</a>
-      <span><i class="fa fa-copyright"></i> Syntactik 2017</span>
-  </div>
-  </footer>
+  <div id="footer-inc"></div>
 
   <!-- Modals -->
   <div class="modal fade" id="download-modal" tabindex="-1" role="dialog" aria-hidden="true">
