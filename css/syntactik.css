@@ -150,11 +150,24 @@ footer .footer-links {
     white-space: nowrap;
 }
 .code {
+    margin-top: 10px;
     border: 1px solid #ccc;
     padding: 15px 15px 0px 15px;
     max-width: 350px;
     min-width: 300px;
 }
+.code-caption {
+    padding-bottom: 5px;
+    padding-top: 10px;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    text-shadow: none;
+    white-space: nowrap;
+    right: 20%;
+    left: 20%;
+}
+
 #commentsCode{
   max-width: 450px;
   min-width: 400px;
