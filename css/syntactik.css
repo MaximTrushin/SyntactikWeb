@@ -54,9 +54,11 @@ section{
     padding: 8px 80px;
 }
 .early-access-btn{
-    background-color: #00a99c;
-    border-color: #00a99c;
+    background-color: #ffb546;
+    border-color: #ffb546;
     color: #fff;
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
 }
 
 .early-access-btn:hover,
@@ -66,8 +68,8 @@ section{
 .early-access-btn.focus,
 .early-access-btn.active{
   color: white;
-  background-color: #128f76;
-  border-color: #11866f;
+  background-color: #FF9800;
+  border-color: #FF9800;
 }
 
 
@@ -154,7 +156,7 @@ footer .footer-links {
     border: 1px solid #ccc;
     padding: 15px 15px 0px 15px;
     max-width: 350px;
-    min-width: 300px;
+    min-width: 350px;
 }
 .code-caption {
     padding-bottom: 5px;
@@ -378,7 +380,6 @@ footer .footer-links {
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
-  padding-bottom: 0.5em;
   border-bottom: 1px solid #eeeeee;
 }
 .floating-label-form-group input,

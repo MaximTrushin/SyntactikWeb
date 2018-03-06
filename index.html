@@ -66,6 +66,13 @@
                 <li class="page-scroll">
                     <a href="editor">Syntactik Editor</a>
                 </li>
+                <li id="early-access-menu" class="page-scroll">
+                  <div class="navbar-form navbar-right">
+                    <a href="#early_access"  class="btn early-access-btn">
+                        <i class="fa fa-download fa-lg"></i> Try it
+                    </a>
+                  </div>
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -91,6 +98,11 @@
           <script type="IN/Share" data-url="http://syntactik.com"></script>
           <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fsyntactik.com%2F&layout=button&size=small&mobile_iframe=true&appId=145465822181214&width=59&height=20" width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 
+        </p>
+        <p>
+          <a href="#early_access"  class="btn large early-access-btn">
+              <i class="fa fa-download fa-lg"></i> Try it
+          </a>
         </p>
   </div>
 </div>
@@ -379,16 +391,11 @@
           </div>
           <div class="col-sm-5 codeCell">
               <div class="code carousel-code">
-                <div class="carousel-code">
                 <div id="aliasdefoverloaded-include"></div>
-                </div>
                 <div class="code-caption"><span style='color:blue'>Alias definition</span> with choice <b>::</b></div>
               </div>
               <div class="code carousel-code">
-                <div class="carousel-code">
                 <div id="aliasoverloaded-include"></div>
-
-                </div>
                 <div class="code-caption"><span style='color:#009596'>Aliases</span> with different set of <span
                 style='color:#00C7C8'>arguments</span></div>
               </div>
@@ -495,6 +502,75 @@
             </div>
           </div>
       </section>
+
+      <!-- Contact Section -->
+      <section id="early_access">
+          <div class="container">
+              <h2>Try it</h2>
+              <div class="row container">
+              Try to create, add, edit and compile Syntactik files with <a href="/editor">Syntactik Editor</a>. Syntactik Editor is a cross-platform IDE for Syntactik
+              projects of any size and complexity. Currently, the beta-version for Windows is available to download:
+              </div>
+              <div class="row">
+
+                  <div class="col-lg-8 col-lg-offset-2">
+                      <h5 style="text-align: left;">
+                          <li>To download the demo, please register using the form below.</li>
+                          <li>If you have already registered, just fill in the name and email address.</li>
+                          <li>Your download will start automatically.</li>
+                          <li><a href="/demoinstall" style="text-decoration: underline;">Syntactik Editor installation instructions</a>.</li>
+                          <li><a href="/editorHelp" style="text-decoration: underline;">Syntactik Editor guide</a>.</li>
+                          <!--<li><a href="/download/SyntactikFullSetup.exe" style="text-decoration: underline;">Download demo</a> without registration.</li>-->
+                      </h5>
+                      <br>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                      <form action="https://syntactik.createsend.com/t/i/s/idyutj/" name="sentMessage" method="post" id="subForm" validate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                              <label for="fieldName">Name</label>
+                              <input id="fieldName" name="cm-name" type="text" placeholder="Name" class="form-control" required data-validation-required-message="Please enter your name."/>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                              <label for="fieldEmail">Email</label>
+                              <input id="fieldEmail" name="cm-idyutj-idyutj" type="email" class="form-control" placeholder="Email Address" required data-validation-required-message="Please enter your email address." />
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                              <label for="fieldtujtjy">Company</label>
+                              <input id="fieldtujtjy" name="cm-f-tujtjy" type="text" class="form-control" placeholder="Company" />
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                              <label for="fieldtujttt">Position</label>
+                              <input id="fieldtujttt" name="cm-f-tujttt" type="text" class="form-control" placeholder="Position" />
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="col-xs-9">
+                                 <button type="submit" class="btn btn-lg early-access-btn"><i class="fa fa-download fa-lg"></i> Register & download demo</button>
+                            </div>
+                            <div class="col-xs-3">
+                              <img src="img/digi_seals.png">
+                            </div>
+                        </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+
+
       <!-- Footer -->
       <div id="footer-inc"></div>
 
@@ -506,7 +582,94 @@
         </a>
     </div>
 
-    <!-- features Modals -->
+    <!-- Early Access Modals -->
+    <div class="modal fade" id="sub_modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                              <h2>Thank You!</h2>
+                              <p class="p1">Thank you for registering for Syntactik Editor demo!<br>
+                                If it was the first time registration then, as a security measure, we have sent you the confirmation email.<br>
+                                Please confirm your email address by pressing the button or clicking the link in the letter.<br>
+                                You will receive an email with the installation instructions.<br>
+                              </p>
+                                <hr>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="sub_modal_err" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                              <h2>Something went wrong.</h2>
+                              <p class="p1">We wanted to add you to the Early Access program but our subscription system returned the following error:"<span id="sub_error"></span>".<br>
+                                We are very sorry about that. Please report the issue to this email <a href="mailto:info@syntactik.com?Subject=Subscription%20Error" target="_top">info@syntactik.com</a>
+                              </p>
+                                <hr>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <iframe id="download_iframe" style="display:none;"></iframe>
+        <script>
+          function Download(url) {
+              document.getElementById('download_iframe').src = url;
+          };
+        </script>
+
+
+
+    <!-- Theme JavaScript -->
+    <script src="js/syntactik.js"></script>
+    <script type="text/javascript">
+     $(document).ready(function(){
+       $(function () {
+            $('#subForm').submit(function (e) {
+              e.preventDefault();
+              $.getJSON(
+              this.action + "?callback=?",
+              $(this).serialize()
+              ).fail(function( jqxhr, textStatus, error ) {
+                 var err = textStatus + ", " + error;
+                 $("#sub_error").text(err.message);
+                 $('#sub_modal_err').modal();
+            }).done(function (data) {
+                if (data.Status === 400) {
+                   $("#sub_error").text(data.Message);
+                   $('#sub_modal_err').modal();
+                } else { // 200
+                   $('#sub_modal').modal();
+                   Download("/download/SyntactikFullSetup.exe");
+                }});
+              });
+       });
+     });
+   </script>
 
 
     <!-- Theme JavaScript -->
