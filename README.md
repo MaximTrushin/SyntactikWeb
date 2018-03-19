@@ -1,2 +1,2 @@
-# MalinaWeb
+Syntactik Web site
 
